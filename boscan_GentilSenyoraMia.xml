@@ -31,6 +31,7 @@
       </metDecl>
       <metDecl>
         <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Anotación parcialmente revisada y corregida por Borja Navarro Colorado</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -61,13 +62,9 @@
           <!--un no sé qué -no sé cómo nombrallo-,-->
           <w lemma="uno" type="DI0MS0">un|</w>
           <w lemma="no" type="RN">no|</w>
-          <w lemma="no" type="RN">no|</w>
-          <w lemma="saber" type="VMIP1S0">sé|</w>
           <w lemma="saber" type="VMIP1S0">sé|</w>
           <w lemma="qué" type="PT00000">qué|</w>
           <w lemma="no" type="RN">no|</w>
-          <w lemma="no" type="RN">no|</w>
-          <w lemma="saber" type="VMIP1S0">sé|</w>
           <w lemma="saber" type="VMIP1S0">sé|</w>
           <w lemma="cómo" type="PT00000">có|mo|</w>
           <w lemma="nombrallo" type="RG">nom|bra|llo|</w>
