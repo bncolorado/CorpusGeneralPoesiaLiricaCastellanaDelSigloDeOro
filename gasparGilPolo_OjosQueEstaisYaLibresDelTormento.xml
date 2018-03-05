@@ -1,0 +1,205 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Ojos, que estáis ya libres del tormento</title>
+          <author>Gaspar Gil Polo</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/primera-parte-de-diana-enamorada--0/html/fee0bafa-82b1-11df-acc7-002185ce6064_11.html#I_13_"/>
+          <editor>Edición digital a partir de Primera parte de Diana enamorada, Valencia, Joan Mey, 1564.</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>SIRENO</title>
+      </head>
+      <lg cert="high" type="Octavas reales">
+        <l met="-|2|-|" n="1">
+          <!--SIRENO-->
+          <w lemma="sireno" type="NP00000">si|re|no|</w>
+        </l>
+        <l met="1|-|-|4|5|6|-|-|-|10|-|" n="2">
+          <!--Ojos, que estáis ya libres del tormento-->
+          <w lemma="ojos" type="NP00000">o|jos|</w>
+          <w lemma="que" type="PR0CN00">que</w>
+          <w lemma="estar" type="VMIP2P0">es|táis|</w>
+          <w lemma="ya" type="RG">ya|</w>
+          <w lemma="libre" type="AQ0CP00">li|bres|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="tormento" type="NCMS000">tor|men|to|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|-|-|10|-|" n="3">
+          <!--con que mi estrella pudo embelesaros,-->
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="mi" type="DP1CSS">mi</w>
+          <w lemma="estrella" type="NCFS000">es|tre|lla|</w>
+          <w lemma="poder" type="VMIS3S0">pu|do</w>
+          <w lemma="embelesar" type="VMN0000">em|be|le|sar|</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|-|-|10|-|" n="4">
+          <!--¡oh, alegre, oh, sosegado pensamiento!,-->
+          <w lemma="oh" type="I">oh</w>
+          <w lemma="alegre" type="AQ0CS00">a|le|gre</w>
+          <w lemma="oh" type="I">oh</w>
+          <w lemma="sosegar" type="VMP00SM">so|se|ga|do|</w>
+          <w lemma="pensamiento" type="NCMS000">pen|sa|mien|to|</w>
+        </l>
+        <l met="-|2|-|-|-|6|7|-|-|10|-|" n="5">
+          <!--¡oh, esquivo corazón!, quiero avisaros-->
+          <w lemma="oh" type="I">oh</w>
+          <w lemma="esquivo" type="AQ0MS00">es|qui|vo|</w>
+          <w lemma="corazón" type="NCMS000">co|ra|zón|</w>
+          <w lemma="querer" type="VMIP1S0">quie|ro</w>
+          <w lemma="avisar" type="VMN0000">a|vi|sar|</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|-|-|10|-|" n="6">
+          <!--que pues le dio a Diana descontento-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="le" type="PP3CSD0">le|</w>
+          <w lemma="dar" type="VMIS3S0">dio|</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="diana" type="NP00000">dia|na|</w>
+          <w lemma="descontento" type="NCMS000">des|con|ten|to|</w>
+        </l>
+        <l met="1|-|-|4|-|6|-|8|-|10|-|" n="7">
+          <!--veros, pensar en vos y bien amaros,-->
+          <w lemma="ver" type="VMN0000">ver|</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+          <w lemma="pensar" type="VMN0000">pen|sar|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="vos" type="PP2CS0P">vos|</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="bien" type="RG">bien|</w>
+          <w lemma="amaro" type="NCMP000">a|ma|ros|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|-|9|10|-|" n="8">
+          <!--vuestro consejo tengo por muy sano-->
+          <w lemma="vuestro" type="DP2MSP">vues|tro|</w>
+          <w lemma="consejo" type="NCMS000">con|se|jo|</w>
+          <w lemma="tener" type="VMIP1S0">ten|go|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="muy" type="RG">muy|</w>
+          <w lemma="sano" type="AQ0MS00">sa|no|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|8|-|10|-|" n="9">
+          <!--de no mirar, pensar ni amar en vano.-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="mirar" type="VMN0000">mi|rar|</w>
+          <w lemma="pensar" type="VMN0000">pen|sar|</w>
+          <w lemma="ni" type="CC">ni</w>
+          <w lemma="amar" type="VMN0000">a|mar|</w>
+          <w lemma="en" type="SP">e|n</w>
+          <w lemma="vano" type="NCMS000">va|no|</w>
+        </l>
+        <l met="-|-|3|-|" n="10">
+          <!--ARSILEO-->
+          <w lemma="arsileo" type="NP00000">ar|si|le|o|</w>
+        </l>
+        <l met="1|-|-|-|5|6|-|8|-|10|-|" n="11">
+          <!--Ojos, que mayor lumbre habéis ganado-->
+          <w lemma="ojos" type="NP00000">o|jos|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="mayor" type="AQ0CS00">ma|yor|</w>
+          <w lemma="lumbre" type="NCFS000">lum|bre</w>
+          <w lemma="haber" type="VAIP2P0">ha|béis|</w>
+          <w lemma="ganar" type="VMP00SM">ga|na|do|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|-|-|10|-|" n="12">
+          <!--mirando el sol que alumbra en vuestro día,-->
+          <w lemma="mirar" type="VMG0000">mi|ran|do</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="sol" type="NCMS000">sol|</w>
+          <w lemma="que" type="PR0CN00">que</w>
+          <w lemma="alumbrar" type="VMIP3S0">a|lum|bra</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="vuestro" type="DP2MSP">vues|tro|</w>
+          <w lemma="día" type="NCMS000">dí|a|</w>
+        </l>
+        <l met="-|-|3|-|5|6|-|-|-|10|-|" n="13">
+          <!--pensamiento en mil bienes ocupado,-->
+          <w lemma="pensamiento" type="NCMS000">pen|sa|mien|to</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="1000" type="Z">mil|</w>
+          <w lemma="bien" type="NCMP000">bie|nes|</w>
+          <w lemma="ocupar" type="VMP00SM">o|cu|pa|do|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|-|-|10|-|" n="14">
+          <!--corazón, aposento de alegría,-->
+          <w lemma="corazón" type="NCMS000">co|ra|zón|</w>
+          <w lemma="aposento" type="NCMS000">a|po|sen|to|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="alegría" type="NCFS000">a|le|grí|a|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|-|-|10|-|" n="15">
+          <!--si no quisiera verme, ni pensado-->
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="querer" type="VMSI3S0">qui|sie|ra|</w>
+          <w lemma="ver" type="VMN0000">ver|</w>
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="ni" type="CC">ni|</w>
+          <w lemma="pensar" type="VMP00SM">pen|sa|do|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|8|-|10|-|" n="16">
+          <!--hubiera en me querer Belisa mía,-->
+          <w lemma="haber" type="VMSI1S0">hu|bie|ra</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="querer" type="VMN0000">que|rer|</w>
+          <w lemma="belisa" type="NP00000">be|li|sa|</w>
+          <w lemma="mío" type="AP0FS1S">mí|a|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|8|-|10|-|" n="17">
+          <!--tuviera por dichosa y alta suerte-->
+          <w lemma="tener" type="VMSI3S0">tu|vie|ra|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="dichoso" type="AQ0FS00">di|cho|sa</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="alto" type="AQ0FS00">al|ta|</w>
+          <w lemma="suerte" type="NCFS000">suer|te|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|-|-|10|-|" n="18">
+          <!--mirar, pensar y amar hasta la muerte.-->
+          <w lemma="mirar" type="VMN0000">mi|rar|</w>
+          <w lemma="pensar" type="VMN0000">pen|sar|</w>
+          <w lemma="y" type="CC">y</w>
+          <w lemma="amar" type="VMN0000">a|mar|</w>
+          <w lemma="hasta" type="SP">has|ta|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="muerte" type="NCFS000">muer|te|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

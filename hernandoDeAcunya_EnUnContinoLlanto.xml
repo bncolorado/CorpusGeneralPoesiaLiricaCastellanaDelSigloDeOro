@@ -1,0 +1,135 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>En un contino llanto</title>
+          <author>Hernando de Acunya</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/varias-poesias--0/html/fede64e4-82b1-11df-acc7-002185ce6064_7.html#I_187_"/>
+          <editor>...</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>En un contino llanto</title>
+      </head>
+      <lg cert="high" type="Madrigal">
+        <l met="-|2|-|4|-|6|-|" n="1">
+          <!--En un contino llanto-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="uno" type="DI0MS0">un|</w>
+          <w lemma="contino" type="AQ0MS00">con|ti|no|</w>
+          <w lemma="llanto" type="NCMS000">llan|to|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|" n="2">
+          <!--hasta acabar la vida,-->
+          <w lemma="hasta" type="SP">has|ta</w>
+          <w lemma="acabar" type="VMN0000">a|ca|bar|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="vida" type="NCFS000">vi|da|</w>
+        </l>
+        <l met="1|2|-|4|-|6|-|-|-|10|-|" n="3">
+          <!--¿quién no murió de ver vuestra partida?-->
+          <w lemma="quién" type="PT0CS00">quién|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="morir" type="VMIS3S0">mu|rió|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="ver" type="VMN0000">ver|</w>
+          <w lemma="vuestro" type="DP2FSP">vues|tra|</w>
+          <w lemma="partida" type="NCFS000">par|ti|da|</w>
+        </l>
+        <l met="1|2|3|-|-|6|-|8|9|10|-|" n="4">
+          <!--Y es muy poca señal de mal tan fuerte-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="muy" type="RG">muy|</w>
+          <w lemma="poco" type="DI0FS0">po|ca|</w>
+          <w lemma="señal" type="NCFS000">se|ñal|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="mal" type="NCMS000">mal|</w>
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="fuerte" type="AQ0CS00">fuer|te|</w>
+        </l>
+        <l met="1|2|-|-|-|6|-|" n="5">
+          <!--tal pérdida llorada,-->
+          <w lemma="tal" type="DD0CS0">tal|</w>
+          <w lemma="pérdida" type="NCFS000">pér|di|da|</w>
+          <w lemma="llorar" type="VMP00SF">llo|ra|da|</w>
+        </l>
+        <l met="-|-|-|-|5|6|-|8|-|10|-|" n="6">
+          <!--pues con el postrer daño, que es la muerte,-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="postrer" type="AQ0CN00">pos|trer|</w>
+          <w lemma="daño" type="NCMS000">da|ño|</w>
+          <w lemma="que" type="PR0CN00">que</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="muerte" type="NCFS000">muer|te|</w>
+        </l>
+        <l met="1|2|3|-|-|6|-|" n="7">
+          <!--aun no fuera igualada.-->
+          <w lemma="aun" type="RG">aun|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="ser" type="VSSI3S0">fue|ra</w>
+          <w lemma="igualar" type="VMP00SF">i|gua|la|da|</w>
+        </l>
+        <l met="1|-|3|-|-|6|-|-|-|10|-|" n="8">
+          <!--Sólo puede igualarle mi quedada,-->
+          <w lemma="sólo" type="RG">só|lo|</w>
+          <w lemma="poder" type="VMIP3S0">pue|de</w>
+          <w lemma="igualar" type="VMN0000">i|gua|lar|</w>
+          <w lemma="le" type="PP3CSD0">le|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="quedada" type="NCFS000">que|da|da|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|" n="9">
+          <!--pues siendo vos partida,-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="ser" type="VSG0000">sien|do|</w>
+          <w lemma="vos" type="PP2CS0P">vos|</w>
+          <w lemma="partida" type="NCFS000">par|ti|da|</w>
+        </l>
+        <l met="-|2|3|-|-|6|-|-|-|10|-|" n="10">
+          <!--quedé yo sin el alma y sin la vida.-->
+          <w lemma="quedar" type="VMIS1S0">que|dé|</w>
+          <w lemma="yo" type="PP1CSN0">yo|</w>
+          <w lemma="sin" type="SP">sin|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="alma" type="NCFS000">al|ma</w>
+          <w lemma="y" type="CC">y</w>
+          <w lemma="sin" type="SP">sin|</w>
+          <w lemma="el" type="DA0FS0">l|a</w>
+          <w lemma="vida" type="NCFS000">vi|da|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

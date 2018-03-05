@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Hoy metimos tres varones</title>
+          <author>Cristóbal de Castillejo</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/obras-de-devocion--0/html/fef95092-82b1-11df-acc7-002185ce6064_1.html#I_1_"/>
+          <editor>Edición digital basada en la de Obras de Castillejo, edición, prólogo y notas de Jesús Rodríguez Bordona, Madrid, Espasa-Calpe, 1958, t. IV, pp. 175-236. </editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title> Hoy metimos tres varones</title>
+      </head>
+      <lg cert="low" type="Coplas">
+        <l met="1|-|3|-|5|-|7|-|" n="1">
+          <!--Hoy metimos tres varones-->
+          <w lemma="hoy" type="RG">hoy|</w>
+          <w lemma="meter" type="VMIS1P0">me|ti|mos|</w>
+          <w lemma="3" type="Z">tres|</w>
+          <w lemma="varón" type="NCMP000">va|ro|nes|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="2">
+          <!--en el horno aprisionados,-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="horno" type="NCMS000">hor|no</w>
+          <w lemma="aprisionar" type="VMP00PM">a|pri|sio|na|dos|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="3">
+          <!--y ahora siendo mirados,-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="ahora" type="RG">a|ho|ra|</w>
+          <w lemma="ser" type="VSG0000">sien|do|</w>
+          <w lemma="mirar" type="VMP00PM">mi|ra|dos|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="4">
+          <!--veo cuatro sin prisiones;-->
+          <w lemma="ver" type="VMIP1S0">ve|o|</w>
+          <w lemma="4" type="Z">cua|tro|</w>
+          <w lemma="sin" type="SP">sin|</w>
+          <w lemma="prisión" type="NCFP000">pri|sio|nes|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="5">
+          <!--y el fuego no les empece-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="fuego" type="NCMS000">fue|go|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="le" type="PP3CPD0">les|</w>
+          <w lemma="empecer" type="VMIP3S0">em|pe|ce|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="6">
+          <!--ni les toca en los cabellos;-->
+          <w lemma="ni" type="CC">ni|</w>
+          <w lemma="le" type="PP3CPD0">les|</w>
+          <w lemma="tocar" type="VMIP3S0">to|ca</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="cabello" type="NCMP000">ca|be|llos|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="7">
+          <!--la vista del cuarto dellos-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="vista" type="NCFS000">vis|ta|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="4" type="AO0MS00">cuar|to|</w>
+          <w lemma="dellos" type="NCMP000">de|llos|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="8">
+          <!--Hijo de Dios me parece.-->
+          <w lemma="hijo_de_dios" type="NP00000">hi|jo_|de_|dios|</w>
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="parecer" type="VMIP3S0">pa|re|ce|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

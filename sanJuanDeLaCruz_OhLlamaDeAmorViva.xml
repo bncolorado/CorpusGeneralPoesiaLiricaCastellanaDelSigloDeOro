@@ -1,0 +1,230 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>¡Oh, llama de amor viva,</title>
+          <author>San Juan de la Cruz</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/portales/san_juan_de_la_cruz/obra-visor/poesias--49/html/fedce812-82b1-11df-acc7-002185ce6064_2.html#I_1_"/>
+          <editor>BVMC, 2000</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>¡Oh, llama de amor viva,</title>
+      </head>
+      <lg cert="..." type="...">
+        <l met="-|2|-|-|5|6|-|" n="1">
+          <!--¡Oh, llama de amor viva,-->
+          <w lemma="oh" type="I">oh|</w>
+          <w lemma="llamar" type="VMIP3S0">lla|ma|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="amor" type="NCMS000">a|mor|</w>
+          <w lemma="vivo" type="AQ0FS00">vi|va|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|" n="2">
+          <!--que tiernamente hieres-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="tiernamente" type="RG">tier|na|men|te|</w>
+          <w lemma="herir" type="VMIP2S0">hie|res|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|8|-|10|-|" n="3">
+          <!--de mi alma en el más profundo centro!-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="mi" type="DP1CSS">mi</w>
+          <w lemma="alma" type="NCFS000">al|ma|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="profundo" type="AQ0MS00">pro|fun|do|</w>
+          <w lemma="centro" type="NCMS000">cen|tro|</w>
+        </l>
+        <l met="-|2|3|-|-|6|-|" n="4">
+          <!--Pues ya no eres esquiva,-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="ya" type="RG">ya|</w>
+          <w lemma="no" type="RN">no</w>
+          <w lemma="ser" type="VSIP2S0">e|res|</w>
+          <w lemma="esquivo" type="AQ0FS00">es|qui|va|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|" n="5">
+          <!--acaba ya, si quieres;-->
+          <w lemma="acabar" type="VMIP3S0">a|ca|ba|</w>
+          <w lemma="ya" type="RG">ya|</w>
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="querer" type="VMIP2S0">quie|res|</w>
+        </l>
+        <l met="1|-|-|4|-|6|-|8|-|10|-|" n="6">
+          <!--rompe la tela de este dulce encuentro.-->
+          <w lemma="romper" type="VMIP3S0">rom|pe|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="tela" type="NCFS000">te|la|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="este" type="DD0MS0">es|te|</w>
+          <w lemma="dulce" type="AQ0CS00">dul|ce</w>
+          <w lemma="encuentro" type="NCMS000">en|cuen|tro|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="7">
+          <!--¡Oh, cauterio suave!-->
+          <w lemma="oh" type="I">oh|</w>
+          <w lemma="cauterio" type="NCMS000">cau|te|rio|</w>
+          <w lemma="suave" type="AQ0CS00">sua|ve|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|" n="8">
+          <!--¡Oh, regalada llama!-->
+          <w lemma="oh" type="I">oh|</w>
+          <w lemma="regalar" type="VMP00SF">re|ga|la|da|</w>
+          <w lemma="llamar" type="VMIP3S0">lla|ma|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|-|-|10|-|" n="9">
+          <!--¡Oh, mano blanda! ¡Oh, toque delicado-->
+          <w lemma="oh" type="I">oh|</w>
+          <w lemma="mano" type="NCFS000">ma|no|</w>
+          <w lemma="blandoOh" type="AQ0FS00">I</w>
+          <w lemma="toque" type="NCMS000">to|que|</w>
+          <w lemma="delicado" type="AQ0MS00">de|li|ca|do|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|" n="10">
+          <!--que a vida eterna sabe-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="vida" type="NCFS000">vi|da</w>
+          <w lemma="eterno" type="AQ0FS00">e|ter|na|</w>
+          <w lemma="saber" type="VMIP3S0">sa|be|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|" n="11">
+          <!--y toda deuda paga!-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="todo" type="DI0FS0">to|da|</w>
+          <w lemma="deuda" type="NCFS000">deu|da|</w>
+          <w lemma="pagar" type="VMIP3S0">pa|ga|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|8|-|10|-|" n="12">
+          <!--Matando muerte en vida la has trocado.-->
+          <w lemma="matar" type="VMG0000">ma|tan|do|</w>
+          <w lemma="muerte" type="NCFS000">muer|te</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="vida" type="NCFS000">vi|da|</w>
+          <w lemma="lo" type="PP3FSA0">la</w>
+          <w lemma="haber" type="VAIP2S0">has|</w>
+          <w lemma="trocar" type="VMP00SM">tro|ca|do|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|" n="13">
+          <!--¡Oh, lámparas de fuego-->
+          <w lemma="oh" type="I">oh|</w>
+          <w lemma="lámpara" type="NCFP000">lám|pa|ras|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="fuego" type="NCMS000">fue|go|</w>
+        </l>
+        <l met="-|-|-|-|-|6|-|" n="14">
+          <!--en cuyos resplandores-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="cuyo" type="PR0MP00">cu|yos|</w>
+          <w lemma="resplandor" type="NCMP000">res|plan|do|res|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|-|-|10|-|" n="15">
+          <!--las profundas cavernas del sentido,-->
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="profundo" type="AQ0FP00">pro|fun|das|</w>
+          <w lemma="caverna" type="NCFP000">ca|ver|nas|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="sentido" type="NCMS000">sen|ti|do|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|" n="16">
+          <!--que estaba oscuro y ciego,-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="estar" type="VMII3S0">es|ta|ba</w>
+          <w lemma="oscuro" type="AQ0MS00">os|cu|ro</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="ciego" type="AQ0MS00">cie|go|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="17">
+          <!--con extraños primores-->
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="extraño" type="AQ0MP00">ex|tra|ños|</w>
+          <w lemma="primor" type="NCMP000">pri|mo|res|</w>
+        </l>
+        <l met="-|2|-|4|5|-|-|-|-|10|-|" n="18">
+          <!--calor y luz dan junto a su Querido!-->
+          <w lemma="calor" type="NCMS000">ca|lor|</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="luz" type="NCFS000">luz|</w>
+          <w lemma="dar" type="VMIP3P0">dan|</w>
+          <w lemma="junto_a" type="SP">jun|to_a|</w>
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="querido" type="NP00000">que|ri|do|</w>
+        </l>
+        <l met="1|2|-|-|-|6|-|" n="19">
+          <!--¡Cuán manso y amoroso-->
+          <w lemma="cuán" type="RG">cuán|</w>
+          <w lemma="manso" type="AQ0MS00">man|so</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="amoroso" type="AQ0MS00">a|mo|ro|so|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|" n="20">
+          <!--recuerdas en mi seno,-->
+          <w lemma="recordar" type="VMIP2S0">re|cuer|das|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="seno" type="NCMS000">se|no|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|8|-|10|-|" n="21">
+          <!--donde secretamente solo moras,-->
+          <w lemma="donde" type="PR00000">don|de|</w>
+          <w lemma="secretamente" type="RG">se|cre|ta|men|te|</w>
+          <w lemma="solo" type="AQ0MS00">so|lo|</w>
+          <w lemma="mora" type="NCFP000">mo|ras|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|" n="22">
+          <!--y en tu aspirar sabroso,-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="tu" type="DP2CSS">tu</w>
+          <w lemma="aspirar" type="VMN0000">as|pi|rar|</w>
+          <w lemma="sabroso" type="AQ0MS00">sa|bro|so|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|" n="23">
+          <!--de bien y gloria lleno,-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="bien" type="RG">bien|</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="gloria" type="NCFS000">glo|ria|</w>
+          <w lemma="lleno" type="AQ0MS00">lle|no|</w>
+        </l>
+        <l met="1|-|-|4|-|6|-|-|-|10|-|" n="24">
+          <!--cuán delicadamente me enamoras!-->
+          <w lemma="cuán" type="RG">cuán|</w>
+          <w lemma="delicadamente" type="RG">de|li|ca|da|men|te|</w>
+          <w lemma="me" type="PP1CS00">me</w>
+          <w lemma="enamorar" type="VMIP2S0">e|na|mo|ras|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

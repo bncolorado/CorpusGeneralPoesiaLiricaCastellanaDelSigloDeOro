@@ -1,0 +1,160 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>¡Oh hermosura que excedeis </title>
+          <author>Teresa de Jesús</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/portales/santa_teresa_de_jesus/obra-visor/antologia-0/html/ae56337a-b7fe-4f04-90c7-9d005c5f21a7_3.html#I_39_"/>
+          <editor>Julia Bernal Ferriz</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>  ¡Oh hermosura que excedeis</title>
+      </head>
+      <lg cert="high" type="Villancico">
+        <l met="-|-|3|-|-|-|7|-|" n="1">
+          <!--¡Oh hermosura que excedeis-->
+          <w lemma="oh" type="I">oh</w>
+          <w lemma="hermosura" type="NCFS000">her|mo|su|ra|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="excedeis" type="NCFN000">ex|ce|deis|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="2">
+          <!--A todas las hermosuras!-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="todo" type="DI0FP0">to|das|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="hermosura" type="NCFP000">her|mo|su|ras|</w>
+        </l>
+        <l met="-|-|3|-|5|6|-|" n="3">
+          <!--Sin herir dolor haceis,-->
+          <w lemma="sin" type="SP">sin|</w>
+          <w lemma="herir" type="VMN0000">he|rir|</w>
+          <w lemma="dolor" type="NCMS000">do|lor|</w>
+          <w lemma="haceis" type="AQ0CP00">ha|ceis|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|" n="4">
+          <!--Y sin dolor deshaceis-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="sin" type="SP">sin|</w>
+          <w lemma="dolor" type="NCMS000">do|lor|</w>
+          <w lemma="deshaceis" type="NCFN000">de|sha|ceis|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="5">
+          <!--El amor de las criaturas.-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="amor" type="NCMS000">a|mor|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="criatura" type="NCFP000">cria|tu|ras|</w>
+        </l>
+        <l met="-|2|-|-|-|6|7|-|" n="6">
+          <!--Oh ñudo que ansí juntais-->
+          <w lemma="oh" type="I">oh|</w>
+          <w lemma="ñudo" type="RG">ñu|do|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="ansí" type="RG">an|sí|</w>
+          <w lemma="juntais" type="NCMN000">jun|tais|</w>
+        </l>
+        <l met="1|2|-|4|-|-|7|-|" n="7">
+          <!--Dos cosas tan desiguales,-->
+          <w lemma="2" type="Z">dos|</w>
+          <w lemma="cosa" type="NCFP000">co|sas|</w>
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="desigual" type="AQ0CP00">de|si|gua|les|</w>
+        </l>
+        <l met="1|2|-|4|-|-|7|-|" n="8">
+          <!--No sé por qué os desatais,-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="saber" type="VMIP1S0">sé|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="qué" type="PT00000">qué|</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+          <w lemma="desatais" type="NCMN000">de|sa|tais|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="9">
+          <!--Pues atado fuerza dais-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="atar" type="VMP00SM">a|ta|do|</w>
+          <w lemma="fuerza" type="NCFS000">fuer|za|</w>
+          <w lemma="dar" type="VMIP2P0">dais|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="10">
+          <!--A tener por bien los males.-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="tener" type="VMN0000">te|ner|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="bien" type="RG">bien|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="mal" type="NCMP000">ma|les|</w>
+        </l>
+        <l met="-|2|3|-|5|6|-|" n="11">
+          <!--Quien no tiene sér juntais-->
+          <w lemma="quien" type="PR0CS00">quien|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="tener" type="VMIP3S0">tie|ne|</w>
+          <w lemma="sér" type="VMN0000">sér|</w>
+          <w lemma="juntais" type="NCMN000">jun|tais|</w>
+        </l>
+        <l met="-|-|3|-|5|-|-|8|-|" n="12">
+          <!--Con el Sér que no se acaba:-->
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="sér" type="NP00000">sér|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="acabar" type="VMIP3S0">a|ca|ba|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|" n="13">
+          <!--Sin acabar acabais,-->
+          <w lemma="sin" type="SP">sin|</w>
+          <w lemma="acabar" type="VMN0000">a|ca|bar|</w>
+          <w lemma="acabais" type="NCMN000">a|ca|bais|</w>
+        </l>
+        <l met="-|-|3|-|-|6|7|-|" n="14">
+          <!--Sin tener que amar amais,-->
+          <w lemma="sin" type="SP">sin|</w>
+          <w lemma="tener" type="VMN0000">te|ner|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="amar" type="VMN0000">a|mar|</w>
+          <w lemma="amais" type="NCMN000">a|mais|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="15">
+          <!--Engrandeceis vuestra nada.-->
+          <w lemma="engrandeceis" type="NP00000">en|gran|de|ceis|</w>
+          <w lemma="vuestro" type="DP2FSP">vues|tra|</w>
+          <w lemma="nada" type="PI0CS00">na|da|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

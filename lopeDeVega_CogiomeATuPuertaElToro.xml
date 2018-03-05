@@ -1,0 +1,122 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Cogiome a tu puerta el toro, </title>
+          <author>Lope de Vega</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/poesias-liricas--0/html/ff775820-82b1-11df-acc7-002185ce6064_2.html#I_13_"/>
+          <editor>Edición digital basada en la 7ª ed. de Madrid, Espasa-Calpe, 1978. </editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title> Cogiome a tu puerta el toro,</title>
+      </head>
+      <lg cert="..." type="...">
+        <l met="-|2|-|-|5|-|7|-|" n="1">
+          <!--Cogiome a tu puerta el toro,-->
+          <w lemma="cogiome" type="NP00000">co|gio|me</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="puerta" type="NCFS000">puer|ta</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="toro" type="NCMS000">to|ro|</w>
+        </l>
+        <l met="1|-|-|4|-|" n="2">
+          <!--linda casada,-->
+          <w lemma="lindar" type="VMIP3S0">lin|da|</w>
+          <w lemma="casar" type="VMP00SF">ca|sa|da|</w>
+        </l>
+        <l met="1|-|3|-|5|-|7|-|" n="3">
+          <!--no dijiste: Dios te valga.-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="decir" type="VMIS2S0">di|jis|te|</w>
+          <w lemma="dios" type="NCMS000">dios|</w>
+          <w lemma="te" type="PP2CS00">te|</w>
+          <w lemma="valer" type="VMSP3S0">val|ga|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="4">
+          <!--El novillo de tu boda-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="novillo" type="NCMS000">no|vi|llo|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="boda" type="NCFS000">bo|da|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="5">
+          <!--a tu puerta me cogió;-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="puerta" type="NCFS000">puer|ta|</w>
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="coger" type="VMIS3S0">co|gió|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="6">
+          <!--de la vuelta que me dio-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="vuelta" type="NCFS000">vuel|ta|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="dar" type="VMIS3S0">dio|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="7">
+          <!--se rió la aldea toda,-->
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="reír" type="VMIS3S0">rió|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="aldea" type="NCFS000">al|de|a|</w>
+          <w lemma="todo" type="DI0FS0">to|da|</w>
+        </l>
+        <l met="-|2|3|-|-|-|7|-|" n="8">
+          <!--y tú, grave y burladora,-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="tú" type="PP2CSN0">tú|</w>
+          <w lemma="grave" type="AQ0CS00">gra|ve</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="burlador" type="AQ0FS00">bu|rla|do|ra|</w>
+        </l>
+        <l met="1|-|-|4|-|" n="9">
+          <!--linda casada,-->
+          <w lemma="lindar" type="VMIP3S0">lin|da|</w>
+          <w lemma="casar" type="VMP00SF">ca|sa|da|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="10">
+          <!--no dijiste: ¡Dios te valga!-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="decir" type="VMIS2S0">di|jis|te|</w>
+          <w lemma="dios" type="I">dios|</w>
+          <w lemma="te" type="PP2CS00">te|</w>
+          <w lemma="valer" type="VMSP3S0">val|ga|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

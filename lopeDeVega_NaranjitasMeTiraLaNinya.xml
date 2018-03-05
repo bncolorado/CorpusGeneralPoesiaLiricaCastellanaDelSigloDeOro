@@ -1,0 +1,196 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Naranjitas me tira la niña</title>
+          <author>Lope de Vega</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/poesias-liricas--0/html/ff775820-82b1-11df-acc7-002185ce6064_3.html#I_17_"/>
+          <editor>Edición digital basada en la 7ª ed. de Madrid, Espasa-Calpe, 1978. </editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Naranjitas me tira la niña</title>
+      </head>
+      <lg cert="..." type="...">
+        <l met="-|-|3|-|-|6|-|-|9|-|" n="1">
+          <!--Naranjitas me tira la niña-->
+          <w lemma="naranjitas" type="NP00000">na|ran|ji|tas|</w>
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="tirar" type="VMIP3S0">ti|ra|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="niño" type="NCFS000">ni|ña|</w>
+        </l>
+        <l met="-|-|-|-|-|-|-|8|-|" n="2">
+          <!--en Valencia por Navidad,-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="valencia_por_navidad" type="NP00000">va|len|cia_|por_|na|vi|dad|</w>
+        </l>
+        <l met="-|-|3|-|-|-|-|8|-|" n="3">
+          <!--pues a fe que si se las tiro-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="fe" type="NCFS000">fe|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="tiro" type="NCMS000">ti|ro|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|8|-|" n="4">
+          <!--que se le han de volver azâr.-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="le" type="PP3CSD0">le|</w>
+          <w lemma="haber" type="VMIP3P0">han|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="volver" type="VMN0000">vol|ver|</w>
+          <w lemma="azâr" type="VMN0000">azâr|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="5">
+          <!--A una máscara salí-->
+          <w lemma="a" type="SP">a</w>
+          <w lemma="uno" type="DI0FS0">u|na|</w>
+          <w lemma="máscara" type="NCFS000">más|ca|ra|</w>
+          <w lemma="salir" type="VMIS1S0">sa|lí|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="6">
+          <!--y pareme a su ventana;-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="parir" type="VMM02S0">pa|re|</w>
+          <w lemma="me" type="PP1CS00">me</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="ventana" type="NCFS000">ven|ta|na|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="7">
+          <!--amaneció su mañana-->
+          <w lemma="amanecer" type="VMIS3S0">a|ma|ne|ció|</w>
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="mañana" type="NCCS000">ma|ña|na|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="8">
+          <!--y el sol en sus ojos vi.-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="sol" type="NCMS000">sol|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="su" type="DP3CPN">sus|</w>
+          <w lemma="ojo" type="NCMP000">o|jos|</w>
+          <w lemma="ver" type="VMIS1S0">vi|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="9">
+          <!--Naranjitas desde allí-->
+          <w lemma="naranjitas" type="NP00000">na|ran|ji|tas|</w>
+          <w lemma="desde" type="SP">des|de</w>
+          <w lemma="allí" type="RG">a|llí|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="10">
+          <!--me tiró para furor;-->
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="tirar" type="VMIS3S0">ti|ró|</w>
+          <w lemma="para" type="SP">pa|ra|</w>
+          <w lemma="furor" type="NCMS000">fu|ror|</w>
+        </l>
+        <l met="-|-|3|4|-|-|7|-|" n="11">
+          <!--como no sabe de amor-->
+          <w lemma="como" type="CS">co|mo|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="saber" type="VMIP3S0">sa|be|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="amor" type="NCMS000">a|mor|</w>
+        </l>
+        <l met="1|-|-|4|5|-|7|-|" n="12">
+          <!--piensa que todo es burlar,-->
+          <w lemma="pensar" type="VMIP3S0">pien|sa|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="todo" type="PI0MS00">to|do</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="burlar" type="VMN0000">bu|rlar|</w>
+        </l>
+        <l met="-|-|3|-|-|-|-|8|-|" n="13">
+          <!--pues a fe que si se las tiro-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="fe" type="NCFS000">fe|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="tiro" type="NCMS000">ti|ro|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|8|-|" n="14">
+          <!--que se le han de volver azâr.-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="le" type="PP3CSD0">le|</w>
+          <w lemma="haber" type="VMIP3P0">han|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="volver" type="VMN0000">vol|ver|</w>
+          <w lemma="azâr" type="VMN0000">azâr|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|-|9|-|" n="15">
+          <!--Naranjitas me tira la niña-->
+          <w lemma="naranjitas" type="NP00000">na|ran|ji|tas|</w>
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="tirar" type="VMIP3S0">ti|ra|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="niño" type="NCFS000">ni|ña|</w>
+        </l>
+        <l met="-|-|-|-|-|-|-|8|-|" n="16">
+          <!--en Valencia por Navidad,-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="valencia_por_navidad" type="NP00000">va|len|cia_|por_|na|vi|dad|</w>
+        </l>
+        <l met="-|-|3|-|-|-|-|8|-|" n="17">
+          <!--pues a fe que si se las tiro-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="fe" type="NCFS000">fe|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="tiro" type="NCMS000">ti|ro|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|8|-|" n="18">
+          <!--que se le han de volver azâr.-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="le" type="PP3CSD0">le|</w>
+          <w lemma="haber" type="VMIP3P0">han|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="volver" type="VMN0000">vol|ver|</w>
+          <w lemma="azâr" type="VMN0000">azâr|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

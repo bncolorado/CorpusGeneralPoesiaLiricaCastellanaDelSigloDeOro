@@ -1,0 +1,269 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Pues no alcanço a contemplaros, </title>
+          <author>Cristóbal de Castillejo</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/obras-de-devocion--0/html/fef95092-82b1-11df-acc7-002185ce6064_1.html#I_1_"/>
+          <editor>Edición digital basada en la de Obras de Castillejo, edición, prólogo y notas de Jesús Rodríguez Bordona, Madrid, Espasa-Calpe, 1958, t. IV, pp. 175-236. </editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Pues no alcanzo a contemplaros,</title>
+      </head>
+      <lg cert="high" type="Décimas">
+        <l met="-|2|-|4|-|-|-|-|9|-|" n="1">
+          <!--Pues no alcanzo a contemplaros,-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="alcanzar" type="VMIP1S0">al|can|zo|</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="contemplar" type="VMN0000">con|tem|plar|</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="2">
+          <!--Madre de Dios gloriosa,-->
+          <w lemma="madre_de_dios" type="NP00000">ma|dre_|de_|dios|</w>
+          <w lemma="glorioso" type="AQ0FS00">glo|rio|sa|</w>
+        </l>
+        <l met="-|-|3|4|-|-|7|-|" n="3">
+          <!--escusado es alabaros;-->
+          <w lemma="escusado" type="AQ0MS00">es|cu|sa|do</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="alabar" type="VMN0000">a|la|bar|</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="4">
+          <!--pero quiero suplicaros-->
+          <w lemma="pero" type="CC">pe|ro|</w>
+          <w lemma="querer" type="VMIP1S0">quie|ro|</w>
+          <w lemma="suplicar" type="VMN0000">su|pli|car|</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+        </l>
+        <l met="-|-|-|4|5|-|7|-|" n="5">
+          <!--que me digáis una cosa,-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="decir" type="VMSP2P0">di|gáis|</w>
+          <w lemma="uno" type="DI0FS0">u|na|</w>
+          <w lemma="cosa" type="NCFS000">co|sa|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="6">
+          <!--que aquí se debe encerrar,-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="aquí" type="RG">a|quí|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="deber" type="VMIP3S0">de|be</w>
+          <w lemma="encerrar" type="VMN0000">en|ce|rrar|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="7">
+          <!--algún misterio profundo:-->
+          <w lemma="alguno" type="DI0MS0">al|gún|</w>
+          <w lemma="misterio" type="NCMS000">mis|te|rio|</w>
+          <w lemma="profundo" type="AQ0MS00">pro|fun|do|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="8">
+          <!--¿cómo quesiste morar,-->
+          <w lemma="cómo" type="PT00000">có|mo|</w>
+          <w lemma="quesiste" type="VMIP3S0">que|sis|te|</w>
+          <w lemma="morar" type="VMN0000">mo|rar|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="9">
+          <!--siendo Señora del mundo,-->
+          <w lemma="ser" type="VSG0000">sien|do|</w>
+          <w lemma="señora" type="NP00000">se|ño|ra|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="mundo" type="NCMS000">mun|do|</w>
+        </l>
+        <l met="-|2|3|-|-|-|7|-|" n="10">
+          <!--en tan áspero lugar?-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="áspero" type="AQ0MS00">ás|pe|ro|</w>
+          <w lemma="lugar" type="NCMS000">lu|gar|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="11">
+          <!--También hacéis vuestra estancia-->
+          <w lemma="también" type="RG">tam|bién|</w>
+          <w lemma="hacer" type="VMIP2P0">ha|céis|</w>
+          <w lemma="vuestro" type="DP2FSP">vues|tra</w>
+          <w lemma="estancia" type="NCFS000">es|tan|cia|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="12">
+          <!--en Guadalupe en las breñas,-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="guadalupe" type="NP00000">gua|da|lu|pe</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="breña" type="NCFP000">bre|ñas|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="13">
+          <!--y así en la Peña de Francia;-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="así" type="RG">a|sí</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="peña_de_francia" type="NP00000">pe|ña_|de_|fran|cia|</w>
+        </l>
+        <l met="1|2|3|-|5|-|7|-|" n="14">
+          <!--yo no siento qué ganancia-->
+          <w lemma="yo" type="PP1CSN0">yo|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="sentar" type="VMIP1S0">sien|to|</w>
+          <w lemma="qué" type="DT0CN0">qué|</w>
+          <w lemma="ganancia" type="NCFS000">ga|nan|cia|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="15">
+          <!--sacáis de andar por las peñas;-->
+          <w lemma="sacar" type="VMIP2P0">sa|cáis|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="andar" type="VMN0000">an|dar|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="peña" type="NCFP000">pe|ñas|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="16">
+          <!--mas lo que de ello sospecho-->
+          <w lemma="mas" type="CC">mas|</w>
+          <w lemma="el" type="DA00S0">lo|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="ello" type="PD00S00">e|llo|</w>
+          <w lemma="sospechar" type="VMIP1S0">sos|pe|cho|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="17">
+          <!--es, que salís al atajo-->
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="salir" type="VMIP2P0">sa|lís|</w>
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="atajo" type="NCMS000">a|ta|jo|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="18">
+          <!--a tomar, contra derecho,-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="tomar" type="VMN0000">to|mar|</w>
+          <w lemma="contra" type="SP">con|tra|</w>
+          <w lemma="derecho" type="NCMS000">de|re|cho|</w>
+        </l>
+        <l met="-|-|3|4|-|-|7|-|" n="19">
+          <!--para vos este trabajo-->
+          <w lemma="para" type="SP">pa|ra|</w>
+          <w lemma="vos" type="PP2CS0P">vos|</w>
+          <w lemma="este" type="DD0MS0">es|te|</w>
+          <w lemma="trabajo" type="NCMS000">tra|ba|jo|</w>
+        </l>
+        <l met="-|-|-|-|-|-|7|-|" n="20">
+          <!--a fin de nuestro provecho.-->
+          <w lemma="a_fin_de" type="SP">a_|fin_|de|</w>
+          <w lemma="nuestro" type="DP1MSP">nues|tro|</w>
+          <w lemma="provecho" type="NCMS000">pro|ve|cho|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="21">
+          <!--Por los llanos de la tierra-->
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="llano" type="NCMP000">lla|nos|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="tierra" type="NCFS000">tie|rra|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="22">
+          <!--los méritos son contados,-->
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="mérito" type="NCMP000">mé|ri|tos|</w>
+          <w lemma="ser" type="VSIP3P0">son|</w>
+          <w lemma="contar" type="VMP00PM">con|ta|dos|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="23">
+          <!--por los montes y la sierra,-->
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="monte" type="NCMP000">mon|tes|</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="sierra" type="NCFS000">sie|rra|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="24">
+          <!--donde nos viene la guerra,-->
+          <w lemma="donde" type="PR00000">don|de|</w>
+          <w lemma="nos" type="PP1CP00">nos|</w>
+          <w lemma="venir" type="VMIP3S0">vie|ne|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="guerra" type="NCFS000">gue|rra|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="25">
+          <!--nuestros vicios y pecados.-->
+          <w lemma="nuestro" type="DP1MPP">nues|tros|</w>
+          <w lemma="vicio" type="NCMP000">vi|cios|</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="pecado" type="NCMP000">pe|ca|dos|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="26">
+          <!--Si por llano caminamos,-->
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="llano" type="NCMS000">lla|no|</w>
+          <w lemma="caminar" type="VMIP1P0">ca|mi|na|mos|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="27">
+          <!--ningún peligro tenemos;-->
+          <w lemma="ninguno" type="DI0MS0">nin|gún|</w>
+          <w lemma="peligro" type="NCMS000">pe|li|gro|</w>
+          <w lemma="tener" type="VMIP1P0">te|ne|mos|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="28">
+          <!--en la sierra nos perdemos,-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="sierra" type="NCFS000">sie|rra|</w>
+          <w lemma="nos" type="PP1CP00">nos|</w>
+          <w lemma="perder" type="VMIP1P0">per|de|mos|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="29">
+          <!--y allí, Señora, os hallamos-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="allí" type="RG">a|llí|</w>
+          <w lemma="señora" type="NP00000">se|ño|ra</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+          <w lemma="hallar" type="VMIP1P0">ha|lla|mos|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="30">
+          <!--para que no peligremos.-->
+          <w lemma="para" type="SP">pa|ra|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="peligrar" type="VMSP1P0">pe|li|gre|mos|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

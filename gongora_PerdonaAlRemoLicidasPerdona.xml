@@ -1,0 +1,479 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Perdona al remo, Lícidas, perdona</title>
+          <author>Luis de Góngora Y Argote</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/sonetos-canciones-y-otros-poemas-en-arte-mayor--0/html/fee6a3de-82b1-11df-acc7-002185ce6064_2.html#I_39_"/>
+          <editor>Juan e Isabel Millé y Giménez</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Alcidón</title>
+      </head>
+      <lg cert="high" type="Silvas">
+        <l met="-|-|3|-|" n="1">
+          <!--Alcidón-->
+          <w lemma="alcidón" type="NP00000">al|ci|dón|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|-|-|10|-|" n="2">
+          <!--Perdona al remo, Lícidas, perdona-->
+          <w lemma="perdonar" type="VMIP3S0">per|do|na</w>
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="remo" type="NCMS000">re|mo|</w>
+          <w lemma="lícidas" type="NP00000">lí|ci|das|</w>
+          <w lemma="perdonar" type="VMIP3S0">per|do|na|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|" n="3">
+          <!--al mar, en cuanto besa-->
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="mar" type="NCCS000">mar|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="cuanto" type="PR0MS00">cuan|to|</w>
+          <w lemma="besar" type="VMIP3S0">be|sa|</w>
+        </l>
+        <l met="-|-|3|-|5|6|-|-|-|10|-|" n="4">
+          <!--maravillas no bárbaras, en esa-->
+          <w lemma="maravilla" type="NCFP000">ma|ra|vi|llas|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="bárbaro" type="AQ0FP00">bár|ba|ras|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="ese" type="DD0FS0">e|sa|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|-|-|10|-|" n="5">
+          <!--aguja que de nubes se corona.-->
+          <w lemma="aguja" type="NCFS000">a|gu|ja|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="nube" type="NCFP000">nu|bes|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="corona" type="NCFS000">co|ro|na|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|-|-|10|-|" n="6">
+          <!--El tridente de Tetis, de Belona-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="tridente" type="NCMS000">tri|den|te|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="tetis" type="NP00000">te|tis|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="belona" type="NP00000">be|lo|na|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|" n="7">
+          <!--incluye el asta. ¡Oh cuánto-->
+          <w lemma="incluir" type="VMIP3S0">in|clu|ye</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="astaOh" type="NCFS000">I</w>
+          <w lemma="cuánto" type="PT0MS00">cuán|to|</w>
+        </l>
+        <l met="1|-|-|4|-|6|-|8|-|10|-|" n="8">
+          <!--sella esplendor, desmiente gloria humana,-->
+          <w lemma="sellar" type="VMIP3S0">se|lla</w>
+          <w lemma="esplendor" type="NCMS000">es|plen|dor|</w>
+          <w lemma="desmentir" type="VMIP3S0">des|mien|te|</w>
+          <w lemma="gloria" type="NCFS000">glo|ria</w>
+          <w lemma="humano" type="AQ0FS00">hu|ma|na|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|-|10|-|" n="9">
+          <!--esa al margen del agua construida,-->
+          <w lemma="ese" type="DD0FS0">e|sa|</w>
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="margen" type="NCCS000">mar|gen|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="agua" type="NCCS000">a|gua|</w>
+          <w lemma="construir" type="VMP00SF">cons|trui|da|</w>
+        </l>
+        <l met="-|2|3|-|-|6|-|8|-|10|-|" n="10">
+          <!--si no índice mudo de esta vida,-->
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="índice" type="NCMS000">ín|di|ce|</w>
+          <w lemma="mudo" type="AQ0MS00">mu|do|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="este" type="DD0FS0">es|ta|</w>
+          <w lemma="vida" type="NCFS000">vi|da|</w>
+        </l>
+        <l met="1|2|-|4|-|6|-|" n="11">
+          <!--pompa aun de piedras vana,-->
+          <w lemma="pompa" type="NCFS000">pom|pa</w>
+          <w lemma="aun" type="RG">aun|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="piedra" type="NCFP000">pie|dras|</w>
+          <w lemma="vano" type="AQ0FS00">va|na|</w>
+        </l>
+        <l met="1|-|3|-|-|6|-|8|-|10|-|" n="12">
+          <!--urna hecho dudosa jaspe tanto-->
+          <w lemma="urna" type="NCFS000">ur|na|</w>
+          <w lemma="hacer" type="VMP00SM">he|cho|</w>
+          <w lemma="dudoso" type="AQ0FS00">du|do|sa|</w>
+          <w lemma="jaspe" type="NCMS000">jas|pe|</w>
+          <w lemma="tanto" type="RG">tan|to|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|8|-|10|-|" n="13">
+          <!--de poca tierra, no de poco llanto!-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="poco" type="DI0FS0">po|ca|</w>
+          <w lemma="tierra" type="NCFS000">tie|rra|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="poco" type="DI0MS0">po|co|</w>
+          <w lemma="llanto" type="NCMS000">llan|to|</w>
+        </l>
+        <l met="1|-|" n="14">
+          <!--Lícidas-->
+          <w lemma="lícidas" type="NP00000">lí|ci|das|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|9|-|" n="15">
+          <!--Erré, Alcidón. La cudiciosa mano-->
+          <w lemma="errar" type="VMIS1S0">e|rré</w>
+          <w lemma="alcidónLa" type="NP00000">DA0FS0</w>
+          <w lemma="cudiciosa" type="AQ0FS00">cu|di|cio|sa|</w>
+          <w lemma="mano" type="NCFS000">ma|no|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|-|-|-|-|12|-|" n="16">
+          <!--siguió las ondas, no en la que ejercitan-->
+          <w lemma="seguir" type="VMIS3S0">si|guió|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="onda" type="NCFP000">on|das|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="ejercitar" type="VMIP3P0">e|jer|ci|tan|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|8|-|" n="17">
+          <!--piedad o religión. Sobre los remos,-->
+          <w lemma="piedad" type="NCFS000">pie|dad|</w>
+          <w lemma="o" type="CC">o|</w>
+          <w lemma="religiónSobre" type="NCFS000">SP</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="remo" type="NCMP000">re|mos|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|-|-|10|-|" n="18">
+          <!--los marinos reflujos aguardemos-->
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="marino" type="NCMP000">ma|ri|nos|</w>
+          <w lemma="reflujo" type="NCMP000">re|flu|jos|</w>
+          <w lemma="aguardar" type="VMSP1P0">a|guar|de|mos|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="19">
+          <!--que su lecho repitan.-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="lecho" type="NCMS000">le|cho|</w>
+          <w lemma="repetir" type="VMSP3P0">re|pi|tan|</w>
+        </l>
+        <l met="-|-|3|-|" n="20">
+          <!--Alcidón-->
+          <w lemma="alcidón" type="NP00000">al|ci|dón|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|-|-|10|-|" n="21">
+          <!--Lamer en tanto mira al Oceano,-->
+          <w lemma="lamer" type="VMN0000">la|mer|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="tanto" type="DI0MS0">tan|to|</w>
+          <w lemma="mira" type="NCFS000">mi|ra</w>
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="oceano" type="NP00000">o|ce|a|no|</w>
+        </l>
+        <l met="1|-|-|4|-|-|-|8|-|10|-|" n="22">
+          <!--Lícida, el mármol que Neptuno viste-->
+          <w lemma="lícida" type="NP00000">lí|ci|da</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="mármol" type="NCMS000">már|mol|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="neptuno" type="NP00000">nep|tu|no|</w>
+          <w lemma="ver" type="VMIS2S0">vis|te|</w>
+        </l>
+        <l met="-|2|-|-|5|6|7|-|-|10|-|" n="23">
+          <!--de tantas, si no más, náuticas señas-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="tanto" type="DI0FP0">tan|tas|</w>
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="náutico" type="AQ0FP00">náu|ti|cas|</w>
+          <w lemma="seña" type="NCFP000">se|ñas|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|8|-|10|-|" n="24">
+          <!--que militares ya despojos Marte;-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="militar" type="NCCP000">mi|li|ta|res|</w>
+          <w lemma="ya" type="RG">ya|</w>
+          <w lemma="despojo" type="NCMP000">des|po|jos|</w>
+          <w lemma="marte" type="NP00000">mar|te|</w>
+        </l>
+        <l met="-|-|-|-|5|6|-|" n="25">
+          <!--y las que informó el arte-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="que" type="PR0CN00">que</w>
+          <w lemma="informar" type="VMIS3S0">in|for|mó</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="arte" type="NCCS000">ar|te|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|" n="26">
+          <!--de afecto humano peñas,-->
+          <w lemma="de" type="SP">de</w>
+          <w lemma="afecto" type="NCMS000">a|fec|to</w>
+          <w lemma="humano" type="AQ0MS00">hu|ma|no|</w>
+          <w lemma="peña" type="NCFP000">pe|ñas|</w>
+        </l>
+        <l met="1|-|-|4|-|6|-|" n="27">
+          <!--vulto exprimiendo triste.-->
+          <w lemma="vulto" type="NCMS000">vul|to</w>
+          <w lemma="exprimir" type="VMG0000">ex|pri|mien|do|</w>
+          <w lemma="triste" type="AQ0CS00">tris|te|</w>
+        </l>
+        <l met="1|-|" n="28">
+          <!--Lícidas-->
+          <w lemma="lícidas" type="NP00000">lí|ci|das|</w>
+        </l>
+        <l met="1|2|-|4|-|6|-|-|-|10|-|" n="29">
+          <!--¿Quién, dime, son aquellas, de quien dudo-->
+          <w lemma="quién" type="PT0CS00">quién|</w>
+          <w lemma="decir" type="VMM02S0">di|</w>
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="ser" type="VSIP3P0">son|</w>
+          <w lemma="aquel" type="PD0FP00">a|que|llas|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="quien" type="PR0CS00">quien|</w>
+          <w lemma="dudar" type="VMIP1S0">du|do|</w>
+        </l>
+        <l met="1|2|-|4|-|-|-|8|-|10|-|" n="30">
+          <!--cuál más dolor o majestad ostente,-->
+          <w lemma="cuál" type="PE0CS00">cuál|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="dolor" type="NCMS000">do|lor|</w>
+          <w lemma="o" type="CC">o|</w>
+          <w lemma="majestad" type="NCFS000">ma|jes|tad|</w>
+          <w lemma="ostentar" type="VMSP3S0">os|ten|te|</w>
+        </l>
+        <l met="1|-|3|-|-|6|-|" n="31">
+          <!--plumas una la frente,-->
+          <w lemma="pluma" type="NCFP000">plu|mas|</w>
+          <w lemma="uno" type="DI0FS0">u|na|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="frente" type="NCCS000">fren|te|</w>
+        </l>
+        <l met="1|-|3|-|-|6|7|-|-|10|-|" n="32">
+          <!--palmas otra, y el cuerpo ambas desnudo?-->
+          <w lemma="palmar" type="VMIP2S0">pal|mas|</w>
+          <w lemma="otro" type="PI0FS00">o|tra</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="cuerpo" type="NCMS000">cuer|po</w>
+          <w lemma="ambos" type="DI0FP0">am|bas|</w>
+          <w lemma="desnudo" type="AQ0MS00">des|nu|do|</w>
+        </l>
+        <l met="-|-|3|-|" n="33">
+          <!--Alcidón-->
+          <w lemma="alcidón" type="NP00000">al|ci|dón|</w>
+        </l>
+        <l met="1|-|-|4|-|6|-|" n="34">
+          <!--Mal la pizarra pudo-->
+          <w lemma="mal" type="RG">mal|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="pizarra" type="NCFS000">pi|za|rra|</w>
+          <w lemma="poder" type="VMIS3S0">pu|do|</w>
+        </l>
+        <l met="-|-|-|4|-|-|-|8|-|" n="35">
+          <!--lisonjealles el color. Aquella-->
+          <w lemma="lisonjealles" type="NCFP000">li|son|je|a|lles|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="colorAquella" type="NCMS000">DD0FS0</w>
+        </l>
+        <l met="1|-|-|4|-|6|-|8|-|10|-|" n="36">
+          <!--ara del Sol edades ciento, ahora-->
+          <w lemma="arar" type="VMIP3S0">a|ra|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="sol" type="NP00000">sol|</w>
+          <w lemma="edad" type="NCFP000">e|da|des|</w>
+          <w lemma="100" type="Z">cien|to</w>
+          <w lemma="ahora" type="RG">a|ho|ra|</w>
+        </l>
+        <l met="1|-|-|-|-|6|7|8|-|10|-|" n="37">
+          <!--templo de quien el Sol aun no es estrella,-->
+          <w lemma="templo" type="NCMS000">tem|plo|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="quien" type="PR0CS00">quien|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="sol" type="NP00000">sol|</w>
+          <w lemma="aun" type="RG">aun|</w>
+          <w lemma="no" type="RN">no</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="estrella" type="NCFS000">es|tre|lla|</w>
+        </l>
+        <l met="-|2|-|4|-|6|7|-|-|10|-|" n="38">
+          <!--la grande América es, oro sus venas,-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="grande" type="AQ0CS00">gran|de</w>
+          <w lemma="américa" type="NP00000">a|mé|ri|ca</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="oro" type="NCMS000">o|ro|</w>
+          <w lemma="su" type="DP3CPN">sus|</w>
+          <w lemma="vena" type="NCFP000">ve|nas|</w>
+        </l>
+        <l met="-|2|-|4|-|-|-|8|-|10|-|" n="39">
+          <!--sus huesos plata, que dichosamente,-->
+          <w lemma="su" type="DP3CPN">sus|</w>
+          <w lemma="hueso" type="NCMP000">hue|sos|</w>
+          <w lemma="plata" type="NCFS000">pla|ta|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="dichosamente" type="RG">di|cho|sa|men|te|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|-|-|10|-|" n="40">
+          <!--si ligurina dio marinería-->
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="ligurina" type="AQ0FS00">li|gu|ri|na|</w>
+          <w lemma="dar" type="VMIS3S0">dio|</w>
+          <w lemma="marinería" type="NCFS000">ma|ri|ne|rí|a|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|8|-|10|-|" n="41">
+          <!--a España en uno y otro alado pino,-->
+          <w lemma="a" type="SP">a</w>
+          <w lemma="españa" type="NP00000">es|pa|ña</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="uno" type="PI0MS00">u|no</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="otro" type="DI0MS0">o|tro</w>
+          <w lemma="alado" type="AQ0MS00">a|la|do|</w>
+          <w lemma="pino" type="NCMS000">pi|no|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="42">
+          <!--interés ligurino-->
+          <w lemma="interés" type="NCMS000">in|te|rés|</w>
+          <w lemma="ligurino" type="AQ0MS00">li|gu|ri|no|</w>
+        </l>
+        <l met="-|2|-|4|5|6|-|" n="43">
+          <!--su rubia sangre hoy día,-->
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="rubio" type="AQ0FS00">ru|bia|</w>
+          <w lemma="sangre" type="NCFS000">san|gre</w>
+          <w lemma="hoy" type="RG">hoy|</w>
+          <w lemma="día" type="NCMS000">dí|a|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|8|-|10|-|" n="44">
+          <!--su medula chupando está luciente.-->
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="medula" type="NCFS000">me|du|la|</w>
+          <w lemma="chupar" type="VMG0000">chu|pan|do</w>
+          <w lemma="estar" type="VMIP3S0">es|tá|</w>
+          <w lemma="luciente" type="AQ0CS00">lu|cien|te|</w>
+        </l>
+        <l met="-|2|-|-|5|6|-|-|-|10|-|" n="45">
+          <!--Esotra naval siempre infestadora-->
+          <w lemma="esotro" type="DD0FS0">e|so|tra|</w>
+          <w lemma="naval" type="AQ0CS00">na|val|</w>
+          <w lemma="siempre" type="RG">siem|pre</w>
+          <w lemma="infestadora" type="AQ0FS00">in|fes|ta|do|ra|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|8|-|10|-|" n="46">
+          <!--de nuestras playas, África es, temida,-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="nuestro" type="DP1FPP">nues|tras|</w>
+          <w lemma="playa" type="NCFP000">pla|yas|</w>
+          <w lemma="áfrica" type="NP00000">á|fri|ca</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="temer" type="VMP00SF">te|mi|da|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|-|-|10|-|" n="47">
+          <!--si no por los que engendran sus arenas,-->
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="que" type="PR0CN00">que</w>
+          <w lemma="engendrar" type="VMIP3P0">en|gen|dran|</w>
+          <w lemma="su" type="DP3CPN">sus|</w>
+          <w lemma="arena" type="NCFP000">a|re|nas|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|-|-|10|-|" n="48">
+          <!--por los que visten púrpura leones-->
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="vestir" type="VMIP3P0">vis|ten|</w>
+          <w lemma="púrpura" type="AQ0CS00">púr|pu|ra|</w>
+          <w lemma="león" type="NCMP000">le|o|nes|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|-|-|10|-|" n="49">
+          <!--en tantos hoy católicos pendones-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="tanto" type="DI0MP0">tan|tos|</w>
+          <w lemma="hoy" type="RG">hoy|</w>
+          <w lemma="católico" type="AQ0MP00">ca|tó|li|cos|</w>
+          <w lemma="pendón" type="NCMP000">pen|do|nes|</w>
+        </l>
+        <l met="1|-|3|-|-|6|-|8|-|10|-|" n="50">
+          <!--cuantas le ha introducido España almenas-->
+          <w lemma="cuanto" type="DI0FP0">cuan|tas|</w>
+          <w lemma="le" type="PP3CSD0">le</w>
+          <w lemma="haber" type="VAIP3S0">ha</w>
+          <w lemma="introducir" type="VMP00SM">in|tro|du|ci|do</w>
+          <w lemma="españa" type="NP00000">es|pa|ña</w>
+          <w lemma="almena" type="NCFP000">al|me|nas|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|8|-|10|-|" n="51">
+          <!--de quien tímido Atlante a más lucida,-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="quien" type="PR0CS00">quien|</w>
+          <w lemma="tímido" type="AQ0MS00">tí|mi|do</w>
+          <w lemma="atlante" type="NP00000">a|tlan|te</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="lucir" type="VMP00SF">lu|ci|da|</w>
+        </l>
+        <l met="-|-|3|4|-|6|-|-|-|10|-|" n="52">
+          <!--a región más segura se levanta,-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="región" type="NCFS000">re|gión|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="seguro" type="AQ0FS00">se|gu|ra|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="levantar" type="VMIP3S0">le|van|ta|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|-|9|10|-|" n="53">
+          <!--debida a tanta fuga ascensión tanta.-->
+          <w lemma="deber" type="VMP00SF">de|bi|da</w>
+          <w lemma="a" type="SP">a</w>
+          <w lemma="tanto" type="DI0FS0">tan|ta|</w>
+          <w lemma="fuga" type="NCFS000">fu|ga</w>
+          <w lemma="ascensión" type="NCFS000">as|cen|sión|</w>
+          <w lemma="tanto" type="PI0FS00">tan|ta||</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

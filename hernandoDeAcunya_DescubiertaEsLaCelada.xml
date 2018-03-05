@@ -1,0 +1,665 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Descubierta es la celada, </title>
+          <author>Hernando de Acunya</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/varias-poesias--0/html/fede64e4-82b1-11df-acc7-002185ce6064_3.html#I_26_"/>
+          <editor>...</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>DON PEDRO DE TOLEDO</title>
+      </head>
+      <lg cert="low" type="Octosílabos ">
+        <l met="-|-|-|-|-|6|-|" n="1">
+          <!--DON PEDRO DE TOLEDO-->
+          <w lemma="don_pedro_de_toledo" type="NP00000">don_|pe|dro_|de_|to|le|do|</w>
+        </l>
+        <l met="-|-|3|4|-|-|7|-|" n="2">
+          <!--Descubierta es la celada,-->
+          <w lemma="descubrir" type="VMP00SF">des|cu|bier|ta</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="celada" type="NCFS000">ce|la|da|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="3">
+          <!--aunque se hizo de noche,-->
+          <w lemma="aunque" type="CC">aun|que|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="hacer" type="VMIS3S0">hi|zo|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="noche" type="NCFS000">no|che|</w>
+        </l>
+        <l met="-|-|3|-|-|6|7|-|" n="4">
+          <!--que cantastes en un coche.-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="cantastes" type="NCMP000">can|tas|tes|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="uno" type="DI0MS0">un|</w>
+          <w lemma="coche" type="NCMS000">co|che|</w>
+        </l>
+        <l met="-|-|-|4|-|" n="5">
+          <!--EL DUQUE DE ALBA-->
+          <w lemma="el_duque_de_alba" type="NP00000">el_|du|que_|de_al|ba|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="6">
+          <!--La nueva nos es llegada-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="nuevo" type="AQ0FS00">nue|va|</w>
+          <w lemma="nos" type="PP1CP00">nos|</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="llegada" type="NCFS000">lle|ga|da|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="7">
+          <!--y aprobamos la canción,-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="aprobar" type="VMIP1P0">a|pro|ba|mos|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="canción" type="NCFS000">can|ción|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="8">
+          <!--aunque cortesanos son-->
+          <w lemma="aunque" type="CC">aun|que|</w>
+          <w lemma="cortesano" type="NCMP000">cor|te|sa|nos|</w>
+          <w lemma="ser" type="VSIP3P0">son|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="9">
+          <!--los que no perdonan nada;-->
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="perdonar" type="VMIP3P0">per|do|nan|</w>
+          <w lemma="nada" type="PI0CS00">na|da|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="10">
+          <!--pero, hecha su embajada,-->
+          <w lemma="pero" type="CC">pe|ro|</w>
+          <w lemma="hacer" type="VMP00SF">he|cha|</w>
+          <w lemma="su" type="DP3CSN">su</w>
+          <w lemma="embajada" type="NCFS000">em|ba|ja|da|</w>
+        </l>
+        <l met="1|2|-|-|5|-|7|-|" n="11">
+          <!--bien puede cantar de noche-->
+          <w lemma="bien" type="RG">bien|</w>
+          <w lemma="poder" type="VMIP3S0">pue|de|</w>
+          <w lemma="cantar" type="VMN0000">can|tar|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="noche" type="NCFS000">no|che|</w>
+        </l>
+        <l met="1|-|-|-|5|-|7|-|" n="12">
+          <!--un embajador en coche.-->
+          <w lemma="uno" type="DI0MS0">un|</w>
+          <w lemma="embajador" type="NCMS000">em|ba|ja|dor|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="coche" type="NCMS000">co|che|</w>
+        </l>
+        <l met="-|-|-|-|5|-|" n="13">
+          <!--EL COMENDADOR-->
+          <w lemma="el_comendador" type="NP00000">el_|co|men|da|dor|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="14">
+          <!--La canción que fue cantada,-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="canción" type="NCFS000">can|ción|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="ser" type="VSIS3S0">fue|</w>
+          <w lemma="cantar" type="VMP00SF">can|ta|da|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="15">
+          <!--engáñase el caballero-->
+          <w lemma="engañar" type="VMM02S0">en|ga|ña|</w>
+          <w lemma="se" type="PP3CN00">se</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="caballero" type="NCMS000">ca|ba|lle|ro|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="16">
+          <!--si piensa que en el terrero-->
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="pensar" type="VMIP3S0">pien|sa|</w>
+          <w lemma="que" type="CS">que</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="terrero" type="NCMS000">te|rre|ro|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="17">
+          <!--ha de quedar enterrada;-->
+          <w lemma="ha" type="I">ha|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="quedar" type="VMN0000">que|dar|</w>
+          <w lemma="enterrar" type="VMP00SF">en|te|rra|da|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="18">
+          <!--porque ha de ser celebrada-->
+          <w lemma="porque" type="CS">por|que</w>
+          <w lemma="haber" type="VMIP3S0">ha|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="ser" type="VSN0000">ser|</w>
+          <w lemma="celebrar" type="VMP00SF">ce|le|bra|da|</w>
+        </l>
+        <l met="1|2|-|-|5|-|7|-|" n="19">
+          <!--cada año en la mesma noche-->
+          <w lemma="cada" type="DI0CS0">ca|da</w>
+          <w lemma="año" type="NCMS000">a|ño</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="mesmo" type="AQ0FS00">mes|ma|</w>
+          <w lemma="noche" type="NCFS000">no|che|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="20">
+          <!--la remembranza del coche.-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="remembranza" type="NCFS000">re|mem|bran|za|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="coche" type="NCMS000">co|che|</w>
+        </l>
+        <l met="-|-|-|-|-|-|7|-|" n="21">
+          <!--DON HERNANDO DE TOLEDO-->
+          <w lemma="don_hernando_de_toledo" type="NP00000">don_|her|nan|do_|de_|to|le|do|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="22">
+          <!--Canción que, siendo cantada,-->
+          <w lemma="canción" type="NP00000">can|ción|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="ser" type="VSG0000">sien|do|</w>
+          <w lemma="cantar" type="VMP00SF">can|ta|da|</w>
+        </l>
+        <l met="-|-|3|4|-|-|7|-|" n="23">
+          <!--se nos ha puesto al terrero,-->
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="nos" type="PP1CP00">nos|</w>
+          <w lemma="haber" type="VAIP3S0">ha|</w>
+          <w lemma="poner" type="VMP00SM">pues|to</w>
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="terrero" type="NCMS000">te|rre|ro|</w>
+        </l>
+        <l met="-|2|3|4|-|-|7|-|" n="24">
+          <!--será bien ruin ballestero-->
+          <w lemma="ser" type="VSIF3S0">se|rá|</w>
+          <w lemma="bien" type="RG">bien|</w>
+          <w lemma="ruin" type="AQ0CS00">ruin|</w>
+          <w lemma="ballestero" type="NCMS000">ba|lles|te|ro|</w>
+        </l>
+        <l met="-|-|3|4|-|-|7|-|" n="25">
+          <!--del que no fuere acertada.-->
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="ser" type="VSSF1S0">fue|re</w>
+          <w lemma="acertar" type="VMP00SF">a|cer|ta|da|</w>
+        </l>
+        <l met="1|2|3|-|-|-|7|-|" n="26">
+          <!--Buena ha sido la jornada,-->
+          <w lemma="buena" type="NP00000">bue|na</w>
+          <w lemma="haber" type="VAIP3S0">ha|</w>
+          <w lemma="ser" type="VSP00SM">si|do|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="jornada" type="NCFS000">jor|na|da|</w>
+        </l>
+        <l met="1|-|3|-|5|-|7|-|" n="27">
+          <!--bueno fue cantar de noche-->
+          <w lemma="bueno" type="AQ0MS00">bue|no|</w>
+          <w lemma="ser" type="VSIS3S0">fue|</w>
+          <w lemma="cantar" type="VMN0000">can|tar|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="noche" type="NCFS000">no|che|</w>
+        </l>
+        <l met="-|-|3|-|-|6|7|-|" n="28">
+          <!--y mejor dentro de un coche.-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="mejor" type="RG">me|jor|</w>
+          <w lemma="dentro_de" type="SP">den|tro_|de</w>
+          <w lemma="uno" type="DI0MS0">un|</w>
+          <w lemma="coche" type="NCMS000">co|che|</w>
+        </l>
+        <l met="-|-|-|-|5|-|" n="29">
+          <!--DON JUAN PIMENTEL-->
+          <w lemma="don_juan_pimentel" type="NP00000">don_|juan_|pi|men|tel|</w>
+        </l>
+        <l met="-|-|3|4|5|-|7|-|" n="30">
+          <!--La canción no pudo ser-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="canción" type="NCFS000">can|ción|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="poder" type="VMIS3S0">pu|do|</w>
+          <w lemma="ser" type="VSN0000">ser|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="31">
+          <!--que no contentase allá,-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="contentar" type="VMSI3S0">con|ten|ta|se</w>
+          <w lemma="allá" type="RG">a|llá|</w>
+        </l>
+        <l met="-|2|3|-|-|-|7|-|" n="32">
+          <!--pues fue tal que hasta acá-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="ser" type="VSIS3S0">fue|</w>
+          <w lemma="tal" type="PD0CS00">tal|</w>
+          <w lemma="que" type="PR0CN00">que</w>
+          <w lemma="hasta" type="SP">has|ta|</w>
+          <w lemma="acá" type="RG">a|cá|</w>
+        </l>
+        <l met="1|-|3|-|5|-|7|-|" n="33">
+          <!--ha llegado a dar placer.-->
+          <w lemma="haber" type="VAIP3S0">ha|</w>
+          <w lemma="llegar" type="VMP00SM">lle|ga|do</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="dar" type="VMN0000">dar|</w>
+          <w lemma="placer" type="NCMS000">pla|cer|</w>
+        </l>
+        <l met="1|-|-|-|-|-|7|-|" n="34">
+          <!--Débese de proveer-->
+          <w lemma="deber" type="VMM02S0">de|be|</w>
+          <w lemma="se" type="PP3CN00">se|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="proveer" type="VMN0000">pro|ve|er|</w>
+        </l>
+        <l met="-|2|-|4|5|-|7|-|" n="35">
+          <!--que no haya de hoy más de noche-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="no" type="RN">no</w>
+          <w lemma="haber" type="VMSP3S0">ha|ya|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="hoy" type="RG">hoy|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="noche" type="NCFS000">no|che|</w>
+        </l>
+        <l met="1|-|-|-|5|-|7|-|" n="36">
+          <!--música, si no es en coche.-->
+          <w lemma="música" type="NCFS000">mú|si|ca|</w>
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="no" type="RN">no</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="coche" type="NCMS000">co|che|</w>
+        </l>
+        <l met="-|-|-|-|-|-|7|-|" n="37">
+          <!--DON HERNANDO DE LA CERDA-->
+          <w lemma="don_hernando_de_la_cerda" type="NP00000">don_|her|nan|do_|de_|la_|cer|da|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="38">
+          <!--Dígasme tú el mensajero-->
+          <w lemma="dígasme" type="NP00000">dí|gas|me|</w>
+          <w lemma="tú" type="PP2CSN0">tú</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="mensajero" type="NCMS000">men|sa|je|ro|</w>
+        </l>
+        <l met="-|2|3|-|-|-|7|-|" n="39">
+          <!--si viste un embajador-->
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="ver" type="VMIS2S0">vis|te</w>
+          <w lemma="uno" type="DI0MS0">un|</w>
+          <w lemma="embajador" type="NCMS000">em|ba|ja|dor|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="40">
+          <!--que se nos volvió cantor-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="nos" type="PP1CP00">nos|</w>
+          <w lemma="volver" type="VMIS3S0">vol|vió|</w>
+          <w lemma="cantor" type="NCMS000">can|tor|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="41">
+          <!--una noche en el terrero;-->
+          <w lemma="uno" type="DI0FS0">u|na|</w>
+          <w lemma="noche" type="NCFS000">no|che</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="terrero" type="NCMS000">te|rre|ro|</w>
+        </l>
+        <l met="-|-|3|4|-|-|7|-|" n="42">
+          <!--el cual ha sido el primero-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="cual" type="PR0CS00">cual|</w>
+          <w lemma="haber" type="VAIP3S0">ha|</w>
+          <w lemma="ser" type="VSP00SM">si|do</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="1" type="AO0MS00">pri|me|ro|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="43">
+          <!--que cantó jamás de noche-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="cantar" type="VMIS3S0">can|tó|</w>
+          <w lemma="jamás" type="RG">ja|más|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="noche" type="NCFS000">no|che|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="44">
+          <!--canción a damas, en coche.-->
+          <w lemma="canción" type="NCFS000">can|ción|</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="dama" type="NCFP000">da|mas|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="coche" type="NCMS000">co|che|</w>
+        </l>
+        <l met="-|-|-|-|-|6|-|" n="45">
+          <!--DON JUAN DE FIGUEROA-->
+          <w lemma="don_juan_de_figueroa" type="NP00000">don_|juan_|de_|fi|gue|ro|a|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="46">
+          <!--Ya que os habéis arriscado-->
+          <w lemma="ya_que" type="CS">ya_|que</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+          <w lemma="haber" type="VAIP2P0">ha|béis|</w>
+          <w lemma="arriscar" type="VMP00SM">a|rris|ca|do|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="47">
+          <!--a tan peligrosa prueba,-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="peligroso" type="AQ0FS00">pe|li|gro|sa|</w>
+          <w lemma="prueba" type="NCFS000">prue|ba|</w>
+        </l>
+        <l met="1|-|-|-|5|-|7|-|" n="48">
+          <!--cierto en la segunda nueva-->
+          <w lemma="cierto" type="AQ0MS00">cier|to</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="2" type="AO0FS00">se|gun|da|</w>
+          <w lemma="nuevo" type="AQ0FS00">nue|va|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="49">
+          <!--nos vendrá que habéis bailado;-->
+          <w lemma="nos" type="PP1CP00">nos|</w>
+          <w lemma="venir" type="VMIF3S0">ven|drá|</w>
+          <w lemma="que" type="CS">que</w>
+          <w lemma="haber" type="VAIP2P0">ha|béis|</w>
+          <w lemma="bailar" type="VMP00SM">bai|la|do|</w>
+        </l>
+        <l met="-|-|3|4|-|-|7|-|" n="50">
+          <!--y seréis bien disculpado,-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="ser" type="VSIF2P0">se|réis|</w>
+          <w lemma="bien" type="RG">bien|</w>
+          <w lemma="disculpar" type="VMP00SM">dis|cul|pa|do|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="51">
+          <!--pues es el bailar de noche-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="bailar" type="VMN0000">bai|lar|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="noche" type="NCFS000">no|che|</w>
+        </l>
+        <l met="1|-|-|-|5|-|7|-|" n="52">
+          <!--menos que cantar en coche-->
+          <w lemma="menos" type="RG">me|nos|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="cantar" type="VMN0000">can|tar|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="coche" type="NCMS000">co|che|</w>
+        </l>
+        <l met="-|-|-|-|5|-|" n="53">
+          <!--HERNANDO DE VEGA-->
+          <w lemma="hernando_de_vega" type="NP00000">her|nan|do_|de_|ve|ga|</w>
+        </l>
+        <l met="-|-|3|4|-|6|-|8|-|" n="54">
+          <!--Pues en un coche fue oído-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="uno" type="DI0MS0">un|</w>
+          <w lemma="coche" type="NCMS000">co|che|</w>
+          <w lemma="ser" type="VSIS3S0">fue|</w>
+          <w lemma="oír" type="VMP00SM">o|í|do|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="55">
+          <!--vuestro canto en el terrero,-->
+          <w lemma="vuestro" type="DP2MSP">vues|tro|</w>
+          <w lemma="canto" type="NCMS000">can|to</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="terrero" type="NCMS000">te|rre|ro|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="56">
+          <!--nunca fuera caballero-->
+          <w lemma="nunca" type="RG">nun|ca|</w>
+          <w lemma="ser" type="VSSI3S0">fue|ra|</w>
+          <w lemma="caballero" type="AQ0MS00">ca|ba|lle|ro|</w>
+        </l>
+        <l met="-|2|-|4|5|-|7|-|" n="57">
+          <!--de damas tan bien querido.-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="dama" type="NCFP000">da|mas|</w>
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="bien" type="RG">bien|</w>
+          <w lemma="querer" type="VMP00SM">que|ri|do|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="58">
+          <!--A todos ha parecido-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="todo" type="PI0MP00">to|dos|</w>
+          <w lemma="haber" type="VAIP3S0">ha|</w>
+          <w lemma="parecer" type="VMP00SM">pa|re|ci|do|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="59">
+          <!--que, para cantar de noche,-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="para" type="SP">pa|ra|</w>
+          <w lemma="cantar" type="VMN0000">can|tar|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="noche" type="NCFS000">no|che|</w>
+        </l>
+        <l met="1|2|-|-|5|-|7|-|" n="60">
+          <!--fue sana invención el coche.-->
+          <w lemma="ser" type="VSIS3S0">fue|</w>
+          <w lemma="sano" type="AQ0FS00">sa|na</w>
+          <w lemma="invención" type="NCFS000">in|ven|ción|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="coche" type="NCMS000">co|che|</w>
+        </l>
+        <l met="-|-|-|-|-|6|-|" n="61">
+          <!--DON ALONSO DE ARAGÓN-->
+          <w lemma="don_alonso_de_aragón" type="NP00000">don_a|lon|so_|de_a|ra|gón|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="62">
+          <!--Toda la Corte se espanta,-->
+          <w lemma="todo" type="DI0FS0">to|da|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="corte" type="NP00000">cor|te|</w>
+          <w lemma="se" type="P00CN00">se</w>
+          <w lemma="espantar" type="VMIP3S0">es|pan|ta|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="63">
+          <!--y estamos en confusión-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="estar" type="VMIP1P0">es|ta|mos|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="confusión" type="NCFS000">con|fu|sión|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="64">
+          <!--por saber si en la canción-->
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="saber" type="VMN0000">sa|ber|</w>
+          <w lemma="si" type="CS">si</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="canción" type="NCFS000">can|ción|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="65">
+          <!--hubo pasos de garganta;-->
+          <w lemma="haber" type="VMIS3S0">hu|bo|</w>
+          <w lemma="paso" type="NCMP000">pa|sos|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="garganta" type="NCFS000">gar|gan|ta|</w>
+        </l>
+        <l met="-|-|3|-|5|6|7|-|" n="66">
+          <!--mas la culpa no fue tanta,-->
+          <w lemma="mas" type="CC">mas|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="culpa" type="NCFS000">cul|pa|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="ser" type="VSIS3S0">fue|</w>
+          <w lemma="tanto" type="DI0FS0">tan|ta|</w>
+        </l>
+        <l met="-|-|-|4|5|-|7|-|" n="67">
+          <!--porque cantar mal de noche-->
+          <w lemma="porque" type="CS">por|que|</w>
+          <w lemma="cantar" type="VMN0000">can|tar|</w>
+          <w lemma="mal" type="RG">mal|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="noche" type="NCFS000">no|che|</w>
+        </l>
+        <l met="1|-|3|-|5|-|7|-|" n="68">
+          <!--bien se sufre siendo en coche.-->
+          <w lemma="bien" type="RG">bien|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="sufrir" type="VMIP3S0">su|fre|</w>
+          <w lemma="ser" type="VSG0000">sien|do</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="coche" type="NCMS000">co|che|</w>
+        </l>
+        <l met="-|-|-|-|-|6|-|" n="69">
+          <!--DON HERNANDO DE ACUÑA-->
+          <w lemma="don_hernando_de_acuña" type="NP00000">don_|her|nan|do_|de_a|cu|ña|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="70">
+          <!--Si os preguntan cómo os fue,-->
+          <w lemma="si" type="CS">si</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+          <w lemma="preguntar" type="VMIP3P0">pre|gun|tan|</w>
+          <w lemma="cómo" type="PT00000">có|mo</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+          <w lemma="ser" type="VSIS3S0">fue|</w>
+        </l>
+        <l met="-|-|-|-|-|-|7|-|" n="71">
+          <!--señor, con vuestra embajada,-->
+          <w lemma="señor" type="I">se|ñor|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="vuestro" type="DP2FSP">vues|tra</w>
+          <w lemma="embajada" type="NCFS000">em|ba|ja|da|</w>
+        </l>
+        <l met="-|2|3|-|-|-|7|-|" n="72">
+          <!--diréis, hecha la jornada:-->
+          <w lemma="decir" type="VMIF2P0">di|réis|</w>
+          <w lemma="hacer" type="VMP00SF">he|cha|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="jornada" type="NCFS000">jor|na|da|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="73">
+          <!--"Llegué, visité y canté";-->
+          <w lemma="&quot;" type="Fe">&quot;|</w>
+          <w lemma="llegar" type="VMIS1S0">lle|gué|</w>
+          <w lemma="visitar" type="VMIS1S0">vi|si|té</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="cantar" type="VMIS1S0">can|té|</w>
+          <w lemma="&quot;" type="Fe">&quot;||</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="74">
+          <!--y si os pidieren por qué,-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="si" type="CS">si</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+          <w lemma="pedir" type="VMSF3P0">pi|die|ren|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="qué" type="PT00000">qué|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="75">
+          <!--diréis que cubre la noche-->
+          <w lemma="decir" type="VMIF2P0">di|réis|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="cubrir" type="VMIP3S0">cu|bre|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="noche" type="NCFS000">no|che|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="76">
+          <!--el gesto, la voz y el coche.-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="gesto" type="NCMS000">ges|to|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="voz" type="NCFS000">voz|</w>
+          <w lemma="y" type="CC">y</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="coche" type="NCMS000">co|che|</w>
+        </l>
+        <l met="-|-|-|-|5|-|" n="77">
+          <!--OTRO CABALLERO-->
+          <w lemma="otro_caballero" type="NP00000">o|tro_|ca|ba|lle|ro|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="78">
+          <!--La Corte busca ocasión-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="corte" type="NP00000">cor|te|</w>
+          <w lemma="buscar" type="VMIP3S0">bus|ca</w>
+          <w lemma="ocasión" type="NCFS000">o|ca|sión|</w>
+        </l>
+        <l met="-|-|-|4|5|-|7|-|" n="79">
+          <!--para tener qué tratar-->
+          <w lemma="para" type="SP">pa|ra|</w>
+          <w lemma="tener" type="VMN0000">te|ner|</w>
+          <w lemma="qué" type="PT00000">qué|</w>
+          <w lemma="tratar" type="VMN0000">tra|tar|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="80">
+          <!--y alguna vez murmurar,-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="alguno" type="DI0FS0">al|gu|na|</w>
+          <w lemma="vez" type="NCFS000">vez|</w>
+          <w lemma="murmurar" type="VMN0000">mur|mu|rar|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="81">
+          <!--mas en esto no hay razón,-->
+          <w lemma="mas" type="CC">mas|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="este" type="PD00S00">es|to|</w>
+          <w lemma="no" type="RN">no</w>
+          <w lemma="haber" type="VMIP3S0">hay|</w>
+          <w lemma="razón" type="NCFS000">ra|zón|</w>
+        </l>
+        <l met="-|2|3|-|-|-|7|-|" n="82">
+          <!--pues fue buena prevención-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="ser" type="VSIS3S0">fue|</w>
+          <w lemma="bueno" type="AQ0FS00">bue|na|</w>
+          <w lemma="prevención" type="NCFS000">pre|ven|ción|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="83">
+          <!--para mala voz la noche,-->
+          <w lemma="para" type="SP">pa|ra|</w>
+          <w lemma="malo" type="AQ0FS00">ma|la|</w>
+          <w lemma="voz" type="NCFS000">voz|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="noche" type="NCFS000">no|che|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="84">
+          <!--y para sereno el coche.-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="para" type="SP">pa|ra|</w>
+          <w lemma="sereno" type="NCCS000">se|re|no</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="coche" type="NCMS000">co|che|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

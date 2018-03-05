@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>En esta que admiráis de piedras graves</title>
+          <author>Luis de Góngora Y Argote</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/sonetos-canciones-y-otros-poemas-en-arte-mayor--0/html/fee6a3de-82b1-11df-acc7-002185ce6064_2.html#I_40_"/>
+          <editor>Juan e Isabel Millé y Giménez</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>En esta que admiráis de piedras graves</title>
+      </head>
+      <lg cert="high" type="Octava">
+        <l met="-|2|-|-|-|6|-|8|-|10|-|" n="1">
+          <!--En esta que admiráis de piedras graves-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="este" type="DD0FS0">es|ta|</w>
+          <w lemma="que" type="PR0CN00">que</w>
+          <w lemma="admirar" type="VMIP2P0">ad|mi|ráis|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="piedra" type="NCFP000">pie|dras|</w>
+          <w lemma="grave" type="AQ0CP00">gra|ves|</w>
+        </l>
+        <l met="-|2|3|4|-|-|-|8|-|10|-|" n="2">
+          <!--labor no egipcia, aunque a la llama imita,-->
+          <w lemma="labor" type="NCFS000">la|bor|</w>
+          <w lemma="no" type="RN">no</w>
+          <w lemma="egipcio" type="AQ0FS00">e|gip|cia</w>
+          <w lemma="aunque" type="CC">aun|que</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="llama" type="NCFS000">lla|ma</w>
+          <w lemma="imitar" type="VMIP3S0">i|mi|ta|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|8|-|10|-|" n="3">
+          <!--ungüentos privilegian hoy süaves-->
+          <w lemma="ungüento" type="NCMP000">un|güen|tos|</w>
+          <w lemma="privilegiar" type="VMIP3P0">pri|vi|le|gian|</w>
+          <w lemma="hoy" type="RG">hoy|</w>
+          <w lemma="süaves" type="AQ0CP00">sü|a|ves|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|-|-|10|-|" n="4">
+          <!--la muerta humanidad de Margarita,-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="morir" type="VMP00SF">muer|ta</w>
+          <w lemma="humanidad" type="NCFS000">hu|ma|ni|dad|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="margarita" type="NP00000">mar|ga|ri|ta|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|-|-|10|-|" n="5">
+          <!--si de cuantos la pompa de las aves-->
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="cuanto" type="DI0MP0">cuan|tos|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="pompa" type="NCFS000">pom|pa|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="ave" type="NCFP000">a|ves|</w>
+        </l>
+        <l met="-|-|-|-|5|6|-|-|-|10|-|" n="6">
+          <!--en su funeral leños solicita-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="funeral" type="NCMS000">fu|ne|ral|</w>
+          <w lemma="leño" type="NCMP000">le|ños|</w>
+          <w lemma="solicitar" type="VMIP3S0">so|li|ci|ta|</w>
+        </l>
+        <l met="1|-|-|4|-|6|-|8|-|10|-|" n="7">
+          <!--hay quien destile aroma tal, en vano-->
+          <w lemma="haber" type="VMIP3S0">hay|</w>
+          <w lemma="quien" type="PR0CS00">quien|</w>
+          <w lemma="destilar" type="VMSP3S0">des|ti|le</w>
+          <w lemma="aroma" type="NCMS000">a|ro|ma|</w>
+          <w lemma="tal" type="PD0CS00">tal|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="vano" type="NCMS000">va|no|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|-|-|10|-|" n="8">
+          <!--resistiendo sus troncos al gusano.-->
+          <w lemma="resistir" type="VMG0000">re|sis|tien|do|</w>
+          <w lemma="su" type="DP3CPN">sus|</w>
+          <w lemma="tronco" type="NCMP000">tron|cos|</w>
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="gusano" type="NCMS000">gu|sa|no|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

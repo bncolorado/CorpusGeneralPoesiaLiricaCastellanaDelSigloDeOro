@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Al tiempo que verná aquel </title>
+          <author>Cristóbal de Castillejo</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/obras-de-devocion--0/html/fef95092-82b1-11df-acc7-002185ce6064_1.html#I_1_"/>
+          <editor>Edición digital basada en la de Obras de Castillejo, edición, prólogo y notas de Jesús Rodríguez Bordona, Madrid, Espasa-Calpe, 1958, t. IV, pp. 175-236. </editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Al tiempo que verná aquel</title>
+      </head>
+      <lg cert="low" type="Coplas">
+        <l met="-|-|-|-|-|6|7|-|" n="1">
+          <!--Al tiempo que verná aquel-->
+          <w lemma="al_tiempo_que" type="CS">a_el_|tiem|po_|que|</w>
+          <w lemma="verná" type="VMIF3S0">ver|ná</w>
+          <w lemma="aquel" type="DD0MS0">a|quel|</w>
+        </l>
+        <l met="1|2|-|-|-|-|7|-|" n="2">
+          <!--que es santo sobre los santos-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="santo" type="AQ0MS00">san|to|</w>
+          <w lemma="sobre" type="SP">so|bre|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="santo" type="NCMP000">san|to|s|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="3">
+          <!--cesará la unción de cuantos-->
+          <w lemma="cesar" type="VMIF3S0">ce|sa|rá|</w>
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="unción" type="NCFS000">un|ción|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="cuanto" type="DI0MP0">cuan|tos|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="4">
+          <!--reyes hay en Israel;-->
+          <w lemma="rey" type="NCMP000">re|yes|</w>
+          <w lemma="haber" type="VMIP3S0">hay|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="israel" type="NP00000">i|sra|el|</w>
+        </l>
+        <l met="-|2|3|-|-|-|7|-|" n="5">
+          <!--porque es justo que en el suelo-->
+          <w lemma="porque" type="CS">por|que</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="justo" type="AQ0MS00">jus|to|</w>
+          <w lemma="que" type="CS">que</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="suelo" type="NCMS000">sue|lo|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="6">
+          <!--no reconozca la gente-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="reconocer" type="VMSP3S0">re|co|noz|ca|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="gente" type="NCFS000">gen|te|</w>
+        </l>
+        <l met="1|-|3|4|-|-|7|-|" n="7">
+          <!--otro rey, siendo presente-->
+          <w lemma="otro" type="DI0MS0">o|tro|</w>
+          <w lemma="rey" type="NCMS000">rey|</w>
+          <w lemma="ser" type="VSG0000">sien|do|</w>
+          <w lemma="presente" type="AQ0CS00">pre|sen|te|</w>
+        </l>
+        <l met="-|2|3|4|-|-|7|-|" n="8">
+          <!--el Rey muy alto del cielo.-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="rey" type="NP00000">rey|</w>
+          <w lemma="muy" type="RG">muy|</w>
+          <w lemma="alto" type="AQ0MS00">al|to|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="cielo" type="NCMS000">cie|lo|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

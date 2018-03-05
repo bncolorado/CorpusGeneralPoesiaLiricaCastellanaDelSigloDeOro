@@ -1,0 +1,120 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Flor con voz, volante flor</title>
+          <author>Francisco de Quevedo</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/poesia-de-la-edad-de-oro-vol-ii/html/e022c8fa-a100-11e1-b1fb-00163ebf5e63_5.html#I_48_"/>
+          <editor>Juan Manuel Rozas</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title> Flor con voz, volante flor,</title>
+      </head>
+      <lg cert="high" type="Décima">
+        <l met="1|-|3|-|5|-|7|-|" n="1">
+          <!--Flor con voz, volante flor,-->
+          <w lemma="flor" type="NCFS000">flor|</w>
+          <w lemma="flor" type="NCFS000">flor|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="voz" type="NCFS000">voz|</w>
+          <w lemma="volante" type="NCMS000">vo|lan|te|</w>
+          <w lemma="flor" type="NCFS000">flor|</w>
+          <w lemma="flor" type="NCFS000">flor|</w>
+        </l>
+        <l met="1|-|3|-|5|-|7|-|" n="2">
+          <!--silbo alado, voz pintada,-->
+          <w lemma="silbo" type="NCMS000">sil|bo</w>
+          <w lemma="alado" type="AQ0MS00">a|la|do|</w>
+          <w lemma="voz" type="NCFS000">voz|</w>
+          <w lemma="pintar" type="VMP00SF">pin|ta|da|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="3">
+          <!--lira de pluma animada-->
+          <w lemma="lira" type="NCFS000">li|ra|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="pluma" type="NCFS000">plu|ma</w>
+          <w lemma="animar" type="VMP00SF">a|ni|ma|da|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="4">
+          <!--y ramillete cantor;-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="ramillete" type="NCMS000">ra|mi|lle|te|</w>
+          <w lemma="cantor" type="AQ0MS00">can|tor|</w>
+        </l>
+        <l met="1|2|-|-|-|-|7|-|" n="5">
+          <!--di, átomo volador,-->
+          <w lemma="dar" type="VMIS1S0">di|</w>
+          <w lemma="átomo" type="NCMS000">á|to|mo|</w>
+          <w lemma="volador" type="AQ0MS00">vo|la|dor|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="6">
+          <!--florido acento de pluma,-->
+          <w lemma="florido" type="AQ0MS00">flo|ri|do</w>
+          <w lemma="acento" type="NCMS000">a|cen|to|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="pluma" type="NCFS000">plu|ma|</w>
+        </l>
+        <l met="1|-|-|-|5|-|7|-|" n="7">
+          <!--bella organizada suma-->
+          <w lemma="bello" type="AQ0FS00">be|lla</w>
+          <w lemma="organizar" type="VMP00SF">or|ga|ni|za|da|</w>
+          <w lemma="sumar" type="VMIP3S0">su|ma|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="8">
+          <!--de lo hermoso y lo süave,-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA00S0">lo</w>
+          <w lemma="hermoso" type="AQ0MS00">her|mo|so</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="el" type="DA00S0">lo</w>
+          <w lemma="süave" type="NCFS000">sü|a|ve|</w>
+        </l>
+        <l met="1|-|3|-|5|6|7|-|" n="9">
+          <!--¿cómo cabe en sola un ave-->
+          <w lemma="cómo" type="PT00000">có|mo|</w>
+          <w lemma="caber" type="VMIP3S0">ca|be</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="solo" type="AQ0FS00">so|la</w>
+          <w lemma="uno" type="DI0MS0">un|</w>
+          <w lemma="ave" type="NCFS000">a|ve|</w>
+        </l>
+        <l met="1|-|-|-|5|-|7|-|" n="10">
+          <!--cuanto el contrapunto suma?-->
+          <w lemma="cuanto" type="RG">cuan|to</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="contrapunto" type="NCMS000">con|tra|pun|to|</w>
+          <w lemma="sumar" type="VMIP3S0">su|ma|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

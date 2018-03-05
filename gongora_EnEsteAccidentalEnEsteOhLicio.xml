@@ -1,0 +1,172 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>En este accidental, en este, oh Licio,</title>
+          <author>Luis de Góngora Y Argote</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/poesia-de-la-edad-de-oro-vol-ii/html/e022c8fa-a100-11e1-b1fb-00163ebf5e63_3.html#I_20_"/>
+          <editor>Juan Manuel Rozas</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>En este accidental, en este, oh Licio,</title>
+      </head>
+      <lg cert="high" type="Soneto">
+        <l met="-|2|-|-|-|6|-|8|-|10|-|" n="1">
+          <!--En este accidental, en este, oh Licio,-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="este" type="DD0MS0">es|te</w>
+          <w lemma="accidental" type="AQ0CS00">ac|ci|den|tal|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="este" type="PD0MS00">es|te</w>
+          <w lemma="oh" type="I">oh|</w>
+          <w lemma="licio" type="NP00000">li|cio|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|-|-|10|-|" n="2">
+          <!--climatérico lustro de tu vida,-->
+          <w lemma="climatérico" type="AQ0MS00">cli|ma|té|ri|co|</w>
+          <w lemma="lustro" type="NCMS000">lus|tro|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="vida" type="NCFS000">vi|da|</w>
+        </l>
+        <l met="1|-|3|-|-|6|-|8|-|10|-|" n="3">
+          <!--todo mal afirmado pie es caída,-->
+          <w lemma="todo" type="PI0MS00">to|do|</w>
+          <w lemma="mal" type="RG">mal|</w>
+          <w lemma="afirmar" type="VMP00SM">a|fir|ma|do|</w>
+          <w lemma="pie" type="NCMS000">pie</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="caída" type="NCFS000">ca|í|da|</w>
+        </l>
+        <l met="1|-|3|-|-|6|7|-|-|10|-|" n="4">
+          <!--toda fácil caída es precipicio.-->
+          <w lemma="todo" type="DI0FS0">to|da|</w>
+          <w lemma="fácil" type="AQ0CS00">fá|cil|</w>
+          <w lemma="caída" type="NCFS000">ca|í|da</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="precipicio" type="NCMS000">pre|ci|pi|cio|</w>
+        </l>
+        <l met="-|2|-|-|5|-|-|-|9|-|" n="5">
+          <!--¿Caduca el paso? Ilústrese el juïcio.-->
+          <w lemma="caducar" type="VMIP3S0">ca|du|ca|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="pasoIlustre" type="NCMS000">VMM03S0</w>
+          <w lemma="se" type="PP3CN00">se|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="juïcio" type="NCMS000">juï|cio|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|8|-|10|-|" n="6">
+          <!--Desatándose va la tierra unida;-->
+          <w lemma="desatar" type="VMG0000">de|sa|tan|do|</w>
+          <w lemma="se" type="PP3CN00">se|</w>
+          <w lemma="ir" type="VMIP3S0">va|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="tierra" type="NCFS000">tie|rra</w>
+          <w lemma="unir" type="VMP00SF">u|ni|da|</w>
+        </l>
+        <l met="1|-|3|-|-|6|-|-|-|10|-|" n="7">
+          <!--¿qué prudencia del polvo prevenida-->
+          <w lemma="qué" type="DT0CN0">qué|</w>
+          <w lemma="prudencia" type="NCFS000">pru|den|cia|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="polvo" type="NCMS000">pol|vo|</w>
+          <w lemma="prevenir" type="VMP00SF">pre|ve|ni|da|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|-|-|10|-|" n="8">
+          <!--la ruïna aguardó del edificio?-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="ruïna" type="NCFS000">ruï|na|</w>
+          <w lemma="aguardar" type="VMIS3S0">a|guar|dó|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="edificio" type="NCMS000">e|di|fi|cio|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|-|-|10|-|" n="9">
+          <!--La piel no sólo, sierpe venenosa,-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="piel" type="NCFS000">piel|</w>
+          <w lemma="no_sólo" type="CC">no_|só|lo|</w>
+          <w lemma="sierpe" type="NCFS000">sier|pe|</w>
+          <w lemma="venenoso" type="AQ0FS00">ve|ne|no|sa|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|-|-|10|-|" n="10">
+          <!--mas con la piel los años se desnuda,-->
+          <w lemma="mas" type="CC">mas|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="piel" type="NCFS000">piel|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="año" type="NCMP000">a|ños|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="desnudar" type="VMIP3S0">des|nu|da|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|-|10|-|" n="11">
+          <!--y el hombre, no. ¡Ciego discurso humano!-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="hombre" type="NCMS000">hom|bre|</w>
+          <w lemma="noCiego" type="RN">AQ0MS00</w>
+          <w lemma="discurso" type="NCMS000">dis|cur|so|</w>
+          <w lemma="humano" type="AQ0MS00">hu|ma|no|</w>
+        </l>
+        <l met="-|2|-|4|-|-|-|-|-|10|-|" n="12">
+          <!--¡Oh aquel dichoso, que la ponderosa-->
+          <w lemma="oh" type="I">oh</w>
+          <w lemma="aquel" type="PD0MS00">a|quel|</w>
+          <w lemma="dichoso" type="AQ0MS00">di|cho|so|</w>
+          <w lemma="que" type="CS">que</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="ponderoso" type="AQ0FS00">pon|de|ro|sa|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|8|-|10|-|" n="13">
+          <!--porción depuesta en una piedra muda,-->
+          <w lemma="porción" type="NCFS000">por|ción|</w>
+          <w lemma="deponer" type="VMP00SF">de|pues|ta</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="uno" type="DI0FS0">u|na|</w>
+          <w lemma="piedra" type="NCFS000">pie|dra|</w>
+          <w lemma="mudo" type="AQ0FS00">mu|da|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|-|-|10|-|" n="14">
+          <!--la leve da al zafiro soberano!-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="leve" type="AQ0CS00">le|ve|</w>
+          <w lemma="dar" type="VMIP3S0">da</w>
+          <w lemma="al" type="SP">a|l</w>
+          <w lemma="zafiro" type="NCMS000">za|fi|ro|</w>
+          <w lemma="soberano" type="AQ0MS00">so|be|ra|no|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

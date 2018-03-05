@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Tres víolas del cielo</title>
+          <author>Luis de Góngora Y Argote</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/sonetos-canciones-y-otros-poemas-en-arte-mayor--0/html/fee6a3de-82b1-11df-acc7-002185ce6064_2.html#I_32_"/>
+          <editor>Juan e Isabel Millé y Giménez</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Tres víolas del cielo,</title>
+      </head>
+      <lg cert="high" type="Madrigal">
+        <l met="1|2|-|-|-|6|-|" n="1">
+          <!--Tres víolas del cielo,-->
+          <w lemma="3" type="Z">tres|</w>
+          <w lemma="víolas" type="NCFP000">ví|o|las|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="cielo" type="NCMS000">cie|lo|</w>
+        </l>
+        <l met="1|-|-|4|-|6|7|-|-|10|-|" n="2">
+          <!--tres de las flores ya breves estrellas,-->
+          <w lemma="3" type="Z">tres|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="flor" type="NCFP000">flo|res|</w>
+          <w lemma="ya" type="RG">ya|</w>
+          <w lemma="breve" type="AQ0CP00">bre|ves|</w>
+          <w lemma="estrella" type="NCFP000">es|tre|llas|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|" n="3">
+          <!--fragrante mármol, sellas,-->
+          <w lemma="fragrante" type="AQ0CS00">fra|gran|te|</w>
+          <w lemma="mármol" type="NCMS000">már|mol|</w>
+          <w lemma="sellar" type="VMIP2S0">se|llas|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|-|-|10|-|" n="4">
+          <!--que aljofaró la muerte de su hielo;-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="aljofarar" type="VMIS3S0">al|jo|fa|ró|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="muerte" type="NCFS000">muer|te|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="hielo" type="NCMS000">hie|lo|</w>
+        </l>
+        <l met="-|-|3|-|5|6|-|8|-|10|-|" n="5">
+          <!--si las trenzas no están ciñendo ahora-->
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="trenza" type="NCFP000">tren|zas|</w>
+          <w lemma="no" type="RN">no</w>
+          <w lemma="estar" type="VAIP3P0">es|tán|</w>
+          <w lemma="ceñir" type="VMG0000">ci|ñen|do</w>
+          <w lemma="ahora" type="RG">a|ho|ra|</w>
+        </l>
+        <l met="1|2|-|-|-|6|-|-|-|10|-|" n="6">
+          <!--de una Alba que crepúsculos ignora.-->
+          <w lemma="de" type="SP">de</w>
+          <w lemma="uno" type="DI0FS0">u|na</w>
+          <w lemma="alba" type="NP00000">al|ba|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="crepúsculo" type="NCMP000">cre|pús|cu|los|</w>
+          <w lemma="ignorar" type="VMIP3S0">ig|no|ra|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Clenarda, tu cuerpo es tal,</title>
+          <author>Jacinto Polo de Medina</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/el-buen-humor-de-las-musas--0/html/fede9afe-82b1-11df-acc7-002185ce6064_1.html#I_84_"/>
+          <editor>...</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title> Clenarda, tu cuerpo es tal,</title>
+      </head>
+      <lg cert="high" type="Epigrama">
+        <l met="-|2|-|-|5|6|7|-|" n="1">
+          <!--Clenarda, tu cuerpo es tal,-->
+          <w lemma="clenarda" type="NP00000">cle|nar|da|</w>
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="cuerpo" type="NCMS000">cuer|po</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="tal" type="PD0CS00">tal|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="2">
+          <!--que dicen cuantos lo ven-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="decir" type="VMIP3P0">di|cen|</w>
+          <w lemma="cuanto" type="PR0MP00">cuan|tos|</w>
+          <w lemma="lo" type="PP3MSA0">lo|</w>
+          <w lemma="ver" type="VMIP3P0">ven|</w>
+        </l>
+        <l met="-|-|3|4|-|-|7|-|" n="3">
+          <!--que en lo angosto es como el bien-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA00S0">lo</w>
+          <w lemma="angosto" type="AQ0MS00">an|gos|to</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="como" type="CS">co|mo</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="bien" type="NCMS000">bien|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="4">
+          <!--y en lo largo como el mal.-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA00S0">lo|</w>
+          <w lemma="largo" type="AQ0MS00">lar|go|</w>
+          <w lemma="como" type="CS">co|mo</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="mal" type="NCMS000">mal|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="5">
+          <!--Y tantos gustos agosta-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="tanto" type="DI0MP0">tan|tos|</w>
+          <w lemma="gusto" type="NCMP000">gus|tos|</w>
+          <w lemma="agostar" type="VMIP3S0">a|gos|ta|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="6">
+          <!--tu trato, vista y engaños,-->
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="trato" type="NCMS000">tra|to|</w>
+          <w lemma="vista" type="NCFS000">vis|ta</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="engaño" type="NCMP000">en|ga|ños|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="7">
+          <!--que por el cuerpo y los daños-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="cuerpo" type="NCMS000">cuer|po</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="daño" type="NCMP000">da|ños|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="8">
+          <!--te llamamos la langosta.-->
+          <w lemma="te" type="PP2CS00">te|</w>
+          <w lemma="llamar" type="VMIP1P0">lla|ma|mos|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="langosta" type="NCFS000">lan|gos|ta|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,555 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Catalina la embustera, </title>
+          <author>Jacinto Polo de Medina</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/el-buen-humor-de-las-musas--0/html/fede9afe-82b1-11df-acc7-002185ce6064_1.html#I_45_"/>
+          <editor>...</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title> Catalina la embustera,</title>
+      </head>
+      <lg cert="high" type="Romance">
+        <l met="-|-|3|-|-|-|7|-|" n="1">
+          <!--Catalina la embustera,-->
+          <w lemma="catalina" type="NP00000">ca|ta|li|na|</w>
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="embustero" type="NCFS000">em|bus|te|ra|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="2">
+          <!--la que en Murcia mereció-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="que" type="PR0CN00">que</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="murcia" type="NP00000">mur|cia|</w>
+          <w lemma="merecer" type="VMIS3S0">me|re|ció|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="3">
+          <!--nombre de linda su cara,-->
+          <w lemma="nombre" type="NCMS000">nom|bre|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="lindar" type="VMIP3S0">lin|da|</w>
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="cara" type="NCFS000">ca|ra|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="4">
+          <!--de falsa su condición.-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="falso" type="AQ0FS00">fal|sa|</w>
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="condición" type="NCFS000">con|di|ción|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="5">
+          <!--La que por su gran belleza-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="gran" type="AQ0CS00">gran|</w>
+          <w lemma="belleza" type="NCFS000">be|lle|za|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="6">
+          <!--vivió en la Puerta del Sol,-->
+          <w lemma="vivir" type="VMIS3S0">vi|vió</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="puerta_de_el_sol" type="NP00000">puer|ta_|de_el_|sol|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="7">
+          <!--y en la plazuela de Gracia,-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="plazuela" type="NCFS000">pla|zue|la|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="gracia" type="NP00000">gra|cia|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="8">
+          <!--por las gracias de su humor.-->
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="gracia" type="NCFP000">gra|cias|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="su" type="DP3CSN">su</w>
+          <w lemma="humor" type="NCMS000">hu|mor|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="9">
+          <!--La que dicen que en su casa-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="decir" type="VMIP3P0">di|cen|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="casa" type="NCFS000">ca|sa|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="10">
+          <!--es molino del amor,-->
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="molino" type="NCMS000">mo|li|no|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="amor" type="NCMS000">a|mor|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="11">
+          <!--y si no la dan, maquila-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="lo" type="PP3FSA0">la|</w>
+          <w lemma="dar" type="VMIP3P0">dan|</w>
+          <w lemma="maquilar" type="VMIP3S0">ma|qui|la|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="12">
+          <!--la posada del León.-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="posada" type="NCFS000">po|sa|da|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="león" type="NP00000">león|</w>
+        </l>
+        <l met="-|2|-|-|-|-|-|8|-|" n="13">
+          <!--Quien vive en el paraíso-->
+          <w lemma="quien" type="PR0CS00">quien|</w>
+          <w lemma="vivir" type="VMIP3S0">vi|ve|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="paraíso" type="NCMS000">pa|ra|í|so|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="14">
+          <!--para el Ángel que la dio,-->
+          <w lemma="para" type="SP">pa|ra</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="ángel" type="NP00000">án|gel|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="lo" type="PP3FSA0">la|</w>
+          <w lemma="dar" type="VMIS3S0">dio|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="15">
+          <!--y al señuelo de un escudo,-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="señuelo" type="NCMS000">se|ñue|lo|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="uno" type="DI0MS0">un|</w>
+          <w lemma="escudo" type="NCMS000">es|cu|do|</w>
+        </l>
+        <l met="1|-|3|-|-|-|" n="16">
+          <!--es del Águila el Cantón.-->
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="águila_el_cantón" type="NP00000">á|gui|la_el_|can|tón|</w>
+        </l>
+        <l met="-|2|3|-|-|-|7|-|" n="17">
+          <!--La que es calle de Cadena-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="que" type="PR0CN00">que</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="calle" type="NCFS000">ca|lle|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="cadena" type="NP00000">ca|de|na|</w>
+        </l>
+        <l met="-|-|-|-|-|-|7|-|" n="18">
+          <!--para quien se la ferió,-->
+          <w lemma="para" type="SP">pa|ra|</w>
+          <w lemma="quien" type="PR0CS00">quien|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="lo" type="PP3FSA0">la|</w>
+          <w lemma="feriar" type="VMIS3S0">fe|rió|</w>
+        </l>
+        <l met="1|2|-|-|-|-|7|-|" n="19">
+          <!--y él, calle de adelantado-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="él" type="PP3MS00">él|</w>
+          <w lemma="calle" type="NCFS000">ca|lle|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="adelantar" type="VMP00SM">a|de|lan|ta|do|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="20">
+          <!--en los gustos y el favor.-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="gusto" type="NCMP000">gus|tos|</w>
+          <w lemma="y" type="CC">y</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="favor" type="NCMS000">fa|vor|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="21">
+          <!--Por la rica Lencería-->
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="rico" type="NCFS000">ri|ca|</w>
+          <w lemma="lencería" type="NP00000">len|ce|rí|a|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="22">
+          <!--la Trapería dejó,-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="trapería" type="NP00000">tra|pe|rí|a|</w>
+          <w lemma="dejar" type="VMIS3S0">de|jó|</w>
+        </l>
+        <l met="-|-|-|4|5|-|7|-|" n="23">
+          <!--y por tener puerta Nueva,-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="tener" type="VMN0000">te|ner|</w>
+          <w lemma="puerta" type="NCFS000">puer|ta|</w>
+          <w lemma="nueva" type="NP00000">nue|va|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="24">
+          <!--a la Merced se pasó.-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="merced" type="NP00000">mer|ced|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="pasar" type="VMIS3S0">pa|só|</w>
+        </l>
+        <l met="-|-|3|4|-|-|7|-|" n="25">
+          <!--Y al que más franco la sirve-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="franco" type="AQ0MS00">fran|co|</w>
+          <w lemma="lo" type="PP3FSA0">la|</w>
+          <w lemma="servir" type="VMIP3S0">sir|ve|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="26">
+          <!--y con más lealtad la amó,-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="lealtad" type="NCFS000">leal|tad|</w>
+          <w lemma="lo" type="PP3FSA0">la</w>
+          <w lemma="amar" type="VMIS3S0">a|mó|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="27">
+          <!--en el cantón del Cabrito-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="cantón" type="NCMS000">can|tón|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="cabrito" type="NP00000">ca|bri|to|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="28">
+          <!--la da por manso, mansión.-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="dar" type="VMIP3S0">da|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="manso" type="NCMS000">man|so|</w>
+          <w lemma="mansión" type="NCFS000">man|sión|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="29">
+          <!--Guárdense de ella y su amante,-->
+          <w lemma="guardar" type="VMM03P0">guar|den|</w>
+          <w lemma="se" type="PP3CN00">se|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="él" type="PP3FS00">e|lla</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="su" type="DP3CSN">su</w>
+          <w lemma="amante" type="NCCS000">a|man|te|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="30">
+          <!--después que viven los dos,-->
+          <w lemma="después" type="RG">des|pués|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="vivir" type="VMIP3P0">vi|ven|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="2" type="Z">dos|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="31">
+          <!--él en la puerta del Toro,-->
+          <w lemma="él" type="PP3MS00">él|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="puerta" type="NCFS000">puer|ta|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="toro" type="NP00000">to|ro|</w>
+        </l>
+        <l met="1|-|-|-|-|-|7|-|" n="32">
+          <!--y ella en la de la Traición.-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="él" type="PP3FS00">e|lla</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="traición" type="NP00000">trai|ción|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="33">
+          <!--Mas por registrar los dientes,-->
+          <w lemma="mas" type="CC">mas|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="registrar" type="VMN0000">re|gis|trar|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="diente" type="NCMP000">dien|tes|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="34">
+          <!--para sus hechizos hoy-->
+          <w lemma="para" type="SP">pa|ra|</w>
+          <w lemma="su" type="DP3CPN">sus|</w>
+          <w lemma="hechizo" type="NCMP000">he|chi|zos|</w>
+          <w lemma="hoy" type="RG">hoy|</w>
+        </l>
+        <l met="-|-|-|-|-|-|7|-|" n="35">
+          <!--junto a los Descabezados-->
+          <w lemma="junto_a" type="SP">jun|to_a|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="descabezados" type="NP00000">des|ca|be|za|dos|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="36">
+          <!--me dicen que se mudó.-->
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="decir" type="VMIP3P0">di|cen|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="mudar" type="VMIS3S0">mu|dó|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="37">
+          <!--La plazuela de los Gatos-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="plazuela" type="NCFS000">pla|zue|la|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="gatos" type="NP00000">ga|tos|</w>
+        </l>
+        <l met="1|2|-|-|-|-|7|-|" n="38">
+          <!--es cierto que la parió,-->
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="cierto" type="AQ0MS00">cier|to|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="lo" type="PP3FSA0">la|</w>
+          <w lemma="parir" type="VMIS3S0">pa|rió|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="39">
+          <!--pues luego le dice mío,-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="luego" type="RG">lue|go|</w>
+          <w lemma="le" type="PP3CSD0">le|</w>
+          <w lemma="decir" type="VMIP3S0">di|ce|</w>
+          <w lemma="mío" type="AP0MS1S">mí|o|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="40">
+          <!--en columbrando en doblón.-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="columbrar" type="VMG0000">co|lum|bran|do</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="doblón" type="NCMS000">do|blón|</w>
+        </l>
+        <l met="1|-|3|4|-|-|7|-|" n="41">
+          <!--Es su amor tan quebradizo,-->
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="su" type="DP3CSN">su</w>
+          <w lemma="amor" type="NCMS000">a|mor|</w>
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="quebradizo" type="AQ0MS00">que|bra|di|zo|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="42">
+          <!--que este vicio la trocó-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="este" type="DD0MS0">es|te|</w>
+          <w lemma="vicio" type="NCMS000">vi|cio|</w>
+          <w lemma="lo" type="PP3FSA0">la|</w>
+          <w lemma="trocar" type="VMIS3S0">tro|có|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|" n="43">
+          <!--en puerta de Vidriero-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="puerta" type="NCFS000">puer|ta|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="vidriero" type="NP00000">vi|drie|ro|</w>
+        </l>
+        <l met="1|-|3|4|-|-|7|-|" n="44">
+          <!--es la más fuerte ocasión.-->
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="fuerte" type="AQ0CS00">fuer|te</w>
+          <w lemma="ocasión" type="NCFS000">o|ca|sión|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="45">
+          <!--En la calle Alta vive,-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="calle" type="NCFS000">ca|lle|</w>
+          <w lemma="alta" type="NP00000">al|ta|</w>
+          <w lemma="vivir" type="VMIP3S0">vi|ve|</w>
+        </l>
+        <l met="-|-|-|-|-|-|7|-|" n="46">
+          <!--si del que la enamoró-->
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="lo" type="PP3FSA0">la</w>
+          <w lemma="enamorar" type="VMIS3S0">e|na|mo|ró|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="47">
+          <!--en el Cantón de la muerte,-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="cantón" type="NP00000">can|tón|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="muerte" type="NCFS000">muer|te|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="48">
+          <!--su dinerillo espiró.-->
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="dinerillo" type="NCMS000">di|ne|ri|llo</w>
+          <w lemma="espirar" type="VMIS3S0">es|pi|ró|</w>
+        </l>
+        <l met="-|-|3|4|-|-|7|-|" n="49">
+          <!--Pero ya no la pasean,-->
+          <w lemma="pero" type="CC">pe|ro|</w>
+          <w lemma="ya" type="RG">ya|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="lo" type="PP3FSA0">la|</w>
+          <w lemma="pasear" type="VMIP3P0">pa|se|an|</w>
+        </l>
+        <l met="-|-|3|-|-|-|-|8|-|" n="50">
+          <!--que el tiempo la paseó,-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="tiempo" type="NCMS000">tiem|po|</w>
+          <w lemma="lo" type="PP3FSA0">la|</w>
+          <w lemma="pasear" type="VMIS3S0">pa|se|ó|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="51">
+          <!--y en la Corredera vivo,-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="corredera" type="NP00000">co|rre|de|ra|</w>
+          <w lemma="vivo" type="AQ0MS00">vi|vo|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="52">
+          <!--corredera del amor.-->
+          <w lemma="corredera" type="NCFS000">co|rre|de|ra|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="amor" type="NCMS000">a|mor|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="53">
+          <!--Y aunque nos vende sus labios-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="aunque" type="CC">aun|que|</w>
+          <w lemma="nos" type="P01CP00">nos|</w>
+          <w lemma="vender" type="VMIP3S0">ven|de|</w>
+          <w lemma="su" type="DP3CPN">sus|</w>
+          <w lemma="labio" type="NCMP000">la|bios|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="54">
+          <!--por guinda, y clarín su voz,-->
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="guinda" type="NCFS000">guin|da</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="clarín" type="NCMS000">cla|rín|</w>
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="voz" type="NCFS000">voz|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="55">
+          <!--la plaza del Almenar-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="plaza" type="NCFS000">pla|za|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="almenar" type="NP00000">al|me|nar|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="56">
+          <!--su boca y sus dientes son.-->
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="boca" type="NCFS000">bo|ca</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="su" type="DP3CPN">sus|</w>
+          <w lemma="diente" type="NCMP000">dien|tes|</w>
+          <w lemma="ser" type="VSIP3P0">son|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="57">
+          <!--Y como todos registran-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="como" type="CS">co|mo|</w>
+          <w lemma="todo" type="PI0MP00">to|dos|</w>
+          <w lemma="registrar" type="VMIP3P0">re|gis|tran|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|" n="58">
+          <!--su libro por mayor,-->
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="libro" type="NCMS000">li|bro|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="mayor" type="AQ0CS00">ma|yor|</w>
+        </l>
+        <l met="1|2|-|-|-|-|7|-|" n="59">
+          <!--es puerta de la Aduana-->
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="puerta" type="NCFS000">puer|ta|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="aduana" type="NP00000">a|dua|na|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="60">
+          <!--al rico, que al pobre no.-->
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="rico" type="AQ0MS00">ri|co|</w>
+          <w lemma="que" type="CS">que</w>
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="pobre" type="AQ0CS00">po|bre|</w>
+          <w lemma="no" type="RN">no|</w>
+        </l>
+        <l met="-|-|-|-|-|-|7|-|" n="61">
+          <!--Mas después de sus trabajos,-->
+          <w lemma="mas" type="CC">mas|</w>
+          <w lemma="después_de" type="SP">des|pués_|de|</w>
+          <w lemma="su" type="DP3CPN">sus|</w>
+          <w lemma="trabajo" type="NCMP000">tra|ba|jos|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="62">
+          <!--para pasarlo mejor-->
+          <w lemma="para" type="SP">pa|ra|</w>
+          <w lemma="pasar" type="VMN0000">pa|sar|</w>
+          <w lemma="lo" type="PP3MSA0">lo|</w>
+          <w lemma="mejor" type="RG">me|jor|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="63">
+          <!--vivió en la Pellejería,-->
+          <w lemma="vivir" type="VMIS3S0">vi|vió</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="pellejería" type="NP00000">pe|lle|je|rí|a|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="64">
+          <!--y en la Puridad bebió.-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="puridad" type="NP00000">pu|ri|dad|</w>
+          <w lemma="beber" type="VMIS3S0">be|bió|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

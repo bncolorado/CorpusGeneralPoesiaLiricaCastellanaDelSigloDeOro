@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>De una casa en que se alberga </title>
+          <author>Jacinto Polo de Medina</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/el-buen-humor-de-las-musas--0/html/fede9afe-82b1-11df-acc7-002185ce6064_1.html#I_84_"/>
+          <editor>...</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>De una casa en que se alberga</title>
+      </head>
+      <lg cert="high" type="Epigrama">
+        <l met="1|-|3|-|-|-|7|-|" n="1">
+          <!--De una casa en que se alberga-->
+          <w lemma="de" type="SP">de</w>
+          <w lemma="uno" type="DI0FS0">u|na|</w>
+          <w lemma="casa" type="NCFS000">ca|sa</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="se" type="P00CN00">se</w>
+          <w lemma="albergar" type="VMIP3S0">al|ber|ga|</w>
+        </l>
+        <l met="1|2|-|-|-|-|7|-|" n="2">
+          <!--un hombre calificado-->
+          <w lemma="uno" type="DI0MS0">un|</w>
+          <w lemma="hombre" type="NCMS000">hom|bre|</w>
+          <w lemma="calificar" type="VMP00SM">ca|li|fi|ca|do|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="3">
+          <!--con un balcón de brocado-->
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="uno" type="DI0MS0">un|</w>
+          <w lemma="balcón" type="NCMS000">bal|cón|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="brocado" type="NCMS000">bro|ca|do|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="4">
+          <!--en una pared de jerga;-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="uno" type="DI0FS0">u|na|</w>
+          <w lemma="pared" type="NCFS000">pa|red|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="jerga" type="NCFS000">jer|ga|</w>
+        </l>
+        <l met="-|-|3|4|-|-|7|-|" n="5">
+          <!--Por algún grave delito-->
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="alguno" type="DI0MS0">al|gún|</w>
+          <w lemma="grave" type="AQ0CS00">gra|ve|</w>
+          <w lemma="delito" type="NCMS000">de|li|to|</w>
+        </l>
+        <l met="1|-|3|4|-|-|7|-|" n="6">
+          <!---dijo Delio-, es con razón-->
+          <w lemma="decir" type="VMIS3S0">di|jo|</w>
+          <w lemma="delio" type="NP00000">de|lio</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="razón" type="NCFS000">ra|zón|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="7">
+          <!--aquel dorado balcón-->
+          <w lemma="aquel" type="DD0MS0">a|quel|</w>
+          <w lemma="dorar" type="VMP00SM">do|ra|do|</w>
+          <w lemma="balcón" type="NCMS000">bal|cón|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="8">
+          <!--de la pared sambenito.-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="pared" type="NCFS000">pa|red|</w>
+          <w lemma="sambenito" type="NCMS000">sam|be|ni|to|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

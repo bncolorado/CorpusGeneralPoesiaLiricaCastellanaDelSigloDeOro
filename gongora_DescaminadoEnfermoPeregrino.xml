@@ -1,0 +1,175 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Descaminado, enfermo, peregrino,</title>
+          <author>Luis de Góngora Y Argote</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/poesia-de-la-edad-de-oro-vol-ii/html/e022c8fa-a100-11e1-b1fb-00163ebf5e63_3.html#I_15_"/>
+          <editor>Juan Manuel Rozas</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title> Descaminado, enfermo, peregrino,</title>
+      </head>
+      <lg cert="..." type="...">
+        <l met="-|-|-|4|-|6|-|-|-|10|-|" n="1">
+          <!--Descaminado, enfermo, peregrino,-->
+          <w lemma="descaminar" type="VMP00SM">des|ca|mi|na|do</w>
+          <w lemma="enfermo" type="AQ0MS00">en|fer|mo|</w>
+          <w lemma="peregrino" type="AQ0MS00">pe|re|gri|no|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|-|9|10|-|" n="2">
+          <!--en tenebrosa noche, con pie incierto,-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="tenebroso" type="AQ0FS00">te|ne|bro|sa|</w>
+          <w lemma="noche" type="NCFS000">no|che|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="pie" type="NCMS000">pie</w>
+          <w lemma="incierto" type="AQ0MS00">in|cier|to|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|-|-|10|-|" n="3">
+          <!--la confusión pisando del desierto,-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="confusión" type="NCFS000">con|fu|sión|</w>
+          <w lemma="pisar" type="VMG0000">pi|san|do|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="desierto" type="NCMS000">de|sier|to|</w>
+        </l>
+        <l met="1|-|-|4|-|6|7|-|-|10|-|" n="4">
+          <!--voces en vano dio, pasos sin tino,-->
+          <w lemma="voz" type="NCFP000">vo|ces|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="vano" type="NCMS000">va|no|</w>
+          <w lemma="dar" type="VMIS3S0">dio|</w>
+          <w lemma="paso" type="NCMP000">pa|sos|</w>
+          <w lemma="sin" type="SP">sin|</w>
+          <w lemma="tino" type="NCMS000">ti|no|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|8|-|10|-|" n="5">
+          <!--Repetido latir, si no vecino,-->
+          <w lemma="repetir" type="VMP00SM">re|pe|ti|do|</w>
+          <w lemma="latir" type="VMN0000">la|tir|</w>
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="vecino" type="AQ0MS00">ve|ci|no|</w>
+        </l>
+        <l met="-|2|-|4|-|6|7|-|-|10|-|" n="6">
+          <!--distinto oyó de can siempre despierto,-->
+          <w lemma="distinto" type="AQ0MS00">dis|tin|to</w>
+          <w lemma="oír" type="VMIS3S0">o|yó|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="can" type="NCMS000">can|</w>
+          <w lemma="siempre" type="RG">siem|pre|</w>
+          <w lemma="despierto" type="AQ0MS00">des|pier|to|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|8|-|10|-|" n="7">
+          <!--y en pastoral albergue mal cubierto-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="pastoral" type="AQ0CS00">pas|to|ral|</w>
+          <w lemma="albergue" type="NCMS000">al|ber|gue|</w>
+          <w lemma="mal" type="RG">mal|</w>
+          <w lemma="cubrir" type="VMP00SM">cu|bier|to|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|8|-|10|-|" n="8">
+          <!--piedad halló, si no halló camino.-->
+          <w lemma="piedad" type="NCFS000">pie|dad|</w>
+          <w lemma="hallar" type="VMIS3S0">ha|lló|</w>
+          <w lemma="hallar" type="VMIS3S0">ha|lló|</w>
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="hallar" type="VMIS3S0">ha|lló|</w>
+          <w lemma="hallar" type="VMIS3S0">ha|lló|</w>
+          <w lemma="camino" type="NCMS000">ca|mi|no|</w>
+        </l>
+        <l met="-|2|3|-|-|6|-|-|-|10|-|" n="9">
+          <!--Salió el Sol, y entre armiños escondida,-->
+          <w lemma="salir" type="VMIS3S0">sa|lió</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="sol" type="NP00000">sol|</w>
+          <w lemma="y" type="CC">y</w>
+          <w lemma="entre" type="SP">en|tre</w>
+          <w lemma="armiño" type="NCMP000">ar|mi|ños|</w>
+          <w lemma="esconder" type="VMP00SF">es|con|di|da|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|8|-|10|-|" n="10">
+          <!--soñolienta beldad con dulce saña-->
+          <w lemma="soñoliento" type="AQ0FS00">so|ño|lien|ta|</w>
+          <w lemma="beldad" type="NCFS000">bel|dad|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="dulce" type="AQ0CS00">dul|ce|</w>
+          <w lemma="saña" type="NCFS000">sa|ña|</w>
+        </l>
+        <l met="-|2|-|4|5|6|-|-|-|10|-|" n="11">
+          <!--salteó al no bien sano pasajero.-->
+          <w lemma="saltear" type="VMIS3S0">sal|teó|</w>
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="bien" type="RG">bien|</w>
+          <w lemma="sano" type="AQ0MS00">sa|no|</w>
+          <w lemma="pasajero" type="NCMS000">pa|sa|je|ro|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|-|-|10|-|" n="12">
+          <!--Pagará el hospedaje con la vida;-->
+          <w lemma="pagar" type="VMIF3S0">pa|ga|rá</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="hospedaje" type="NCMS000">hos|pe|da|je|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="vida" type="NCFS000">vi|da|</w>
+        </l>
+        <l met="1|-|-|4|-|6|-|-|-|10|-|" n="13">
+          <!--más le valiera errar en la montaña-->
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="le" type="PP3CSD0">le|</w>
+          <w lemma="valer" type="VMSI3S0">va|lie|ra</w>
+          <w lemma="errar" type="VMN0000">e|rrar|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="montaña" type="NCFS000">mon|ta|ña|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|-|9|10|-|" n="14">
+          <!--que morir de la suerte que yo muero.-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="morir" type="VMN0000">mo|rir|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="suerte" type="NCFS000">suer|te|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="yo" type="PP1CSN0">yo|</w>
+          <w lemma="morir" type="VMIP1S0">mue|ro|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

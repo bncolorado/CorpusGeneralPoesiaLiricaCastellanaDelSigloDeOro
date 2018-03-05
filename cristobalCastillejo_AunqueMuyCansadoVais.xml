@@ -1,0 +1,109 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Aunque muy cansado vais,</title>
+          <author>Cristóbal de Castillejo</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/obras-de-devocion--0/html/fef95092-82b1-11df-acc7-002185ce6064_1.html#I_1_"/>
+          <editor>Edición digital basada en la de Obras de Castillejo, edición, prólogo y notas de Jesús Rodríguez Bordona, Madrid, Espasa-Calpe, 1958, t. IV, pp. 175-236. </editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Aunque muy cansado vais,</title>
+      </head>
+      <lg cert="low" type="Coplas">
+        <l met="-|-|3|-|5|-|7|-|" n="1">
+          <!--Aunque muy cansado vais,-->
+          <w lemma="aunque" type="CC">aun|que|</w>
+          <w lemma="muy" type="RG">muy|</w>
+          <w lemma="cansar" type="VMP00SM">can|sa|do|</w>
+          <w lemma="ir" type="VMIP2P0">vais|</w>
+        </l>
+        <l met="1|-|-|-|-|-|7|-|" n="2">
+          <!--viejo bienaventurado,-->
+          <w lemma="viejo" type="AQ0MS00">vie|jo|</w>
+          <w lemma="bienaventurado" type="NCMS000">bie|na|ven|tu|ra|do|</w>
+        </l>
+        <l met="-|2|3|-|-|-|7|-|" n="3">
+          <!--mayor es vuestro cuidado-->
+          <w lemma="mayor" type="AQ0CS00">ma|yor|</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="vuestro" type="DP2MSP">vues|tro|</w>
+          <w lemma="cuidado" type="NCMS000">cui|da|do|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="4">
+          <!--que el cansancio que lleváis.-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="cansancio" type="NCMS000">can|san|cio|</w>
+          <w lemma="que" type="PR0CN00">que</w>
+          <w lemma="llevar" type="VMIP2P0">lle|váis|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="5">
+          <!--Seguro vais de mesones,-->
+          <w lemma="seguro" type="RG">se|gu|ro|</w>
+          <w lemma="ir" type="VMIP2P0">vais|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="mesón" type="NCMP000">me|so|nes|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="6">
+          <!--Josef, mas no de ladrones;-->
+          <w lemma="josef" type="NP00000">jo|sef|</w>
+          <w lemma="mas" type="CC">mas|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="ladrón" type="NCMP000">la|dro|nes|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="7">
+          <!--y con corazón sereno-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="corazón" type="NCMS000">co|ra|zón|</w>
+          <w lemma="sereno" type="AQ0MS00">se|re|no|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="8">
+          <!--pasáis por el hijo ajeno-->
+          <w lemma="pasar" type="VMIP2P0">pa|sáis|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="hijo" type="NCMS000">hi|jo</w>
+          <w lemma="ajeno" type="AQ0MS00">a|je|no|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="9">
+          <!--por estas persecuciones.-->
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="este" type="DD0FP0">es|tas|</w>
+          <w lemma="persecución" type="NCFP000">per|se|cu|cio|nes|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

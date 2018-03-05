@@ -1,0 +1,120 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Si no os uviera mirado</title>
+          <author>Juan Boscán</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/obras-poeticas--0/html/fedcb9d2-82b1-11df-acc7-002185ce6064_1.html#I_2_"/>
+          <editor>Enrique Canedo, 1917</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Si no os uviera mirado</title>
+      </head>
+      <lg cert="low" type="Villancico">
+        <l met="-|2|-|4|-|-|7|-|" n="1">
+          <!--Si no os uviera mirado-->
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="no" type="RN">no</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+          <w lemma="uviera" type="VMSI3S0">u|vie|ra|</w>
+          <w lemma="mirar" type="VMP00SM">mi|ra|do|</w>
+        </l>
+        <l met="1|-|3|-|" n="2">
+          <!--no penara,-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="penar" type="VMSI3S0">pe|na|ra|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="3">
+          <!--pero tampoco os mirara.-->
+          <w lemma="pero" type="CC">pe|ro|</w>
+          <w lemma="tampoco" type="RG">tam|po|co</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+          <w lemma="mirar" type="VMSI3S0">mi|ra|ra|</w>
+        </l>
+        <l met="1|-|3|-|5|6|7|-|" n="4">
+          <!--Veros harto mal á sido,-->
+          <w lemma="vero" type="NCMP000">ve|ros|</w>
+          <w lemma="harto" type="AQ0MS00">har|to|</w>
+          <w lemma="mal" type="RG">mal|</w>
+          <w lemma="á" type="VMIF3S0">á|</w>
+          <w lemma="ser" type="VSP00SM">si|do|</w>
+        </l>
+        <l met="-|2|3|-|-|6|7|-|" n="5">
+          <!--mas no veros peor fuera;-->
+          <w lemma="mas" type="CC">mas|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="ver" type="VMN0000">ver|</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+          <w lemma="peor" type="RG">pe|or|</w>
+          <w lemma="fuera" type="RG">fue|ra|</w>
+        </l>
+        <l met="1|-|3|-|5|-|7|-|" n="6">
+          <!--no quedara tan perdido-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="quedar" type="VMSI3S0">que|da|ra|</w>
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="perder" type="VMP00SM">per|di|do|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="7">
+          <!--pero mucho más perdiera.-->
+          <w lemma="pero" type="CC">pe|ro|</w>
+          <w lemma="mucho" type="RG">mu|cho|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="perder" type="VMSI3S0">per|die|ra|</w>
+        </l>
+        <l met="1|2|-|4|-|6|7|-|" n="8">
+          <!--¿Qué viera aquél que no os viera?-->
+          <w lemma="qué" type="PT00000">qué|</w>
+          <w lemma="ver" type="VMSI3S0">vie|ra</w>
+          <w lemma="aquel" type="PD0MS00">a|quél|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="no" type="RN">no</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+          <w lemma="ver" type="VMSI3S0">vie|ra|</w>
+        </l>
+        <l met="1|-|3|-|" n="9">
+          <!--¿Cuál quedara,-->
+          <w lemma="cuál" type="PT0CS00">cuál|</w>
+          <w lemma="quedar" type="VMSI3S0">que|da|ra|</w>
+        </l>
+        <l met="-|2|-|-|5|-|-|8|-|" n="10">
+          <!--señora, si no os mirara?-->
+          <w lemma="señor" type="NCFS000">se|ño|ra|</w>
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+          <w lemma="mirar" type="VMSI3S0">mi|ra|ra|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

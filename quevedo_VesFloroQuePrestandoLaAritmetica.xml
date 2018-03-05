@@ -1,0 +1,270 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>¿Ves, Floro, que, prestando la aritmética</title>
+          <author>Francisco de Quevedo</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/antologia-poetica--39/html/ffa6b3fe-82b1-11df-acc7-002185ce6064_2.html#I_102_"/>
+          <editor>Roque Esteban Scarpa</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>¿Ves, Floro, que, prestando la aritmética</title>
+      </head>
+      <lg cert="high" type="Silva">
+        <l met="1|2|-|-|-|6|-|-|-|10|-|" n="1">
+          <!--¿Ves, Floro, que, prestando la aritmética-->
+          <w lemma="ve" type="NCFP000">ves|</w>
+          <w lemma="floro" type="NP00000">flo|ro|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="prestar" type="VMG0000">pres|tan|do|</w>
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="aritmética" type="NCFS000">a|rit|mé|ti|ca|</w>
+        </l>
+        <l met="1|-|-|-|-|6|-|-|-|10|-|" n="2">
+          <!--números a la docta geometría,-->
+          <w lemma="número" type="NCMP000">nú|me|ros|</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="docto" type="AQ0FS00">doc|ta|</w>
+          <w lemma="geometría" type="NCFS000">geo|me|trí|a|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|8|-|10|-|" n="3">
+          <!--los pasos de la luz le cuenta al día?-->
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="paso" type="NCMP000">pa|sos|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="luz" type="NCFS000">luz|</w>
+          <w lemma="le" type="PP3CSD0">le|</w>
+          <w lemma="contar" type="VMIP3S0">cuen|ta</w>
+          <w lemma="al" type="SP">a|l</w>
+          <w lemma="día" type="NCMS000">dí|a|</w>
+        </l>
+        <l met="1|-|-|4|-|6|-|8|-|10|-|" n="4">
+          <!--¿Ves por aquella línea bien fijada-->
+          <w lemma="ve" type="NCFP000">ves|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="aquel" type="DD0FS0">a|que|lla|</w>
+          <w lemma="línea" type="NCFS000">lí|nea|</w>
+          <w lemma="bien" type="RG">bien|</w>
+          <w lemma="fijar" type="VMP00SF">fi|ja|da|</w>
+        </l>
+        <l met="-|-|-|-|5|-|-|-|-|10|-|" n="5">
+          <!--a su meridiano, y a su altura,-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="meridiano" type="NCMS000">me|ri|dia|no</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="altura" type="NCFS000">al|tu|ra|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|-|-|10|-|" n="6">
+          <!--del sol la velocísima hermosura-->
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="sol" type="NCMS000">sol|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="veloz" type="AQSFS00">ve|lo|cí|si|ma</w>
+          <w lemma="hermosura" type="NCFS000">her|mo|su|ra|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="7">
+          <!--con certeza espiada?-->
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="certeza" type="NCFS000">cer|te|za|</w>
+          <w lemma="espiar" type="VMP00SF">es|pia|da|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="8">
+          <!--¿Agradeces curioso-->
+          <w lemma="agradecer" type="VMIP2S0">a|gra|de|ces|</w>
+          <w lemma="curioso" type="AQ0MS00">cu|rio|so|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="9">
+          <!--el saber cuanto vives,-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="saber" type="NCMS000">sa|ber|</w>
+          <w lemma="cuanto" type="PR0MS00">cuan|to|</w>
+          <w lemma="vivir" type="VMIP2S0">vi|ves|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|-|-|10|-|" n="10">
+          <!--y la luz y las horas que recibes?-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="luz" type="NCFS000">luz|</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="hora" type="NCFP000">ho|ras|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="recibir" type="VMIP2S0">re|ci|bes|</w>
+        </l>
+        <l met="-|-|-|-|-|6|-|-|-|10|-|" n="11">
+          <!--Empero, si olvidares estudioso,-->
+          <w lemma="empero" type="CC">em|pe|ro|</w>
+          <w lemma="si" type="CS">si</w>
+          <w lemma="olvidar" type="VMSF2S0">ol|vi|da|res|</w>
+          <w lemma="estudioso" type="AQ0MS00">es|tu|dio|so|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|" n="12">
+          <!--con pensamiento ocioso,-->
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="pensamiento" type="NCMS000">pen|sa|mien|to</w>
+          <w lemma="ocioso" type="AQ0MS00">o|cio|so|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="13">
+          <!--el saber cuanto mueres,-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="saber" type="NCMS000">sa|ber|</w>
+          <w lemma="cuanto" type="PR0MS00">cuan|to|</w>
+          <w lemma="morir" type="VMIP2S0">mue|res|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|-|9|10|-|" n="14">
+          <!--ingrato a tu vivir, y morir eres:-->
+          <w lemma="ingrato" type="AQ0MS00">in|gra|to</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="vivir" type="VMN0000">vi|vir|</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="morir" type="VMN0000">mo|rir|</w>
+          <w lemma="ser" type="VSIP2S0">e|res|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|-|-|10|-|" n="15">
+          <!--pues tu vida, si atiendes su doctrina,-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="vida" type="NCFS000">vi|da|</w>
+          <w lemma="si" type="CS">si</w>
+          <w lemma="atender" type="VMIP2S0">a|tien|des|</w>
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="doctrina" type="NCFS000">doc|tri|na|</w>
+        </l>
+        <l met="-|2|-|-|-|-|-|8|-|10|-|" n="16">
+          <!--camina al paso que su luz camina.-->
+          <w lemma="caminar" type="VMIP3S0">ca|mi|na</w>
+          <w lemma="al_paso_que" type="CS">a_el_|pa|so_|que|</w>
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="luz" type="NCFS000">luz|</w>
+          <w lemma="caminar" type="VMIP3S0">ca|mi|na|</w>
+        </l>
+        <l met="1|2|-|-|-|6|-|8|-|10|-|" n="17">
+          <!--No cuentes por sus líneas solamente-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="contar" type="VMSP2S0">cuen|tes|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="su" type="DP3CPN">sus|</w>
+          <w lemma="línea" type="NCFP000">lí|neas|</w>
+          <w lemma="solamente" type="RG">so|la|men|te|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|-|-|10|-|" n="18">
+          <!--las horas, sino lógrelas tu mente,-->
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="lo" type="PP3FPA0">las|</w>
+          <w lemma="hora" type="NCFP000">ho|ras|</w>
+          <w lemma="sino" type="CC">si|no|</w>
+          <w lemma="lograr" type="VMM03S0">lo|gre|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="lo" type="PP3FPA0">las|</w>
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="mente" type="NCFS000">men|te|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="19">
+          <!--pues en él recordada-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="él" type="PP3MS00">él|</w>
+          <w lemma="recordar" type="VMP00SF">re|cor|da|da|</w>
+        </l>
+        <l met="1|-|3|-|-|6|-|-|-|10|-|" n="20">
+          <!--ves tu muerte en tu vida retratada;-->
+          <w lemma="ver" type="VMIP2S0">ves|</w>
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="muerte" type="NCFS000">muer|te</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="vida" type="NCFS000">vi|da|</w>
+          <w lemma="retratar" type="VMP00SF">re|tra|ta|da|</w>
+        </l>
+        <l met="-|-|3|4|-|6|-|" n="21">
+          <!--cuando tú, que eres sombra,-->
+          <w lemma="cuando" type="CS">cuan|do|</w>
+          <w lemma="tú" type="PP2CSN0">tú|</w>
+          <w lemma="que" type="PR0CN00">que</w>
+          <w lemma="ser" type="VSIP2S0">e|res|</w>
+          <w lemma="sombra" type="NCFS000">som|bra|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|8|-|10|-|" n="22">
+          <!--pues la santa verdad así te nombre,-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="santo" type="AQ0FS00">san|ta|</w>
+          <w lemma="verdad" type="NCFS000">ver|dad|</w>
+          <w lemma="así" type="RG">a|sí|</w>
+          <w lemma="te" type="PP2CS00">te|</w>
+          <w lemma="nombre" type="NCMS000">nom|bre|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|-|-|10|-|" n="23">
+          <!--como la sombra suya peregrino,-->
+          <w lemma="como" type="CS">co|mo|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="sombra" type="NCFS000">som|bra|</w>
+          <w lemma="suyo" type="AP0FS3N">su|ya|</w>
+          <w lemma="peregrino" type="AQ0MS00">pe|re|gri|no|</w>
+        </l>
+        <l met="-|2|3|-|-|6|-|-|-|10|-|" n="24">
+          <!--desde un número en otro tu camino-->
+          <w lemma="desde" type="SP">des|de</w>
+          <w lemma="uno" type="DI0MS0">un|</w>
+          <w lemma="número" type="NCMS000">nú|me|ro</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="otro" type="DI0MS0">o|tro|</w>
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="camino" type="NCMS000">ca|mi|no|</w>
+        </l>
+        <l met="1|-|-|-|-|6|-|" n="25">
+          <!--corres, y pasajero-->
+          <w lemma="correr" type="VMIP2S0">co|rres|</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="pasajero" type="NCMS000">pa|sa|je|ro|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|-|-|10|-|" n="26">
+          <!--te aguarda sombra el número postrero.-->
+          <w lemma="te" type="PP2CS00">te</w>
+          <w lemma="aguardar" type="VMIP3S0">a|guar|da|</w>
+          <w lemma="sombra" type="NCFS000">som|bra</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="número" type="NCMS000">nú|me|ro|</w>
+          <w lemma="postrero" type="AQ0MS00">pos|tre|ro|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Carlos Estuardo soy,</title>
+          <author>Lope de Vega</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/cuarteto-de-lope-de-vega-en-el-que-se-celebra-la-llegada-de-carlos-estuardo-principe-de-gales-a-mediados-de-marzo-de-1623/html/ff3f38aa-82b1-11df-acc7-002185ce6064_2.html#I_0_"/>
+          <editor>Edición crítica de Rafael Iglesias. Benedictine University. Lisle, Illinois. 21 de abril del 2001.</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Carlos Estuardo soy,</title>
+      </head>
+      <lg cert="high" type="Cuarteto">
+        <l met="-|-|3|-|5|-|" n="1">
+          <!--Carlos Estuardo soy,-->
+          <w lemma="carlos_estuardo" type="NP00000">ca|rlos_es|tuar|do|</w>
+          <w lemma="ser" type="VSIP1S0">soy|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|" n="2">
+          <!--que, siendo Amor mi guía,-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="ser" type="VSG0000">sien|do</w>
+          <w lemma="amor" type="NP00000">a|mor</w>
+          <w lemma="mi" type="DP1CSS">mi</w>
+          <w lemma="guía" type="NCCS000">guí|a|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="3">
+          <!--al cielo de España voy-->
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="cielo" type="NCMS000">cie|lo|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="españa" type="NP00000">es|pa|ña|</w>
+          <w lemma="ir" type="VMIP1S0">voy|</w>
+        </l>
+        <l met="-|2|-|-|5|-|-|8|-|" n="4">
+          <!--por ver mi estrella María.-->
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="ver" type="VMN0000">ver|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="estrella" type="NCFS000">es|tre|lla|</w>
+          <w lemma="maría" type="NP00000">ma|rí|a|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

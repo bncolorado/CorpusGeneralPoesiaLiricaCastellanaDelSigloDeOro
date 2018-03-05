@@ -1,0 +1,628 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Filis rigurosa</title>
+          <author>Francisco de la Torre</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/poesias--51/html/fee75702-82b1-11df-acc7-002185ce6064_4.html#I_96_"/>
+          <editor>Alonso Zamora Vicente</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title> Filis rigurosa</title>
+      </head>
+      <lg cert="high" type="Endecha">
+        <l met="1|-|-|-|5|-|" n="1">
+          <!--Filis rigurosa-->
+          <w lemma="filis" type="NCFN000">fi|lis|</w>
+          <w lemma="riguroso" type="AQ0FS00">ri|gu|ro|sa|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="2">
+          <!--sobre quantas cría-->
+          <w lemma="sobre" type="SP">so|bre|</w>
+          <w lemma="quantum" type="NCMP000">quan|tas|</w>
+          <w lemma="cría" type="NCFS000">crí|a|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="3">
+          <!--la ribera fría-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="ribera" type="NCFS000">ri|be|ra|</w>
+          <w lemma="frío" type="AQ0FS00">frí|a|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="4">
+          <!--de Xarama hermosa,-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="xarama" type="NP00000">xa|ra|ma</w>
+          <w lemma="hermoso" type="AQ0FS00">her|mo|sa|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="5">
+          <!--y a mi fiel lamento-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="fiel" type="AQ0CS00">fiel|</w>
+          <w lemma="lamento" type="NCMS000">la|men|to|</w>
+        </l>
+        <l met="1|-|-|-|5|-|" n="6">
+          <!--más endurecida-->
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="endurecer" type="VMP00SF">en|du|re|ci|da|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="7">
+          <!--que montaña herida-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="montaña" type="NCFS000">mon|ta|ña</w>
+          <w lemma="herir" type="VMP00SF">he|ri|da|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="8">
+          <!--de alterado viento,-->
+          <w lemma="de" type="SP">de</w>
+          <w lemma="alterar" type="VMP00SM">al|te|ra|do|</w>
+          <w lemma="viento" type="NCMS000">vien|to|</w>
+        </l>
+        <l met="-|-|-|-|5|-|" n="9">
+          <!--¡ay!, que la razón-->
+          <w lemma="ay" type="I">ay|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="razón" type="NCFS000">ra|zón|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="10">
+          <!--que a llorar me fuerça-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="llorar" type="VMN0000">llo|rar|</w>
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="fuerça" type="VMIP3S0">fuerça|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="11">
+          <!--tu rigor la esfuerça-->
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="rigor" type="NCMS000">ri|gor|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="esfuerça" type="NCFS000">es|fuerça|</w>
+        </l>
+        <l met="-|-|-|-|5|-|" n="12">
+          <!--como a mi passión.-->
+          <w lemma="como" type="CS">co|mo</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="passión" type="NCFS000">pas|sión|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="13">
+          <!--Si el cielo piadoso-->
+          <w lemma="si" type="CS">si</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="cielo" type="NCMS000">cie|lo|</w>
+          <w lemma="piadoso" type="AQ0MS00">pia|do|so|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="14">
+          <!--por mí permitiera-->
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="mí" type="PP1CSO0">mí|</w>
+          <w lemma="permitir" type="VMSI3S0">per|mi|tie|ra|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="15">
+          <!--que no me doliera-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="doler" type="VMSI3S0">do|lie|ra|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="16">
+          <!--tu desdén rabioso,-->
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="desdén" type="NCMS000">des|dén|</w>
+          <w lemma="rabioso" type="AQ0MS00">ra|bio|so|</w>
+        </l>
+        <l met="1|-|-|-|5|-|" n="17">
+          <!--quexas inhumanas-->
+          <w lemma="quexas" type="NCFP000">que|xas|</w>
+          <w lemma="inhumano" type="AQ0FP00">i|nhu|ma|nas|</w>
+        </l>
+        <l met="1|-|-|-|5|-|" n="18">
+          <!--no te endurecieran,-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="te" type="PP2CS00">te</w>
+          <w lemma="endurecer" type="VMSI3P0">en|du|re|cie|ran|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="19">
+          <!--porque humanas fueran-->
+          <w lemma="porque" type="CS">por|que</w>
+          <w lemma="humano" type="AQ0FP00">hu|ma|nas|</w>
+          <w lemma="ser" type="VSSI3P0">fue|ran|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="20">
+          <!--canciones humanas.-->
+          <w lemma="canción" type="NCFP000">can|cio|nes|</w>
+          <w lemma="humano" type="AQ0FP00">hu|ma|nas|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="21">
+          <!--Mas pues duro cielo-->
+          <w lemma="mas" type="CC">mas|</w>
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="duro" type="AQ0MS00">du|ro|</w>
+          <w lemma="cielo" type="NCMS000">cie|lo|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="22">
+          <!--con mi fee y mi llanto-->
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="fee" type="NCCN000">fee</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="llanto" type="NCMS000">llan|to|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="23">
+          <!--te endurece tanto,-->
+          <w lemma="te" type="PP2CS00">te</w>
+          <w lemma="endurecer" type="VMIP3S0">en|du|re|ce|</w>
+          <w lemma="tanto" type="RG">tan|to|</w>
+        </l>
+        <l met="1|-|3|-|5|-|" n="24">
+          <!--no me sufra el suelo,-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="sufrir" type="VMSP3S0">su|fra</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="suelo" type="NCMS000">sue|lo|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="25">
+          <!--mi dolor te canse,-->
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="dolor" type="NCMS000">do|lor|</w>
+          <w lemma="te" type="PP2CS00">te|</w>
+          <w lemma="cansar" type="VMSP3S0">can|se|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="26">
+          <!--mi razón te indine,-->
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="razón" type="NCFS000">ra|zón|</w>
+          <w lemma="te" type="PP2CS00">te</w>
+          <w lemma="indine" type="VMSP3S0">in|di|ne|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="27">
+          <!--y el Cielo se incline-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="cielo" type="NP00000">cie|lo|</w>
+          <w lemma="se" type="P00CN00">se</w>
+          <w lemma="inclinar" type="VMSP3S0">in|cli|ne|</w>
+        </l>
+        <l met="-|-|-|-|5|-|" n="28">
+          <!--contra quien te amanse.-->
+          <w lemma="contra" type="SP">con|tra|</w>
+          <w lemma="quien" type="PR0CS00">quien|</w>
+          <w lemma="te" type="PP2CS00">te</w>
+          <w lemma="amansar" type="VMSP3S0">a|man|se|</w>
+        </l>
+        <l met="1|-|-|-|5|-|" n="29">
+          <!--Triste y apartado,-->
+          <w lemma="triste" type="NP00000">tris|te</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="apartado" type="NCMS000">a|par|ta|do|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="30">
+          <!--en esta ribera,-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="este" type="DD0FS0">es|ta|</w>
+          <w lemma="ribera" type="NCFS000">ri|be|ra|</w>
+        </l>
+        <l met="1|-|3|-|5|-|" n="31">
+          <!--piedra, planta o fiera-->
+          <w lemma="piedra" type="NCFS000">pie|dra|</w>
+          <w lemma="planta" type="NCFS000">plan|ta</w>
+          <w lemma="o" type="CC">o|</w>
+          <w lemma="fiero" type="AQ0FS00">fie|ra|</w>
+        </l>
+        <l met="1|-|-|-|5|-|" n="32">
+          <!--quede transformado;-->
+          <w lemma="quedar" type="VMSP3S0">que|de|</w>
+          <w lemma="transformar" type="VMP00SM">trans|for|ma|do|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="33">
+          <!--mis penas y enojos-->
+          <w lemma="mi" type="DP1CPS">mis|</w>
+          <w lemma="pena" type="NCFP000">pe|nas|</w>
+          <w lemma="y" type="CC">y</w>
+          <w lemma="enojo" type="NCMP000">e|no|jos|</w>
+        </l>
+        <l met="1|-|-|-|5|-|" n="34">
+          <!--rompan con mi amor,-->
+          <w lemma="romper" type="VMSP3P0">rom|pan|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="mi" type="DP1CSS">mi</w>
+          <w lemma="amor" type="NCMS000">a|mor|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="35">
+          <!--y no aya pastor-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="no" type="RN">no</w>
+          <w lemma="ayo" type="NCFS000">a|ya|</w>
+          <w lemma="pastor" type="NCMS000">pas|tor|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="36">
+          <!--que cierre mis ojos-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="cerrar" type="VMSP3S0">cie|rre|</w>
+          <w lemma="mi" type="DP1CPS">mis|</w>
+          <w lemma="ojo" type="NCMP000">o|jos|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="37">
+          <!--que tú, que mi vida-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="tú" type="PP2CSN0">tú|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="vida" type="NCFS000">vi|da|</w>
+        </l>
+        <l met="1|-|3|-|5|-|" n="38">
+          <!--tienes ya de suerte-->
+          <w lemma="tener" type="VMIP2S0">tie|nes|</w>
+          <w lemma="ya" type="RG">ya|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="suerte" type="NCFS000">suer|te|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="39">
+          <!--que desea la muerte-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="desear" type="VMIP3S0">de|sea|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="muerte" type="NCFS000">muer|te|</w>
+        </l>
+        <l met="-|-|-|-|5|-|" n="40">
+          <!--por aborrecida.-->
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="aborrecer" type="VMP00SF">a|bo|rre|ci|da|</w>
+        </l>
+        <l met="1|-|3|-|5|-|" n="41">
+          <!--Tú dirás en vano:-->
+          <w lemma="tú" type="PP2CSN0">tú|</w>
+          <w lemma="decir" type="VMIF2S0">di|rás|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="vano" type="NCMS000">va|no|</w>
+        </l>
+        <l met="-|2|-|4|-|" n="42">
+          <!--¡Ay, pecho neuado,-->
+          <w lemma="ay" type="I">ay|</w>
+          <w lemma="pecho" type="NCMS000">pe|cho|</w>
+          <w lemma="neuado" type="VMP00SM">neua|do|</w>
+        </l>
+        <l met="1|2|3|-|5|-|" n="43">
+          <!--qué mal que has tratado-->
+          <w lemma="qué" type="DE0CN0">qué|</w>
+          <w lemma="mal" type="AQ0MS00">mal|</w>
+          <w lemma="que" type="PR0CN00">que</w>
+          <w lemma="haber" type="VAIP2S0">has|</w>
+          <w lemma="tratar" type="VMP00SM">tra|ta|do|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="44">
+          <!--mi amor soberano!-->
+          <w lemma="mi" type="DP1CSS">mi</w>
+          <w lemma="amor" type="NCMS000">a|mor|</w>
+          <w lemma="soberano" type="AQ0MS00">so|be|ra|no|</w>
+        </l>
+        <l met="1|-|-|-|5|-|" n="45">
+          <!--Tú, que con tu amor-->
+          <w lemma="tú" type="PP2CSN0">tú|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="tu" type="DP2CSS">tu</w>
+          <w lemma="amor" type="NCMS000">a|mor|</w>
+        </l>
+        <l met="1|-|-|4|-|" n="46">
+          <!--sueles piadosa-->
+          <w lemma="soler" type="VMIP2S0">sue|les|</w>
+          <w lemma="piadoso" type="AQ0FS00">pia|do|sa|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="47">
+          <!--por la selva vmbrosa-->
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="selva" type="NCFS000">sel|va|</w>
+          <w lemma="vmbrosa" type="AQ0FS00">vm|bro|sa|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="48">
+          <!--templar tu dolor.-->
+          <w lemma="templar" type="VMN0000">tem|plar|</w>
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="dolor" type="NCMS000">do|lor|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="49">
+          <!--Y en sus ojos fríos,-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="su" type="DP3CPN">sus|</w>
+          <w lemma="ojo" type="NCMP000">o|jos|</w>
+          <w lemma="frío" type="AQ0MP00">frí|os|</w>
+        </l>
+        <l met="1|-|-|4|5|-|" n="50">
+          <!--ya para ti hermosos,-->
+          <w lemma="ya" type="RG">ya|</w>
+          <w lemma="para" type="SP">pa|ra|</w>
+          <w lemma="ti" type="PP2CSO0">ti</w>
+          <w lemma="hermoso" type="AQ0MP00">her|mo|sos|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="51">
+          <!--boluer los furiosos-->
+          <w lemma="boluer" type="NCMS000">bo|luer|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="furioso" type="AQ0MP00">fu|rio|sos|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="52">
+          <!--que lloran los míos.-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="llorar" type="VMIP3P0">llo|ran|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="mío" type="AP0MP1S">mí|os|</w>
+        </l>
+        <l met="1|-|-|-|5|-|" n="53">
+          <!--Tú los fixarás-->
+          <w lemma="tú" type="PP2CSN0">tú|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="fixarás" type="NCFS000">fi|xa|rás|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="54">
+          <!--en la piedra escura-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="piedra" type="NCFS000">pie|dra</w>
+          <w lemma="escura" type="NCFS000">es|cu|ra|</w>
+        </l>
+        <l met="-|-|-|-|5|-|" n="55">
+          <!--de mi sepultura-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="sepultura" type="NCFS000">se|pul|tu|ra|</w>
+        </l>
+        <l met="1|-|3|-|5|-|" n="56">
+          <!--quando no querrás.-->
+          <w lemma="quando" type="RG">quan|do|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="querer" type="VMIF2S0">que|rrás|</w>
+        </l>
+        <l met="1|-|-|-|5|-|" n="57">
+          <!--Quando la razón-->
+          <w lemma="quando" type="NP00000">quan|do|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="razón" type="NCFS000">ra|zón|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="58">
+          <!--que a llorar te obligue-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="llorar" type="VMN0000">llo|rar|</w>
+          <w lemma="te" type="P02CS00">te</w>
+          <w lemma="obligar" type="VMSP3S0">o|bli|gue|</w>
+        </l>
+        <l met="1|2|-|-|5|-|" n="59">
+          <!--aun no te mitigue-->
+          <w lemma="aun" type="RG">aun|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="te" type="PP2CS00">te|</w>
+          <w lemma="mitigar" type="VMSP3S0">mi|ti|gue|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="60">
+          <!--con igual passión.-->
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="igual" type="AQ0CS00">i|gual|</w>
+          <w lemma="passión" type="NCFS000">pas|sión|</w>
+        </l>
+        <l met="1|-|3|-|5|-|" n="61">
+          <!--Quando fuentes frías-->
+          <w lemma="quando" type="NP00000">quan|do|</w>
+          <w lemma="fuente" type="NCFP000">fuen|tes|</w>
+          <w lemma="frío" type="AQ0FP00">frí|as|</w>
+        </l>
+        <l met="1|-|-|-|5|-|" n="62">
+          <!--laben el error-->
+          <w lemma="laben" type="VMIP3P0">la|ben|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="error" type="NCMS000">e|rror|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="63">
+          <!--que causó el rigor-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="causar" type="VMIS3S0">cau|só</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="rigor" type="NCMS000">ri|gor|</w>
+        </l>
+        <l met="-|-|-|-|5|-|" n="64">
+          <!--de mis agonías.-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="mi" type="DP1CPS">mis|</w>
+          <w lemma="agonía" type="NCFP000">a|go|ní|as|</w>
+        </l>
+        <l met="1|-|-|-|5|-|" n="65">
+          <!--Quando coronando-->
+          <w lemma="quando" type="NP00000">quan|do|</w>
+          <w lemma="coronar" type="VMG0000">co|ro|nan|do|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="66">
+          <!--mi sepulcro triste-->
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="sepulcro" type="NCMS000">se|pul|cro|</w>
+          <w lemma="triste" type="AQ0CS00">tris|te|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="67">
+          <!--con la flor que viste-->
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="flor" type="NCFS000">flor|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="ver" type="VMIS2S0">vis|te|</w>
+        </l>
+        <l met="1|-|3|-|5|-|" n="68">
+          <!--Flora el campo blando,-->
+          <w lemma="flora" type="NP00000">flo|ra</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="campo" type="NCMS000">cam|po|</w>
+          <w lemma="blando" type="AQ0MS00">blan|do|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="69">
+          <!--suspiros despidas,-->
+          <w lemma="suspiro" type="NCMP000">sus|pi|ros|</w>
+          <w lemma="despedir" type="VMSP2S0">des|pi|das|</w>
+        </l>
+        <l met="1|-|3|-|5|-|" n="70">
+          <!--quexas te oyga el cielo,-->
+          <w lemma="quexas" type="RG">que|xas|</w>
+          <w lemma="te" type="PP2CS00">te</w>
+          <w lemma="oyga" type="VMIP3S0">oy|ga</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="cielo" type="NCMS000">cie|lo|</w>
+        </l>
+        <l met="1|2|-|-|5|-|" n="71">
+          <!--que esto es el consuelo-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="este" type="PD00S00">es|to</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="consuelo" type="NCMS000">con|sue|lo|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="72">
+          <!--de glorias perdidas.-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="gloria" type="NCFP000">glo|rias|</w>
+          <w lemma="perder" type="VMP00PF">per|di|das|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="73">
+          <!--Mas, ay, Filis, temo-->
+          <w lemma="mas" type="CC">mas|</w>
+          <w lemma="ay" type="I">ay|</w>
+          <w lemma="filis" type="NP00000">fi|lis|</w>
+          <w lemma="temer" type="VMIP1S0">te|mo|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="74">
+          <!--tu visto rigor,-->
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="ver" type="VMP00SM">vis|to|</w>
+          <w lemma="rigor" type="NCMS000">ri|gor|</w>
+        </l>
+        <l met="-|-|-|-|5|-|" n="75">
+          <!--que de mi dolor-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="dolor" type="NCMS000">do|lor|</w>
+        </l>
+        <l met="1|-|3|-|5|-|" n="76">
+          <!--no es el bien supremo.-->
+          <w lemma="no" type="RN">no</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="bien" type="RG">bien|</w>
+          <w lemma="supremo" type="AQ0MS00">su|pre|mo|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="77">
+          <!--Qualquiera contento-->
+          <w lemma="qualquiera" type="NP00000">qual|quie|ra|</w>
+          <w lemma="contento" type="AQ0MS00">con|ten|to|</w>
+        </l>
+        <l met="1|-|3|-|5|-|" n="78">
+          <!--fuera bien crecido,-->
+          <w lemma="fuera" type="RG">fue|ra|</w>
+          <w lemma="bien" type="RG">bien|</w>
+          <w lemma="crecer" type="VMP00SM">cre|ci|do|</w>
+        </l>
+        <l met="-|-|-|-|5|-|" n="79">
+          <!--pero lo sufrido-->
+          <w lemma="pero" type="CC">pe|ro|</w>
+          <w lemma="el" type="DA00S0">lo|</w>
+          <w lemma="sufrir" type="VMP00SM">su|fri|do|</w>
+        </l>
+        <l met="1|2|-|-|5|-|" n="80">
+          <!--no tiene descuento.-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="tener" type="VMIP3S0">tie|ne|</w>
+          <w lemma="descuento" type="NCMS000">des|cuen|to|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="81">
+          <!--Ni tú tratarás-->
+          <w lemma="ni" type="CC">ni|</w>
+          <w lemma="tú" type="PP2CSN0">tú|</w>
+          <w lemma="tratar" type="VMIF2S0">tra|ta|rás|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="82">
+          <!--de alibiar mi llanto,-->
+          <w lemma="de" type="SP">de</w>
+          <w lemma="alibiar" type="VMN0000">a|li|biar|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="llanto" type="NCMS000">llan|to|</w>
+        </l>
+        <l met="1|-|-|-|5|-|" n="83">
+          <!--tú, a quien mi quebranto-->
+          <w lemma="tú" type="PP2CSN0">tú</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="quien" type="PR0CS00">quien|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="quebranto" type="NCMS000">que|bran|to|</w>
+        </l>
+        <l met="1|2|-|4|-|" n="84">
+          <!--no mouió jamás.-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="mouió" type="VMIS3S0">mouió|</w>
+          <w lemma="jamás" type="RG">ja|más|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="85">
+          <!--Que pues tanta muerte-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="tanto" type="DI0FS0">tan|ta|</w>
+          <w lemma="muerte" type="NCFS000">muer|te|</w>
+        </l>
+        <l met="1|-|-|4|5|-|" n="86">
+          <!--nunca te ha mouido,-->
+          <w lemma="nunca" type="RG">nun|ca|</w>
+          <w lemma="te" type="PP2CS00">te|</w>
+          <w lemma="haber" type="VAIP3S0">ha|</w>
+          <w lemma="mouido" type="VMP00SM">moui|do|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="87">
+          <!--la que tú has querido-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="tú" type="PP2CSN0">tú</w>
+          <w lemma="haber" type="VAIP2S0">has|</w>
+          <w lemma="querer" type="VMP00SM">que|ri|do|</w>
+        </l>
+        <l met="1|-|3|4|-|" n="88">
+          <!--no podrá mouerte.-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="poder" type="VMIF3S0">po|drá|</w>
+          <w lemma="mouerte" type="NCFS000">mouer|te|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

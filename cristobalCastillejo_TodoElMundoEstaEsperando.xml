@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Todo el mundo está esperando,</title>
+          <author>Cristóbal de Castillejo</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/obras-de-devocion--0/html/fef95092-82b1-11df-acc7-002185ce6064_1.html#I_1_"/>
+          <editor>Edición digital basada en la de Obras de Castillejo, edición, prólogo y notas de Jesús Rodríguez Bordona, Madrid, Espasa-Calpe, 1958, t. IV, pp. 175-236. </editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Todo el mundo está esperando,</title>
+      </head>
+      <lg cert="low" type="Coplas">
+        <l met="1|-|3|-|5|-|7|-|" n="1">
+          <!--Todo el mundo está esperando,-->
+          <w lemma="todo" type="DI0MS0">to|do</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="mundo" type="NCMS000">mun|do</w>
+          <w lemma="estar" type="VAIP3S0">es|tá</w>
+          <w lemma="esperar" type="VMG0000">es|pe|ran|do|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="2">
+          <!--Virgen santa, vuestro sí;-->
+          <w lemma="virgen" type="NCCS000">vir|gen|</w>
+          <w lemma="santo" type="AQ0FS00">san|ta|</w>
+          <w lemma="vuestro" type="DP2MSP">vues|tro|</w>
+          <w lemma="sí" type="NCMS000">sí|</w>
+        </l>
+        <l met="1|-|-|4|5|-|7|-|" n="3">
+          <!--no detengáis más ahí-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="detener" type="VMSP2P0">de|ten|gáis|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="ahí" type="RG">a|hí|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="4">
+          <!--al mensajero dudando;-->
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="mensajero" type="NCMS000">men|sa|je|ro|</w>
+          <w lemma="dudar" type="VMG0000">du|dan|do|</w>
+        </l>
+        <l met="1|2|-|-|-|-|7|-|" n="5">
+          <!--dad presto consentimiento.-->
+          <w lemma="dar" type="VMM02P0">dad|</w>
+          <w lemma="presto" type="AQ0MS00">pres|to|</w>
+          <w lemma="consentimiento" type="NCMS000">con|sen|ti|mien|to|</w>
+        </l>
+        <l met="-|2|-|4|5|-|7|-|" n="6">
+          <!--Sabed que está tan contento-->
+          <w lemma="saber" type="VMM02P0">sa|bed|</w>
+          <w lemma="que" type="CS">que</w>
+          <w lemma="estar" type="VMIP3S0">es|tá|</w>
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="contento" type="AQ0MS00">con|ten|to|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="7">
+          <!--de vuestra persona Dios,-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="vuestro" type="DP2FSP">vues|tra|</w>
+          <w lemma="persona" type="NCFS000">per|so|na|</w>
+          <w lemma="dios" type="NP00000">dios|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="8">
+          <!--que no demanda de vos-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="demandar" type="VMIP3S0">de|man|da|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="vos" type="PP2CS0P">vos|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="9">
+          <!--otra cosa en casamiento.-->
+          <w lemma="otro" type="DI0FS0">o|tra|</w>
+          <w lemma="cosa" type="NCFS000">co|sa</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="casamiento" type="NCMS000">ca|sa|mien|to|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>
