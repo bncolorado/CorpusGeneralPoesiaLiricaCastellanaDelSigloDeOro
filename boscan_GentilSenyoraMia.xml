@@ -31,7 +31,7 @@
       </metDecl>
       <metDecl>
         <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
-        <p>Anotación parcialmente revisada y corregida por Borja Navarro Colorado</p>
+        <p>Anotación parcialmente revisada y corregida por Borja Navarro Colorado y María Ángeles Herrero Herrero</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -41,7 +41,7 @@
         <title>Gentil señora mía,</title>
       </head>
       <lg cert="..." type="...">
-        <l met="-|2|-|4|-|6|-|" n="1">
+        <l met="-|2|-|-|-|6|-|" n="1">
           <!--Gentil señora mía,-->
           <w lemma="gentil" type="AQ0CS00">gen|til|</w>
           <w lemma="señor" type="NCFS000">se|ño|ra|</w>
@@ -49,8 +49,8 @@
         </l>
         <l met="1|-|-|-|-|6|-|-|-|10|-|" n="2">
           <!--yo hallo en el mover de vuestros ojos-->
-          <w lemma="yo" type="PP1CSN0">yo</w>
-          <w lemma="hallar" type="VMIP1S0">ha|llo|</w>
+          <w lemma="yo" type="PP1CSN0">yo|</w>
+          <w lemma="hallar" type="VMIP1S0">ha|llo</w>
           <w lemma="en" type="SP">en|</w>
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="mover" type="VMN0000">mo|ver|</w>
