@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -104,7 +104,8 @@
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="pena" type="NCFS000">pe|na|</w>
           <w lemma="soler" type="VMIP3S0">sue|le|</w>
-          <w lemma="esforçarse" type="VMN0000">es|forçar|se|</w>
+          <w lemma="esforzar" type="VMN0000">es|forçar|</w>
+	  <w lemma="se" type="PP3CN00">se</w>
         </l>
         <l met="1|2|-|-|5|-|7|-|" n="9">
           <!--ved cómo podrá curarse-->
@@ -160,13 +161,13 @@
           <w lemma="el" type="DA0FS0">la</w>
           <w lemma="alegría" type="NCFS000">a|le|grí|a|</w>
         </l>
-        <l met="-|-|3|-|-|6|-|" n="16">
+        <l met="-|-|3|-|-|-|7|-|" n="16">
           <!--Que después con su crueza-->
           <w lemma="que" type="CS">que|</w>
           <w lemma="después" type="RG">des|pués|</w>
           <w lemma="con" type="SP">con|</w>
           <w lemma="su" type="DP3CSN">su|</w>
-          <w lemma="crueza" type="NCFS000">crue|za|</w>
+          <w lemma="crueza" type="NCFS000">cru|e|za|</w>
         </l>
         <l met="1|-|3|4|-|-|7|-|" n="17">
           <!--tuvo Amor esta destreza,-->
@@ -178,7 +179,7 @@
         <l met="-|-|3|-|-|-|7|-|" n="18">
           <!--que llegadas a la puerta,-->
           <w lemma="que" type="CS">que|</w>
-          <w lemma="llegada" type="NCFP000">lle|ga|das|</w>
+          <w lemma="llegar" type="VMP00PF">lle|ga|das|</w>
           <w lemma="a" type="SP">a|</w>
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="puerta" type="NCFS000">puer|ta|</w>
@@ -194,7 +195,7 @@
           <!--y entró biva la tristeza.-->
           <w lemma="y" type="CC">y</w>
           <w lemma="entrar" type="VMIS3S0">en|tró|</w>
-          <w lemma="biir" type="VMIP3S0">bi|va|</w>
+          <w lemma="vivir" type="VMP00SF">bi|va|</w>
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="tristeza" type="NCFS000">tris|te|za|</w>
         </l>
@@ -229,7 +230,7 @@
         </l>
         <l met="1|-|3|-|5|-|7|-|" n="25">
           <!--do pensé que entró el provecho.-->
-          <w lemma="do" type="NCMS000">do|</w>
+          <w lemma="do" type="RG">do|</w>
           <w lemma="pensar" type="VMIS1S0">pen|sé|</w>
           <w lemma="que" type="CS">que</w>
           <w lemma="entrar" type="VMIS3S0">en|tró</w>
@@ -241,12 +242,14 @@
           <w lemma="y" type="CC">y|</w>
           <w lemma="cuando" type="CS">cuan|do|</w>
           <w lemma="querer" type="VMIS1S0">qui|se</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="amor" type="NCMS000">a|mor|</w>
         </l>
         <l met="-|2|-|-|-|-|7|-|" n="27">
           <!--echalle, como a traidor-->
-          <w lemma="echalle" type="RG">e|cha|lle|</w>
+          <w lemma="echar" type="">e|cha|</w>
+	  <w lemma="él" type="PP3CSD0">lle|</w>
           <w lemma="como" type="CS">co|mo</w>
           <w lemma="a" type="SP">a|</w>
           <w lemma="traidor" type="NCMS000">trai|dor|</w>
@@ -261,7 +264,7 @@
         </l>
         <l met="1|-|3|-|-|-|7|-|" n="29">
           <!--do por huésped se acogió-->
-          <w lemma="do" type="NCMS000">do|</w>
+          <w lemma="do" type="RG">do|</w>
           <w lemma="por" type="SP">por|</w>
           <w lemma="huésped" type="NCMS000">hués|ped|</w>
           <w lemma="se" type="P00CN00">se</w>
@@ -270,7 +273,7 @@
         <l met="-|2|3|-|-|-|7|-|" n="30">
           <!--se alçó luego por señor.-->
           <w lemma="se" type="P00CN00">se|</w>
-          <w lemma="alçó" type="VMIS3S0">alçó|</w>
+          <w lemma="alzar" type="VMIS3S0">al|çó|</w>
           <w lemma="luego" type="RG">lue|go|</w>
           <w lemma="por" type="SP">por|</w>
           <w lemma="señor" type="NCMS000">se|ñor|</w>
@@ -287,11 +290,11 @@
           <w lemma="de" type="SP">de|</w>
           <w lemma="mi" type="DP1CSS">mi|</w>
           <w lemma="triste" type="AQ0CS00">tris|te|</w>
-          <w lemma="coraçón" type="NCFS000">co|raçón|</w>
+          <w lemma="corazón" type="NCFS000">co|ra|çón|</w>
         </l>
         <l met="-|-|3|-|-|6|7|-|" n="33">
           <!--governando, por tal son,-->
-          <w lemma="governando" type="VMG0000">go|ver|nan|do|</w>
+          <w lemma="gobernar" type="VMG0000">go|ver|nan|do|</w>
           <w lemma="por" type="SP">por|</w>
           <w lemma="tal" type="PD0CS00">tal|</w>
           <w lemma="ser" type="VSIP3P0">son|</w>
@@ -321,7 +324,7 @@
           <!--de miedo la pasaría,-->
           <w lemma="de" type="SP">de|</w>
           <w lemma="miedo" type="NCMS000">mie|do|</w>
-          <w lemma="lo" type="PP3FSA0">la|</w>
+          <w lemma="él" type="PP3FSA0">la|</w>
           <w lemma="pasar" type="VMIC3S0">pa|sa|rí|a|</w>
         </l>
         <l met="-|-|-|4|-|-|7|-|" n="38">
@@ -329,13 +332,14 @@
           <w lemma="según" type="CS">se|gún|</w>
           <w lemma="me" type="PP1CS00">me|</w>
           <w lemma="hallar" type="VMIP1S0">ha|llo|</w>
-          <w lemma="sugeto" type="RG">su|ge|to|</w>
+          <w lemma="sujeto" type="AQ0MS00">su|ge|to|</w>
         </l>
         <l met="-|-|3|-|5|-|7|-|" n="39">
           <!--el temor del mismo aprieto-->
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="temor" type="NCMS000">te|mor|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="mismo" type="AQ0MS00">mis|mo</w>
           <w lemma="aprieto" type="NCMS000">a|prie|to|</w>
         </l>
@@ -351,8 +355,8 @@
           <w lemma="con" type="SP">con|</w>
           <w lemma="este" type="PD00S00">es|to|</w>
           <w lemma="se" type="P00CN00">se</w>
-          <w lemma="á" type="VMIF3S0">á|</w>
-          <w lemma="ventajado" type="VMP00SM">ven|ta|ja|do|</w>
+          <w lemma="haber" type="VMIF3S0">á|</w>
+          <w lemma="ventajar" type="VMP00SM">ven|ta|ja|do|</w>
         </l>
         <l met="-|2|-|-|-|-|7|-|" n="42">
           <!--la parte de mi tormento,-->
@@ -369,10 +373,10 @@
           <w lemma="su" type="DP3CSN">su|</w>
           <w lemma="vencimiento" type="NCMS000">ven|ci|mien|to|</w>
         </l>
-        <l met="-|-|-|4|-|-|7|-|" n="44">
+        <l met="-|2|-|4|-|-|7|-|" n="44">
           <!--después de aver peleado,-->
           <w lemma="después_de" type="SP">des|pués_|de</w>
-          <w lemma="aver" type="VMN0000">a|ver|</w>
+          <w lemma="haber" type="VMN0000">a|ver|</w>
           <w lemma="pelear" type="VMP00SM">pe|le|a|do|</w>
         </l>
         <l met="-|-|3|-|-|-|7|-|" n="45">
@@ -407,7 +411,8 @@
           <!--y sobre averme rendido,-->
           <w lemma="y" type="CC">y|</w>
           <w lemma="sobre" type="SP">so|bre</w>
-          <w lemma="averme" type="NCMS000">a|ver|me|</w>
+          <w lemma="haber" type="VAN0000">a|ver|</w>
+	  <w lemma="me" type="PP1CS00">me|</w>
           <w lemma="rendir" type="VMP00SM">ren|di|do|</w>
         </l>
         <l met="1|-|-|-|5|-|7|-|" n="50">
