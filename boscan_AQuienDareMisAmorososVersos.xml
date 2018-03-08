@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -78,7 +78,7 @@
           <w lemma="este" type="PD00S00">es|to|</w>
           <w lemma="caber" type="VMIP3S0">ca|be|</w>
         </l>
-        <l met="-|2|-|4|-|6|-|-|-|10|-|" n="5">
+        <l met="-|2|-|4|-|-|-|-|-|10|-|" n="5">
           <!--a ti se den, por cuanto si carecen-->
           <w lemma="a" type="SP">a|</w>
           <w lemma="ti" type="PP2CSO0">ti|</w>
@@ -91,27 +91,26 @@
         </l>
         <l met="1|-|3|-|-|6|-|-|-|10|-|" n="6">
           <!--destas cosas que digo que pretienden,-->
-          <w lemma="destas" type="NCMN000">des|tas|</w>
+	  <w lemma="de" type="SP">de</w>
+          <w lemma="este" type="DD0FP0">es|tas|</w>
           <w lemma="cosa" type="NCFP000">co|sas|</w>
           <w lemma="que" type="PR0CN00">que|</w>
-          <w lemma="que" type="CS">que|</w>
           <w lemma="decir" type="VMIP1S0">di|go|</w>
           <w lemma="que" type="PR0CN00">que|</w>
-          <w lemma="que" type="CS">que|</w>
           <w lemma="pretender" type="VMIP3P0">pre|tien|den|</w>
         </l>
         <l met="-|2|-|-|-|6|-|8|-|10|-|" n="7">
           <!--en ti las hallarán cumplidamente.-->
           <w lemma="en" type="SP">en|</w>
           <w lemma="ti" type="PP2CSO0">ti|</w>
-          <w lemma="lo" type="PP3FPA0">las|</w>
+          <w lemma="él" type="PP3FPA0">las|</w>
           <w lemma="hallar" type="VMIF3P0">ha|lla|rán|</w>
           <w lemma="cumplidamente" type="RG">cum|pli|da|men|te|</w>
         </l>
         <l met="-|2|-|-|-|6|-|-|-|10|-|" n="8">
           <!--Recógelos con blanda mansedumbre-->
           <w lemma="recoger" type="VMM02S0">re|co|ge|</w>
-          <w lemma="lo" type="PP3MPA0">los|</w>
+          <w lemma="él" type="PP3MPA0">los|</w>
           <w lemma="con" type="SP">con|</w>
           <w lemma="blando" type="AQ0FS00">blan|da|</w>
           <w lemma="mansedumbre" type="NCFS000">man|se|dum|bre|</w>
@@ -119,20 +118,18 @@
         <l met="-|2|-|-|5|6|-|-|-|10|-|" n="9">
           <!--si vieres que son blandos, y si no,-->
           <w lemma="si" type="CS">si|</w>
-          <w lemma="si" type="CS">si|</w>
           <w lemma="ver" type="VMSF2S0">vie|res|</w>
           <w lemma="que" type="CS">que|</w>
           <w lemma="ser" type="VSIP3P0">son|</w>
           <w lemma="blando" type="AQ0MP00">blan|dos|</w>
           <w lemma="y" type="CC">y|</w>
           <w lemma="si" type="CS">si|</w>
-          <w lemma="si" type="CS">si|</w>
           <w lemma="no" type="RN">no|</w>
         </l>
         <l met="-|2|-|-|-|6|-|-|-|10|-|" n="10">
           <!--recógelos como ellos merecieren.-->
           <w lemma="recoger" type="VMM02S0">re|co|ge|</w>
-          <w lemma="lo" type="PP3MPA0">los|</w>
+          <w lemma="él" type="PP3MPA0">los|</w>
           <w lemma="como" type="CS">co|mo</w>
           <w lemma="ellos" type="PP3MP00">e|llos|</w>
           <w lemma="merecer" type="VMSF3P0">me|re|cie|ren|</w>
@@ -153,7 +150,8 @@
           <w lemma="porque" type="CS">por|que</w>
           <w lemma="así" type="RG">a|sí|</w>
           <w lemma="soler" type="VMIP3P0">sue|len|</w>
-          <w lemma="hazello" type="NCMS000">ha|ze|llo|</w>
+          <w lemma="hacer" type="VMN0000">ha|ze|</w>
+	  <w lemma="él" type="PP3MPA0">llos|</w>
         </l>
         <l met="1|-|-|4|-|6|-|8|-|10|-|" n="13">
           <!--no te parezcan mal sus tristes lloros,-->
@@ -168,9 +166,7 @@
         <l met="-|-|-|4|-|6|-|-|-|10|-|" n="14">
           <!--que, pues que son sus lágrimas con causa,-->
           <w lemma="que" type="CS">que|</w>
-          <w lemma="que" type="CS">que|</w>
           <w lemma="pues" type="CS">pues|</w>
-          <w lemma="que" type="CS">que|</w>
           <w lemma="que" type="CS">que|</w>
           <w lemma="ser" type="VSIP3P0">son|</w>
           <w lemma="su" type="DP3CPN">sus|</w>
@@ -178,9 +174,10 @@
           <w lemma="con" type="SP">con|</w>
           <w lemma="causa" type="NCFS000">cau|sa|</w>
         </l>
-        <l met="-|-|3|4|-|6|-|-|-|10|-|" n="15">
+        <l met="-|2|3|4|-|6|-|-|-|10|-|" n="15">
           <!--no sólo es gran razón que se consientan,-->
-          <w lemma="no_sólo" type="CC">no_|só|lo</w>
+          <w lemma="no" type="RN">no|</w>
+	  <w lemma="sólo" type="RG">só|lo</w>
           <w lemma="ser" type="VSIP3S0">es|</w>
           <w lemma="gran" type="AQ0CS00">gran|</w>
           <w lemma="razón" type="NCFS000">ra|zón|</w>
@@ -191,7 +188,7 @@
         <l met="-|2|-|4|-|6|-|-|-|10|-|" n="16">
           <!--mas an de ser dolidas y lloradas-->
           <w lemma="mas" type="CC">mas|</w>
-          <w lemma="an" type="NCFS000">an|</w>
+          <w lemma="haber" type="VAIP3P0">an|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="ser" type="VSN0000">ser|</w>
           <w lemma="doler" type="VMP00PF">do|li|das|</w>
@@ -210,7 +207,7 @@
         </l>
         <l met="1|-|-|4|-|6|-|-|-|10|-|" n="18">
           <!--Ellos se van huyendo de mis manos-->
-          <w lemma="ellos" type="PP3MP00">e|llos|</w>
+          <w lemma="él" type="PP3MP00">e|llos|</w>
           <w lemma="se" type="P00CN00">se|</w>
           <w lemma="ir" type="VMIP3P0">van|</w>
           <w lemma="huir" type="VMG0000">hu|yen|do|</w>
@@ -223,14 +220,14 @@
           <w lemma="pensar" type="VMG0000">pen|san|do|</w>
           <w lemma="que" type="CS">que|</w>
           <w lemma="poder" type="VMIF3P0">po|drán|</w>
-          <w lemma="bivir" type="VMN0000">bi|vir|</w>
+          <w lemma="vivir" type="VMN0000">bi|vir|</w>
           <w lemma="doquier" type="RG">do|quie|ra|</w>
         </l>
-        <l met="-|-|-|-|5|6|-|-|-|10|-|" n="20">
+        <l met="-|-|-|4|5|6|-|-|-|10|-|" n="20">
           <!--pero, según an sido regalados-->
           <w lemma="pero" type="CC">pe|ro|</w>
           <w lemma="según" type="SP">se|gún|</w>
-          <w lemma="an" type="NCFS000">an|</w>
+          <w lemma="haber" type="VAIP3P0">an|</w>
           <w lemma="ser" type="VSP00SM">si|do|</w>
           <w lemma="regalar" type="VMP00PM">re|ga|la|dos|</w>
         </l>
@@ -243,22 +240,22 @@
           <w lemma="su" type="DP3CPN">sus|</w>
           <w lemma="vicio" type="NCMP000">vi|cios|</w>
         </l>
-        <l met="-|-|3|-|-|6|-|-|9|10|-|" n="22">
+        <l met="-|-|3|-|-|6|-|8|9|10|-|" n="22">
           <!--a peligro andarán si en ti no hallan-->
           <w lemma="a" type="SP">a|</w>
           <w lemma="peligro" type="NCMS000">pe|li|gro</w>
           <w lemma="andar" type="VMIF3P0">an|da|rán|</w>
-          <w lemma="si" type="CS">si|</w>
+          <w lemma="si" type="CS">si</w>
           <w lemma="en" type="SP">en|</w>
           <w lemma="ti" type="PP2CSO0">ti|</w>
-          <w lemma="no" type="RN">no</w>
+          <w lemma="no" type="RN">no|</w>
           <w lemma="hallar" type="VMIP3P0">ha|llan|</w>
         </l>
         <l met="-|2|-|-|-|6|-|-|-|10|-|" n="23">
           <!--manera de bivir en sus regalos-->
           <w lemma="manera" type="NCFS000">ma|ne|ra|</w>
           <w lemma="de" type="SP">de|</w>
-          <w lemma="bivir" type="VMN0000">bi|vir|</w>
+          <w lemma="vivir" type="VMN0000">bi|vir|</w>
           <w lemma="en" type="SP">en|</w>
           <w lemma="su" type="DP3CPN">sus|</w>
           <w lemma="regalo" type="NCMP000">re|ga|los|</w>
@@ -281,7 +278,7 @@
           <w lemma="con" type="SP">con|</w>
           <w lemma="onra" type="NCFS000">o|nra|</w>
           <w lemma="dar" type="VMM02S0">da|</w>
-          <w lemma="le" type="PP3CPD0">les|</w>
+          <w lemma="él" type="PP3CPD0">les|</w>
           <w lemma="vida" type="NCFS000">vi|da|</w>
         </l>
         <l met="-|-|3|4|-|6|-|-|-|10|-|" n="26">
@@ -290,9 +287,7 @@
           <w lemma="si" type="CS">si|</w>
           <w lemma="no" type="RN">no|</w>
           <w lemma="no" type="RN">no|</w>
-          <w lemma="no" type="RN">no|</w>
-          <w lemma="no" type="RN">no|</w>
-          <w lemma="le" type="PP3CPD0">les|</w>
+          <w lemma="él" type="PP3CPD0">les|</w>
           <w lemma="quitar" type="VMSP2S0">qui|tes|</w>
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="remedio" type="NCMS000">re|me|dio|</w>
@@ -302,7 +297,7 @@
           <w lemma="que" type="CS">que</w>
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="tiempo" type="NCMS000">tiem|po|</w>
-          <w lemma="le" type="PP3CPD0">les|</w>
+          <w lemma="él" type="PP3CPD0">les|</w>
           <w lemma="dar" type="VMIF3S0">da|rá|</w>
           <w lemma="con" type="SP">con|</w>
           <w lemma="su" type="DP3CSN">su|</w>
@@ -311,12 +306,10 @@
         <l met="-|2|-|-|-|-|7|-|-|10|-|" n="28">
           <!--que mueran y que los cubra la tierra,-->
           <w lemma="que" type="CS">que|</w>
-          <w lemma="que" type="CS">que|</w>
           <w lemma="morir" type="VMSP3P0">mue|ran|</w>
           <w lemma="y" type="CC">y|</w>
           <w lemma="que" type="CS">que|</w>
-          <w lemma="que" type="CS">que|</w>
-          <w lemma="lo" type="PP3MPA0">los|</w>
+          <w lemma="él" type="PP3MPA0">los|</w>
           <w lemma="cubrir" type="VMSP3S0">cu|bra|</w>
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="tierra" type="NCFS000">tie|rra|</w>
