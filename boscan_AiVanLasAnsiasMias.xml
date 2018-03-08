@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -42,7 +42,7 @@
       <lg cert="high" type="Glosa">
         <l met="-|2|3|-|5|-|7|-|" n="1">
           <!--Aí van las ansias mías,-->
-          <w lemma="aí" type="NP00000">a|í|</w>
+          <w lemma="ahí" type="RG">a|í|</w>
           <w lemma="ir" type="VMIP3P0">van|</w>
           <w lemma="el" type="DA0FP0">las|</w>
           <w lemma="ansia" type="NCFP000">an|sias|</w>
@@ -53,15 +53,15 @@
           <w lemma="presente" type="AQ0CP00">pre|sen|tes|</w>
           <w lemma="y" type="CC">y|</w>
           <w lemma="el" type="DA0FP0">las|</w>
-          <w lemma="pasada" type="NCFP000">pa|sa|das|</w>
+          <w lemma="pasada" type="AQ0FP00">pa|sa|das|</w>
         </l>
         <l met="1|2|3|-|-|-|7|-|" n="3">
           <!--do más bivas que pintadas-->
-          <w lemma="do" type="NCMS000">do|</w>
+          <w lemma="do" type="RG">do|</w>
           <w lemma="más" type="RG">más|</w>
-          <w lemma="biir" type="VMIP2S0">bi|vas|</w>
+          <w lemma="vivo" type="AQ0FP00">bi|vas|</w>
           <w lemma="que" type="CS">que|</w>
-          <w lemma="pintada" type="NCFP000">pin|ta|das|</w>
+          <w lemma="pintar" type="VMP00PF">pin|ta|das|</w>
         </l>
         <l met="-|-|3|-|-|-|7|-|" n="4">
           <!--hallaréis mis fantasías-->
@@ -74,7 +74,7 @@
           <w lemma="de" type="SP">de|</w>
           <w lemma="mi" type="DP1CSS">mi|</w>
           <w lemma="mano" type="NCFS000">ma|no|</w>
-          <w lemma="trasladar" type="VMP00PF">tra|sla|da|das|</w>
+          <w lemma="trasladar" type="VMP00PF">tras|la|da|das|</w>
         </l>
         <l met="-|-|3|-|-|-|7|-|" n="6">
           <!--Aunque a otras se presenta-->
@@ -94,7 +94,8 @@
         </l>
         <l met="-|-|-|4|-|-|7|-|" n="8">
           <!--al rematar de la cuenta,-->
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="rematar" type="VMN0000">re|ma|tar|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="el" type="DA0FS0">la|</w>
@@ -124,11 +125,11 @@
           <w lemma="seguir" type="VMN0000">se|guir|</w>
           <w lemma="os" type="PP2CP00">os|</w>
         </l>
-        <l met="-|2|-|4|-|-|7|-|" n="12">
+        <l met="-|-|3|-|5|-|7|-|" n="12">
           <!--lo que hize fue acertado,-->
           <w lemma="el" type="DA00S0">lo|</w>
           <w lemma="que" type="PR0CN00">que</w>
-          <w lemma="hize" type="RG">hi|ze|</w>
+          <w lemma="hacer" type="VMIS1S0">hi|ze|</w>
           <w lemma="ser" type="VSIS3S0">fue|</w>
           <w lemma="acertar" type="VMP00SM">a|cer|ta|do|</w>
         </l>
@@ -186,7 +187,8 @@
         </l>
         <l met="1|-|3|-|-|-|7|-|" n="20">
           <!--deste nuevo pensamiento.-->
-          <w lemma="deste" type="NCMS000">des|te|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="este" type="DD0MS0">es|te|</w>
           <w lemma="nuevo" type="AQ0MS00">nue|vo|</w>
           <w lemma="pensamiento" type="NCMS000">pen|sa|mien|to|</w>
         </l>
