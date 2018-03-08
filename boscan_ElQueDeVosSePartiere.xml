@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -53,19 +53,19 @@
           <!--merece nunca bolver.-->
           <w lemma="merecer" type="VMIP3S0">me|re|ce|</w>
           <w lemma="nunca" type="RG">nun|ca|</w>
-          <w lemma="bolver" type="VMN0000">bol|ver|</w>
+          <w lemma="volver" type="VMN0000">bol|ver|</w>
         </l>
-        <l met="-|-|3|-|-|-|7|-|" n="3">
+        <l met="1|-|3|-|-|-|7|-|" n="3">
           <!--O, señora si bolviere,-->
-          <w lemma="o" type="CC">o|</w>
+          <w lemma="oh" type="I">o|</w>
           <w lemma="señor" type="NCFS000">se|ño|ra|</w>
           <w lemma="si" type="CS">si|</w>
-          <w lemma="bolviere" type="VMIP3S0">bol|vie|re|</w>
+          <w lemma="volver" type="VMIP3S0">bol|vie|re|</w>
         </l>
         <l met="-|2|-|-|-|6|7|-|" n="4">
           <!--que buelva para no os ver.-->
           <w lemma="que" type="CS">que|</w>
-          <w lemma="buelva" type="VMSP3S0">buel|va|</w>
+          <w lemma="volver" type="VMSP3S0">buel|va|</w>
           <w lemma="para" type="SP">pa|ra|</w>
           <w lemma="no" type="RN">no</w>
           <w lemma="os" type="PP2CP00">os|</w>
@@ -74,7 +74,7 @@
         <l met="1|-|3|-|-|-|7|-|" n="5">
           <!--No meresco la venida,-->
           <w lemma="no" type="RN">no|</w>
-          <w lemma="meresco" type="AQ0MS00">me|res|co|</w>
+          <w lemma="merecer" type="VMIP1S0">me|res|co|</w>
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="venida" type="NCFS000">ve|ni|da|</w>
         </l>
@@ -92,24 +92,23 @@
           <w lemma="aunque" type="CC">aun|que|</w>
           <w lemma="harto" type="RG">har|to|</w>
           <w lemma="ir" type="VMIP3S0">va|</w>
-          <w lemma="medida" type="NCFS000">me|di|da|</w>
+          <w lemma="medir" type="VMP00SF">me|di|da|</w>
         </l>
         <l met="-|-|3|-|-|-|7|-|" n="8">
           <!--con la pena del partirme-->
           <w lemma="con" type="SP">con|</w>
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="pena" type="NCFS000">pe|na|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="partir" type="VMN0000">par|tir|</w>
           <w lemma="me" type="PP1CS00">me|</w>
         </l>
         <l met="-|2|-|-|-|-|7|-|" n="9">
           <!--la culpa de la partida.-->
           <w lemma="el" type="DA0FS0">la|</w>
-          <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="culpa" type="NCFS000">cul|pa|</w>
           <w lemma="de" type="SP">de|</w>
-          <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="partida" type="NCFS000">par|ti|da|</w>
         </l>
@@ -128,7 +127,7 @@
           <w lemma="saber" type="VMIP1S0">sé|</w>
           <w lemma="que" type="CS">que|</w>
           <w lemma="no" type="RN">no</w>
-          <w lemma="abrá" type="VMIF3S0">a|brá|</w>
+          <w lemma="haber" type="VMIF3S0">a|brá|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="ser" type="VSN0000">ser|</w>
         </l>
@@ -137,12 +136,13 @@
           <w lemma="pero" type="CC">pe|ro|</w>
           <w lemma="querer" type="VMIP1S0">quie|ro|</w>
           <w lemma="si" type="CS">si</w>
-          <w lemma="ello" type="PD00S00">e|llo|</w>
+          <w lemma="él" type="PD00S00">e|llo|</w>
           <w lemma="ser" type="VSSF1S0">fue|re|</w>
         </l>
         <l met="-|2|-|-|5|-|7|-|" n="13">
           <!--pagallo con nunca os ver.-->
-          <w lemma="pagallo" type="AQ0CN00">pa|ga|llo|</w>
+          <w lemma="pagar" type="AQ0CN00">pa|ga|</w>
+	  <w lemma="él" type="PP3MSA0">llo</w>
           <w lemma="con" type="SP">con|</w>
           <w lemma="nunca" type="RG">nun|ca</w>
           <w lemma="os" type="PP2CP00">os|</w>
