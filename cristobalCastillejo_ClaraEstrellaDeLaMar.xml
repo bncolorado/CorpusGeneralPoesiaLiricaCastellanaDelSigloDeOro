@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -52,7 +52,8 @@
           <!--dichosa puerta del cielo,-->
           <w lemma="dichoso" type="AQ0FS00">di|cho|sa|</w>
           <w lemma="puerta" type="NCFS000">puer|ta|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="cielo" type="NCMS000">cie|lo|</w>
         </l>
         <l met="1|-|-|-|-|-|7|-|" n="3">
@@ -119,11 +120,11 @@
         </l>
         <l met="1|-|3|-|-|-|7|-|" n="12">
           <!--mientra estamos en la mar.-->
-          <w lemma="mientra" type="VMIP3S0">mien|tra</w>
+          <w lemma="mientra" type="RG">mien|tra</w>
           <w lemma="estar" type="VMIP1P0">es|ta|mos|</w>
           <w lemma="en" type="SP">en|</w>
           <w lemma="el" type="DA0FS0">la|</w>
-          <w lemma="marzo" type="NCMS000">mar.|</w>
+          <w lemma="mar" type="NCMS000">mar|</w>
         </l>
         <l met="-|2|-|4|-|-|7|-|" n="13">
           <!--Guardad la fusta en que vamos-->
@@ -142,24 +143,26 @@
           <w lemma="cuerpo" type="NCMS000">cuer|po|</w>
           <w lemma="vicioso" type="AQ0MS00">vi|cio|so|</w>
         </l>
-        <l met="1|-|3|-|-|6|-|" n="15">
+        <l met="1|-|3|-|-|-|7|-|" n="15">
           <!--deste mar, tempestuoso-->
-          <w lemma="deste" type="NCMS000">des|te|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="este" type="DD0MS0">es|te|</w>
           <w lemma="mar" type="NCCS000">mar|</w>
-          <w lemma="tempestuoso" type="AQ0MS00">tem|pes|tuo|so|</w>
+          <w lemma="tempestuoso" type="AQ0MS00">tem|pes|tu|o|so|</w>
         </l>
-        <l met="1|-|-|4|-|-|7|-|" n="16">
+        <l met="1|-|-|-|-|-|7|-|" n="16">
           <!--mundo por do navegamos.-->
           <w lemma="mundo" type="NCMS000">mun|do|</w>
           <w lemma="por" type="SP">por|</w>
-          <w lemma="do" type="NCMS000">do|</w>
+          <w lemma="do" type="CS">do|</w>
           <w lemma="navegar" type="VMIP1P0">na|ve|ga|mos|</w>
         </l>
         <l met="-|2|-|-|-|-|7|-|" n="17">
           <!--La quilla del sustentar,-->
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="quilla" type="NCFS000">qui|lla|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="sustentar" type="VMN0000">sus|ten|tar|</w>
         </l>
         <l met="1|-|3|-|-|-|7|-|" n="18">
@@ -186,7 +189,7 @@
           <!--la proa, que es el deseo,-->
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="proa" type="NCFS000">proa|</w>
-          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="que" type="PR0CN00">que</w>
           <w lemma="ser" type="VSIP3S0">es|</w>
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="deseo" type="NCMS000">de|se|o|</w>
@@ -306,12 +309,12 @@
           <w lemma="para" type="SP">pa|ra</w>
           <w lemma="ejecutar" type="VMN0000">e|je|cu|tar|</w>
         </l>
-        <l met="-|2|-|-|5|-|7|-|" n="37">
+        <l met="-|2|-|-|-|-|7|-|" n="37">
           <!--Las velas por do se guía,-->
           <w lemma="el" type="DA0FP0">las|</w>
           <w lemma="vela" type="NCFP000">ve|las|</w>
           <w lemma="por" type="SP">por|</w>
-          <w lemma="do" type="NCMS000">do|</w>
+          <w lemma="do" type="CS">do|</w>
           <w lemma="se" type="P00CN00">se|</w>
           <w lemma="guía" type="NCCS000">guí|a|</w>
         </l>
@@ -363,7 +366,8 @@
         <l met="1|-|3|-|-|-|7|-|" n="44">
           <!--sepa al menos navegar.-->
           <w lemma="saber" type="VMSP3S0">se|pa</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="menos" type="RG">me|nos|</w>
           <w lemma="navegar" type="VMN0000">na|ve|gar|</w>
         </l>

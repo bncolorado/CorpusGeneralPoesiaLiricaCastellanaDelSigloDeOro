@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -40,10 +40,10 @@
         <title>Al tiempo que verná aquel</title>
       </head>
       <lg cert="low" type="Coplas">
-        <l met="-|-|-|-|-|6|7|-|" n="1">
+        <l met="-|2|-|-|-|6|7|-|" n="1">
           <!--Al tiempo que verná aquel-->
           <w lemma="al_tiempo_que" type="CS">a_el_|tiem|po_|que|</w>
-          <w lemma="verná" type="VMIF3S0">ver|ná</w>
+          <w lemma="venir" type="VMIF3S0">ver|ná</w>
           <w lemma="aquel" type="DD0MS0">a|quel|</w>
         </l>
         <l met="1|2|-|-|-|-|7|-|" n="2">
@@ -53,7 +53,7 @@
           <w lemma="santo" type="AQ0MS00">san|to|</w>
           <w lemma="sobre" type="SP">so|bre|</w>
           <w lemma="el" type="DA0MP0">los|</w>
-          <w lemma="santo" type="NCMP000">san|to|s|</w>
+          <w lemma="santo" type="NCMP000">san|tos|</w>
         </l>
         <l met="-|-|3|-|5|-|7|-|" n="3">
           <!--cesará la unción de cuantos-->
@@ -100,7 +100,8 @@
           <w lemma="rey" type="NP00000">rey|</w>
           <w lemma="muy" type="RG">muy|</w>
           <w lemma="alto" type="AQ0MS00">al|to|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="cielo" type="NCMS000">cie|lo|</w>
         </l>
       </lg>

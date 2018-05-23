@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -49,8 +49,8 @@
         </l>
         <l met="1|-|-|-|-|-|7|-|" n="2">
           <!--viejo bienaventurado,-->
-          <w lemma="viejo" type="AQ0MS00">vie|jo|</w>
-          <w lemma="bienaventurado" type="NCMS000">bie|na|ven|tu|ra|do|</w>
+          <w lemma="viejo" type="NCMS000">vie|jo|</w>
+          <w lemma="bienaventurado" type="AQ0MS00">bie|na|ven|tu|ra|do|</w>
         </l>
         <l met="-|2|3|-|-|-|7|-|" n="3">
           <!--mayor es vuestro cuidado-->
