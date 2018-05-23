@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -49,7 +49,7 @@
           <w lemma="fresco" type="AQ0FS00">fres|ca</w>
           <w lemma="aurora" type="NCFS000">au|ro|ra|</w>
         </l>
-        <l met="-|-|-|4|-|-|-|8|-|10|-|" n="2">
+        <l met="1|-|-|4|-|-|-|8|-|10|-|" n="2">
           <!--ha de venir tras la importuna noche;-->
           <w lemma="ha" type="I">ha|</w>
           <w lemma="de" type="SP">de|</w>
@@ -74,7 +74,8 @@
           <w lemma="el" type="DA0FP0">las|</w>
           <w lemma="ninfa" type="NCFP000">nin|fas|</w>
           <w lemma="salir" type="VMIF3P0">sal|drán|</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="verde" type="AQ0CS00">ver|de|</w>
           <w lemma="prado" type="NCMS000">pra|do|</w>
         </l>
@@ -84,14 +85,15 @@
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="aire" type="NCMS000">ai|re|</w>
           <w lemma="sonar" type="VMIF3S0">so|na|rá|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="suave" type="AQ0CS00">sua|ve|</w>
           <w lemma="canto" type="NCMS000">can|to|</w>
         </l>
         <l met="-|2|-|4|-|-|-|8|-|10|-|" n="6">
           <!--y dulce son de cantadoras aves.-->
           <w lemma="y" type="CC">y|</w>
-          <w lemma="dulce" type="NCMS000">dul|ce|</w>
+          <w lemma="dulce" type="AQ0CS00">dul|ce|</w>
           <w lemma="ser" type="VSIP3P0">son|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="cantador" type="NCFP000">can|ta|do|ras|</w>
@@ -126,13 +128,14 @@
         <l met="-|2|-|4|-|6|-|-|-|10|-|" n="10">
           <!--Que al alba triste estoy como a la noche,-->
           <w lemma="que" type="CS">que</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="alba" type="NCFS000">al|ba|</w>
           <w lemma="triste" type="AQ0CS00">tris|te</w>
           <w lemma="estar" type="VMIP1S0">es|toy|</w>
           <w lemma="como" type="CS">co|mo</w>
-          <w lemma="a" type="SP">a</w>
-          <w lemma="el" type="DA0FS0">l|a</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="noche" type="NCFS000">no|che|</w>
         </l>
         <l met="-|2|-|4|-|6|-|8|-|10|-|" n="11">
@@ -140,7 +143,7 @@
           <w lemma="o" type="CC">o</w>
           <w lemma="estar" type="VMSP3S0">es|té|</w>
           <w lemma="desierto" type="NCMS000">de|sier|to</w>
-          <w lemma="o" type="CC">o</w>
+          <w lemma="o" type="CC">o|</w>
           <w lemma="muy" type="RG">muy|</w>
           <w lemma="florido" type="AQ0MS00">flo|ri|do</w>
           <w lemma="el" type="DA0MS0">el|</w>
@@ -151,7 +154,7 @@
           <w lemma="o" type="CC">o</w>
           <w lemma="estar" type="VMSP3S0">es|té|</w>
           <w lemma="nubloso" type="AQ0MS00">nu|blo|so</w>
-          <w lemma="o" type="CC">o</w>
+          <w lemma="o" type="CC">o|</w>
           <w lemma="muy" type="RG">muy|</w>
           <w lemma="sereno" type="AQ0MS00">se|re|no</w>
           <w lemma="el" type="DA0MS0">el|</w>
@@ -166,7 +169,7 @@
           <w lemma="triste" type="AQ0CS00">tris|te|</w>
           <w lemma="día" type="NCMS000">dí|a|</w>
         </l>
-        <l met="1|2|-|4|-|6|-|8|-|10|-|" n="14">
+        <l met="-|2|-|4|-|6|-|8|-|10|-|" n="14">
           <!--tan muerto fui que no podrán las aves-->
           <w lemma="tan" type="RG">tan|</w>
           <w lemma="morir" type="VMP00SM">muer|to|</w>
@@ -253,7 +256,7 @@
           <w lemma="más" type="RG">más|</w>
           <w lemma="cantar" type="VMSP3P0">can|ten|</w>
           <w lemma="el" type="DA0FP0">las|</w>
-          <w lemma="parlero" type="AQ0FP00">pa|rle|ras|</w>
+          <w lemma="parlero" type="AQ0FP00">par|le|ras|</w>
           <w lemma="ave" type="NCFP000">a|ves|</w>
         </l>
         <l met="-|2|-|4|-|-|-|8|-|10|-|" n="23">
@@ -275,11 +278,12 @@
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="prado" type="NCMS000">pra|do|</w>
         </l>
-        <l met="-|-|-|4|-|6|-|8|-|10|-|" n="25">
+        <l met="1|-|-|4|-|6|7|8|-|10|-|" n="25">
           <!--¡Ay, enfadosa huerta! ¡Ay, triste prado!-->
           <w lemma="ay" type="I">ay|</w>
           <w lemma="enfadoso" type="AQ0FS00">en|fa|do|sa|</w>
-          <w lemma="huertaAy" type="NCFS000">I</w>
+          <w lemma="huerta" type="NCFS000">huer|ta</w>
+	  <w lemma="ay" type="I">ay|</w>
           <w lemma="triste" type="AQ0CS00">tris|te|</w>
           <w lemma="prado" type="NCMS000">pra|do|</w>
         </l>
@@ -315,7 +319,7 @@
           <w lemma="vuestro" type="DP2MSP">vues|tro|</w>
           <w lemma="día" type="NCMS000">dí|a|</w>
         </l>
-        <l met="1|-|-|4|-|-|-|8|-|10|-|" n="29">
+        <l met="1|-|-|4|5|-|-|8|-|10|-|" n="29">
           <!--no me canséis, ¡ay, importunas aves!,-->
           <w lemma="no" type="RN">no|</w>
           <w lemma="me" type="PP1CS00">me|</w>
@@ -331,7 +335,7 @@
           <w lemma="él" type="PP3FS00">e|lla|</w>
           <w lemma="vuestro" type="DP2FSP">vues|tra</w>
           <w lemma="aurora" type="NCFS000">au|ro|ra</w>
-          <w lemma="ser" type="VSIP3S0">e|s</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
           <w lemma="noche" type="NCFS000">no|che|</w>
         </l>
         <l met="-|-|3|-|-|-|-|8|-|10|-|" n="31">
@@ -390,7 +394,7 @@
           <w lemma="siesta" type="NCFS000">sies|ta</w>
           <w lemma="y" type="CC">y</w>
           <w lemma="en" type="SP">en|</w>
-          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="el" type="DA0FS0">la</w>
           <w lemma="aurora" type="NCFS000">au|ro|ra|</w>
         </l>
         <l met="1|2|-|4|5|-|-|8|-|10|-|" n="37">
@@ -404,7 +408,7 @@
           <w lemma="mi" type="DP1CSS">mi|</w>
           <w lemma="noche" type="NCFS000">no|che|</w>
         </l>
-        <l met="-|-|3|4|-|6|-|8|-|10|-|" n="38">
+        <l met="-|-|3|4|-|-|7|8|-|10|-|" n="38">
           <!--y si algún día ilustrara este prado,-->
           <w lemma="y" type="CC">y|</w>
           <w lemma="si" type="CS">si</w>
@@ -414,10 +418,11 @@
           <w lemma="este" type="DD0MS0">es|te|</w>
           <w lemma="prado" type="NCMS000">pra|do|</w>
         </l>
-        <l met="-|2|-|-|5|-|-|8|-|-|-|12|-|" n="39">
+        <l met="-|2|-|-|5|-|7|-|-|-|10|-|" n="39">
           <!--darame contento el canto de las aves.-->
-          <w lemma="darame" type="NCMS000">da|ra|me|</w>
-          <w lemma="contento" type="AQ0MS00">con|ten|to|</w>
+          <w lemma="dar" type="VMSI3S0">da|ra|</w>
+	  <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="contento" type="AQ0MS00">con|ten|to</w>
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="canto" type="NCMS000">can|to|</w>
           <w lemma="de" type="SP">de|</w>

@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -73,7 +73,7 @@
           <!--Las reses enriquezcan los pastores,-->
           <w lemma="el" type="DA0FP0">las|</w>
           <w lemma="res" type="NCFP000">re|ses|</w>
-          <w lemma="enriquecer" type="VMSP3P0">e|nri|quez|can|</w>
+          <w lemma="enriquecer" type="VMSP3P0">en|ri|quez|can|</w>
           <w lemma="el" type="DA0MP0">los|</w>
           <w lemma="pastor" type="NCMP000">pas|to|res|</w>
         </l>
@@ -83,7 +83,7 @@
           <w lemma="lobo" type="NCMS000">lo|bo</w>
           <w lemma="hambriento" type="AQ0MS00">ham|brien|to|</w>
           <w lemma="crudamente" type="RG">cru|da|men|te|</w>
-          <w lemma="muera" type="NCFS000">mue|ra|</w>
+          <w lemma="morir" type="VMSI3S0">mue|ra|</w>
         </l>
         <l met="-|2|-|-|-|6|-|-|-|10|-|" n="6">
           <!--y medre y multiplíquese el ganado.-->
@@ -98,7 +98,7 @@
         <l met="-|2|-|-|-|6|-|" n="7">
           <!--El río apresurado-->
           <w lemma="el" type="DA0MS0">el|</w>
-          <w lemma="río" type="NCMS000">río|</w>
+          <w lemma="río" type="NCMS000">rí|o</w>
           <w lemma="apresurar" type="VMP00SM">a|pre|su|ra|do|</w>
         </l>
         <l met="1|-|-|4|-|6|-|8|-|10|-|" n="8">
@@ -123,9 +123,9 @@
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="rostro" type="NCMS000">ros|tro|</w>
           <w lemma="de" type="SP">de|</w>
-          <w lemma="crudo" type="NCMS000">cru|do|</w>
+          <w lemma="crudo" type="NCMS000">cru|do</w>
           <w lemma="y" type="CC">y|</w>
-          <w lemma="variable" type="AQ0CS00">va|ria|ble|</w>
+          <w lemma="variable" type="AQ0CS00">va|ri|a|ble|</w>
         </l>
         <l met="1|2|-|-|-|6|-|" n="11">
           <!--muy firme y favorable,-->
@@ -198,13 +198,13 @@
           <w lemma="y" type="CC">y|</w>
           <w lemma="fortaleza" type="NCFS000">for|ta|le|za|</w>
         </l>
-        <l met="-|-|3|-|5|-|7|-|-|-|-|12|-|" n="19">
+        <l met="-|-|3|-|5|-|7|-|-|-|11|-|" n="19">
           <!--en el alma simple, flaca y desvalida.-->
           <w lemma="en" type="SP">en|</w>
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="alma" type="NCFS000">al|ma|</w>
           <w lemma="simple" type="AQ0CS00">sim|ple|</w>
-          <w lemma="flaco" type="AQ0FS00">fla|ca|</w>
+          <w lemma="flaco" type="AQ0FS00">fla|ca</w>
           <w lemma="y" type="CC">y|</w>
           <w lemma="desvalido" type="AQ0FS00">des|va|li|da|</w>
         </l>
@@ -315,28 +315,28 @@
           <w lemma="crudo" type="AQ0MS00">cru|do</w>
           <w lemma="efecto" type="NCMS000">e|fec|to|</w>
         </l>
-        <l met="-|-|-|4|-|6|-|-|-|10|-|" n="32">
+        <l met="1|-|-|4|-|6|-|-|-|10|-|" n="32">
           <!--¡Oh, sinrazón jamás acostumbrada!-->
           <w lemma="oh" type="I">oh|</w>
-          <w lemma="sinrazón" type="NCFS000">si|nra|zón|</w>
+          <w lemma="sinrazón" type="NCFS000">sin|ra|zón|</w>
           <w lemma="jamás" type="RG">ja|más|</w>
           <w lemma="acostumbrar" type="VMP00SF">a|cos|tum|bra|da|</w>
         </l>
-        <l met="-|-|3|-|5|-|" n="33">
+        <l met="1|-|-|4|-|6|-|" n="33">
           <!--¡Oh, crueldad sobrada!-->
           <w lemma="oh" type="I">oh|</w>
-          <w lemma="crueldad" type="NCFS000">cruel|dad|</w>
+          <w lemma="crueldad" type="NCFS000">cru|el|dad|</w>
           <w lemma="sobrar" type="VMP00SF">so|bra|da|</w>
         </l>
         <l met="1|-|-|4|-|6|7|-|-|10|-|" n="34">
           <!--¿No bastaría, amor, ser poderoso-->
           <w lemma="no" type="RN">no|</w>
-          <w lemma="bastar" type="VMIC3S0">bas|ta|ría|</w>
+          <w lemma="bastar" type="VMIC3S0">bas|ta|rí|a</w>
           <w lemma="amor" type="NCMS000">a|mor|</w>
           <w lemma="ser" type="VSN0000">ser|</w>
           <w lemma="poderoso" type="AQ0MS00">po|de|ro|so|</w>
         </l>
-        <l met="-|2|3|-|-|6|-|" n="35">
+        <l met="-|2|-|-|-|6|-|" n="35">
           <!--sin ser tan riguroso?-->
           <w lemma="sin" type="SP">sin|</w>
           <w lemma="ser" type="VSN0000">ser|</w>
@@ -352,7 +352,7 @@
           <w lemma="sino" type="CC">si|no|</w>
           <w lemma="tirano" type="AQ0MS00">ti|ra|no|</w>
         </l>
-        <l met="-|2|-|4|-|6|-|" n="37">
+        <l met="1|2|-|4|-|6|-|" n="37">
           <!--¡Oh, niño ciego y vano!,-->
           <w lemma="oh" type="I">oh|</w>
           <w lemma="niño" type="NCMS000">ni|ño|</w>
@@ -368,7 +368,7 @@
           <w lemma="te" type="PP2CS00">te|</w>
           <w lemma="mostrar" type="VMIP2S0">mues|tras|</w>
           <w lemma="y" type="CC">y|</w>
-          <w lemma="te" type="PP2CS00">te|</w>
+          <w lemma="te" type="PP2CS00">te</w>
           <w lemma="ensañar" type="VMIP2S0">en|sa|ñas|</w>
         </l>
         <l met="-|-|-|4|-|6|-|-|-|10|-|" n="39">
@@ -404,9 +404,9 @@
         <l met="-|2|-|-|-|6|-|-|-|10|-|" n="42">
           <!--ardiente, embravecida y furiosa.-->
           <w lemma="ardiente" type="AQ0CS00">ar|dien|te</w>
-          <w lemma="embravecer" type="VMP00SF">em|bra|ve|ci|da|</w>
+          <w lemma="embravecer" type="VMP00SF">em|bra|ve|ci|da</w>
           <w lemma="y" type="CC">y|</w>
-          <w lemma="furioso" type="AQ0FS00">fu|rio|sa|</w>
+          <w lemma="furioso" type="AQ0FS00">fu|ri|o|sa|</w>
         </l>
         <l met="-|2|-|-|5|6|-|-|-|10|-|" n="43">
           <!--Y tengo por más simple el que te llama-->
@@ -417,7 +417,7 @@
           <w lemma="simple" type="AQ0CS00">sim|ple</w>
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="que" type="PR0CN00">que|</w>
-          <w lemma="te" type="PP2CS00">te</w>
+          <w lemma="te" type="PP2CS00">te|</w>
           <w lemma="llamar" type="VMIP3S0">lla|ma|</w>
         </l>
         <l met="1|-|-|4|-|6|-|-|-|10|-|" n="44">
@@ -426,8 +426,8 @@
           <w lemma="de" type="SP">de</w>
           <w lemma="aquel" type="DD0FS0">a|que|lla|</w>
           <w lemma="venus" type="NP00000">ve|nus|</w>
-          <w lemma="que" type="PR0CN00">que|</w>
-          <w lemma="en" type="SP">e|n</w>
+          <w lemma="que" type="PR0CN00">que</w>
+          <w lemma="en" type="SP">en|</w>
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="tierra" type="NCFS000">tie|rra|</w>
         </l>
@@ -435,8 +435,8 @@
           <!--fue blanda, regalada y amorosa.-->
           <w lemma="ser" type="VSIS3S0">fue|</w>
           <w lemma="blando" type="AQ0FS00">blan|da|</w>
-          <w lemma="regalar" type="VMP00SF">re|ga|la|da</w>
-          <w lemma="y" type="CC">y|</w>
+          <w lemma="regalar" type="VMP00SF">re|ga|la|da|</w>
+          <w lemma="y" type="CC">y</w>
           <w lemma="amoroso" type="AQ0FS00">a|mo|ro|sa|</w>
         </l>
         <l met="-|2|-|4|-|6|-|" n="46">
@@ -447,7 +447,7 @@
           <w lemma="probar" type="VMP00SF">pro|ba|da|</w>
           <w lemma="cosa" type="NCFS000">co|sa|</w>
         </l>
-        <l met="1|-|-|4|5|6|-|8|-|10|-|" n="47">
+        <l met="1|-|-|4|5|6|-|-|-|10|-|" n="47">
           <!--que ella pariese un hijo tan maligno,-->
           <w lemma="que" type="CS">que</w>
           <w lemma="él" type="PP3FS00">e|lla|</w>
@@ -461,7 +461,7 @@
           <!--yo digo y determino-->
           <w lemma="yo" type="PP1CSN0">yo|</w>
           <w lemma="decir" type="VMIP1S0">di|go</w>
-          <w lemma="y" type="CC">y</w>
+          <w lemma="y" type="CC">y|</w>
           <w lemma="determinar" type="VMIP1S0">de|ter|mi|no|</w>
         </l>
         <l met="-|-|-|4|-|6|-|-|-|10|-|" n="49">
@@ -549,7 +549,8 @@
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="bravo" type="AQ0MS00">bra|vo|</w>
           <w lemma="ser" type="VSIP3P0">son|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="espantoso" type="AQ0MS00">es|pan|to|so|</w>
           <w lemma="trueno" type="NCMS000">true|no|</w>
         </l>
@@ -602,8 +603,8 @@
           <!--sufre tu furia y ásperas hazañas,-->
           <w lemma="sufrir" type="VMIP3S0">su|fre|</w>
           <w lemma="tu" type="DP2CSS">tu|</w>
-          <w lemma="furia" type="NCFS000">fu|ria</w>
-          <w lemma="y" type="CC">y|</w>
+          <w lemma="furia" type="NCFS000">fu|ria|</w>
+          <w lemma="y" type="CC">y</w>
           <w lemma="áspero" type="AQ0FP00">ás|pe|ras|</w>
           <w lemma="hazaña" type="NCFP000">ha|za|ñas|</w>
         </l>
@@ -670,7 +671,7 @@
           <w lemma="y" type="CC">y</w>
           <w lemma="estar" type="VAN0000">es|tar|</w>
           <w lemma="morir" type="VMG0000">mu|rien|do</w>
-          <w lemma="y" type="CC">y</w>
+          <w lemma="y" type="CC">y|</w>
           <w lemma="no" type="RN">no</w>
           <w lemma="acabar" type="VMN0000">a|ca|bar|</w>
           <w lemma="el" type="DA0FS0">la|</w>

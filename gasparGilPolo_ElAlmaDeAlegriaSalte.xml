@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO  y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -111,7 +111,7 @@
           <w lemma="valer" type="VMM02S0">va|le|</w>
           <w lemma="te" type="PP2CS00">te|</w>
         </l>
-        <l met="-|-|3|4|-|-|7|-|" n="10">
+        <l met="-|-|3|-|-|-|7|-|" n="10">
           <!--que, con bien tan excelente,-->
           <w lemma="que" type="CS">que|</w>
           <w lemma="con" type="SP">con|</w>

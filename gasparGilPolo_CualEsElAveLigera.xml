@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -66,8 +66,8 @@
         </l>
         <l met="-|2|-|4|-|-|7|-|" n="4">
           <!--penetra y entra doquiera,-->
-          <w lemma="penetrar" type="VMIP3S0">pe|ne|tra</w>
-          <w lemma="y" type="CC">y|</w>
+          <w lemma="penetrar" type="VMIP3S0">pe|ne|tra|</w>
+          <w lemma="y" type="CC">y</w>
           <w lemma="entrar" type="VMIP3S0">en|tra|</w>
           <w lemma="doquier" type="RG">do|quie|ra|</w>
         </l>

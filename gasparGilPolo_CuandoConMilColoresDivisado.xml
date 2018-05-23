@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -53,7 +53,7 @@
           <w lemma="venir" type="VMIP3S0">vie|ne</w>
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="verano" type="NCMS000">ve|ra|no</w>
-          <w lemma="en" type="SP">e|n</w>
+          <w lemma="en" type="SP">en|</w>
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="ameno" type="AQ0MS00">a|me|no|</w>
           <w lemma="suelo" type="NCMS000">sue|lo|</w>
@@ -97,16 +97,16 @@
           <w lemma="fuente" type="NCFP000">fuen|tes|</w>
           <w lemma="bello" type="AQ0FP00">be|llas|</w>
         </l>
-        <l met="-|-|-|4|-|" n="8">
+        <l met="-|2|-|4|-|" n="8">
           <!--y en torno de ellas-->
           <w lemma="y" type="CC">y</w>
           <w lemma="en_torno_de" type="SP">en_|tor|no_|de</w>
           <w lemma="ellos" type="PP3FP00">e|llas|</w>
         </l>
-        <l met="1|-|3|-|" n="9">
+        <l met="1|-|-|4|-|" n="9">
           <!--cantos suaves-->
           <w lemma="canto" type="NCMP000">can|tos|</w>
-          <w lemma="suave" type="AQ0CP00">sua|ves|</w>
+          <w lemma="suave" type="AQ0CP00">su|a|ves|</w>
         </l>
         <l met="-|2|-|4|-|" n="10">
           <!--de ninfas y aves.-->
@@ -199,9 +199,9 @@
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="tiniebla" type="NCFS000">ti|nie|bla|</w>
         </l>
-        <l met="-|2|-|-|5|-|" n="21">
+        <l met="-|2|-|4|-|" n="21">
           <!--oscura y triste-->
-          <w lemma="oscuro" type="AQ0FS00">os|cu|ra|</w>
+          <w lemma="oscuro" type="AQ0FS00">os|cu|ra</w>
           <w lemma="y" type="CC">y|</w>
           <w lemma="triste" type="AQ0CS00">tris|te|</w>
         </l>
@@ -216,7 +216,8 @@
           <w lemma="mas" type="CC">mas|</w>
           <w lemma="salir" type="VMSP3S0">sal|ga</w>
           <w lemma="elvinia" type="NP00000">el|vi|nia</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="campo" type="NCMS000">cam|po</w>
           <w lemma="y" type="CC">y|</w>
           <w lemma="por" type="SP">por|</w>
@@ -234,7 +235,7 @@
           <w lemma="si" type="CS">si</w>
           <w lemma="alguno" type="DI0FS0">al|gu|na|</w>
           <w lemma="vez" type="NCFS000">vez|</w>
-          <w lemma="enviar" type="VMIP3S0">en|vía|</w>
+          <w lemma="enviar" type="VMIP3S0">en|ví|a</w>
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="cielo" type="NCMS000">cie|lo</w>
           <w lemma="airar" type="VMP00SM">ai|ra|do|</w>
@@ -271,7 +272,7 @@
           <w lemma="y" type="CC">y|</w>
           <w lemma="si" type="CS">si|</w>
           <w lemma="granizo" type="NCMS000">gra|ni|zo</w>
-          <w lemma="o" type="CC">o</w>
+          <w lemma="o" type="CC">o|</w>
           <w lemma="duro" type="AQ0FS00">du|ra|</w>
           <w lemma="piedra" type="NCFS000">pie|dra</w>
           <w lemma="arrojar" type="VMIP3S0">a|rro|ja|</w>
@@ -279,13 +280,13 @@
         <l met="-|2|-|4|-|" n="30">
           <!--la fruta y hoja-->
           <w lemma="el" type="DA0FS0">la|</w>
-          <w lemma="fruto" type="NCFS000">fru|ta</w>
-          <w lemma="y" type="CC">y|</w>
+          <w lemma="fruto" type="NCFS000">fru|ta|</w>
+          <w lemma="y" type="CC">y</w>
           <w lemma="hoja" type="NCFS000">ho|ja|</w>
         </l>
-        <l met="1|-|-|-|5|-|" n="31">
+        <l met="1|-|-|4|-|" n="31">
           <!--gasta y destruye,-->
-          <w lemma="gastar" type="VMIP3S0">gas|ta|</w>
+          <w lemma="gastar" type="VMIP3S0">gas|ta</w>
           <w lemma="y" type="CC">y|</w>
           <w lemma="destruir" type="VMIP3S0">des|tru|ye|</w>
         </l>
@@ -295,14 +296,14 @@
           <w lemma="pastor" type="NCMS000">pas|tor|</w>
           <w lemma="huir" type="VMIP3S0">hu|ye|</w>
         </l>
-        <l met="-|-|-|4|-|" n="33">
+        <l met="-|2|-|4|-|" n="33">
           <!--a paso largo,-->
           <w lemma="a_paso_largo" type="RG">a_|pa|so_|lar|go|</w>
         </l>
         <l met="1|-|-|4|-|" n="34">
           <!--triste y amargo.-->
-          <w lemma="triste" type="AQ0CS00">tris|te</w>
-          <w lemma="y" type="CC">y|</w>
+          <w lemma="triste" type="AQ0CS00">tris|te|</w>
+          <w lemma="y" type="CC">y</w>
           <w lemma="amargo" type="AQ0MS00">a|mar|go|</w>
         </l>
         <l met="-|2|-|4|-|6|-|-|-|10|-|" n="35">
@@ -310,7 +311,8 @@
           <w lemma="mas" type="CC">mas|</w>
           <w lemma="salir" type="VMSP3S0">sal|ga</w>
           <w lemma="elvinia" type="NP00000">el|vi|nia</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="campo" type="NCMS000">cam|po</w>
           <w lemma="y" type="CC">y|</w>
           <w lemma="su" type="DP3CSN">su|</w>
@@ -358,16 +360,16 @@
         <l met="-|2|-|-|-|6|-|-|-|10|-|" n="40">
           <!--la mirla y la calandria replicando;-->
           <w lemma="el" type="DA0FS0">la|</w>
-          <w lemma="mirla" type="NCFS000">mi|rla</w>
+          <w lemma="mirla" type="NCFS000">mir|la</w>
           <w lemma="y" type="CC">y|</w>
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="calandria" type="NCFS000">ca|lan|dria|</w>
           <w lemma="replicar" type="VMG0000">re|pli|can|do|</w>
         </l>
-        <l met="-|-|3|-|-|6|-|8|-|10|-|" n="41">
+        <l met="-|-|-|4|-|6|-|8|-|10|-|" n="41">
           <!--cuando suave espira el fresco viento,-->
           <w lemma="cuando" type="CS">cuan|do|</w>
-          <w lemma="suave" type="AQ0CS00">sua|ve|</w>
+          <w lemma="suave" type="AQ0CS00">su|a|ve</w>
           <w lemma="espira" type="NCFS000">es|pi|ra</w>
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="fresco" type="AQ0MS00">fres|co|</w>
@@ -384,10 +386,10 @@
           <w lemma="más" type="RG">más|</w>
           <w lemma="soberano" type="AQ0MS00">so|be|ra|no|</w>
         </l>
-        <l met="-|2|-|-|5|-|" n="44">
+        <l met="-|2|-|4|-|" n="44">
           <!--me tiene ufano,-->
           <w lemma="me" type="PP1CS00">me|</w>
-          <w lemma="tener" type="VMIP3S0">tie|ne|</w>
+          <w lemma="tener" type="VMIP3S0">tie|ne</w>
           <w lemma="ufano" type="AQ0MS00">u|fa|no|</w>
         </l>
         <l met="1|-|-|4|-|" n="45">
@@ -402,15 +404,15 @@
           <w lemma="y" type="CC">y|</w>
           <w lemma="ledo" type="AQ0MS00">le|do|</w>
         </l>
-        <l met="-|-|3|-|-|6|-|-|9|-|-|12|-|-|15|-|" n="47">
+        <l met="-|2|-|4|-|6|-|8|-|10|-|" n="47">
           <!--si asoma Elvinia airada, así me espanto-->
-          <w lemma="si" type="CS">si|</w>
-          <w lemma="asomar" type="VMIP3S0">a|so|ma|</w>
-          <w lemma="elvinia" type="NP00000">el|vi|nia|</w>
-          <w lemma="airar" type="VMP00SF">ai|ra|da|</w>
+          <w lemma="si" type="CS">si</w>
+          <w lemma="asomar" type="VMIP3S0">a|so|ma</w>
+          <w lemma="elvinia" type="NP00000">el|vi|nia</w>
+          <w lemma="airar" type="VMP00SF">ai|ra|da</w>
           <w lemma="así" type="RG">a|sí|</w>
-          <w lemma="me" type="PP1CS00">me|</w>
-          <w lemma="espanto" type="NCMS000">es|pan|to|</w>
+          <w lemma="me" type="PP1CS00">me</w>
+          <w lemma="espantar" type="VMIP1S0">es|pan|to|</w>
         </l>
         <l met="-|2|-|4|-|6|-|8|-|10|-|" n="48">
           <!--que el rayo ardiente no me aterra tanto.-->
@@ -496,7 +498,8 @@
         </l>
         <l met="-|2|-|-|-|6|-|8|-|10|-|" n="59">
           <!--al bosque donde caza Elvinia mía,-->
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="bosque" type="NCMS000">bos|que|</w>
           <w lemma="donde" type="PR00000">don|de|</w>
           <w lemma="cazar" type="VMIP3S0">ca|za</w>
@@ -543,13 +546,13 @@
           <w lemma="bajar" type="VMSI3S0">ba|ja|ra|</w>
           <w lemma="avergonzar" type="VMP00PM">a|ver|gon|za|dos|</w>
         </l>
-        <l met="-|-|-|-|5|-|-|-|9|-|-|-|13|-|" n="65">
+        <l met="-|-|-|4|-|-|7|-|-|-|11|-|" n="65">
           <!--porque en el agua de aquella transparente-->
-          <w lemma="porque" type="CS">por|que|</w>
+          <w lemma="porque" type="CS">por|que</w>
           <w lemma="en" type="SP">en|</w>
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="agua" type="NCCS000">a|gua|</w>
-          <w lemma="de" type="SP">de|</w>
+          <w lemma="de" type="SP">de</w>
           <w lemma="aquel" type="DD0FS0">a|que|lla|</w>
           <w lemma="transparente" type="AQ0CS00">trans|pa|ren|te|</w>
         </l>
@@ -584,7 +587,8 @@
         <l met="-|-|-|4|-|-|7|-|-|10|-|" n="71">
           <!--y al atrevido Acteón, si la viera,-->
           <w lemma="y" type="CC">y</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="atrevido" type="NCMS000">a|tre|vi|do</w>
           <w lemma="acteón" type="NP00000">ac|te|ón|</w>
           <w lemma="si" type="CS">si|</w>
@@ -616,7 +620,7 @@
           <w lemma="todo" type="DI0FS0">to|da|</w>
           <w lemma="parte" type="NCCS000">par|te|</w>
         </l>
-        <l met="-|2|-|-|5|-|" n="75">
+        <l met="-|2|-|4|-|" n="75">
           <!--por ver si el canto-->
           <w lemma="por" type="SP">por|</w>
           <w lemma="ver" type="VMN0000">ver|</w>
@@ -624,22 +628,22 @@
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="canto" type="NCMS000">can|to|</w>
         </l>
-        <l met="-|2|-|4|5|-|" n="76">
+        <l met="-|2|3|4|-|" n="76">
           <!--amansa un tanto-->
-          <w lemma="amansar" type="VMIP3S0">a|man|sa|</w>
+          <w lemma="amansar" type="VMIP3S0">a|man|sa</w>
           <w lemma="uno" type="DI0MS0">un|</w>
           <w lemma="tanto" type="NCMS000">tan|to|</w>
         </l>
-        <l met="-|2|-|-|5|-|" n="77">
+        <l met="-|2|-|4|-|" n="77">
           <!--mi clara estrella,-->
           <w lemma="mi" type="DP1CSS">mi|</w>
-          <w lemma="claro" type="AQ0FS00">cla|ra|</w>
+          <w lemma="claro" type="AQ0FS00">cla|ra</w>
           <w lemma="estrella" type="NCFS000">es|tre|lla|</w>
         </l>
-        <l met="1|2|-|-|5|-|" n="78">
+        <l met="-|2|-|4|-|" n="78">
           <!--tan cruda y bella.-->
           <w lemma="tan" type="RG">tan|</w>
-          <w lemma="crudo" type="AQ0FS00">cru|da|</w>
+          <w lemma="crudo" type="AQ0FS00">cru|da</w>
           <w lemma="y" type="CC">y|</w>
           <w lemma="bello" type="AQ0FS00">be|lla|</w>
         </l>

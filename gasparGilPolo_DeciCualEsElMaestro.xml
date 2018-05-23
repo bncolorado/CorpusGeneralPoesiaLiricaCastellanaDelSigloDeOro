@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -42,20 +42,20 @@
       <lg cert="high" type="Quintillas">
         <l met="-|2|3|4|-|-|7|-|" n="1">
           <!--Decí, ¿cuál es el maestro-->
-          <w lemma="decí" type="NP00000">de|cí|</w>
+          <w lemma="decir" type="VMMP2S0">de|cí|</w>
           <w lemma="cuál" type="PT0CS00">cuál|</w>
           <w lemma="ser" type="VSIP3S0">es|</w>
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="maestro" type="NCMS000">ma|es|tro|</w>
         </l>
-        <l met="-|-|3|-|-|6|7|-|" n="2">
+        <l met="-|-|3|-|5|-|7|-|" n="2">
           <!--que su dueño le es criado,-->
           <w lemma="que" type="CS">que|</w>
           <w lemma="su" type="DP3CSN">su|</w>
           <w lemma="dueño" type="NCMS000">due|ño|</w>
-          <w lemma="le" type="PP3CSD0">le|</w>
+          <w lemma="le" type="PP3CSD0">le</w>
           <w lemma="ser" type="VSIP3S0">es|</w>
-          <w lemma="criar" type="VMP00SM">cria|do|</w>
+          <w lemma="criar" type="VMP00SM">cri|a|do|</w>
         </l>
         <l met="-|2|-|-|5|-|7|-|" n="3">
           <!--está como loco atado,-->
@@ -90,10 +90,10 @@
           <w lemma="sin" type="SP">sin|</w>
           <w lemma="oír" type="VMN0000">o|ír|</w>
           <w lemma="lo" type="PP3MSA0">lo|</w>
-          <w lemma="lo" type="PP3MSA0">lo|</w>
+          <w lemma="lo" type="PP3MSA0">lo</w>
           <w lemma="entender" type="VMII3S0">en|ten|dí|a|</w>
         </l>
-        <l met="-|2|3|-|-|-|7|-|" n="8">
+        <l met="-|-|3|-|-|-|7|-|" n="8">
           <!--y tan sabio se mostraba-->
           <w lemma="y" type="CC">y|</w>
           <w lemma="tan" type="RG">tan|</w>

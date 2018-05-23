@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -59,18 +59,18 @@
           <w lemma="se" type="P00CN00">se|</w>
           <w lemma="levantar" type="VMIP3S0">le|van|ta|</w>
         </l>
-        <l met="-|2|3|-|5|-|-|8|-|-|-|12|-|" n="3">
+        <l met="-|2|3|-|5|-|-|8|-|-|11|-|" n="3">
           <!--con pies más de treinta subiendo y bajando,-->
           <w lemma="con" type="SP">con|</w>
           <w lemma="pie" type="NCMP000">pies|</w>
           <w lemma="más" type="RG">más|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="30" type="Z">trein|ta|</w>
-          <w lemma="subir" type="VMG0000">su|bien|do|</w>
+          <w lemma="subir" type="VMG0000">su|bien|do</w>
           <w lemma="y" type="CC">y|</w>
           <w lemma="bajar" type="VMG0000">ba|jan|do|</w>
         </l>
-        <l met="-|2|-|-|5|-|-|8|-|-|-|12|-|" n="4">
+        <l met="-|2|-|-|5|-|-|8|-|-|11|-|" n="4">
           <!--con alas sin plumas el aire azotando,-->
           <w lemma="con" type="SP">con|</w>
           <w lemma="ala" type="NCFP000">a|las|</w>
@@ -83,71 +83,57 @@
         <l met="-|2|-|-|5|-|-|8|-|-|11|-|" n="5">
           <!--ni come ni bebe ni grita ni canta?-->
           <w lemma="ni" type="CC">ni|</w>
-          <w lemma="ni" type="CC">ni|</w>
-          <w lemma="ni" type="CC">ni|</w>
-          <w lemma="ni" type="CC">ni|</w>
           <w lemma="comer" type="VMM02S0">co|me|</w>
-          <w lemma="ni" type="CC">ni|</w>
-          <w lemma="ni" type="CC">ni|</w>
-          <w lemma="ni" type="CC">ni|</w>
           <w lemma="ni" type="CC">ni|</w>
           <w lemma="beber" type="VMM02S0">be|be|</w>
           <w lemma="ni" type="CC">ni|</w>
-          <w lemma="ni" type="CC">ni|</w>
-          <w lemma="ni" type="CC">ni|</w>
-          <w lemma="ni" type="CC">ni|</w>
           <w lemma="gritar" type="VMM02S0">gri|ta|</w>
-          <w lemma="ni" type="CC">ni|</w>
-          <w lemma="ni" type="CC">ni|</w>
-          <w lemma="ni" type="CC">ni|</w>
           <w lemma="ni" type="CC">ni|</w>
           <w lemma="cantar" type="VMM02S0">can|ta|</w>
         </l>
-        <l met="-|-|3|-|-|6|-|-|9|-|-|-|13|-|" n="6">
+        <l met="-|2|-|-|5|-|-|8|-|-|11|-|" n="6">
           <!--De la áspera muerte, vecina allegada,-->
           <w lemma="de" type="SP">de|</w>
-          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="el" type="DA0FS0">la</w>
           <w lemma="áspero" type="AQ0FS00">ás|pe|ra|</w>
           <w lemma="muerte" type="NCFS000">muer|te|</w>
           <w lemma="vecino" type="AQ0FS00">ve|ci|na|</w>
           <w lemma="allegado" type="NCFS000">a|lle|ga|da|</w>
         </l>
-        <l met="-|2|-|-|-|6|-|-|9|-|-|-|13|-|" n="7">
+        <l met="-|2|-|-|5|-|-|8|-|-|11|-|" n="7">
           <!--con piedras que arroja nos hiere y maltrata;-->
           <w lemma="con" type="SP">con|</w>
           <w lemma="piedra" type="NCFP000">pie|dras|</w>
-          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="que" type="PR0CN00">que</w>
           <w lemma="arrojar" type="VMIP3S0">a|rro|ja|</w>
           <w lemma="nos" type="PP1CP00">nos|</w>
-          <w lemma="herir" type="VMIP3S0">hie|re|</w>
+          <w lemma="herir" type="VMIP3S0">hie|re</w>
           <w lemma="y" type="CC">y|</w>
           <w lemma="maltratar" type="VMIP3S0">mal|tra|ta|</w>
         </l>
-        <l met="-|2|-|4|-|6|-|-|9|-|-|-|13|-|" n="8">
+        <l met="-|2|3|-|5|-|-|8|-|-|11|-|" n="8">
           <!--amiga es de gente cativa y malvada,-->
-          <w lemma="amigo" type="AQ0FS00">a|mi|ga|</w>
+          <w lemma="amigo" type="AQ0FS00">a|mi|ga</w>
           <w lemma="ser" type="VSIP3S0">es|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="gente" type="NCFS000">gen|te|</w>
-          <w lemma="cativa" type="AQ0FS00">ca|ti|va|</w>
+          <w lemma="cativa" type="AQ0FS00">ca|ti|va</w>
           <w lemma="y" type="CC">y|</w>
           <w lemma="malvado" type="AQ0FS00">mal|va|da|</w>
         </l>
-        <l met="-|-|3|-|-|6|-|-|9|-|-|12|-|" n="9">
+        <l met="-|2|-|-|5|-|-|8|-|-|11|-|" n="9">
           <!--y a muertes y robos, contino vezada,-->
-          <w lemma="y" type="CC">y|</w>
-          <w lemma="y" type="CC">y|</w>
+          <w lemma="y" type="CC">y</w>
           <w lemma="a" type="SP">a|</w>
           <w lemma="muerte" type="NCFP000">muer|tes|</w>
           <w lemma="y" type="CC">y|</w>
-          <w lemma="y" type="CC">y|</w>
           <w lemma="robo" type="NCMP000">ro|bos|</w>
           <w lemma="contino" type="NCMS000">con|ti|no|</w>
-          <w lemma="vezada" type="VMP00SF">ve|za|da|</w>
+          <w lemma="vezar" type="VMP00SF">ve|za|da|</w>
         </l>
-        <l met="-|2|-|-|-|6|-|-|9|-|-|12|-|" n="10">
+        <l met="-|2|-|-|5|-|-|8|-|-|11|-|" n="10">
           <!--esconde en las aguas la gente que mata.-->
-          <w lemma="esconder" type="VMIP3S0">es|con|de|</w>
+          <w lemma="esconder" type="VMIP3S0">es|con|de</w>
           <w lemma="en" type="SP">en|</w>
           <w lemma="el" type="DA0FP0">las|</w>
           <w lemma="agua" type="NCFP000">a|guas|</w>

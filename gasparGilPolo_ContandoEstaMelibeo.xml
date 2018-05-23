@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -66,7 +66,7 @@
           <w lemma="te" type="PP2CS00">te</w>
           <w lemma="entender" type="VMIP1S0">en|tien|do|</w>
           <w lemma="ni" type="CC">ni|</w>
-          <w lemma="te" type="PP2CS00">te</w>
+          <w lemma="te" type="PP2CS00">te|</w>
           <w lemma="creer" type="VMIP1S0">cre|o|</w>
         </l>
         <l met="1|2|-|-|5|-|7|-|" n="5">
@@ -123,16 +123,12 @@
           <w lemma="responder" type="VMIP3S0">res|pon|de|</w>
           <w lemma="pastor" type="NP00000">pas|tor|</w>
         </l>
-        <l met="-|-|-|4|-|-|-|8|-|" n="12">
+        <l met="-|-|3|-|-|-|7|-|" n="12">
           <!--ni te entiendo ni te creo.-->
           <w lemma="ni" type="CC">ni|</w>
-          <w lemma="ni" type="CC">ni|</w>
-          <w lemma="te" type="PP2CS00">te|</w>
-          <w lemma="te" type="PP2CS00">te|</w>
+          <w lemma="te" type="PP2CS00">te</w>
           <w lemma="entender" type="VMIP1S0">en|tien|do|</w>
           <w lemma="ni" type="CC">ni|</w>
-          <w lemma="ni" type="CC">ni|</w>
-          <w lemma="te" type="PP2CS00">te|</w>
           <w lemma="te" type="PP2CS00">te|</w>
           <w lemma="creer" type="VMIP1S0">cre|o|</w>
         </l>
@@ -144,7 +140,7 @@
           <w lemma="triste" type="AQ0CS00">tris|te|</w>
           <w lemma="cuidado" type="NCMS000">cui|da|do|</w>
         </l>
-        <l met="1|-|-|4|-|6|7|-|" n="14">
+        <l met="-|-|-|4|-|6|7|-|" n="14">
           <!--tan agradable me ha sido,-->
           <w lemma="tan" type="RG">tan|</w>
           <w lemma="agradable" type="AQ0CS00">a|gra|da|ble|</w>
@@ -152,7 +148,7 @@
           <w lemma="haber" type="VAIP3S0">ha|</w>
           <w lemma="ser" type="VSP00SM">si|do|</w>
         </l>
-        <l met="-|2|-|4|-|-|7|-|" n="15">
+        <l met="-|-|-|4|-|-|7|-|" n="15">
           <!--que cuanto más padecido,-->
           <w lemma="que" type="CS">que|</w>
           <w lemma="cuanto" type="RG">cuan|to|</w>
@@ -176,7 +172,8 @@
           <w lemma="y" type="CC">y</w>
           <w lemma="estar" type="VAIP1S0">es|toy|</w>
           <w lemma="servir" type="VMG0000">sir|vien|do</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="amor" type="NCMS000">a|mor|</w>
         </l>
         <l met="1|-|-|4|-|-|7|-|" n="19">
@@ -185,16 +182,12 @@
           <w lemma="responder" type="VMIP3S0">res|pon|de|</w>
           <w lemma="pastor" type="NP00000">pas|tor|</w>
         </l>
-        <l met="-|-|-|4|-|-|-|8|-|" n="20">
+        <l met="-|-|3|-|-|-|7|-|" n="20">
           <!--ni te entiendo ni te creo.-->
           <w lemma="ni" type="CC">ni|</w>
-          <w lemma="ni" type="CC">ni|</w>
-          <w lemma="te" type="PP2CS00">te|</w>
-          <w lemma="te" type="PP2CS00">te|</w>
+          <w lemma="te" type="PP2CS00">te</w>
           <w lemma="entender" type="VMIP1S0">en|tien|do|</w>
           <w lemma="ni" type="CC">ni|</w>
-          <w lemma="ni" type="CC">ni|</w>
-          <w lemma="te" type="PP2CS00">te|</w>
           <w lemma="te" type="PP2CS00">te|</w>
           <w lemma="creer" type="VMIP1S0">cre|o|</w>
         </l>
@@ -253,13 +246,9 @@
         <l met="-|-|-|4|-|-|-|8|-|" n="28">
           <!--ni te entiendo ni te creo.-->
           <w lemma="ni" type="CC">ni|</w>
-          <w lemma="ni" type="CC">ni|</w>
-          <w lemma="te" type="PP2CS00">te|</w>
           <w lemma="te" type="PP2CS00">te|</w>
           <w lemma="entender" type="VMIP1S0">en|tien|do|</w>
           <w lemma="ni" type="CC">ni|</w>
-          <w lemma="ni" type="CC">ni|</w>
-          <w lemma="te" type="PP2CS00">te|</w>
           <w lemma="te" type="PP2CS00">te|</w>
           <w lemma="creer" type="VMIP1S0">cre|o|</w>
         </l>
@@ -297,7 +286,7 @@
           <w lemma="tener" type="VMIP1S0">ten|go|</w>
           <w lemma="de" type="SP">de</w>
           <w lemma="hallar" type="VMN0000">ha|llar|</w>
-          <w lemma="te" type="PP2CS00">te||</w>
+          <w lemma="te" type="PP2CS00">te|</w>
         </l>
         <l met="-|-|-|4|-|-|7|-|" n="33">
           <!--Como el antiguo Proteo-->
@@ -322,13 +311,9 @@
         <l met="-|-|-|4|-|-|-|8|-|" n="36">
           <!--ni te entiendo ni te creo.-->
           <w lemma="ni" type="CC">ni|</w>
-          <w lemma="ni" type="CC">ni|</w>
-          <w lemma="te" type="PP2CS00">te|</w>
-          <w lemma="te" type="PP2CS00">te|</w>
+          <w lemma="te" type="PP2CS00">te</w>
           <w lemma="entender" type="VMIP1S0">en|tien|do|</w>
           <w lemma="ni" type="CC">ni|</w>
-          <w lemma="ni" type="CC">ni|</w>
-          <w lemma="te" type="PP2CS00">te|</w>
           <w lemma="te" type="PP2CS00">te|</w>
           <w lemma="creer" type="VMIP1S0">cre|o|</w>
         </l>
@@ -344,13 +329,14 @@
           <!--más bien del que el alma alcanza,-->
           <w lemma="más" type="RG">más|</w>
           <w lemma="bien" type="RG">bien|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="que" type="PR0CN00">que</w>
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="alma" type="NCFS000">al|ma</w>
           <w lemma="alcanzar" type="VMIP3S0">al|can|za|</w>
         </l>
-        <l met="-|-|3|-|-|-|7|-|" n="39">
+        <l met="-|-|-|-|-|-|7|-|" n="39">
           <!--porque aun con la esperanza-->
           <w lemma="porque" type="CS">por|que|</w>
           <w lemma="aun" type="RG">aun|</w>
@@ -388,16 +374,12 @@
           <w lemma="responder" type="VMIP3S0">res|pon|de|</w>
           <w lemma="pastor" type="NP00000">pas|tor|</w>
         </l>
-        <l met="-|-|-|4|-|-|-|8|-|" n="44">
+        <l met="-|-|3|-|-|-|7|-|" n="44">
           <!--ni te entiendo ni te creo.-->
           <w lemma="ni" type="CC">ni|</w>
-          <w lemma="ni" type="CC">ni|</w>
-          <w lemma="te" type="PP2CS00">te|</w>
-          <w lemma="te" type="PP2CS00">te|</w>
+          <w lemma="te" type="PP2CS00">te</w>
           <w lemma="entender" type="VMIP1S0">en|tien|do|</w>
           <w lemma="ni" type="CC">ni|</w>
-          <w lemma="ni" type="CC">ni|</w>
-          <w lemma="te" type="PP2CS00">te|</w>
           <w lemma="te" type="PP2CS00">te|</w>
           <w lemma="creer" type="VMIP1S0">cre|o|</w>
         </l>

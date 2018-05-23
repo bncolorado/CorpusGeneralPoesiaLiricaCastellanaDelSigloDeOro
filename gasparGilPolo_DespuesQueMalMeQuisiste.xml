@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -56,7 +56,7 @@
           <w lemma="querer" type="VMIS1S0">qui|se|</w>
           <w lemma="bien" type="RG">bien|</w>
         </l>
-        <l met="-|2|-|4|5|-|" n="3">
+        <l met="-|2|-|4|5|-|7|-|" n="3">
           <!--por no querer bien a quien-->
           <w lemma="por" type="SP">por|</w>
           <w lemma="no" type="RN">no|</w>
@@ -132,7 +132,8 @@
         </l>
         <l met="-|-|3|4|-|-|7|-|" n="12">
           <!--al que vos mal le quisiste.-->
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="que" type="PR0CN00">que|</w>
           <w lemma="vos" type="PP2CS0P">vos|</w>
           <w lemma="mal" type="RG">mal|</w>
@@ -163,13 +164,9 @@
         <l met="-|-|3|-|-|-|7|-|" n="16">
           <!--y de vos y de la gente.-->
           <w lemma="y" type="CC">y|</w>
-          <w lemma="y" type="CC">y|</w>
-          <w lemma="de" type="SP">de|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="vos" type="PP2CS0P">vos|</w>
           <w lemma="y" type="CC">y|</w>
-          <w lemma="y" type="CC">y|</w>
-          <w lemma="de" type="SP">de|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="gente" type="NCFS000">gen|te|</w>

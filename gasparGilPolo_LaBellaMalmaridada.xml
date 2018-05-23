@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -67,7 +67,7 @@
           <!--vida, no dejes a mí.-->
           <w lemma="vida" type="NCFS000">vi|da|</w>
           <w lemma="no" type="RN">no|</w>
-          <w lemma="deje" type="NCMP000">de|jes|</w>
+          <w lemma="dejar" type="VMSP2S0">de|jes|</w>
           <w lemma="a" type="SP">a|</w>
           <w lemma="mí" type="PP1CSO0">mí|</w>
         </l>
@@ -117,7 +117,7 @@
           <!--Porque estando a tu poder-->
           <w lemma="porque" type="CS">por|que</w>
           <w lemma="estar" type="VMG0000">es|tan|do</w>
-          <w lemma="a" type="SP">a</w>
+          <w lemma="a" type="SP">a|</w>
           <w lemma="tu" type="DP2CSS">tu|</w>
           <w lemma="poder" type="NCMS000">po|der|</w>
         </l>
@@ -130,7 +130,7 @@
         <l met="-|-|3|-|-|-|7|-|" n="13">
           <!--te deshonras, a mi ver,-->
           <w lemma="te" type="PP2CS00">te|</w>
-          <w lemma="deshonra" type="NCFP000">de|sho|nras|</w>
+          <w lemma="deshonrar" type="VMIP2S0">de|sho|nras|</w>
           <w lemma="a" type="SP">a|</w>
           <w lemma="mi" type="DP1CSS">mi|</w>
           <w lemma="ver" type="VMN0000">ver|</w>
@@ -141,7 +141,7 @@
           <w lemma="sufrir" type="VMN0000">su|frir|</w>
           <w lemma="que" type="CS">que|</w>
           <w lemma="venir" type="VMSP3S0">ven|ga</w>
-          <w lemma="a" type="SP">a</w>
+          <w lemma="a" type="SP">a|</w>
           <w lemma="ser" type="VSN0000">ser|</w>
         </l>
         <l met="-|2|-|4|-|-|7|-|" n="15">
@@ -153,7 +153,7 @@
         </l>
         <l met="1|-|3|-|-|-|7|-|" n="16">
           <!--Haces mal, pues se mostró-->
-          <w lemma="haz" type="NCMP000">ha|ces|</w>
+          <w lemma="hacer" type="VMIP2S0">ha|ces|</w>
           <w lemma="mal" type="AQ0MS00">mal|</w>
           <w lemma="pues" type="CS">pues|</w>
           <w lemma="se" type="P00CN00">se|</w>
@@ -171,7 +171,8 @@
           <!--porque siempre al que la vio-->
           <w lemma="porque" type="CS">por|que|</w>
           <w lemma="siempre" type="RG">siem|pre</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="que" type="PR0CN00">que|</w>
           <w lemma="lo" type="PP3FSA0">la|</w>
           <w lemma="ver" type="VMIS3S0">vio|</w>
@@ -199,7 +200,7 @@
           <w lemma="así" type="RG">a|sí|</w>
           <w lemma="mi" type="DP1CSS">mi|</w>
           <w lemma="constancia" type="NCFS000">cons|tan|cia</w>
-          <w lemma="y" type="CC">y</w>
+          <w lemma="y" type="CC">y|</w>
           <w lemma="fe" type="NCFS000">fe|</w>
         </l>
         <l met="-|-|3|-|-|6|7|-|" n="22">
@@ -209,7 +210,7 @@
           <w lemma="pena" type="NCFS000">pe|na|</w>
           <w lemma="que" type="PR0CN00">que</w>
           <w lemma="estar" type="VMIP3S0">es|tá</w>
-          <w lemma="en" type="SP">e|n</w>
+          <w lemma="en" type="SP">en|</w>
           <w lemma="mí" type="PP1CSO0">mí|</w>
         </l>
         <l met="-|-|3|4|-|6|7|-|" n="23">
@@ -255,26 +256,26 @@
           <w lemma="tu" type="DP2CSS">tu|</w>
           <w lemma="bien" type="NCMS000">bien|</w>
         </l>
-        <l met="-|2|3|-|-|6|-|8|-|" n="28">
+        <l met="-|2|3|-|5|-|7|-|" n="28">
           <!--algún día espero verte,-->
           <w lemma="alguno" type="DI0MS0">al|gún|</w>
-          <w lemma="día" type="NCMS000">dí|a|</w>
+          <w lemma="día" type="NCMS000">dí|a</w>
           <w lemma="esperar" type="VMIP1S0">es|pe|ro|</w>
           <w lemma="ver" type="VMN0000">ver|</w>
           <w lemma="te" type="PP2CS00">te|</w>
         </l>
-        <l met="-|-|3|4|-|6|-|-|9|-|" n="29">
+        <l met="-|2|3|4|-|-|7|-|" n="29">
           <!--que a ti mismo has de ofenderte,-->
-          <w lemma="que" type="CS">que|</w>
+          <w lemma="que" type="CS">que</w>
           <w lemma="a" type="SP">a|</w>
           <w lemma="ti" type="PP2CSO0">ti|</w>
-          <w lemma="mismo" type="AQ0MS00">mis|mo|</w>
+          <w lemma="mismo" type="AQ0MS00">mis|mo</w>
           <w lemma="haber" type="VMIP2S0">has|</w>
           <w lemma="de" type="SP">de</w>
           <w lemma="ofender" type="VMN0000">o|fen|der|</w>
           <w lemma="te" type="PP2CS00">te|</w>
         </l>
-        <l met="-|-|3|-|5|-|" n="30">
+        <l met="-|-|3|-|5|-|7|-|" n="30">
           <!--porque no tendrás a quien.-->
           <w lemma="porque" type="CS">por|que|</w>
           <w lemma="no" type="RN">no|</w>
@@ -282,7 +283,7 @@
           <w lemma="a" type="SP">a|</w>
           <w lemma="quien" type="PR0CS00">quien|</w>
         </l>
-        <l met="-|2|3|-|-|-|7|-|" n="31">
+        <l met="1|2|3|-|-|-|7|-|" n="31">
           <!--¡Oh, qué bien parecerás-->
           <w lemma="oh" type="I">oh|</w>
           <w lemma="qué" type="DE0CN0">qué|</w>
@@ -361,7 +362,8 @@
           <w lemma="y" type="CC">y|</w>
           <w lemma="si" type="CS">si|</w>
           <w lemma="querer" type="VMIP1S0">quie|ro|</w>
-          <w lemma="reprehenderte" type="NCFS000">re|prehen|der|te|</w>
+          <w lemma="reprehender" type="">re|prehen|der|</w>
+	  <w lemma="te" type="PP2CS00">te|</w>
         </l>
         <l met="-|2|-|4|-|-|7|-|" n="42">
           <!--dirás, volviendo por ti,-->
