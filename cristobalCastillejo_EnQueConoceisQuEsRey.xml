@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -69,10 +69,8 @@
           <!--es un asna con un buey?-->
           <w lemma="ser" type="VSIP3S0">es|</w>
           <w lemma="uno" type="DI0MS0">un|</w>
-          <w lemma="uno" type="DI0MS0">un|</w>
           <w lemma="asno" type="NCFS000">as|na|</w>
           <w lemma="con" type="SP">con|</w>
-          <w lemma="uno" type="DI0MS0">un|</w>
           <w lemma="uno" type="DI0MS0">un|</w>
           <w lemma="buey" type="NCMS000">buey|</w>
         </l>
@@ -96,7 +94,7 @@
           <w lemma="estrella" type="NCFS000">es|tre|lla</w>
           <w lemma="os" type="PP2CP00">os|</w>
           <w lemma="mostrar" type="VMIP3S0">mues|tra</w>
-          <w lemma="el" type="DA0MS0">e|l</w>
+          <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="camino" type="NCMS000">ca|mi|no|</w>
         </l>
         <l met="-|-|3|-|-|-|7|-|" n="8">

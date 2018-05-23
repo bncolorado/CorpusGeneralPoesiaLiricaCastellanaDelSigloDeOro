@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -81,7 +81,8 @@
         </l>
         <l met="-|-|3|-|-|-|7|-|" n="7">
           <!--espantóme la humildad-->
-          <w lemma="espantóme" type="VMIP3S0">es|pan|tó|me|</w>
+          <w lemma="espantar" type="VMIP3S0">es|pan|tó|</w>
+	  <w lemma="me" type="PP1CS00">me|</w>
           <w lemma="el" type="DA0FS0">la</w>
           <w lemma="humildad" type="NCFS000">hu|mil|dad|</w>
         </l>

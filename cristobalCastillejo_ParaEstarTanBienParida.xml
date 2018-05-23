@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -40,7 +40,7 @@
         <title>Para estar tan bien parida</title>
       </head>
       <lg cert="low" type="Coplas">
-        <l met="-|-|3|4|5|-|7|-|" n="1">
+        <l met="-|-|3|-|5|-|7|-|" n="1">
           <!--Para estar tan bien parida-->
           <w lemma="para" type="SP">pa|ra</w>
           <w lemma="estar" type="VMN0000">es|tar|</w>
@@ -48,7 +48,7 @@
           <w lemma="bien" type="RG">bien|</w>
           <w lemma="parir" type="VMP00SF">pa|ri|da|</w>
         </l>
-        <l met="-|2|3|-|-|-|7|-|" n="2">
+        <l met="-|-|3|-|-|-|7|-|" n="2">
           <!--y tan bien acompañada,-->
           <w lemma="y" type="CC">y|</w>
           <w lemma="tan" type="RG">tan|</w>
@@ -77,9 +77,9 @@
           <w lemma="nadie" type="PI0CS00">na|die|</w>
           <w lemma="saber" type="VMIP3S0">sa|be|</w>
         </l>
-        <l met="-|2|-|4|-|-|7|-|" n="6">
-          <!--se qué manera os alabe;-->
-          <w lemma="se" type="P00CN00">se|</w>
+        <l met="1|2|-|4|-|-|7|-|" n="6">
+          <!--sé qué manera os alabe;-->
+          <w lemma="saber" type="VMIP1S0">sé|</w>
           <w lemma="qué" type="DT0CN0">qué|</w>
           <w lemma="manera" type="NCFS000">ma|ne|ra</w>
           <w lemma="os" type="PP2CP00">os|</w>
@@ -101,7 +101,8 @@
         </l>
         <l met="-|-|-|4|-|6|7|-|" n="9">
           <!--al que en el cielo no cabe.-->
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="que" type="PR0CN00">que</w>
           <w lemma="en" type="SP">en|</w>
           <w lemma="el" type="DA0MS0">el|</w>

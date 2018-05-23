@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -51,9 +51,9 @@
           <!--que estos que matas temprano-->
           <w lemma="que" type="CS">que</w>
           <w lemma="este" type="DD0MP0">es|tos|</w>
-          <w lemma="que" type="CS">que</w>
-          <w lemma="mata" type="NCFP000">ma|tas|</w>
-          <w lemma="temprano" type="AQ0MS00">tem|pra|no|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="matar" type="VMIP2S0">ma|tas|</w>
+          <w lemma="temprano" type="RG">tem|pra|no|</w>
         </l>
         <l met="1|-|3|-|-|-|7|-|" n="3">
           <!--plantas son que de tu mano-->
@@ -77,11 +77,11 @@
           <w lemma="y" type="CC">y</w>
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="que" type="PR0CN00">que|</w>
-          <w lemma="busca" type="NCFP000">bus|cas|</w>
+          <w lemma="buscar" type="VMIP2S0">bus|cas|</w>
           <w lemma="sin" type="SP">sin|</w>
           <w lemma="reposo" type="NCMS000">re|po|so|</w>
         </l>
-        <l met="1|-|3|4|-|-|7|-|" n="6">
+        <l met="1|-|3|-|-|-|7|-|" n="6">
           <!--sabe que es tan poderoso,-->
           <w lemma="saber" type="VMIP3S0">sa|be|</w>
           <w lemma="que" type="CS">que</w>
@@ -89,28 +89,28 @@
           <w lemma="tan" type="RG">tan|</w>
           <w lemma="poderoso" type="AQ0MS00">po|de|ro|so|</w>
         </l>
-        <l met="-|2|-|-|5|-|-|8|-|" n="7">
+        <l met="1|-|-|4|-|-|7|-|" n="7">
           <!--que éstos, muriendo por él,-->
-          <w lemma="que" type="CS">que|</w>
+          <w lemma="que" type="CS">que</w>
           <w lemma="este" type="PD0MP00">és|tos|</w>
           <w lemma="morir" type="VMG0000">mu|rien|do|</w>
           <w lemma="por" type="SP">por|</w>
           <w lemma="él" type="PP3MS00">él|</w>
         </l>
-        <l met="1|-|-|4|5|6|-|" n="8">
+        <l met="1|-|-|4|5|-|7|-|" n="8">
           <!--ganan en ser tú cruel-->
           <w lemma="ganar" type="VMIP3P0">ga|nan|</w>
           <w lemma="en" type="SP">en|</w>
           <w lemma="ser" type="VSN0000">ser|</w>
           <w lemma="tú" type="PP2CSN0">tú|</w>
-          <w lemma="cruel" type="AQ0CS00">cruel|</w>
+          <w lemma="cruel" type="AQ0CS00">cru|el|</w>
         </l>
-        <l met="1|-|3|-|-|6|-|" n="9">
+        <l met="1|-|3|-|-|-|7|-|" n="9">
           <!--más que siendo piadoso.-->
           <w lemma="más" type="RG">más|</w>
           <w lemma="que" type="CS">que|</w>
           <w lemma="ser" type="VSG0000">sien|do|</w>
-          <w lemma="piadoso" type="AQ0MS00">pia|do|so|</w>
+          <w lemma="piadoso" type="AQ0MS00">pi|a|do|so|</w>
         </l>
       </lg>
     </body>

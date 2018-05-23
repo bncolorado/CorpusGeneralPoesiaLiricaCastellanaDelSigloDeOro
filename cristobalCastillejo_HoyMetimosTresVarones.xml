@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -90,11 +90,13 @@
           <!--la vista del cuarto dellos-->
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="vista" type="NCFS000">vis|ta|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="4" type="AO0MS00">cuar|to|</w>
-          <w lemma="dellos" type="NCMP000">de|llos|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="ellos" type="PP3MP00">e|llos|</w>
         </l>
-        <l met="-|-|3|-|-|-|7|-|" n="8">
+        <l met="1|-|-|4|-|-|7|-|" n="8">
           <!--Hijo de Dios me parece.-->
           <w lemma="hijo_de_dios" type="NP00000">hi|jo_|de_|dios|</w>
           <w lemma="me" type="PP1CS00">me|</w>

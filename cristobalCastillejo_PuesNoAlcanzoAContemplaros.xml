@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -40,23 +40,23 @@
         <title>Pues no alcanzo a contemplaros,</title>
       </head>
       <lg cert="high" type="Décimas">
-        <l met="-|2|-|4|-|-|-|-|9|-|" n="1">
+        <l met="-|2|-|4|-|-|7|-|" n="1">
           <!--Pues no alcanzo a contemplaros,-->
           <w lemma="pues" type="CS">pues|</w>
           <w lemma="no" type="RN">no|</w>
-          <w lemma="alcanzar" type="VMIP1S0">al|can|zo|</w>
+          <w lemma="alcanzar" type="VMIP1S0">al|can|zo</w>
           <w lemma="a" type="SP">a|</w>
           <w lemma="contemplar" type="VMN0000">con|tem|plar|</w>
           <w lemma="os" type="PP2CP00">os|</w>
         </l>
-        <l met="-|-|3|-|-|6|-|" n="2">
+        <l met="1|-|-|4|-|-|7|-|" n="2">
           <!--Madre de Dios gloriosa,-->
           <w lemma="madre_de_dios" type="NP00000">ma|dre_|de_|dios|</w>
-          <w lemma="glorioso" type="AQ0FS00">glo|rio|sa|</w>
+          <w lemma="glorioso" type="AQ0FS00">glo|ri|o|sa|</w>
         </l>
         <l met="-|-|3|4|-|-|7|-|" n="3">
           <!--escusado es alabaros;-->
-          <w lemma="escusado" type="AQ0MS00">es|cu|sa|do</w>
+          <w lemma="excusar" type="VMP00SM">es|cu|sa|do</w>
           <w lemma="ser" type="VSIP3S0">es|</w>
           <w lemma="alabar" type="VMN0000">a|la|bar|</w>
           <w lemma="os" type="PP2CP00">os|</w>
@@ -93,17 +93,18 @@
         <l met="1|-|-|4|-|-|7|-|" n="8">
           <!--¿cómo quesiste morar,-->
           <w lemma="cómo" type="PT00000">có|mo|</w>
-          <w lemma="quesiste" type="VMIP3S0">que|sis|te|</w>
+          <w lemma="querer" type="VMIP3S0">que|sis|te|</w>
           <w lemma="morar" type="VMN0000">mo|rar|</w>
         </l>
         <l met="1|-|-|4|-|-|7|-|" n="9">
           <!--siendo Señora del mundo,-->
           <w lemma="ser" type="VSG0000">sien|do|</w>
           <w lemma="señora" type="NP00000">se|ño|ra|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="mundo" type="NCMS000">mun|do|</w>
         </l>
-        <l met="-|2|3|-|-|-|7|-|" n="10">
+        <l met="-|-|3|-|-|-|7|-|" n="10">
           <!--en tan áspero lugar?-->
           <w lemma="en" type="SP">en|</w>
           <w lemma="tan" type="RG">tan|</w>
@@ -125,7 +126,7 @@
           <w lemma="el" type="DA0FP0">las|</w>
           <w lemma="breña" type="NCFP000">bre|ñas|</w>
         </l>
-        <l met="-|2|-|-|-|-|7|-|" n="13">
+        <l met="-|2|-|4|-|-|7|-|" n="13">
           <!--y así en la Peña de Francia;-->
           <w lemma="y" type="CC">y</w>
           <w lemma="así" type="RG">a|sí</w>
@@ -164,7 +165,8 @@
           <w lemma="ser" type="VSIP3S0">es|</w>
           <w lemma="que" type="PR0CN00">que|</w>
           <w lemma="salir" type="VMIP2P0">sa|lís|</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="atajo" type="NCMS000">a|ta|jo|</w>
         </l>
         <l met="-|-|3|-|-|-|7|-|" n="18">
@@ -181,7 +183,7 @@
           <w lemma="este" type="DD0MS0">es|te|</w>
           <w lemma="trabajo" type="NCMS000">tra|ba|jo|</w>
         </l>
-        <l met="-|-|-|-|-|-|7|-|" n="20">
+        <l met="-|2|-|-|-|-|7|-|" n="20">
           <!--a fin de nuestro provecho.-->
           <w lemma="a_fin_de" type="SP">a_|fin_|de|</w>
           <w lemma="nuestro" type="DP1MSP">nues|tro|</w>

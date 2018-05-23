@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -64,7 +64,8 @@
         </l>
         <l met="-|-|-|4|-|-|7|-|" n="4">
           <!--al mensajero dudando;-->
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="mensajero" type="NCMS000">men|sa|je|ro|</w>
           <w lemma="dudar" type="VMG0000">du|dan|do|</w>
         </l>
@@ -74,7 +75,7 @@
           <w lemma="presto" type="AQ0MS00">pres|to|</w>
           <w lemma="consentimiento" type="NCMS000">con|sen|ti|mien|to|</w>
         </l>
-        <l met="-|2|-|4|5|-|7|-|" n="6">
+        <l met="-|2|-|4|-|-|7|-|" n="6">
           <!--Sabed que está tan contento-->
           <w lemma="saber" type="VMM02P0">sa|bed|</w>
           <w lemma="que" type="CS">que</w>

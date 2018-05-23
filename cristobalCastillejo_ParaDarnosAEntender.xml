@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -40,34 +40,34 @@
         <title> Para darnos a entender</title>
       </head>
       <lg cert="low" type="Coplas">
-        <l met="-|-|3|-|-|-|-|8|-|" n="1">
+        <l met="-|-|3|-|-|-|7|-|" n="1">
           <!--Para darnos a entender-->
           <w lemma="para" type="SP">pa|ra|</w>
           <w lemma="dar" type="VMN0000">dar|</w>
           <w lemma="nos" type="PP1CP00">nos|</w>
-          <w lemma="a" type="SP">a|</w>
+          <w lemma="a" type="SP">a</w>
           <w lemma="entender" type="VMN0000">en|ten|der|</w>
         </l>
-        <l met="-|2|-|4|-|6|-|" n="2">
+        <l met="-|2|-|4|-|-|7|-|" n="2">
           <!--que no venís a holgar-->
           <w lemma="que" type="CS">que|</w>
           <w lemma="no" type="RN">no|</w>
           <w lemma="venir" type="VMIP2P0">ve|nís|</w>
-          <w lemma="a" type="SP">a</w>
+          <w lemma="a" type="SP">a|</w>
           <w lemma="holgar" type="VMN0000">hol|gar|</w>
         </l>
         <l met="-|2|3|-|-|6|-|" n="3">
           <!--queréis luego començar,-->
           <w lemma="querer" type="VMIP2P0">que|réis|</w>
           <w lemma="luego" type="RG">lue|go|</w>
-          <w lemma="començar" type="VMN0000">co|mençar|</w>
+          <w lemma="comenzar" type="VMN0000">co|men|çar|</w>
         </l>
         <l met="1|-|3|-|-|-|7|-|" n="4">
           <!--rey de gloria, a padecer;-->
           <w lemma="rey" type="NCMS000">rey|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="gloria" type="NCFS000">glo|ria</w>
-          <w lemma="a" type="SP">a</w>
+          <w lemma="a" type="SP">a|</w>
           <w lemma="padecer" type="VMN0000">pa|de|cer|</w>
         </l>
         <l met="-|-|3|-|-|-|7|-|" n="5">
@@ -92,19 +92,19 @@
           <w lemma="nos" type="PP1CP00">nos|</w>
           <w lemma="señor" type="NP00000">se|ñor|</w>
         </l>
-        <l met="-|-|3|-|-|6|-|" n="8">
+        <l met="-|-|3|-|-|-|7|-|" n="8">
           <!--lo que, siendo criador,-->
           <w lemma="el" type="DA00S0">lo|</w>
           <w lemma="que" type="PR0CN00">que|</w>
           <w lemma="ser" type="VSG0000">sien|do|</w>
-          <w lemma="criador" type="AQ0MS00">cria|dor|</w>
+          <w lemma="criador" type="AQ0MS00">cri|a|dor|</w>
         </l>
-        <l met="-|2|-|-|-|6|-|" n="9">
+        <l met="-|2|-|-|-|-|7|-|" n="9">
           <!--sufrís por la criatura.-->
           <w lemma="sufrir" type="VMIP2P0">su|frís|</w>
           <w lemma="por" type="SP">por|</w>
           <w lemma="el" type="DA0FS0">la|</w>
-          <w lemma="criatura" type="NCFS000">cria|tu|ra|</w>
+          <w lemma="criatura" type="NCFS000">cri|a|tu|ra|</w>
         </l>
       </lg>
     </body>

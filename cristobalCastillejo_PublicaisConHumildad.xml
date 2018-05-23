@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -51,7 +51,7 @@
           <w lemma="en" type="SP">en|</w>
           <w lemma="vos" type="PP2CS0P">vos|</w>
           <w lemma="señora" type="NP00000">se|ño|ra|</w>
-          <w lemma="defeto" type="NCMS000">de|fe|to|</w>
+          <w lemma="defecto" type="NCMS000">de|fe|to|</w>
         </l>
         <l met="-|-|-|4|-|-|7|-|" n="3">
           <!--por encubrir el secreto-->
@@ -66,12 +66,12 @@
           <w lemma="vuestro" type="DP2FSP">vues|tra|</w>
           <w lemma="virginidad" type="NCFS000">vir|gi|ni|dad|</w>
         </l>
-        <l met="-|2|-|4|-|-|-|8|-|" n="5">
+        <l met="-|2|3|-|-|-|7|-|" n="5">
           <!--mas no engaña a Simeón-->
           <w lemma="mas" type="CC">mas|</w>
-          <w lemma="no" type="RN">no|</w>
+          <w lemma="no" type="RN">no</w>
           <w lemma="engañar" type="VMIP3S0">en|ga|ña</w>
-          <w lemma="a" type="SP">a</w>
+          <w lemma="a" type="SP">a|</w>
           <w lemma="simeón" type="NP00000">si|me|ón|</w>
         </l>
         <l met="-|-|-|-|-|-|7|-|" n="6">
@@ -87,7 +87,7 @@
           <w lemma="su" type="DP3CSN">su</w>
           <w lemma="esperanza" type="NCFS000">es|pe|ran|za|</w>
         </l>
-        <l met="-|-|-|4|-|6|-|" n="8">
+        <l met="-|2|-|-|5|-|7|-|" n="8">
           <!--por obra de Dios alcanza-->
           <w lemma="por_obra_de" type="SP">por_o|bra_|de|</w>
           <w lemma="dios" type="NP00000">dios|</w>
