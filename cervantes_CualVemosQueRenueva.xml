@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -40,7 +40,7 @@
         <title>Cual vemos que renueva</title>
       </head>
       <lg cert="..." type="...">
-        <l met="1|2|-|-|-|6|-|" n="1">
+        <l met="-|2|-|-|-|6|-|" n="1">
           <!--Cual vemos que renueva-->
           <w lemma="cual" type="PI0CS00">cual|</w>
           <w lemma="ver" type="VMIP1P0">ve|mos|</w>
@@ -89,7 +89,8 @@
           <w lemma="y" type="CC">y|</w>
           <w lemma="se" type="P00CN00">se|</w>
           <w lemma="llegar" type="VMIP3S0">lle|ga</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="cielo" type="NCMS000">cie|lo|</w>
         </l>
         <l met="1|-|3|-|-|6|-|" n="7">
@@ -124,7 +125,8 @@
           <w lemma="con" type="SP">con|</w>
           <w lemma="nuevo" type="AQ0MS00">nue|vo|</w>
           <w lemma="vuelo" type="NCMS000">vue|lo</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="alto" type="AQ0MS00">al|to</w>
           <w lemma="asiento" type="NCMS000">a|sien|to|</w>
         </l>
@@ -134,7 +136,7 @@
           <w lemma="aspirar" type="VMIP3P0">as|pi|ran|</w>
           <w lemma="el" type="DA0FP0">las|</w>
           <w lemma="ala" type="NCFP000">a|las|</w>
-          <w lemma="de" type="SP">de</w>
+          <w lemma="de" type="SP">de|</w>
           <w lemma="tu" type="DP2CSS">tu</w>
           <w lemma="intento" type="NCMS000">in|ten|to|</w>
         </l>
@@ -150,7 +152,8 @@
         <l met="1|-|-|4|-|6|-|-|-|10|-|" n="14">
           <!--alza del duro rostro de la tierra,-->
           <w lemma="alza" type="NCFS000">al|za|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="duro" type="AQ0MS00">du|ro|</w>
           <w lemma="rostro" type="NCMS000">ros|tro|</w>
           <w lemma="de" type="SP">de|</w>
@@ -184,7 +187,8 @@
         <l met="-|2|-|4|-|6|-|8|-|10|-|" n="18">
           <!--alegra al suelo y da a los hombres vida:-->
           <w lemma="alegrar" type="VMIP3S0">a|le|gra</w>
-          <w lemma="al" type="SP">a|l</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="suelo" type="NCMS000">sue|lo</w>
           <w lemma="y" type="CC">y|</w>
           <w lemma="dar" type="VMIP3S0">da</w>
@@ -236,17 +240,13 @@
           <w lemma="ignorancia" type="NCFS000">ig|no|ran|cia|</w>
           <w lemma="nuestro" type="DP1FSP">nues|tra|</w>
         </l>
-        <l met="-|-|-|4|-|6|-|-|9|-|11|-|-|14|-|" n="24">
+        <l met="-|2|-|4|-|6|-|8|-|10|-|" n="24">
           <!--y a sciencia santa y santa vida adiestra.-->
           <w lemma="y" type="CC">y|</w>
-          <w lemma="y" type="CC">y|</w>
           <w lemma="a" type="SP">a|</w>
-          <w lemma="sciencia" type="NCFS000">s|cien|cia|</w>
-          <w lemma="santo" type="AQ0FS00">san|ta|</w>
-          <w lemma="santo" type="AQ0FS00">san|ta|</w>
+          <w lemma="ciencia" type="NCFS000">scien|cia|</w>
+          <w lemma="santo" type="AQ0FS00">san|ta</w>
           <w lemma="y" type="CC">y|</w>
-          <w lemma="y" type="CC">y|</w>
-          <w lemma="santo" type="AQ0FS00">san|ta|</w>
           <w lemma="santo" type="AQ0FS00">san|ta|</w>
           <w lemma="vida" type="NCFS000">vi|da|</w>
           <w lemma="adiestrar" type="VMIP3S0">a|dies|tra|</w>
@@ -263,9 +263,7 @@
           <!--por las humanas, las divinas musas!-->
           <w lemma="por" type="SP">por|</w>
           <w lemma="el" type="DA0FP0">las|</w>
-          <w lemma="el" type="DA0FP0">las|</w>
           <w lemma="humano" type="AQ0FP00">hu|ma|nas|</w>
-          <w lemma="el" type="DA0FP0">las|</w>
           <w lemma="el" type="DA0FP0">las|</w>
           <w lemma="divino" type="AQ0FP00">di|vi|nas|</w>
           <w lemma="musa" type="NCFP000">mu|sas|</w>
@@ -302,7 +300,8 @@
           <w lemma="a" type="SP">a|</w>
           <w lemma="tu" type="DP2CSS">tu|</w>
           <w lemma="nombre" type="NCMS000">nom|bre</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="alma" type="NCFS000">al|ma|</w>
           <w lemma="gloria" type="NCFS000">glo|ria|</w>
         </l>
@@ -318,7 +317,8 @@
           <!--el monte del Calvario y son tus fuentes-->
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="monte" type="NCMS000">mon|te|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="calvario" type="NP00000">cal|va|rio</w>
           <w lemma="y" type="CC">y|</w>
           <w lemma="ser" type="VSIP3P0">son|</w>
@@ -344,7 +344,8 @@
           <w lemma="el" type="DA0FP0">las|</w>
           <w lemma="bendecir" type="VMP00PF">ben|di|tas|</w>
           <w lemma="llaga" type="NCFP000">lla|gas|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="cordero" type="NP00000">cor|de|ro|</w>
         </l>
         <l met="-|2|-|4|-|-|-|8|-|10|-|" n="36">

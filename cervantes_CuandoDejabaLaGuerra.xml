@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -64,11 +64,9 @@
         <l met="-|-|3|4|-|-|7|-|" n="4">
           <!--la mejor flor de la tierra-->
           <w lemma="el" type="DA0FS0">la|</w>
-          <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="mejor" type="AQ0CS00">me|jor|</w>
           <w lemma="flor" type="NCFS000">flor|</w>
           <w lemma="de" type="SP">de|</w>
-          <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="tierra" type="NCFS000">tie|rra|</w>
         </l>
@@ -83,7 +81,8 @@
         <l met="-|-|3|-|-|-|7|-|" n="6">
           <!--y, al cortarla de su rama,-->
           <w lemma="y" type="CC">y</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="cortar" type="VMN0000">cor|tar|</w>
           <w lemma="lo" type="PP3FSA0">la|</w>
           <w lemma="de" type="SP">de|</w>
@@ -96,12 +95,12 @@
           <w lemma="mortífero" type="AQ0MS00">mor|tí|fe|ro</w>
           <w lemma="accidente" type="NCMS000">ac|ci|den|te|</w>
         </l>
-        <l met="1|2|-|4|-|-|7|-|" n="8">
+        <l met="1|-|-|4|-|-|7|-|" n="8">
           <!--fue tan oculto a la gente-->
           <w lemma="ser" type="VSIS3S0">fue|</w>
           <w lemma="tan" type="RG">tan|</w>
           <w lemma="oculto" type="AQ0MS00">o|cul|to</w>
-          <w lemma="a" type="SP">a</w>
+          <w lemma="a" type="SP">a|</w>
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="gente" type="NCFS000">gen|te|</w>
         </l>

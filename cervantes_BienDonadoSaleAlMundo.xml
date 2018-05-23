@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -45,14 +45,15 @@
           <w lemma="bien" type="RG">bien|</w>
           <w lemma="donar" type="VMP00SM">do|na|do|</w>
           <w lemma="salir" type="VMIP3S0">sa|le</w>
-          <w lemma="al" type="SP">a|l</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="mundo" type="NCMS000">mun|do|</w>
         </l>
-        <l met="1|-|3|-|5|-|7|-|" n="2">
+        <l met="1|-|3|-|-|-|7|-|" n="2">
           <!--este libro, do se encierra-->
           <w lemma="este" type="DD0MS0">es|te|</w>
           <w lemma="libro" type="NCMS000">li|bro|</w>
-          <w lemma="do" type="NCMS000">do|</w>
+          <w lemma="do" type="PR00000">do|</w>
           <w lemma="se" type="P00CN00">se</w>
           <w lemma="encerrar" type="VMIP3S0">en|cie|rra|</w>
         </l>
@@ -89,7 +90,7 @@
           <w lemma="dar" type="VMIP3S0">da|</w>
           <w lemma="maldonado" type="NP00000">mal|do|na|do|</w>
         </l>
-        <l met="1|2|3|-|5|-|7|-|" n="7">
+        <l met="1|-|3|-|5|-|7|-|" n="7">
           <!--va tan rico y bien donado-->
           <w lemma="ir" type="VMIP3S0">va|</w>
           <w lemma="tan" type="RG">tan|</w>
@@ -98,10 +99,10 @@
           <w lemma="bien" type="RG">bien|</w>
           <w lemma="donar" type="VMP00SM">do|na|do|</w>
         </l>
-        <l met="-|-|3|-|-|-|-|8|-|" n="8">
+        <l met="-|-|3|-|-|-|7|-|" n="8">
           <!--de sciencia y de discreción,-->
           <w lemma="de" type="SP">de|</w>
-          <w lemma="sciencia" type="NCFS000">s|cien|cia</w>
+          <w lemma="ciencia" type="NCFS000">scien|cia</w>
           <w lemma="y" type="CC">y|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="discreción" type="NCFS000">dis|cre|ción|</w>
@@ -132,7 +133,8 @@
         </l>
         <l met="-|2|-|4|-|-|7|-|" n="12">
           <!--del pecho más encendido-->
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="pecho" type="NCMS000">pe|cho|</w>
           <w lemma="más" type="RG">más|</w>
           <w lemma="encender" type="VMP00SM">en|cen|di|do|</w>
@@ -209,9 +211,7 @@
         <l met="-|2|-|-|-|-|7|-|" n="21">
           <!--Sin flores, sin praderías-->
           <w lemma="sin" type="SP">sin|</w>
-          <w lemma="sin" type="SP">sin|</w>
           <w lemma="flor" type="NCFP000">flo|res|</w>
-          <w lemma="sin" type="SP">sin|</w>
           <w lemma="sin" type="SP">sin|</w>
           <w lemma="pradería" type="NCFP000">pra|de|rí|as|</w>
         </l>
@@ -226,9 +226,7 @@
         <l met="-|2|-|-|5|-|7|-|" n="23">
           <!--sin ninfas, sin dioses vanos,-->
           <w lemma="sin" type="SP">sin|</w>
-          <w lemma="sin" type="SP">sin|</w>
           <w lemma="ninfa" type="NCFP000">nin|fas|</w>
-          <w lemma="sin" type="SP">sin|</w>
           <w lemma="sin" type="SP">sin|</w>
           <w lemma="dios" type="NCMP000">dio|ses|</w>
           <w lemma="vano" type="AQ0MP00">va|nos|</w>
@@ -236,9 +234,7 @@
         <l met="-|2|-|-|5|-|7|-|" n="24">
           <!--sin yerbas, sin aguas frías-->
           <w lemma="sin" type="SP">sin|</w>
-          <w lemma="sin" type="SP">sin|</w>
           <w lemma="yerba" type="NCFP000">yer|bas|</w>
-          <w lemma="sin" type="SP">sin|</w>
           <w lemma="sin" type="SP">sin|</w>
           <w lemma="agua" type="NCFP000">a|guas|</w>
           <w lemma="frío" type="AQ0FP00">frí|as|</w>
@@ -281,11 +277,12 @@
         </l>
         <l met="-|2|-|4|-|-|7|-|" n="30">
           <!--del ciego dios los efetos.-->
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="ciego" type="AQ0MS00">cie|go|</w>
           <w lemma="dios" type="NCMS000">dios|</w>
           <w lemma="el" type="DA0MP0">los|</w>
-          <w lemma="efetos" type="NCMP000">e|fe|tos|</w>
+          <w lemma="efeto" type="NCMP000">e|fe|tos|</w>
         </l>
         <l met="-|-|-|4|-|-|7|-|" n="31">
           <!--Con declararnos la mengua-->
@@ -317,7 +314,7 @@
         <l met="-|-|-|4|-|-|7|-|" n="34">
           <!--y enriquecido su lengua,-->
           <w lemma="y" type="CC">y</w>
-          <w lemma="enriquecer" type="VMP00SM">e|nri|que|ci|do|</w>
+          <w lemma="enriquecer" type="VMP00SM">en|ri|que|ci|do|</w>
           <w lemma="su" type="DP3CSN">su|</w>
           <w lemma="lengua" type="NCFS000">len|gua|</w>
         </l>
@@ -333,7 +330,8 @@
         <l met="1|-|-|4|-|6|7|-|" n="36">
           <!--y hanos mostrado que es solo-->
           <w lemma="y" type="CC">y</w>
-          <w lemma="hanos" type="NCMP000">ha|nos|</w>
+          <w lemma="haber" type="NCMP000">ha|</w>
+	  <w lemma="nos" type="PP1CP00">nos|</w>
           <w lemma="mostrar" type="VMP00SM">mos|tra|do|</w>
           <w lemma="que" type="PR0CN00">que</w>
           <w lemma="ser" type="VSIP3S0">es|</w>
@@ -345,7 +343,7 @@
           <w lemma="de" type="SP">de</w>
           <w lemma="apolo" type="NP00000">a|po|lo|</w>
         </l>
-        <l met="-|2|-|4|-|-|7|-|" n="38">
+        <l met="-|2|-|-|-|-|7|-|" n="38">
           <!--con dones tan infinitos,-->
           <w lemma="con" type="SP">con|</w>
           <w lemma="don" type="NCMP000">do|nes|</w>
@@ -366,7 +364,8 @@
           <w lemma="ir" type="VMIF3S0">i|rá|</w>
           <w lemma="de" type="SP">de</w>
           <w lemma="este" type="PD0MS00">és|te</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="otro" type="DI0MS0">o|tro|</w>
           <w lemma="polo" type="NCMS000">po|lo|</w>
         </l>

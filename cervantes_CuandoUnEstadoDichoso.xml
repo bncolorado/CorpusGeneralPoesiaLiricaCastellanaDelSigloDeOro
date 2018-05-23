@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -84,7 +84,7 @@
         </l>
         <l met="-|2|-|4|-|-|7|-|" n="7">
           <!--aqueste fiero tirano,-->
-          <w lemma="aqueste" type="VMSP3S0">a|ques|te|</w>
+          <w lemma="aqueste" type="DD0MS0">a|ques|te|</w>
           <w lemma="fiero" type="AQ0MS00">fie|ro|</w>
           <w lemma="tirano" type="NCMS000">ti|ra|no|</w>
         </l>
@@ -92,7 +92,8 @@
           <!--por orden del alto cielo,-->
           <w lemma="por" type="SP">por|</w>
           <w lemma="orden" type="NCCS000">or|den|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="alto" type="AQ0MS00">al|to|</w>
           <w lemma="cielo" type="NCMS000">cie|lo|</w>
         </l>
@@ -101,14 +102,16 @@
           <w lemma="que" type="CS">que|</w>
           <w lemma="nos" type="PP1CP00">nos|</w>
           <w lemma="llevar" type="VMIS3S0">lle|vó|</w>
-          <w lemma="deste" type="AQ0CN00">des|te|</w>
+	  <w lemma="de" type="SP">de</w>
+          <w lemma="este" type="DD0MS0">es|te|</w>
           <w lemma="suelo" type="NCMS000">sue|lo|</w>
         </l>
         <l met="-|-|3|-|5|-|7|-|" n="10">
           <!--el valor del ser humano.-->
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="valor" type="NCMS000">va|lor|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="ser" type="VSN0000">ser|</w>
           <w lemma="humano" type="AQ0MS00">hu|ma|no|</w>
         </l>
@@ -120,7 +123,7 @@
           <w lemma="tu" type="DP2CSS">tu|</w>
           <w lemma="memoria" type="NCFS000">me|mo|ria|</w>
         </l>
-        <l met="-|2|-|-|5|-|7|-|" n="12">
+        <l met="1|2|-|-|5|-|7|-|" n="12">
           <!--oh dura y terrible faz!-->
           <w lemma="oh" type="I">oh|</w>
           <w lemma="duro" type="AQ0FS00">du|ra</w>
@@ -132,7 +135,7 @@
           <!--Pero en aquesta victoria,-->
           <w lemma="pero" type="CC">pe|ro</w>
           <w lemma="en" type="SP">en|</w>
-          <w lemma="aquesta" type="NCFS000">a|ques|ta|</w>
+          <w lemma="aquesta" type="DD0FS0">a|ques|ta|</w>
           <w lemma="victoria" type="NCFS000">vic|to|ria|</w>
         </l>
         <l met="-|-|3|-|-|-|7|-|" n="14">
@@ -146,7 +149,8 @@
           <!--fue para dalle más gloria;-->
           <w lemma="ser" type="VSIS3S0">fue|</w>
           <w lemma="para" type="SP">pa|ra|</w>
-          <w lemma="dalle" type="NCMS000">da|lle|</w>
+          <w lemma="dar" type="VMN0000">da|</w>
+	  <w lemma="le" type="PP3CSD0">lle|</w>
           <w lemma="más" type="RG">más|</w>
           <w lemma="gloria" type="NCFS000">glo|ria|</w>
         </l>
@@ -170,7 +174,8 @@
           <!--ver que al reino soberano-->
           <w lemma="ver" type="VMN0000">ver|</w>
           <w lemma="que" type="CS">que</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="reino" type="NCMS000">rei|no|</w>
           <w lemma="soberano" type="AQ0MS00">so|be|ra|no|</w>
         </l>
@@ -189,7 +194,7 @@
           <w lemma="caro" type="AQ0FS00">ca|ra</w>
           <w lemma="isabela" type="NP00000">i|sa|be|la|</w>
         </l>
-        <l met="1|2|-|4|5|-|7|-|" n="21">
+        <l met="1|2|-|-|5|-|7|-|" n="21">
           <!--Una alma tan limpia y bella,-->
           <w lemma="uno" type="DI0FS0">u|na</w>
           <w lemma="alma" type="NCFS000">al|ma|</w>
@@ -198,7 +203,7 @@
           <w lemma="y" type="CC">y|</w>
           <w lemma="bello" type="AQ0FS00">be|lla|</w>
         </l>
-        <l met="1|-|-|4|-|-|7|-|" n="22">
+        <l met="-|-|-|4|-|-|7|-|" n="22">
           <!--tan enemiga de engaños,-->
           <w lemma="tan" type="RG">tan|</w>
           <w lemma="enemigo" type="AQ0FS00">e|ne|mi|ga|</w>
@@ -212,7 +217,7 @@
           <w lemma="merecer" type="VMN0000">me|re|cer|</w>
           <w lemma="él" type="PP3FS00">e|lla|</w>
         </l>
-        <l met="-|-|-|4|5|-|7|-|" n="24">
+        <l met="-|-|-|-|5|-|7|-|" n="24">
           <!--para que en tan tiernos años-->
           <w lemma="para" type="SP">pa|ra|</w>
           <w lemma="que" type="CS">que</w>
@@ -228,7 +233,8 @@
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="mundo" type="NCMS000">mun|do|</w>
           <w lemma="de" type="SP">de|</w>
-          <w lemma="vella" type="NCFS000">ve|lla|</w>
+          <w lemma="ver" type="VMN0000">ve|</w>
+	  <w lemma="lo" type="PP3FSA0">lla|</w>
         </l>
         <l met="-|2|3|-|-|-|7|-|" n="26">
           <!--Dirás, Muerte, en quien se encierra-->
@@ -256,12 +262,11 @@
         <l met="-|2|-|-|5|-|7|-|" n="29">
           <!--que cosas que son del cielo-->
           <w lemma="que" type="CS">que|</w>
-          <w lemma="que" type="PR0CN00">que|</w>
           <w lemma="cosa" type="NCFP000">co|sas|</w>
-          <w lemma="que" type="CS">que|</w>
           <w lemma="que" type="PR0CN00">que|</w>
           <w lemma="ser" type="VSIP3P0">son|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="cielo" type="NCMS000">cie|lo|</w>
         </l>
         <l met="1|-|-|4|-|-|7|-|" n="30">
@@ -291,7 +296,8 @@
           <!--que, ya que al cielo te fuiste,-->
           <w lemma="que" type="CS">que|</w>
           <w lemma="ya_que" type="CS">ya_|que</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="cielo" type="NCMS000">cie|lo|</w>
           <w lemma="te" type="PP2CS00">te|</w>
           <w lemma="ir" type="VMIS2S0">fuis|te|</w>
@@ -312,7 +318,7 @@
           <w lemma="más" type="RG">más|</w>
           <w lemma="quesiste" type="VMIP3S0">que|sis|te|</w>
         </l>
-        <l met="-|-|-|-|-|-|7|-|" n="36">
+        <l met="1|-|-|-|5|-|7|-|" n="36">
           <!--¡Oh Isabela Eugenia Clara,-->
           <w lemma="oh" type="I">oh</w>
           <w lemma="isabela_eugenia_clara" type="NP00000">i|sa|be|la_eu|ge|nia_|cla|ra|</w>
