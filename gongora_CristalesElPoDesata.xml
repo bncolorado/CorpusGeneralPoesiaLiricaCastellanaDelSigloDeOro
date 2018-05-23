@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -40,18 +40,22 @@
         <title>Cristales el Po desata,</title>
       </head>
       <lg cert="..." type="...">
-        <l met="-|-|3|-|-|6|-|" n="1">
+        <l met="-|2|-|-|5|-|7|-|" n="1">
           <!--Cristales el Po desata,-->
-          <w lemma="cristales_el_po" type="NP00000">cris|ta|les_el_|po|</w>
+          <w lemma="cristal" type="NCMP000">cris|ta|les|</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
+	  <w lemma="po" type="NP00000">po|</w>
           <w lemma="desatar" type="VMIP3S0">de|sa|ta|</w>
         </l>
         <l met="-|2|-|4|-|-|7|-|" n="2">
           <!--que al hijo fueron del Sol,-->
           <w lemma="que" type="CS">que</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="hijo" type="NCMS000">hi|jo|</w>
           <w lemma="ser" type="VSIS3P0">fue|ron|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="sol" type="NP00000">sol|</w>
         </l>
         <l met="-|2|-|-|5|-|7|-|" n="3">

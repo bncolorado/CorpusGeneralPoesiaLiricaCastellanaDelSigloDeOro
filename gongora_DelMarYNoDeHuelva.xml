@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -47,29 +47,27 @@
           <w lemma="mar" type="NCCS000">mar|</w>
           <w lemma="y" type="CC">y|</w>
           <w lemma="no" type="RN">no|</w>
-          <w lemma="de" type="SP">de</w>
+          <w lemma="de" type="SP">de|</w>
           <w lemma="huelva" type="NP00000">huel|va|</w>
         </l>
         <l met="-|-|3|-|-|6|-|8|-|10|-|" n="2">
           <!--los escollos el sol, los muros raya;-->
           <w lemma="el" type="DA0MP0">los|</w>
-          <w lemma="el" type="DA0MP0">los|</w>
           <w lemma="escollo" type="NCMP000">es|co|llos|</w>
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="sol" type="NCMS000">sol|</w>
-          <w lemma="el" type="DA0MP0">los|</w>
           <w lemma="el" type="DA0MP0">los|</w>
           <w lemma="muro" type="NCMP000">mu|ros|</w>
           <w lemma="raer" type="VMSP3S0">ra|ya|</w>
         </l>
         <l met="-|2|-|-|-|6|7|-|-|10|-|" n="3">
           <!--gimiendo el alcïón era en la playa-->
-          <w lemma="gemir" type="VMG0000">gi|mien|do|</w>
+          <w lemma="gemir" type="VMG0000">gi|mien|do</w>
           <w lemma="el" type="DA0MS0">el|</w>
-          <w lemma="alcïón" type="NCFS000">alcï|ón|</w>
+          <w lemma="alción" type="NCFS000">al|cï|ón|</w>
           <w lemma="ser" type="VSII3S0">e|ra</w>
           <w lemma="en" type="SP">en|</w>
-          <w lemma="el" type="DA0FS0">l|a</w>
+          <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="playa" type="NCFS000">pla|ya|</w>
         </l>
         <l met="-|-|3|-|-|6|-|" n="4">
@@ -104,7 +102,7 @@
           <w lemma="en" type="SP">en|</w>
           <w lemma="vano" type="NCMS000">va|no|</w>
         </l>
-        <l met="1|-|-|-|-|6|-|8|-|10|-|" n="8">
+        <l met="1|-|-|4|-|6|-|8|-|10|-|" n="8">
           <!--golfo, a pesar del Norte, siempre inquieto,-->
           <w lemma="golfo" type="AQ0MS00">gol|fo</w>
           <w lemma="a_pesar_de" type="SP">a_|pe|sar_|de</w>
@@ -117,7 +115,8 @@
           <!--se queja del Amor, a quien sujeto-->
           <w lemma="se" type="P00CN00">se|</w>
           <w lemma="quejar" type="VMIP3S0">que|ja|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="amor" type="NP00000">a|mor|</w>
           <w lemma="a" type="SP">a|</w>
           <w lemma="quien" type="PR0CS00">quien|</w>
@@ -180,14 +179,15 @@
           <!--canto alivio a sus quejas.-->
           <w lemma="canto" type="NCMS000">can|to</w>
           <w lemma="alivio" type="NCMS000">a|li|vio</w>
-          <w lemma="a" type="SP">a</w>
+          <w lemma="a" type="SP">a|</w>
           <w lemma="su" type="DP3CPN">sus|</w>
           <w lemma="queja" type="NCFP000">que|jas|</w>
         </l>
         <l met="1|-|-|4|-|6|-|8|-|10|-|" n="18">
           <!--¡Triste del que a una roca pide orejas!-->
           <w lemma="triste" type="AQ0CS00">tris|te|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="que" type="PR0CN00">que</w>
           <w lemma="a" type="SP">a</w>
           <w lemma="uno" type="DI0FS0">u|na|</w>

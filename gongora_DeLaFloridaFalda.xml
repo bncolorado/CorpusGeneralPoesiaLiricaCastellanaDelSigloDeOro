@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisadas manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -66,7 +66,7 @@
         </l>
         <l met="-|2|3|-|-|6|-|-|-|10|-|" n="4">
           <!--traslado estos jazmines a tu frente,-->
-          <w lemma="traslado" type="NCMS000">tra|sla|do</w>
+          <w lemma="trasladar" type="VMIP1S0">tras|la|do</w>
           <w lemma="este" type="DD0MP0">es|tos|</w>
           <w lemma="jazmín" type="NCMP000">jaz|mi|nes|</w>
           <w lemma="a" type="SP">a|</w>
@@ -84,18 +84,18 @@
         <l met="1|-|-|4|-|-|-|8|-|10|-|" n="6">
           <!--blanco a tus sienes y a tu boca olores.-->
           <w lemma="blanco" type="AQ0MS00">blan|co</w>
-          <w lemma="a" type="SP">a</w>
+          <w lemma="a" type="SP">a|</w>
           <w lemma="tu" type="DP2CPS">tus|</w>
           <w lemma="sien" type="NCFP000">sie|nes|</w>
           <w lemma="y" type="CC">y</w>
-          <w lemma="a" type="SP">a</w>
-          <w lemma="tu" type="DP2CSS">tu</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="tu" type="DP2CSS">tu|</w>
           <w lemma="boca" type="NCFS000">bo|ca</w>
           <w lemma="olor" type="NCMP000">o|lo|res|</w>
         </l>
         <l met="1|-|3|-|-|6|-|" n="7">
           <!--Guarda de estos jazmines-->
-          <w lemma="guardar" type="VMIP3S0">guar|da|</w>
+          <w lemma="guarda" type="NCMS000">guar|da|</w>
           <w lemma="de" type="SP">de</w>
           <w lemma="este" type="DD0MP0">es|tos|</w>
           <w lemma="jazmín" type="NCMP000">jaz|mi|nes|</w>
@@ -120,18 +120,17 @@
           <!--mas de puntas armado de diamante;-->
           <w lemma="mas" type="CC">mas|</w>
           <w lemma="de" type="SP">de|</w>
-          <w lemma="de" type="SP">de|</w>
           <w lemma="punta" type="NCFP000">pun|tas|</w>
           <w lemma="armar" type="VMP00SM">ar|ma|do|</w>
           <w lemma="de" type="SP">de|</w>
-          <w lemma="de" type="SP">de|</w>
           <w lemma="diamante" type="NCMS000">dia|man|te|</w>
         </l>
-        <l met="1|-|-|-|5|-|" n="11">
+        <l met="1|-|-|-|-|6|-|" n="11">
           <!--púselas en huida,-->
-          <w lemma="púselas" type="NCFP000">pú|se|las|</w>
+          <w lemma="poner" type="VMIS1S0">pú|se|</w>
+	  <w lemma="lo" type="PP3FPA0">las|</w>
           <w lemma="en" type="SP">en|</w>
-          <w lemma="huida" type="NCFS000">hui|da|</w>
+          <w lemma="huida" type="NCFS000">hu|i|da|</w>
         </l>
         <l met="-|2|-|4|-|6|-|8|-|10|-|" n="12">
           <!--y cada flor me cuesta una herida.-->
@@ -154,7 +153,8 @@
         <l met="-|2|-|-|-|6|-|-|-|10|-|" n="14">
           <!--jazmines al cabello desatado,-->
           <w lemma="jazmín" type="NCMP000">jaz|mi|nes|</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="cabello" type="NCMS000">ca|be|llo|</w>
           <w lemma="desatar" type="VMP00SM">de|sa|ta|do|</w>
         </l>

@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -47,19 +47,20 @@
           <w lemma="pendiente" type="AQ0CS00">pen|dien|te|</w>
           <w lemma="cuna" type="NCFS000">cu|na|</w>
         </l>
-        <l met="1|-|-|-|5|-|7|-|-|10|-|" n="2">
+        <l met="1|-|-|-|-|6|-|8|-|10|-|" n="2">
           <!--vuelves, al que fiaste nido estrecho,-->
           <w lemma="volver" type="VMIP2S0">vuel|ves|</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="que" type="PR0CN00">que|</w>
-          <w lemma="fiar" type="VMIS2S0">fias|te|</w>
-          <w lemma="nido" type="NCMS000">ni|do|</w>
+          <w lemma="fiar" type="VMIS2S0">fi|as|te|</w>
+          <w lemma="nido" type="NCMS000">ni|do</w>
           <w lemma="estrecho" type="AQ0MS00">es|tre|cho|</w>
         </l>
-        <l met="-|2|-|-|-|6|-|" n="3">
+        <l met="1|2|-|-|-|6|-|" n="3">
           <!--oh huéspeda importuna,-->
           <w lemma="oh" type="I">oh|</w>
-          <w lemma="huéspeda" type="VMIP3S0">hués|pe|da</w>
+          <w lemma="huésped" type="NCFS000">hués|pe|da</w>
           <w lemma="importuno" type="AQ0FS00">im|por|tu|na|</w>
         </l>
         <l met="-|-|-|4|-|6|-|-|9|10|-|" n="4">
@@ -68,7 +69,7 @@
           <w lemma="el" type="DA0FP0">las|</w>
           <w lemma="retama" type="NCFP000">re|ta|mas|</w>
           <w lemma="frágil" type="AQ0CP00">frá|gi|les|</w>
-          <w lemma="de" type="SP">de|</w>
+          <w lemma="de" type="SP">de</w>
           <w lemma="uno" type="DI0MS0">un|</w>
           <w lemma="techo" type="NCMS000">te|cho|</w>
         </l>
@@ -92,13 +93,13 @@
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="día" type="NCMS000">dí|a|</w>
         </l>
-        <l met="-|2|-|-|-|6|-|" n="7">
+        <l met="1|2|-|-|-|6|-|" n="7">
           <!--Oh tú, de las parleras-->
           <w lemma="oh" type="I">oh|</w>
           <w lemma="tú" type="PP2CSN0">tú|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="el" type="DA0FP0">las|</w>
-          <w lemma="parlero" type="AQ0FP00">pa|rle|ras|</w>
+          <w lemma="parlero" type="AQ0FP00">par|le|ras|</w>
         </l>
         <l met="1|-|-|4|-|6|-|8|-|10|-|" n="8">
           <!--aves la menos dulce y más quejosa,-->
@@ -128,19 +129,19 @@
           <w lemma="pero" type="CC">pe|ro|</w>
           <w lemma="dichoso" type="AQ0FS00">di|cho|sa|</w>
         </l>
-        <l met="1|-|-|-|5|-|-|-|9|-|" n="11">
+        <l met="1|-|-|-|-|6|-|-|-|10|-|" n="11">
           <!--¿Quieres en tu ruido que presuma-->
           <w lemma="querer" type="VMIP2S0">quie|res|</w>
           <w lemma="en" type="SP">en|</w>
           <w lemma="tu" type="DP2CSS">tu|</w>
-          <w lemma="ruido" type="NCMS000">rui|do|</w>
+          <w lemma="ruido" type="NCMS000">ru|i|do|</w>
           <w lemma="que" type="PR0CN00">que|</w>
           <w lemma="presumir" type="VMSP3S0">pre|su|ma|</w>
         </l>
         <l met="-|2|-|4|-|6|-|8|-|10|-|" n="12">
           <!--que miente voz la invidia y viste pluma?-->
           <w lemma="que" type="CS">que|</w>
-          <w lemma="mentar" type="VMSP3S0">mien|te|</w>
+          <w lemma="mentir" type="VMSP3S0">mien|te|</w>
           <w lemma="voz" type="NCFS000">voz|</w>
           <w lemma="el" type="DA0FS0">la</w>
           <w lemma="invidia" type="NCFS000">in|vi|dia</w>
@@ -178,7 +179,8 @@
         <l met="-|2|-|-|-|6|-|8|-|10|-|" n="17">
           <!--aplauso al ruiseñor le niego breve-->
           <w lemma="aplauso" type="NCMS000">a|plau|so</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="ruiseñor" type="NCMS000">rui|se|ñor|</w>
           <w lemma="le" type="PP3CSD0">le|</w>
           <w lemma="negar" type="VMIP1S0">nie|go|</w>
@@ -214,7 +216,7 @@
           <w lemma="por" type="SP">por|</w>
           <w lemma="turbar" type="VMN0000">tur|bar|</w>
           <w lemma="el" type="DA0FS0">la|</w>
-          <w lemma="serena" type="NCFS000">se|re|na|</w>
+          <w lemma="serena" type="AQ0FS00">se|re|na|</w>
         </l>
         <l met="1|-|-|-|-|6|-|8|-|10|-|" n="22">
           <!--dulce tranquilidad que en este mora-->
@@ -225,7 +227,7 @@
           <w lemma="este" type="DD0MS0">es|te|</w>
           <w lemma="mora" type="NCFS000">mo|ra|</w>
         </l>
-        <l met="1|2|-|-|-|6|-|8|-|-|" n="23">
+        <l met="-|2|-|-|-|6|-|8|-|10|-|" n="23">
           <!--tan grato como pobre albergue, donde,-->
           <w lemma="tan" type="RG">tan|</w>
           <w lemma="grato" type="AQ0MS00">gra|to|</w>
@@ -237,18 +239,19 @@
         <l met="-|2|-|4|-|-|-|8|-|10|-|" n="24">
           <!--sellado el labio, la quietud se esconde?-->
           <w lemma="sellar" type="VMP00SM">se|lla|do</w>
-          <w lemma="el" type="DA0MS0">e|l</w>
+          <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="labio" type="NCMS000">la|bio|</w>
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="quietud" type="NCFS000">quie|tud|</w>
-          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="se" type="P00CN00">se</w>
           <w lemma="esconder" type="VMIP3S0">es|con|de|</w>
         </l>
         <l met="-|2|-|-|-|6|-|" n="25">
           <!--Aquí, pues, al cuidado-->
           <w lemma="aquí" type="RG">a|quí|</w>
           <w lemma="pues" type="CS">pues|</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="cuidado" type="NCMS000">cui|da|do|</w>
         </l>
         <l met="1|2|-|4|-|6|-|-|-|10|-|" n="26">
@@ -276,14 +279,14 @@
           <w lemma="ser" type="VSIP3S0">es|</w>
           <w lemma="puro" type="AQ0FS00">pu|ra|</w>
         </l>
-        <l met="-|2|-|4|-|6|-|-|9|10|-|" n="29">
+        <l met="-|2|-|-|-|6|-|-|9|10|-|" n="29">
           <!--de arroyo tan oblicuo, que no deja-->
           <w lemma="de" type="SP">de</w>
           <w lemma="arroyo" type="NCMS000">a|rro|yo|</w>
           <w lemma="tan" type="RG">tan|</w>
           <w lemma="oblicuo" type="AQ0MS00">o|bli|cuo|</w>
           <w lemma="que" type="PR0CN00">que|</w>
-          <w lemma="no" type="RN">n|o|</w>
+          <w lemma="no" type="RN">no|</w>
           <w lemma="dejar" type="VMIP3S0">de|ja|</w>
         </l>
         <l met="-|-|3|-|-|6|-|8|-|10|-|" n="30">
@@ -292,7 +295,7 @@
           <w lemma="fragrancia" type="NCFS000">fra|gran|cia|</w>
           <w lemma="salir" type="VMN0000">sa|lir|</w>
           <w lemma="entrar" type="VMN0000">en|trar|</w>
-          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="el" type="DA0FS0">la</w>
           <w lemma="abeja" type="NCFS000">a|be|ja|</w>
         </l>
       </lg>

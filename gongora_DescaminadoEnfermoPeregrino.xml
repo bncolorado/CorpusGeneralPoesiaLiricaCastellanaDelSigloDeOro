@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -60,18 +60,17 @@
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="confusión" type="NCFS000">con|fu|sión|</w>
           <w lemma="pisar" type="VMG0000">pi|san|do|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="desierto" type="NCMS000">de|sier|to|</w>
         </l>
         <l met="1|-|-|4|-|6|7|-|-|10|-|" n="4">
           <!--voces en vano dio, pasos sin tino,-->
           <w lemma="voz" type="NCFP000">vo|ces|</w>
-          <w lemma="en" type="SP">en|</w>
-          <w lemma="vano" type="NCMS000">va|no|</w>
+          <w lemma="en_vano" type="RG">en_|va|no|</w>
           <w lemma="dar" type="VMIS3S0">dio|</w>
           <w lemma="paso" type="NCMP000">pa|sos|</w>
-          <w lemma="sin" type="SP">sin|</w>
-          <w lemma="tino" type="NCMS000">ti|no|</w>
+          <w lemma="sin_tino" type="RG">sin_|ti|no|</w>
         </l>
         <l met="-|-|3|-|-|6|-|8|-|10|-|" n="5">
           <!--Repetido latir, si no vecino,-->
@@ -103,10 +102,8 @@
           <!--piedad halló, si no halló camino.-->
           <w lemma="piedad" type="NCFS000">pie|dad|</w>
           <w lemma="hallar" type="VMIS3S0">ha|lló|</w>
-          <w lemma="hallar" type="VMIS3S0">ha|lló|</w>
           <w lemma="si" type="CS">si|</w>
           <w lemma="no" type="RN">no|</w>
-          <w lemma="hallar" type="VMIS3S0">ha|lló|</w>
           <w lemma="hallar" type="VMIS3S0">ha|lló|</w>
           <w lemma="camino" type="NCMS000">ca|mi|no|</w>
         </l>
@@ -131,7 +128,8 @@
         <l met="-|2|-|4|5|6|-|-|-|10|-|" n="11">
           <!--salteó al no bien sano pasajero.-->
           <w lemma="saltear" type="VMIS3S0">sal|teó|</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="no" type="RN">no|</w>
           <w lemma="bien" type="RG">bien|</w>
           <w lemma="sano" type="AQ0MS00">sa|no|</w>
@@ -159,12 +157,10 @@
         <l met="-|-|3|-|-|6|-|-|9|10|-|" n="14">
           <!--que morir de la suerte que yo muero.-->
           <w lemma="que" type="CS">que|</w>
-          <w lemma="que" type="PR0CN00">que|</w>
           <w lemma="morir" type="VMN0000">mo|rir|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="suerte" type="NCFS000">suer|te|</w>
-          <w lemma="que" type="CS">que|</w>
           <w lemma="que" type="PR0CN00">que|</w>
           <w lemma="yo" type="PP1CSN0">yo|</w>
           <w lemma="morir" type="VMIP1S0">mue|ro|</w>

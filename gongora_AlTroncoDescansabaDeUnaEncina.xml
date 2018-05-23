@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -76,11 +76,11 @@
           <w lemma="dejar" type="VMIS3S0">de|jó|</w>
           <w lemma="con" type="SP">con|</w>
           <w lemma="su" type="DP3CSN">su|</w>
-          <w lemma="rüina" type="NCFS000">rü|i|na|</w>
+          <w lemma="ruina" type="NCFS000">rü|i|na|</w>
         </l>
         <l met="-|2|-|-|-|6|-|8|-|10|-|" n="5">
           <!--Laurel que de sus ramas hizo dina-->
-          <w lemma="laurel" type="NP00000">lau|rel|</w>
+          <w lemma="laurel" type="NCMS000">lau|rel|</w>
           <w lemma="que" type="CS">que|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="su" type="DP3CPN">sus|</w>
@@ -120,14 +120,15 @@
           <w lemma="hoja" type="NCFP000">ho|jas|</w>
           <w lemma="cano" type="AQ0MS00">ca|no</w>
           <w lemma="el" type="DA0MS0">el|</w>
-          <w lemma="de" type="SP">de</w>
+          <w lemma="de" type="SP">de|</w>
           <w lemma="minerva" type="NP00000">mi|ner|va|</w>
         </l>
         <l met="1|-|3|-|-|6|7|-|-|10|-|" n="10">
           <!--árbol culto, del Sol yace abrasado,-->
           <w lemma="árbol" type="NCMS000">ár|bol|</w>
           <w lemma="culto" type="AQ0MS00">cul|to|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="sol" type="NP00000">sol|</w>
           <w lemma="yacer" type="VMIP3S0">ya|ce</w>
           <w lemma="abrasar" type="VMP00SM">a|bra|sa|do|</w>

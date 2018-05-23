@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -72,7 +72,8 @@
         </l>
         <l met="-|2|3|4|-|6|-|" n="5">
           <!--al paso un solo instante:-->
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="paso" type="NCMS000">pa|so</w>
           <w lemma="uno" type="DI0MS0">un|</w>
           <w lemma="solo" type="AQ0MS00">so|lo</w>
@@ -87,7 +88,8 @@
           <!--ondas que del Parnaso-->
           <w lemma="onda" type="NCFP000">on|das|</w>
           <w lemma="que" type="PR0CN00">que|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="parnaso" type="NP00000">par|na|so|</w>
         </l>
         <l met="-|-|3|-|-|6|-|-|-|10|-|" n="8">

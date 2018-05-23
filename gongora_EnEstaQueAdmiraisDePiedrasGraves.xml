@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -66,7 +66,7 @@
           <w lemma="ungüento" type="NCMP000">un|güen|tos|</w>
           <w lemma="privilegiar" type="VMIP3P0">pri|vi|le|gian|</w>
           <w lemma="hoy" type="RG">hoy|</w>
-          <w lemma="süaves" type="AQ0CP00">sü|a|ves|</w>
+          <w lemma="suave" type="AQ0CP00">sü|a|ves|</w>
         </l>
         <l met="-|2|-|-|-|6|-|-|-|10|-|" n="4">
           <!--la muerta humanidad de Margarita,-->
@@ -80,11 +80,9 @@
           <!--si de cuantos la pompa de las aves-->
           <w lemma="si" type="CS">si|</w>
           <w lemma="de" type="SP">de|</w>
-          <w lemma="de" type="SP">de|</w>
           <w lemma="cuanto" type="DI0MP0">cuan|tos|</w>
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="pompa" type="NCFS000">pom|pa|</w>
-          <w lemma="de" type="SP">de|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="el" type="DA0FP0">las|</w>
           <w lemma="ave" type="NCFP000">a|ves|</w>
@@ -112,7 +110,8 @@
           <w lemma="resistir" type="VMG0000">re|sis|tien|do|</w>
           <w lemma="su" type="DP3CPN">sus|</w>
           <w lemma="tronco" type="NCMP000">tron|cos|</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="gusano" type="NCMS000">gu|sa|no|</w>
         </l>
       </lg>

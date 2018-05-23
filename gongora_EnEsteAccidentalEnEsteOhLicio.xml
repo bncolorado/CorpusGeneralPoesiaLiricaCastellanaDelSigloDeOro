@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -40,7 +40,7 @@
         <title>En este accidental, en este, oh Licio,</title>
       </head>
       <lg cert="high" type="Soneto">
-        <l met="-|2|-|-|-|6|-|8|-|10|-|" n="1">
+        <l met="-|2|-|-|-|6|-|8|9|10|-|" n="1">
           <!--En este accidental, en este, oh Licio,-->
           <w lemma="en" type="SP">en|</w>
           <w lemma="este" type="DD0MS0">es|te</w>
@@ -75,16 +75,15 @@
           <w lemma="ser" type="VSIP3S0">es|</w>
           <w lemma="precipicio" type="NCMS000">pre|ci|pi|cio|</w>
         </l>
-        <l met="-|2|-|-|5|-|-|-|9|-|" n="5">
+        <l met="-|2|-|4|-|6|-|-|-|10|-|" n="5">
           <!--¿Caduca el paso? Ilústrese el juïcio.-->
-          <w lemma="caducar" type="VMIP3S0">ca|du|ca|</w>
+          <w lemma="caducar" type="VMIP3S0">ca|du|ca</w>
           <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="paso" type="NCMS000">pa|so</w>
+	  <w lemma="ilustrar" type="VMMP3S0">i|lus|tre|</w>
+          <w lemma="se" type="PP3CN00">se</w>
           <w lemma="el" type="DA0MS0">el|</w>
-          <w lemma="pasoIlustre" type="NCMS000">VMM03S0</w>
-          <w lemma="se" type="PP3CN00">se|</w>
-          <w lemma="el" type="DA0MS0">el|</w>
-          <w lemma="el" type="DA0MS0">el|</w>
-          <w lemma="juïcio" type="NCMS000">juï|cio|</w>
+          <w lemma="juicio" type="NCMS000">ju|ï|cio|</w>
         </l>
         <l met="-|-|3|-|-|6|-|8|-|10|-|" n="6">
           <!--Desatándose va la tierra unida;-->
@@ -99,23 +98,26 @@
           <!--¿qué prudencia del polvo prevenida-->
           <w lemma="qué" type="DT0CN0">qué|</w>
           <w lemma="prudencia" type="NCFS000">pru|den|cia|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="polvo" type="NCMS000">pol|vo|</w>
           <w lemma="prevenir" type="VMP00SF">pre|ve|ni|da|</w>
         </l>
-        <l met="-|2|-|-|-|6|-|-|-|10|-|" n="8">
+        <l met="-|-|3|-|-|6|-|-|-|10|-|" n="8">
           <!--la ruïna aguardó del edificio?-->
           <w lemma="el" type="DA0FS0">la|</w>
-          <w lemma="ruïna" type="NCFS000">ruï|na|</w>
+          <w lemma="ruina" type="NCFS000">ru|ï|na</w>
           <w lemma="aguardar" type="VMIS3S0">a|guar|dó|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="edificio" type="NCMS000">e|di|fi|cio|</w>
         </l>
-        <l met="-|2|-|-|-|6|-|-|-|10|-|" n="9">
+        <l met="-|2|3|4|-|6|-|-|-|10|-|" n="9">
           <!--La piel no sólo, sierpe venenosa,-->
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="piel" type="NCFS000">piel|</w>
-          <w lemma="no_sólo" type="CC">no_|só|lo|</w>
+          <w lemma="no" type="RN">no|</w>
+	  <w lemma="sólo" type="RG">só|lo|</w>
           <w lemma="sierpe" type="NCFS000">sier|pe|</w>
           <w lemma="venenoso" type="AQ0FS00">ve|ne|no|sa|</w>
         </l>
@@ -130,21 +132,22 @@
           <w lemma="se" type="P00CN00">se|</w>
           <w lemma="desnudar" type="VMIP3S0">des|nu|da|</w>
         </l>
-        <l met="-|-|3|-|5|-|7|-|-|10|-|" n="11">
+        <l met="-|2|-|4|5|-|-|8|-|10|-|" n="11">
           <!--y el hombre, no. ¡Ciego discurso humano!-->
-          <w lemma="y" type="CC">y|</w>
+          <w lemma="y" type="CC">y</w>
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="hombre" type="NCMS000">hom|bre|</w>
-          <w lemma="noCiego" type="RN">AQ0MS00</w>
-          <w lemma="discurso" type="NCMS000">dis|cur|so|</w>
+          <w lemma="no" type="RN">no|</w>
+	  <w lemma="ciego" type="AQ0MS00">cie|go|</w>
+          <w lemma="discurso" type="NCMS000">dis|cur|so</w>
           <w lemma="humano" type="AQ0MS00">hu|ma|no|</w>
         </l>
-        <l met="-|2|-|4|-|-|-|-|-|10|-|" n="12">
+        <l met="1|2|-|4|-|-|-|-|-|10|-|" n="12">
           <!--¡Oh aquel dichoso, que la ponderosa-->
           <w lemma="oh" type="I">oh</w>
           <w lemma="aquel" type="PD0MS00">a|quel|</w>
           <w lemma="dichoso" type="AQ0MS00">di|cho|so|</w>
-          <w lemma="que" type="CS">que</w>
+          <w lemma="que" type="CS">que|</w>
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="ponderoso" type="AQ0FS00">pon|de|ro|sa|</w>
         </l>
@@ -162,7 +165,8 @@
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="leve" type="AQ0CS00">le|ve|</w>
           <w lemma="dar" type="VMIP3S0">da</w>
-          <w lemma="al" type="SP">a|l</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="zafiro" type="NCMS000">za|fi|ro|</w>
           <w lemma="soberano" type="AQ0MS00">so|be|ra|no|</w>
         </l>

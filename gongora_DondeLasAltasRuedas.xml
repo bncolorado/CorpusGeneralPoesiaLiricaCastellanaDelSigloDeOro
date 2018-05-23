@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -70,16 +70,17 @@
           <w lemma="sonorosas" type="AQ0FP00">so|no|ro|sas|</w>
           <w lemma="alameda" type="NCFP000">a|la|me|das|</w>
         </l>
-        <l met="-|2|3|4|-|" n="5">
+        <l met="-|2|-|4|-|6|-|" n="5">
           <!--por no hacer ruïdo-->
           <w lemma="por" type="SP">por|</w>
-          <w lemma="no" type="RN">no</w>
+          <w lemma="no" type="RN">no|</w>
           <w lemma="hacer" type="VMN0000">ha|cer|</w>
-          <w lemma="ruïdo" type="VMP00SM">ruï|do|</w>
+          <w lemma="ruido" type="NCMS000">ru|ï|do|</w>
         </l>
         <l met="-|2|-|-|-|6|-|8|-|10|-|" n="6">
           <!--al Betis, que entre juncias va dormido;-->
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="betis" type="NP00000">be|tis|</w>
           <w lemma="que" type="PR0CN00">que</w>
           <w lemma="entre" type="SP">en|tre|</w>
@@ -96,7 +97,8 @@
         </l>
         <l met="-|2|-|-|-|6|-|" n="8">
           <!--al tronco recostado-->
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="tronco" type="NCMS000">tron|co|</w>
           <w lemma="recostar" type="VMP00SM">re|cos|ta|do|</w>
         </l>
@@ -114,7 +116,8 @@
           <w lemma="entre" type="SP">en|tre|</w>
           <w lemma="el" type="DA0MP0">los|</w>
           <w lemma="árbol" type="NCMP000">ár|bo|les|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="soto" type="NCMS000">so|to|</w>
         </l>
         <l met="-|-|-|4|5|6|-|" n="11">
@@ -122,7 +125,7 @@
           <w lemma="porque" type="CS">por|que|</w>
           <w lemma="su" type="DP3CSN">su|</w>
           <w lemma="sombra" type="NCFS000">som|bra</w>
-          <w lemma="ser" type="VSIP3S0">e|s</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
           <w lemma="flor" type="NCFP000">flo|res|</w>
         </l>
         <l met="-|2|-|4|-|6|-|-|-|10|-|" n="12">
@@ -148,7 +151,8 @@
         </l>
         <l met="-|2|-|-|-|6|-|" n="15">
           <!--al rayo de la Luna,-->
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="rayo" type="NCMS000">ra|yo|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="el" type="DA0FS0">la|</w>
@@ -157,7 +161,8 @@
         <l met="-|-|-|4|-|6|-|-|-|10|-|" n="16">
           <!--que al perezoso río le hurtaba,-->
           <w lemma="que" type="CS">que</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="perezoso" type="AQ0MS00">pe|re|zo|so|</w>
           <w lemma="río" type="NCMS000">rí|o|</w>
           <w lemma="le" type="PP3CSD0">le|</w>
@@ -179,9 +184,10 @@
           <w lemma="cristal" type="NCMS000">cris|tal|</w>
           <w lemma="luciente" type="AQ0CS00">lu|cien|te|</w>
         </l>
-        <l met="-|-|-|4|-|6|-|" n="19">
+        <l met="-|2|-|4|-|6|-|" n="19">
           <!--Injusto Amor -decía-,-->
-          <w lemma="injusto_amor" type="NP00000">in|jus|to_a|mor|</w>
+          <w lemma="injusto" type="AQ0MS00">in|jus|to</w>
+	  <w lemma="amor" type="NP00000">a|mor</w>
           <w lemma="decir" type="VMII3S0">de|cí|a|</w>
         </l>
         <l met="-|-|3|-|-|6|-|" n="20">
