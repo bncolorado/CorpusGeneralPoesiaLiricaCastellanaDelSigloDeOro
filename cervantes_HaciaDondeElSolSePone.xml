@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -53,7 +53,7 @@
           <!--entre dos partidas peñas,-->
           <w lemma="entre" type="SP">en|tre|</w>
           <w lemma="2" type="Z">dos|</w>
-          <w lemma="partida" type="NCFP000">par|ti|das|</w>
+          <w lemma="partir" type="VMP00PF">par|ti|das|</w>
           <w lemma="peña" type="NCFP000">pe|ñas|</w>
         </l>
         <l met="1|-|3|-|5|-|7|-|" n="3">
@@ -61,7 +61,7 @@
           <w lemma="uno" type="DI0FS0">u|na</w>
           <w lemma="entrada" type="NCFS000">en|tra|da|</w>
           <w lemma="de" type="SP">de</w>
-          <w lemma="uno" type="DI0MS0">u|n</w>
+          <w lemma="uno" type="DI0MS0">un|</w>
           <w lemma="abismo" type="NCMS000">a|bis|mo|</w>
         </l>
         <l met="1|-|-|4|5|-|7|-|" n="4">
@@ -95,7 +95,8 @@
         </l>
         <l met="-|-|3|-|-|-|7|-|" n="8">
           <!--del terror y de tinieblas.-->
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="terror" type="NCMS000">te|rror|</w>
           <w lemma="y" type="CC">y|</w>
           <w lemma="de" type="SP">de|</w>
@@ -113,10 +114,11 @@
         <l met="-|2|-|-|5|-|7|-|" n="10">
           <!--que al alma encendida yela,-->
           <w lemma="que" type="CS">que</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="alma" type="NCFS000">al|ma</w>
           <w lemma="encender" type="VMP00SF">en|cen|di|da|</w>
-          <w lemma="yela" type="NCFS000">ye|la|</w>
+          <w lemma="helar" type="VMIP3S0">ye|la|</w>
         </l>
         <l met="1|2|-|-|-|-|7|-|" n="11">
           <!--y un fuego, de cuando en cuando,-->
@@ -128,15 +130,16 @@
         <l met="-|2|-|-|5|-|7|-|" n="12">
           <!--que al pecho de nieve quema.-->
           <w lemma="que" type="CS">que</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="pecho" type="NCMS000">pe|cho|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="nieve" type="NCFS000">nie|ve|</w>
-          <w lemma="quema" type="NCFS000">que|ma|</w>
+          <w lemma="quemar" type="VMIP3S0">que|ma|</w>
         </l>
         <l met="1|-|-|4|5|-|7|-|" n="13">
           <!--Óyese dentro un rüido-->
-          <w lemma="oír" type="VMM02S0">o|ye|</w>
+          <w lemma="oír" type="VMM03S0">o|ye|</w>
           <w lemma="se" type="PP3CN00">se|</w>
           <w lemma="dentro" type="RG">den|tro</w>
           <w lemma="uno" type="DI0MS0">un|</w>
@@ -210,12 +213,12 @@
         </l>
         <l met="1|-|-|4|-|-|7|-|" n="23">
           <!--güesos de muerto encajados-->
-          <w lemma="güesos" type="NCMP000">güe|sos|</w>
+          <w lemma="hueso" type="NCMP000">güe|sos|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="muerto" type="NCMS000">muer|to</w>
           <w lemma="encajar" type="VMP00PM">en|ca|ja|dos|</w>
         </l>
-        <l met="-|-|-|-|5|-|7|-|" n="24">
+        <l met="-|2|-|-|5|-|7|-|" n="24">
           <!--de modo que forman letras,-->
           <w lemma="de_modo_que" type="CS">de_|mo|do_|que|</w>
           <w lemma="formar" type="VMIP3P0">for|man|</w>
@@ -226,7 +229,8 @@
           <w lemma="el" type="DA0FP0">las|</w>
           <w lemma="cual" type="PR0CP00">cua|les|</w>
           <w lemma="ver" type="VMP00PF">vis|tas|</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="fuego" type="NCMS000">fue|go|</w>
         </l>
         <l met="-|2|-|-|-|-|7|-|" n="26">
@@ -258,7 +262,7 @@
           <w lemma="uno" type="DI0MS0">un|</w>
           <w lemma="pastor" type="NCMS000">pas|tor|</w>
           <w lemma="contar" type="VMII3S0">con|ta|ba</w>
-          <w lemma="a" type="SP">a</w>
+          <w lemma="a" type="SP">a|</w>
           <w lemma="lauso" type="NP00000">lau|so|</w>
         </l>
         <l met="1|-|-|-|5|-|7|-|" n="30">
@@ -290,8 +294,6 @@
           <w lemma="ver" type="VMG0000">vien|do|</w>
           <w lemma="le" type="PP3CSD0">le|</w>
           <w lemma="le" type="PP3CSD0">le|</w>
-          <w lemma="le" type="PP3CSD0">le|</w>
-          <w lemma="le" type="PP3CSD0">le|</w>
           <w lemma="decir" type="VMIS3S0">di|jo|</w>
         </l>
         <l met="-|2|-|-|-|-|7|-|" n="34">
@@ -307,14 +309,16 @@
           <w lemma="no" type="RN">no|</w>
           <w lemma="haber" type="VMIP2S0">has|</w>
           <w lemma="menester" type="NCMS000">me|nes|ter|</w>
-          <w lemma="jurallo" type="AQ0CN00">ju|ra|llo|</w>
+          <w lemma="jurar" type="VMN0000">ju|ra|</w>
+	  <w lemma="lo" type="PP3MSA0">llo|</w>
         </l>
         <l met="-|-|3|4|-|-|7|-|" n="36">
           <!--ni hacer della esperiencia.-->
           <w lemma="ni" type="CC">ni|</w>
           <w lemma="hacer" type="VMN0000">ha|cer|</w>
-          <w lemma="della" type="NCFS000">de|lla</w>
-          <w lemma="esperiencia" type="NCFS000">es|pe|rien|cia|</w>
+          <w lemma="de" type="NCFS000">de|</w>
+	  <w lemma="lo" type="PP3FSA0">lla</w>
+          <w lemma="experiencia" type="NCFS000">es|pe|rien|cia|</w>
         </l>
         <l met="-|2|-|-|5|6|7|-|" n="37">
           <!--El mismo traslado es ése-->
@@ -375,11 +379,11 @@
         </l>
         <l met="-|2|-|-|5|-|7|-|" n="44">
           <!--arrójase, abrasa y yela.-->
-          <w lemma="arrojar" type="VMM02S0">a|rro|ja|</w>
+          <w lemma="arrojar" type="VMM03S0">a|rro|ja|</w>
           <w lemma="se" type="PP3CN00">se</w>
-          <w lemma="abrasar" type="VMM02S0">a|bra|sa</w>
+          <w lemma="abrasar" type="VMM03S0">a|bra|sa</w>
           <w lemma="y" type="CC">y|</w>
-          <w lemma="yela" type="NCFS000">ye|la|</w>
+          <w lemma="helar" type="VMM03S0">ye|la|</w>
         </l>
         <l met="-|-|-|4|-|-|7|-|" n="45">
           <!--Los lamentables aullidos,-->
@@ -406,7 +410,7 @@
           <w lemma="en" type="SP">en|</w>
           <w lemma="mi" type="DP1CPS">mis|</w>
           <w lemma="entraña" type="NCFP000">en|tra|ñas|</w>
-          <w lemma="se" type="P00CN00">s|e</w>
+          <w lemma="se" type="P00CN00">se|</w>
           <w lemma="cebar" type="VMIP3P0">ce|ban|</w>
         </l>
         <l met="-|2|-|4|-|-|7|-|" n="49">
@@ -489,9 +493,7 @@
           <!--que de memorias de celos-->
           <w lemma="que" type="CS">que|</w>
           <w lemma="de" type="SP">de|</w>
-          <w lemma="de" type="SP">de|</w>
           <w lemma="memoria" type="NCFP000">me|mo|rias|</w>
-          <w lemma="de" type="SP">de|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="celo" type="NCMP000">ce|los|</w>
         </l>
@@ -511,7 +513,7 @@
           <w lemma="iglesia" type="NCFS000">i|gle|sia</w>
           <w lemma="ofrecer" type="VMIP3S0">o|fre|ce|</w>
         </l>
-        <l met="1|2|-|4|-|6|7|-|" n="62">
+        <l met="1|2|-|4|-|-|7|-|" n="62">
           <!--hoy una piedra tan fina-->
           <w lemma="hoy" type="RG">hoy|</w>
           <w lemma="uno" type="DI0FS0">u|na|</w>
@@ -529,7 +531,8 @@
         </l>
         <l met="-|2|-|4|-|-|7|-|" n="64">
           <!--del mismo Dios resplandece.-->
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="mismo" type="AQ0MS00">mis|mo|</w>
           <w lemma="dios" type="NP00000">dios|</w>
           <w lemma="resplandecer" type="VMIP3S0">res|plan|de|ce|</w>
