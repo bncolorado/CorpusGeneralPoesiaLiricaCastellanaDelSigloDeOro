@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -42,32 +42,33 @@
       <lg cert="..." type="...">
         <l met="1|-|3|-|5|-|7|-|" n="1">
           <!--Manya deve ser de Amor,-->
-          <w lemma="manya" type="NP00000">man|ya|</w>
-          <w lemma="deve" type="VMIP3S0">de|ve|</w>
+          <w lemma="maño" type="AQ0FS00">man|ya|</w>
+          <w lemma="deber" type="VMIP3S0">de|ve|</w>
           <w lemma="ser" type="VSN0000">ser|</w>
-          <w lemma="de" type="SP">de|</w>
+          <w lemma="de" type="SP">de</w>
           <w lemma="amor" type="NP00000">a|mor|</w>
         </l>
         <l met="-|-|3|4|-|-|7|-|" n="2">
           <!--porque dél no me desmande,-->
           <w lemma="porque" type="CS">por|que|</w>
-          <w lemma="dél" type="RG">dél|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="él" type="PP3MS00">él|</w>
           <w lemma="no" type="RN">no|</w>
           <w lemma="me" type="PP1CS00">me|</w>
           <w lemma="desmandar" type="VMSP3S0">des|man|de|</w>
         </l>
-        <l met="-|-|-|-|5|-|7|-|" n="3">
+        <l met="-|2|-|-|5|-|7|-|" n="3">
           <!--que al tiempo que estoy peor,-->
           <w lemma="que" type="CS">que</w>
           <w lemma="al_tiempo_que" type="CS">a_el_|tiem|po_|que</w>
           <w lemma="estar" type="VMIP1S0">es|toy|</w>
           <w lemma="peor" type="AQ0CS00">pe|or|</w>
         </l>
-        <l met="-|2|3|4|-|6|7|-|" n="4">
+        <l met="-|2|3|4|-|-|7|-|" n="4">
           <!--ningún mal çufro tan grande-->
           <w lemma="ninguno" type="DI0MS0">nin|gún|</w>
           <w lemma="mal" type="AQ0MS00">mal|</w>
-          <w lemma="çufro" type="NCMS000">çu|fro|</w>
+          <w lemma="sufrir" type="VMIP1S0">çu|fro|</w>
           <w lemma="tan" type="RG">tan|</w>
           <w lemma="grande" type="AQ0CS00">gran|de|</w>
         </l>
@@ -75,7 +76,7 @@
           <!--que no escuse otro mayor.-->
           <w lemma="que" type="CS">que|</w>
           <w lemma="no" type="RN">no</w>
-          <w lemma="escuse" type="VMSP3S0">es|cu|se</w>
+          <w lemma="escusar" type="VMSP3S0">es|cu|se</w>
           <w lemma="otro" type="PI0MS00">o|tro|</w>
           <w lemma="mayor" type="AQ0CS00">ma|yor|</w>
         </l>
@@ -83,7 +84,8 @@
           <!--La llaga del escarmiento-->
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="llaga" type="NCFS000">lla|ga|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="escarmiento" type="NCMS000">es|car|mien|to|</w>
         </l>
         <l met="-|-|3|-|5|-|7|-|" n="7">
@@ -92,18 +94,16 @@
           <w lemma="el" type="DA0MP0">los|</w>
           <w lemma="mal" type="NCMP000">ma|les|</w>
           <w lemma="que" type="PR0CN00">que</w>
-          <w lemma="an" type="NCFS000">an|</w>
+          <w lemma="haber" type="VMIP3P0">an|</w>
           <w lemma="venir" type="VMP00SM">ve|ni|do|</w>
         </l>
         <l met="-|2|-|-|-|-|7|-|" n="8">
           <!--me haze que lo que siento-->
           <w lemma="me" type="PP1CS00">me|</w>
-          <w lemma="haze" type="VMIP3S0">ha|ze|</w>
+          <w lemma="hacer" type="VMIP3S0">ha|ze|</w>
           <w lemma="que" type="CS">que|</w>
-          <w lemma="que" type="PR0CN00">que|</w>
           <w lemma="el" type="DA00S0">lo|</w>
           <w lemma="que" type="CS">que|</w>
-          <w lemma="que" type="PR0CN00">que|</w>
           <w lemma="sentar" type="VMIP1S0">sien|to|</w>
         </l>
         <l met="-|-|3|-|5|-|7|-|" n="9">
@@ -116,19 +116,17 @@
         <l met="-|2|-|-|5|-|7|-|" n="10">
           <!--de miedo de más tormento.-->
           <w lemma="de" type="SP">de|</w>
-          <w lemma="de" type="SP">de|</w>
           <w lemma="miedo" type="NCMS000">mie|do|</w>
-          <w lemma="de" type="SP">de|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="más" type="RG">más|</w>
           <w lemma="tormento" type="NCMS000">tor|men|to|</w>
         </l>
-        <l met="1|-|3|-|-|-|7|-|" n="11">
+        <l met="1|2|-|4|-|-|7|-|" n="11">
           <!--Quiçá es enganyo de amor,-->
-          <w lemma="quiçá" type="NP00000">quiçá</w>
+          <w lemma="quizá" type="RG">qui|çá</w>
           <w lemma="ser" type="VSIP3S0">es|</w>
           <w lemma="enganyo" type="NCMS000">en|gan|yo|</w>
-          <w lemma="de" type="SP">de|</w>
+          <w lemma="de" type="SP">de</w>
           <w lemma="amor" type="NCMS000">a|mor|</w>
         </l>
         <l met="-|-|-|4|-|6|7|-|" n="12">
@@ -147,7 +145,7 @@
           <w lemma="ir" type="VMIP3S0">va|</w>
           <w lemma="peor" type="AQ0CS00">pe|or|</w>
         </l>
-        <l met="-|2|3|4|-|6|7|-|" n="14">
+        <l met="-|2|3|4|-|-|7|-|" n="14">
           <!--ningún mal sufro tan grande-->
           <w lemma="ninguno" type="DI0MS0">nin|gún|</w>
           <w lemma="mal" type="NCMS000">mal|</w>

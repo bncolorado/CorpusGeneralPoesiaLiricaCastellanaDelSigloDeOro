@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -47,15 +47,15 @@
           <w lemma="no" type="RN">no|</w>
           <w lemma="saber" type="VMIP1S0">sé|</w>
           <w lemma="qué" type="PT00000">qué</w>
-          <w lemma="é" type="VMIS1S0">é|</w>
+          <w lemma="haber" type="VMIS1S0">é|</w>
           <w lemma="de" type="SP">de</w>
-          <w lemma="azer" type="VMN0000">a|zer|</w>
+          <w lemma="hacer" type="VMN0000">a|zer|</w>
         </l>
         <l met="-|-|3|-|5|-|7|-|" n="2">
-          <!--lo que mí querer desea,-->
+          <!--lo que mi querer desea,-->
           <w lemma="el" type="DA00S0">lo|</w>
           <w lemma="que" type="PR0CN00">que|</w>
-          <w lemma="mí" type="PP1CSO0">mí|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
           <w lemma="querer" type="VMN0000">que|rer|</w>
           <w lemma="desear" type="VMIP3S0">de|se|a|</w>
         </l>
@@ -65,20 +65,20 @@
           <w lemma="el" type="DA00S0">lo|</w>
           <w lemma="que" type="PR0CN00">que|</w>
           <w lemma="no" type="RN">no</w>
-          <w lemma="á" type="VMIF3S0">á|</w>
+          <w lemma="haber" type="VMIF3S0">á|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="ser" type="VSN0000">ser|</w>
         </l>
-        <l met="1|-|-|-|-|6|-|" n="4">
+        <l met="-|2|-|-|-|-|7|-|" n="4">
           <!--quiçá con nuestro querer-->
-          <w lemma="quiçá" type="VMIF3S0">quiçá|</w>
+          <w lemma="quizá" type="RG">qui|çá|</w>
           <w lemma="con" type="SP">con|</w>
           <w lemma="nuestro" type="DP1MSP">nues|tro|</w>
           <w lemma="querer" type="NCMS000">que|rer|</w>
         </l>
         <l met="-|2|-|-|5|-|7|-|" n="5">
           <!--posible será que sea.-->
-          <w lemma="posible" type="AQ0CS00">po|si|ble</w>
+          <w lemma="posible" type="AQ0CS00">po|si|ble|</w>
           <w lemma="ser" type="VSIF3S0">se|rá</w>
           <w lemma="que" type="CS">que</w>
           <w lemma="ser" type="VSSP1S0">se|a|</w>
@@ -88,7 +88,7 @@
           <w lemma="no" type="RN">no|</w>
           <w lemma="querer" type="VMIP1S0">quie|ro|</w>
           <w lemma="de" type="SP">de</w>
-          <w lemma="oy" type="RG">oy|</w>
+          <w lemma="hoy" type="RG">oy|</w>
           <w lemma="más" type="RG">más|</w>
           <w lemma="mostrar" type="VMN0000">mos|trar|</w>
         </l>
@@ -97,15 +97,15 @@
           <w lemma="querer" type="VMN0000">que|rer|</w>
           <w lemma="el" type="DA00S0">lo|</w>
           <w lemma="que" type="PR0CN00">que|</w>
-          <w lemma="é" type="VMIS1S0">é|</w>
+          <w lemma="haber" type="VMIS1S0">é|</w>
           <w lemma="desear" type="VMP00SM">de|se|a|do|</w>
         </l>
         <l met="1|2|-|-|5|-|7|-|" n="8">
           <!--no quiero dexar de amar-->
           <w lemma="no" type="RN">no|</w>
           <w lemma="querer" type="VMIP1S0">quie|ro|</w>
-          <w lemma="dexar" type="VMN0000">de|xar|</w>
-          <w lemma="de" type="SP">de|</w>
+          <w lemma="dejar" type="VMN0000">de|xar|</w>
+          <w lemma="de" type="SP">de</w>
           <w lemma="amar" type="VMN0000">a|mar|</w>
         </l>
         <l met="-|2|-|-|-|-|7|-|" n="9">
@@ -148,9 +148,9 @@
           <w lemma="este" type="DD0MS0">es|te|</w>
           <w lemma="contender" type="VMN0000">con|ten|der|</w>
         </l>
-        <l met="1|-|-|-|-|6|-|" n="14">
+        <l met="-|2|-|-|-|-|7|-|" n="14">
           <!--quiçá con nuestro querer-->
-          <w lemma="quiçá" type="VMIF3S0">quiçá|</w>
+          <w lemma="quizá" type="RG">qui|çá|</w>
           <w lemma="con" type="SP">con|</w>
           <w lemma="nuestro" type="DP1MSP">nues|tro|</w>
           <w lemma="querer" type="NCMS000">que|rer|</w>
@@ -183,12 +183,14 @@
           <w lemma="ni" type="RN">ni|</w>
           <w lemma="querer" type="VMIP1S0">quie|ro|</w>
           <w lemma="ver" type="VMN0000">ver|</w>
-          <w lemma="quel" type="NCMS000">quel|</w>
+          <w lemma="que" type="CS">que</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="tardar" type="VMN0000">tar|dar|</w>
         </l>
         <l met="-|2|-|-|-|-|7|-|" n="19">
           <!--del tiempo, ni su mudar,-->
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="tiempo" type="NCMS000">tiem|po|</w>
           <w lemma="ni" type="CC">ni|</w>
           <w lemma="su" type="DP3CSN">su|</w>
@@ -219,40 +221,42 @@
         <l met="-|-|3|-|-|-|7|-|" n="23">
           <!--desterrado del plazer;-->
           <w lemma="desterrar" type="VMP00SM">des|te|rra|do|</w>
-          <w lemma="del" type="SP">del|</w>
-          <w lemma="plazer" type="VMN0000">pla|zer|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="placer" type="NCMS000">pla|zer|</w>
         </l>
-        <l met="1|-|-|-|-|6|-|" n="24">
-          <!--quiçá con nuestro querer-->
-          <w lemma="quiçá" type="VMIF3S0">quiçá|</w>
+        <l met="-|2|-|-|-|-|7|-|" n="24">
+          <!--quizá con nuestro querer-->
+          <w lemma="quizá" type="RG">qui|çá|</w>
           <w lemma="con" type="SP">con|</w>
           <w lemma="nuestro" type="DP1MSP">nues|tro|</w>
           <w lemma="querer" type="NCMS000">que|rer|</w>
         </l>
         <l met="-|2|-|-|5|-|7|-|" n="25">
           <!--posible será que sea.-->
-          <w lemma="posible" type="AQ0CS00">po|si|ble</w>
+          <w lemma="posible" type="AQ0CS00">po|si|ble|</w>
           <w lemma="ser" type="VSIF3S0">se|rá</w>
-          <w lemma="que" type="CS">que</w>
+          <w lemma="que" type="CS">que|</w>
           <w lemma="ser" type="VSSP1S0">se|a|</w>
         </l>
         <l met="-|-|3|-|-|-|7|-|" n="26">
           <!--Hastaquí mi desear-->
-          <w lemma="hastaquí" type="NP00000">has|ta|quí|</w>
+          <w lemma="hasta" type="SP">has|ta</w>
+	  <w lemma="aquí" type="RG">a|quí</w>
           <w lemma="mi" type="DP1CSS">mi|</w>
           <w lemma="desear" type="VMN0000">de|se|ar|</w>
         </l>
         <l met="1|2|-|-|-|-|7|-|" n="27">
           <!--á sido lo que quería;-->
-          <w lemma="á" type="VMIF3S0">á|</w>
+          <w lemma="haber" type="VMIF3S0">á|</w>
           <w lemma="ser" type="VSP00SM">si|do|</w>
-          <w lemma="lo" type="PP3MSA0">lo|</w>
+          <w lemma="el" type="PP3MSA0">lo|</w>
           <w lemma="que" type="PR0CN00">que|</w>
           <w lemma="querer" type="VMII3S0">que|rí|a|</w>
         </l>
         <l met="-|2|-|4|-|-|7|-|" n="28">
           <!--agora quiero mudar-->
-          <w lemma="aágora" type="NCFS000">a|go|ra|</w>
+          <w lemma="agora" type="RG">a|go|ra|</w>
           <w lemma="querer" type="VMIP1S0">quie|ro|</w>
           <w lemma="mudar" type="VMN0000">mu|dar|</w>
         </l>
@@ -278,11 +282,11 @@
           <w lemma="mi" type="DP1CSS">mi|</w>
           <w lemma="ver" type="VMN0000">ver|</w>
         </l>
-        <l met="1|-|-|-|5|-|7|-|" n="32">
+        <l met="1|-|-|4|5|-|7|-|" n="32">
           <!--suele donde ay gran pelea-->
           <w lemma="soler" type="VMIP3S0">sue|le|</w>
           <w lemma="donde" type="PR00000">don|de</w>
-          <w lemma="ay" type="I">ay|</w>
+          <w lemma="haber" type="VMIP3S0">ay|</w>
           <w lemma="gran" type="AQ0CS00">gran|</w>
           <w lemma="pelea" type="NCFS000">pe|le|a|</w>
         </l>
@@ -290,7 +294,7 @@
           <!--a las vezes proveer,-->
           <w lemma="a" type="SP">a|</w>
           <w lemma="el" type="DA0FP0">las|</w>
-          <w lemma="vezes" type="NCMP000">ve|zes|</w>
+          <w lemma="vez" type="NCMP000">ve|zes|</w>
           <w lemma="proveer" type="VMN0000">pro|ve|er|</w>
         </l>
         <l met="-|2|-|-|5|-|7|-|" n="34">
@@ -309,9 +313,9 @@
           <w lemma="poder" type="VMIP3S0">pue|de|</w>
           <w lemma="ser" type="VSN0000">ser|</w>
         </l>
-        <l met="1|-|-|-|-|6|-|" n="36">
+        <l met="-|2|-|-|-|-|7|-|" n="36">
           <!--quiçá con nuestro querer-->
-          <w lemma="quiçá" type="VMIF3S0">quiçá|</w>
+          <w lemma="quizá" type="RG">qui|çá|</w>
           <w lemma="con" type="SP">con|</w>
           <w lemma="nuestro" type="DP1MSP">nues|tro|</w>
           <w lemma="querer" type="NCMS000">que|rer|</w>
@@ -319,8 +323,8 @@
         <l met="-|2|-|-|5|-|7|-|" n="37">
           <!--posible será que sea.-->
           <w lemma="posible" type="AQ0CS00">po|si|ble</w>
-          <w lemma="ser" type="VSIF3S0">se|rá</w>
-          <w lemma="que" type="CS">que</w>
+          <w lemma="ser" type="VSIF3S0">se|rá|</w>
+          <w lemma="que" type="CS">que|</w>
           <w lemma="ser" type="VSSP1S0">se|a|</w>
         </l>
       </lg>

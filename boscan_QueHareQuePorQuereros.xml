@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -49,15 +49,15 @@
           <w lemma="querer" type="VMN0000">que|rer|</w>
           <w lemma="os" type="PP2CP00">os|</w>
         </l>
-        <l met="-|-|3|-|5|6|7|-|" n="2">
+        <l met="-|-|3|-|5|-|7|-|" n="2">
           <!--mis estremos son tan claros-->
           <w lemma="mi" type="DP1CPS">mis|</w>
-          <w lemma="estremos" type="NCMP000">es|tre|mos|</w>
+          <w lemma="extremo" type="NCMP000">es|tre|mos|</w>
           <w lemma="ser" type="VSIP3P0">son|</w>
           <w lemma="tan" type="RG">tan|</w>
           <w lemma="claro" type="AQ0MP00">cla|ros|</w>
         </l>
-        <l met="-|2|3|-|-|-|7|-|" n="3">
+        <l met="-|-|3|-|-|-|7|-|" n="3">
           <!--que ni soy para miraros-->
           <w lemma="que" type="CS">que|</w>
           <w lemma="ni" type="RN">ni|</w>
@@ -70,7 +70,7 @@
           <!--ni puedo dexar de veros?-->
           <w lemma="ni" type="RN">ni|</w>
           <w lemma="poder" type="VMIP1S0">pue|do|</w>
-          <w lemma="dexar" type="VMN0000">de|xar|</w>
+          <w lemma="dejar" type="VMN0000">de|xar|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="ver" type="VMN0000">ver|</w>
           <w lemma="os" type="PP2CP00">os|</w>
@@ -88,7 +88,7 @@
           <!--un punto bivir ausente,-->
           <w lemma="uno" type="DI0MS0">un|</w>
           <w lemma="punto" type="NCMS000">pun|to|</w>
-          <w lemma="bivir" type="VMN0000">bi|vir|</w>
+          <w lemma="vivir" type="VMN0000">bi|vir|</w>
           <w lemma="ausente" type="NCCS000">au|sen|te|</w>
         </l>
         <l met="1|2|-|-|5|-|7|-|" n="7">
@@ -98,24 +98,24 @@
           <w lemma="sufrir" type="VMN0000">su|frir|</w>
           <w lemma="presente" type="AQ0CS00">pre|sen|te|</w>
         </l>
-        <l met="-|2|-|4|5|-|7|-|" n="8">
+        <l met="-|2|-|-|5|-|7|-|" n="8">
           <!--señora, tan gran presencia.-->
           <w lemma="señor" type="NCFS000">se|ño|ra|</w>
           <w lemma="tan" type="RG">tan|</w>
           <w lemma="gran" type="AQ0CS00">gran|</w>
           <w lemma="presencia" type="NCFS000">pre|sen|cia|</w>
         </l>
-        <l met="-|-|-|-|-|-|7|-|" n="9">
+        <l met="-|2|-|-|-|-|7|-|" n="9">
           <!--De suerte que, por quereros,-->
           <w lemma="de_suerte_que" type="CS">de_|suer|te_|que|</w>
           <w lemma="por" type="SP">por|</w>
           <w lemma="querer" type="VMN0000">que|rer|</w>
           <w lemma="os" type="PP2CP00">os|</w>
         </l>
-        <l met="-|-|3|-|5|6|7|-|" n="10">
+        <l met="-|-|3|-|5|-|7|-|" n="10">
           <!--mis estremos son tan claros-->
           <w lemma="mi" type="DP1CPS">mis|</w>
-          <w lemma="estremos" type="NCMP000">es|tre|mos|</w>
+          <w lemma="extremo" type="NCMP000">es|tre|mos|</w>
           <w lemma="ser" type="VSIP3P0">son|</w>
           <w lemma="tan" type="RG">tan|</w>
           <w lemma="claro" type="AQ0MP00">cla|ros|</w>
@@ -133,7 +133,7 @@
           <!--ni puedo dexar de veros.-->
           <w lemma="ni" type="RN">ni|</w>
           <w lemma="poder" type="VMIP1S0">pue|do|</w>
-          <w lemma="dexar" type="VMN0000">de|xar|</w>
+          <w lemma="dejar" type="VMN0000">de|xar|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="ver" type="VMN0000">ver|</w>
           <w lemma="os" type="PP2CP00">os|</w>

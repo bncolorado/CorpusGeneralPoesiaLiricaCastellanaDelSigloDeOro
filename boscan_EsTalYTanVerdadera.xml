@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -40,7 +40,7 @@
         <title>Es tal y tan verdadera</title>
       </head>
       <lg cert="high" type="Canción - Cuartetas">
-        <l met="1|2|-|4|-|-|7|-|" n="1">
+        <l met="1|2|-|-|-|-|7|-|" n="1">
           <!--Es tal y tan verdadera-->
           <w lemma="ser" type="VSIP3S0">es|</w>
           <w lemma="tal" type="PD0CS00">tal|</w>
@@ -85,7 +85,7 @@
           <!--ordenáis que en mí comience:-->
           <w lemma="ordenar" type="VMIP2P0">or|de|náis|</w>
           <w lemma="que" type="CS">que</w>
-          <w lemma="en" type="SP">e|n</w>
+          <w lemma="en" type="SP">en|</w>
           <w lemma="mí" type="PP1CSO0">mí|</w>
           <w lemma="comenzar" type="VMSP3S0">co|mien|ce|</w>
         </l>
@@ -104,7 +104,7 @@
           <w lemma="me" type="PP1CS00">me|</w>
           <w lemma="vencer" type="VMIP3S0">ven|ce|</w>
         </l>
-        <l met="1|2|-|-|5|-|7|-|" n="9">
+        <l met="1|2|-|-|-|-|7|-|" n="9">
           <!--No es mucho, pues tan entera-->
           <w lemma="no" type="RN">no</w>
           <w lemma="ser" type="VSIP3S0">es|</w>
@@ -118,7 +118,7 @@
           <w lemma="ser" type="VSIP3S0">es|</w>
           <w lemma="mi" type="DP1CSS">mi|</w>
           <w lemma="pena" type="NCFS000">pe|na</w>
-          <w lemma="en" type="SP">e|n</w>
+          <w lemma="en" type="SP">en|</w>
           <w lemma="conocer" type="VMN0000">co|no|cer|</w>
           <w lemma="os" type="PP2CP00">os|</w>
         </l>
