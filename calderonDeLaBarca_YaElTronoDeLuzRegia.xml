@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -59,7 +59,8 @@
           <!--el fénix del cielo, el sol,-->
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="fénix" type="NCMS000">fé|nix|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+  	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="cielo" type="NCMS000">cie|lo</w>
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="sol" type="NCMS000">sol|</w>
@@ -105,7 +106,7 @@
           <w lemma="si" type="CS">si</w>
           <w lemma="en" type="SP">en|</w>
           <w lemma="todo" type="PI0MS00">to|do</w>
-          <w lemma="ser" type="VSIP3S0">e|s</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="sentir" type="VMN0000">sen|tir|</w>
         </l>
@@ -187,7 +188,8 @@
         </l>
         <l met="-|2|-|4|-|-|7|-|" n="19">
           <!--al campo flores de pluma-->
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="campo" type="NCMS000">cam|po|</w>
           <w lemma="flor" type="NCFP000">flo|res|</w>
           <w lemma="de" type="SP">de|</w>
@@ -196,7 +198,8 @@
         <l met="-|-|3|4|-|-|7|-|" n="20">
           <!--cuando al viento aves de flores.-->
           <w lemma="cuando" type="CS">cuan|do</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="viento" type="NCMS000">vien|to</w>
           <w lemma="ave" type="NCFP000">a|ves|</w>
           <w lemma="de" type="SP">de|</w>
@@ -228,10 +231,8 @@
           <w lemma="por" type="SP">por|</w>
           <w lemma="ave" type="NCFP000">a|ves|</w>
           <w lemma="el" type="DA0FP0">las|</w>
-          <w lemma="lo" type="PP3FPA0">las|</w>
           <w lemma="que" type="PR0CN00">que|</w>
           <w lemma="el" type="DA0FP0">las|</w>
-          <w lemma="lo" type="PP3FPA0">las|</w>
           <w lemma="volar" type="VMII3P0">vo|la|ban|</w>
         </l>
         <l met="1|-|-|4|-|-|7|-|" n="25">
@@ -266,13 +267,15 @@
           <w lemma="quién" type="PT0CS00">quién|</w>
           <w lemma="ver" type="VMIS3S0">vio|</w>
           <w lemma="vicioso" type="AQ0MS00">vi|cio|so</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="cuidado" type="NCMS000">cui|da|do|</w>
         </l>
         <l met="-|-|3|-|-|-|7|-|" n="30">
           <!--y al descuido virtuoso?-->
           <w lemma="y" type="CC">y</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="descuido" type="NCMS000">des|cui|do|</w>
           <w lemma="virtuoso" type="AQ0MS00">vir|tu|o|so|</w>
         </l>
@@ -291,7 +294,7 @@
           <w lemma="amor" type="NCMS000">a|mor|</w>
           <w lemma="lleno" type="AQ0FS00">lle|na|</w>
         </l>
-        <l met="-|-|-|-|-|-|7|-|" n="33">
+        <l met="-|-|3|-|-|-|7|-|" n="33">
           <!--en la Virgen de Almudena-->
           <w lemma="en" type="SP">en|</w>
           <w lemma="el" type="DA0FS0">la|</w>
@@ -337,7 +340,8 @@
           <!--como siempre, al sol miraba,-->
           <w lemma="como" type="CS">co|mo|</w>
           <w lemma="siempre" type="RG">siem|pre</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="sol" type="NCMS000">sol|</w>
           <w lemma="mirar" type="VMII3S0">mi|ra|ba|</w>
         </l>
@@ -346,7 +350,7 @@
           <w lemma="que" type="CS">que|</w>
           <w lemma="poder" type="VMIS3S0">pu|do|</w>
           <w lemma="pasar" type="VMN0000">pa|sar|</w>
-          <w lemma="se" type="PP3CN00">se|</w>
+          <w lemma="se" type="PP3CN00">se</w>
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="día" type="NCMS000">dí|a|</w>
         </l>
