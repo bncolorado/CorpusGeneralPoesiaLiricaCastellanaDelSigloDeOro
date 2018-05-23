@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -61,7 +61,7 @@
           <w lemma="quien" type="PR0CS00">quien|</w>
           <w lemma="tal" type="DD0CS0">tal|</w>
           <w lemma="yerro" type="NCMS000">ye|rro|</w>
-          <w lemma="ser" type="VSIS3S0">fue</w>
+          <w lemma="ser" type="VSIS3S0">fue|</w>
           <w lemma="a" type="SP">a</w>
           <w lemma="hacer" type="VMN0000">ha|cer|</w>
         </l>
@@ -108,10 +108,8 @@
           <!--cuando su bien y su mal-->
           <w lemma="cuando" type="CS">cuan|do|</w>
           <w lemma="su" type="DP3CSN">su|</w>
-          <w lemma="su" type="DP3CSN">su|</w>
           <w lemma="bien" type="NCMS000">bien|</w>
           <w lemma="y" type="CC">y|</w>
-          <w lemma="su" type="DP3CSN">su|</w>
           <w lemma="su" type="DP3CSN">su|</w>
           <w lemma="mal" type="NCMS000">mal|</w>
         </l>
@@ -127,8 +125,8 @@
         <l met="-|-|3|4|-|-|7|-|" n="11">
           <!--Acertó acaso a hacer-->
           <w lemma="acertar" type="VMIS3S0">a|cer|tó</w>
-          <w lemma="acaso" type="RG">a|ca|so</w>
-          <w lemma="a" type="SP">a|</w>
+          <w lemma="acaso" type="RG">a|ca|so|</w>
+          <w lemma="a" type="SP">a</w>
           <w lemma="hacer" type="VMN0000">ha|cer|</w>
         </l>
         <l met="-|-|-|-|-|-|7|-|" n="12">
@@ -153,7 +151,7 @@
           <w lemma="se" type="PP3CN00">se</w>
           <w lemma="y" type="CC">y|</w>
           <w lemma="con" type="SP">con|</w>
-          <w lemma="solo" type="AQ0MS00">so|lo|</w>
+          <w lemma="solo" type="RG">so|lo|</w>
           <w lemma="vero" type="NCMP000">ve|ros|</w>
         </l>
         <l met="-|2|-|4|-|-|7|-|" n="15">
