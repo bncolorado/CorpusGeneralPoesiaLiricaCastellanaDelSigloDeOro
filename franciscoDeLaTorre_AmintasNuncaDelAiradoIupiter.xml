@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -40,44 +40,46 @@
         <title>Amintas, nunca del airado Iúpiter</title>
       </head>
       <lg cert="low" type="Oda - ">
-        <l met="-|2|-|4|-|-|-|8|9|-|" n="1">
+        <l met="-|2|-|4|-|-|-|8|-|10|-|" n="1">
           <!--Amintas, nunca del airado Iúpiter-->
           <w lemma="amintas" type="NP00000">a|min|tas|</w>
           <w lemma="nunca" type="RG">nun|ca|</w>
-          <w lemma="del" type="SP">del|</w>
-          <w lemma="airar" type="VMP00SM">ai|ra|do</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="airar" type="VMP00SM">ai|ra|do|</w>
           <w lemma="iúpiter" type="NP00000">iú|pi|ter|</w>
         </l>
-        <l met="-|-|3|-|5|-|-|-|9|-|-|12|-|" n="2">
+        <l met="-|2|-|4|-|-|-|8|-|10|-|" n="2">
           <!--la armada mano descompone vmbrosa-->
-          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="el" type="DA0FS0">la</w>
           <w lemma="armar" type="VMP00SF">ar|ma|da|</w>
           <w lemma="mano" type="NCFS000">ma|no|</w>
           <w lemma="descomponer" type="VMIP3S0">des|com|po|ne|</w>
-          <w lemma="vmbrosa" type="AQ0FS00">vm|bro|sa|</w>
+          <w lemma="umbroso" type="AQ0FS00">vm|bro|sa|</w>
         </l>
         <l met="1|-|-|4|-|-|-|8|-|10|-|" n="3">
           <!--selua de plantas, sin mostrar humana-->
-          <w lemma="selua" type="NCCS000">se|lua|</w>
+          <w lemma="selva" type="NCCS000">sel|ua|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="planta" type="NCFP000">plan|tas|</w>
           <w lemma="sin" type="SP">sin|</w>
           <w lemma="mostrar" type="VMN0000">mos|trar|</w>
           <w lemma="humano" type="AQ0FS00">hu|ma|na|</w>
         </l>
-        <l met="-|-|3|-|5|-|" n="4">
+        <l met="-|-|3|-|-|6|-|" n="4">
           <!--su presencia diuina.-->
           <w lemma="su" type="DP3CSN">su|</w>
           <w lemma="presencia" type="NCFS000">pre|sen|cia|</w>
-          <w lemma="diuina" type="AQ0FS00">diui|na|</w>
+          <w lemma="divino" type="AQ0FS00">di|ui|na|</w>
         </l>
-        <l met="-|-|-|4|-|-|-|8|-|10|-|" n="5">
+        <l met="1|-|-|4|-|-|-|8|-|10|-|" n="5">
           <!--Brama Neptuno, y, usurpando el Reyno-->
-          <w lemma="brama_neptuno" type="NP00000">bra|ma_|nep|tu|no</w>
-          <w lemma="y" type="CC">y|</w>
+          <w lemma="extender" type="VMIP3S0">bra|ma|</w>
+	  <w lemma="neptuno" type="NP00000">nep|tu|no|</w>
+          <w lemma="y" type="CC">y</w>
           <w lemma="usurpar" type="VMG0000">u|sur|pan|do</w>
           <w lemma="el" type="DA0MS0">el|</w>
-          <w lemma="reyno" type="NP00000">rey|no|</w>
+          <w lemma="reino" type="NP00000">rey|no|</w>
         </l>
         <l met="-|2|-|-|-|6|-|-|-|10|-|" n="6">
           <!--de aquellos abrasados guerreadores,-->
@@ -94,11 +96,11 @@
           <w lemma="de" type="SP">de|</w>
           <w lemma="su" type="DP3CSN">su|</w>
           <w lemma="madre" type="NCFS000">ma|dre|</w>
-          <w lemma="bueltos" type="VMP00PM">buel|tos|</w>
+          <w lemma="vuelto" type="VMP00PM">buel|tos|</w>
         </l>
         <l met="-|2|-|-|-|6|-|" n="8">
           <!--estiende su potencia.-->
-          <w lemma="estiende" type="VMIP3S0">es|tien|de|</w>
+          <w lemma="extender" type="VMIP3S0">es|tien|de|</w>
           <w lemma="su" type="DP3CSN">su|</w>
           <w lemma="potencia" type="NCFS000">po|ten|cia|</w>
         </l>
@@ -110,32 +112,28 @@
           <w lemma="cara" type="NCFS000">ca|ra|</w>
           <w lemma="lleno" type="AQ0FS00">lle|na|</w>
         </l>
-        <l met="-|2|-|4|-|-|7|-|9|-|" n="10">
+        <l met="-|2|-|4|-|-|-|8|-|10|-|" n="10">
           <!--de verdes ouas y de plantas verdes,-->
           <w lemma="de" type="SP">de|</w>
-          <w lemma="de" type="SP">de|</w>
           <w lemma="verde" type="AQ0CP00">ver|des|</w>
-          <w lemma="verde" type="AQ0CP00">ver|des|</w>
-          <w lemma="ouas" type="NCFP000">ouas|</w>
+          <w lemma="ova" type="NCFP000">ouas|</w>
           <w lemma="y" type="CC">y|</w>
-          <w lemma="de" type="SP">de|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="planta" type="NCFP000">plan|tas|</w>
           <w lemma="verde" type="AQ0CP00">ver|des|</w>
-          <w lemma="verde" type="AQ0CP00">ver|des|</w>
         </l>
-        <l met="-|-|-|-|-|-|7|-|9|-|11|-|" n="11">
+        <l met="-|-|-|-|-|6|-|8|-|10|-|" n="11">
           <!--y, entre los animosos vientos puesto,-->
-          <w lemma="y" type="CC">y|</w>
+          <w lemma="y" type="CC">y</w>
           <w lemma="entre" type="SP">en|tre|</w>
           <w lemma="el" type="DA0MP0">los|</w>
           <w lemma="animoso" type="AQ0MP00">a|ni|mo|sos|</w>
           <w lemma="viento" type="NCMP000">vien|tos|</w>
           <w lemma="poner" type="VMP00SM">pues|to|</w>
         </l>
-        <l met="1|-|-|-|5|-|" n="12">
+        <l met="-|2|-|-|-|6|-|" n="12">
           <!--leuanta su Tridente.-->
-          <w lemma="leuanta" type="VMIP3S0">leuan|ta|</w>
+          <w lemma="levantar" type="VMIP3S0">le|uan|ta|</w>
           <w lemma="su" type="DP3CSN">su|</w>
           <w lemma="tridente" type="NP00000">tri|den|te|</w>
         </l>
@@ -149,7 +147,7 @@
         </l>
         <l met="-|2|-|4|-|6|-|8|-|10|-|" n="14">
           <!--ayrada Tethis, Doris fiera huyendo,-->
-          <w lemma="ayrada" type="VMP00SF">a|yra|da|</w>
+          <w lemma="airar" type="VMP00SF">ay|ra|da|</w>
           <w lemma="tethis" type="NP00000">te|this|</w>
           <w lemma="doris" type="NP00000">do|ris|</w>
           <w lemma="fiero" type="AQ0FS00">fie|ra</w>
@@ -170,9 +168,10 @@
           <w lemma="cáucaso" type="NP00000">cáu|ca|so|</w>
           <w lemma="monte" type="NCMS000">mon|te|</w>
         </l>
-        <l met="-|-|3|-|-|6|-|8|-|10|-|" n="17">
+        <l met="1|-|3|-|-|6|-|8|-|10|-|" n="17">
           <!--Fiero Bóreas con rayos, aguas, nieblas,-->
-          <w lemma="fiero_bóreas" type="NP00000">fie|ro_|bó|reas|</w>
+          <w lemma="fiero" type="AQ0MS00">fie|ro|</w>
+	  <w lemma="bóreas" type="NP00000">bó|reas|</w>
           <w lemma="con" type="SP">con|</w>
           <w lemma="rayo" type="NCMP000">ra|yos|</w>
           <w lemma="agua" type="NCFP000">a|guas|</w>
@@ -188,33 +187,30 @@
           <!--arrebata los cielos de los ojos-->
           <w lemma="arrebatar" type="VMIP3S0">a|rre|ba|ta|</w>
           <w lemma="el" type="DA0MP0">los|</w>
-          <w lemma="el" type="DA0MP0">los|</w>
           <w lemma="cielo" type="NCMP000">cie|los|</w>
           <w lemma="de" type="SP">de|</w>
-          <w lemma="el" type="DA0MP0">los|</w>
           <w lemma="el" type="DA0MP0">los|</w>
           <w lemma="ojo" type="NCMP000">o|jos|</w>
         </l>
         <l met="-|-|-|4|-|6|-|" n="20">
           <!--del caminante triste.-->
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="caminante" type="NCCS000">ca|mi|nan|te|</w>
           <w lemma="triste" type="AQ0CS00">tris|te|</w>
         </l>
-        <l met="1|-|-|-|-|6|-|-|9|-|" n="21">
+        <l met="1|-|-|-|-|6|-|-|-|10|-|" n="21">
           <!--Passa la tempestad y la diuina-->
-          <w lemma="passa" type="NP00000">pas|sa|</w>
-          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="pasar" type="VMIP3S0">pas|sa|</w>
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="tempestad" type="NCFS000">tem|pes|tad|</w>
           <w lemma="y" type="CC">y|</w>
           <w lemma="el" type="DA0FS0">la|</w>
-          <w lemma="el" type="DA0FS0">la|</w>
-          <w lemma="diuina" type="NCFS000">diui|na|</w>
+          <w lemma="divino" type="AQ0FS00">di|ui|na|</w>
         </l>
         <l met="-|-|3|-|-|6|-|-|-|10|-|" n="22">
           <!--mensagera de Iuno, dilatando-->
-          <w lemma="mensagera" type="RG">men|sa|ge|ra|</w>
+          <w lemma="mensajera" type="NCFS000">men|sa|ge|ra|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="iuno" type="NP00000">iu|no|</w>
           <w lemma="dilatar" type="VMG0000">di|la|tan|do|</w>
@@ -223,9 +219,9 @@
           <!--sus dos coruas y luzidas riberas,-->
           <w lemma="su" type="DP3CPN">sus|</w>
           <w lemma="2" type="Z">dos|</w>
-          <w lemma="coruas" type="NCFP000">co|ruas|</w>
+          <w lemma="corvo" type="NCFP000">cor|uas|</w>
           <w lemma="y" type="CC">y|</w>
-          <w lemma="luzidas" type="NCFP000">lu|zi|das|</w>
+          <w lemma="lucir" type="VMP00PF">lu|zi|das|</w>
           <w lemma="ribera" type="NCFP000">ri|be|ras|</w>
         </l>
         <l met="1|-|-|-|-|6|-|" n="24">
@@ -271,8 +267,9 @@
         <l met="-|-|3|-|-|6|-|-|-|10|-|" n="29">
           <!--Las passiones del ánima solícita-->
           <w lemma="el" type="DA0FP0">las|</w>
-          <w lemma="passiones" type="NCFP000">pas|sio|nes|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="pasión" type="NCFP000">pas|sio|nes|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="ánima" type="NCFS000">á|ni|ma|</w>
           <w lemma="solícito" type="AQ0FS00">so|lí|ci|ta|</w>
         </l>
@@ -298,29 +295,31 @@
           <w lemma="en" type="SP">en|</w>
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="1" type="AO0FS00">pri|me|ra|</w>
-          <w lemma="fuerça" type="NCFS000">fuerça|</w>
+          <w lemma="fuerza" type="NCFS000">fuer|ça|</w>
         </l>
-        <l met="-|2|-|-|5|-|-|8|-|" n="33">
+        <l met="-|2|-|-|-|6|-|-|-|10|-|" n="33">
           <!--Eleuóte fortuna variable,-->
-          <w lemma="eleuóte" type="NP00000">e|leuó|te|</w>
+          <w lemma="elevar" type="VMSP3S0">e|le|uó|</w>
+	  <w lemma="te" type="PP2CS00">te|</w>
           <w lemma="fortuna" type="NCFS000">for|tu|na|</w>
-          <w lemma="variable" type="AQ0CS00">va|ria|ble|</w>
+          <w lemma="variable" type="AQ0CS00">va|ri|a|ble|</w>
         </l>
-        <l met="1|-|-|-|-|6|-|-|9|-|" n="34">
+        <l met="1|-|-|-|-|6|-|-|-|10|-|" n="34">
           <!--hízose conocer con su mudança;-->
-          <w lemma="hízose" type="VMSP3S0">hí|zo|se|</w>
+          <w lemma="hacer" type="VMSP3S0">hí|zo|</w>
           <w lemma="conocer" type="VMN0000">co|no|cer|</w>
           <w lemma="con" type="SP">con|</w>
           <w lemma="su" type="DP3CSN">su|</w>
-          <w lemma="mudança" type="NCFS000">mu|dança|</w>
+          <w lemma="mudanza" type="NCFS000">mu|dan|ça|</w>
         </l>
-        <l met="-|-|-|4|-|-|-|8|9|-|" n="35">
+        <l met="-|-|-|4|-|-|-|8|-|10|-|" n="35">
           <!--lastimaráte para darte auiso-->
-          <w lemma="lastimaráte" type="RG">las|ti|ma|rá|te|</w>
+          <w lemma="lastimaráte" type="RG">las|ti|ma|rá|</w>
+	  <w lemma="te" type="PP2CS00">te|</w>
           <w lemma="para" type="SP">pa|ra|</w>
           <w lemma="dar" type="VMN0000">dar|</w>
-          <w lemma="te" type="PP2CS00">te|</w>
-          <w lemma="auiso" type="VMIS3S0">aui|so|</w>
+          <w lemma="te" type="PP2CS00">te</w>
+          <w lemma="auiso" type="NCMS000">a|ui|so|</w>
         </l>
         <l met="-|-|-|4|-|6|-|" n="36">
           <!--con que la temas y ames.-->
