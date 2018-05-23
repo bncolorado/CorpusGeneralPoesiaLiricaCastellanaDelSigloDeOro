@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -40,7 +40,7 @@
         <title>Túrbase el sol, su luz se eclipsa cuanta</title>
       </head>
       <lg cert="high" type="Octavas">
-        <l met="1|-|-|4|-|6|-|8|-|-|" n="1">
+        <l met="1|-|-|4|-|6|-|8|-|10|-|" n="1">
           <!--Túrbase el sol, su luz se eclipsa cuanta-->
           <w lemma="turbar" type="VMM02S0">tur|ba|</w>
           <w lemma="se" type="PP3CN00">se</w>
@@ -91,13 +91,14 @@
         <l met="-|2|-|-|5|6|-|8|-|10|-|" n="6">
           <!--Filipo al fatal golpe está obediente:-->
           <w lemma="filipo" type="NP00000">fi|li|po</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="fatal" type="AQ0CS00">fa|tal|</w>
           <w lemma="golpe" type="NCMS000">gol|pe</w>
           <w lemma="estar" type="VMIP3S0">es|tá</w>
           <w lemma="obediente" type="AQ0CS00">o|be|dien|te|</w>
         </l>
-        <l met="-|2|-|4|-|6|-|-|-|10|-|" n="7">
+        <l met="1|-|-|4|-|6|-|-|-|10|-|" n="7">
           <!--¡Oh justo llanto, oh justo sentimiento!-->
           <w lemma="oh" type="I">oh|</w>
           <w lemma="justo" type="RG">jus|to|</w>
@@ -152,7 +153,7 @@
           <w lemma="de" type="SP">de|</w>
           <w lemma="el" type="DA0MP0">los|</w>
           <w lemma="ojo" type="NCMP000">o|jos|</w>
-          <w lemma="el" type="DA0MS0">e|l</w>
+          <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="tributo" type="NCMS000">tri|bu|to|</w>
         </l>
         <l met="-|2|-|4|-|6|-|8|-|10|-|" n="13">
@@ -187,7 +188,8 @@
         </l>
         <l met="-|2|-|4|-|-|-|8|-|10|-|" n="16">
           <!--al fin dichoso de quinientos años.-->
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="fin" type="NCMS000">fin|</w>
           <w lemma="dichoso" type="AQ0MS00">di|cho|so|</w>
           <w lemma="de" type="SP">de|</w>
@@ -207,7 +209,8 @@
           <!--vuelve, piadosa al Labrador divino,-->
           <w lemma="volver" type="VMIP3S0">vuel|ve|</w>
           <w lemma="piadoso" type="AQ0FS00">pia|do|sa</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="labrador" type="NP00000">la|bra|dor|</w>
           <w lemma="divino" type="AQ0MS00">di|vi|no|</w>
         </l>
@@ -235,23 +238,24 @@
           <w lemma="camino" type="NCMS000">ca|mi|no|</w>
         </l>
         <l met="-|-|-|4|-|6|-|8|-|10|-|" n="21">
-          <!--porque de nuevo en ella olbligue al cielo,-->
+          <!--porque de nuevo en ella obligue al cielo,-->
           <w lemma="porque" type="CS">por|que|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="nuevo" type="AQ0MS00">nue|vo</w>
-          <w lemma="en" type="SP">e|n</w>
+          <w lemma="en" type="SP">en|</w>
           <w lemma="él" type="PP3FS00">e|lla</w>
-          <w lemma="olbligue" type="VMSP3S0">ol|bli|gue</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="obligar" type="VMSP3S0">o|bli|gue</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="cielo" type="NCMS000">cie|lo|</w>
         </l>
-        <l met="-|-|-|-|-|6|-|8|9|10|-|" n="22">
+        <l met="-|2|-|-|-|6|-|8|9|10|-|" n="22">
           <!--en tanto que su Rey sujeto es dino-->
           <w lemma="en_tanto_que" type="CS">en_|tan|to_|que|</w>
           <w lemma="su" type="DP3CSN">su|</w>
           <w lemma="rey" type="NP00000">rey|</w>
           <w lemma="sujeto" type="AQ0MS00">su|je|to</w>
-          <w lemma="ser" type="VSIP3S0">e|s</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
           <w lemma="dino" type="AQ0MS00">di|no|</w>
         </l>
         <l met="-|-|-|4|-|6|-|-|-|10|-|" n="23">
@@ -269,11 +273,12 @@
           <w lemma="sol" type="NP00000">sol|</w>
           <w lemma="a" type="SP">a</w>
           <w lemma="españa" type="NP00000">es|pa|ña</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="sol" type="NCMS000">sol|</w>
           <w lemma="luz" type="NCFS000">luz|</w>
-          <w lemma="a" type="SP">a</w>
-          <w lemma="el" type="DA0FS0">l|a</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="luz" type="NCFS000">luz|</w>
           <w lemma="día" type="NCMS000">dí|a|</w>
         </l>
@@ -286,7 +291,7 @@
           <w lemma="más" type="RG">más|</w>
           <w lemma="dichoso" type="AQ0FS00">di|cho|sa|</w>
         </l>
-        <l met="1|-|-|4|-|6|-|-|-|10|-|" n="26">
+        <l met="-|-|-|4|-|6|-|-|-|10|-|" n="26">
           <!--cuanto por más piadosa te señalas,-->
           <w lemma="cuanto" type="RG">cuan|to|</w>
           <w lemma="por" type="SP">por|</w>
@@ -300,7 +305,8 @@
           <w lemma="volar" type="VMSP3S0">vue|le|</w>
           <w lemma="tu" type="DP2CSS">tu|</w>
           <w lemma="fama" type="NCFS000">fa|ma</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="viento" type="NCMS000">vien|to|</w>
           <w lemma="licencioso" type="AQ0FS00">li|cen|cio|sa|</w>
         </l>
@@ -315,7 +321,7 @@
           <w lemma="el" type="DA0FP0">las|</w>
           <w lemma="ala" type="NCFP000">a|las|</w>
         </l>
-        <l met="1|-|3|-|-|6|-|-|-|10|-|" n="29">
+        <l met="1|2|3|-|-|6|-|-|-|10|-|" n="29">
           <!--vive, ¡oh! más que la muerte poderosa,-->
           <w lemma="vivir" type="VMIP3S0">vi|ve</w>
           <w lemma="oh" type="I">oh|</w>
@@ -325,13 +331,15 @@
           <w lemma="muerte" type="NCFS000">muer|te|</w>
           <w lemma="poderoso" type="AQ0FS00">po|de|ro|sa|</w>
         </l>
-        <l met="-|-|-|-|-|6|-|8|-|10|-|" n="30">
+        <l met="-|-|3|-|-|6|-|8|-|10|-|" n="30">
           <!--pues no sólo el arado al cetro igualas,-->
           <w lemma="pues" type="CS">pues|</w>
-          <w lemma="no_sólo" type="CC">no_|só|lo</w>
+          <w lemma="no" type="RN">no|</w>
+	  <w lemma="sólo" type="RG">só|lo</w>
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="arado" type="NCMS000">a|ra|do</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="cetro" type="NCMS000">ce|tro</w>
           <w lemma="iguala" type="NCFP000">i|gua|las|</w>
         </l>
@@ -347,11 +355,9 @@
         <l met="-|2|-|-|-|6|-|-|-|10|-|" n="32">
           <!--tus pobres labradores a tus reyes.-->
           <w lemma="tu" type="DP2CPS">tus|</w>
-          <w lemma="tu" type="DP2CPS">tus|</w>
           <w lemma="pobre" type="AQ0CP00">po|bres|</w>
           <w lemma="labrador" type="NCMP000">la|bra|do|res|</w>
           <w lemma="a" type="SP">a|</w>
-          <w lemma="tu" type="DP2CPS">tus|</w>
           <w lemma="tu" type="DP2CPS">tus|</w>
           <w lemma="rey" type="NCMP000">re|yes|</w>
         </l>

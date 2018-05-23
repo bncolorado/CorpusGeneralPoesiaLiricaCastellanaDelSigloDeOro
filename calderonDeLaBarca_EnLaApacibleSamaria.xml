@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -107,12 +107,13 @@
           <!--Cerrándole al viento el paso,-->
           <w lemma="cerrar" type="VMG0000">ce|rran|do|</w>
           <w lemma="le" type="PP3CSD0">le</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="viento" type="NCMS000">vien|to</w>
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="paso" type="NCMS000">pa|so|</w>
         </l>
-        <l met="1|-|-|-|5|-|-|" n="10">
+        <l met="1|-|-|-|5|-|7|-|" n="10">
           <!--sube hasta la esfera, donde-->
           <w lemma="subir" type="VMIP3S0">su|be</w>
           <w lemma="hasta" type="SP">has|ta|</w>
@@ -123,7 +124,8 @@
         <l met="-|2|-|-|5|-|7|-|" n="11">
           <!--pedazo del cielo fuera,-->
           <w lemma="pedazo" type="NCMS000">pe|da|zo|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="cielo" type="NCMS000">cie|lo|</w>
           <w lemma="fuera" type="RG">fue|ra|</w>
         </l>
@@ -151,7 +153,7 @@
           <w lemma="se" type="P00CN00">se|</w>
           <w lemma="le" type="PP3CSD0">le|</w>
           <w lemma="negar" type="VMIP3S0">nie|ga</w>
-          <w lemma="el" type="DA0MS0">e|l</w>
+          <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="horizonte" type="NCMS000">ho|ri|zon|te|</w>
         </l>
         <l met="1|-|-|-|5|-|7|-|" n="15">
@@ -176,7 +178,7 @@
           <w lemma="cuyo" type="PR0FP00">cu|yas|</w>
           <w lemma="planta" type="NCFP000">plan|tas|</w>
         </l>
-        <l met="1|-|-|-|5|-|7|-|" n="18">
+        <l met="-|-|-|-|5|-|7|-|" n="18">
           <!--aun en variedad conformes,-->
           <w lemma="aun" type="RG">aun|</w>
           <w lemma="en" type="SP">en|</w>

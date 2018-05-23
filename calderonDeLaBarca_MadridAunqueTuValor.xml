@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -54,7 +54,7 @@
           <w lemma="estar" type="VAIP3P0">es|tán|</w>
           <w lemma="aumentar" type="VMG0000">au|men|tan|do|</w>
         </l>
-        <l met="1|-|3|-|5|-|-|" n="3">
+        <l met="1|-|3|-|5|-|7|-|" n="3">
           <!--nunca fue mayor que cuando-->
           <w lemma="nunca" type="RG">nun|ca|</w>
           <w lemma="ser" type="VSIS3S0">fue|</w>
@@ -95,7 +95,8 @@
           <w lemma="que" type="CS">que|</w>
           <w lemma="cuando" type="CS">cuan|do</w>
           <w lemma="imitar" type="VMG0000">i|mi|tan|do</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="cielo" type="NCMS000">cie|lo|</w>
         </l>
         <l met="-|2|-|4|-|-|7|-|" n="9">
@@ -175,7 +176,8 @@
           <!--los rayos del sol tus flores.-->
           <w lemma="el" type="DA0MP0">los|</w>
           <w lemma="rayo" type="NCMP000">ra|yos|</w>
-          <w lemma="del" type="SP">del|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="sol" type="NCMS000">sol|</w>
           <w lemma="tu" type="DP2CPS">tus|</w>
           <w lemma="flor" type="NCFP000">flo|res|</w>
@@ -263,7 +265,8 @@
           <!--que cuando al cielo imitando-->
           <w lemma="que" type="CS">que|</w>
           <w lemma="cuando" type="CS">cuan|do</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="cielo" type="NCMS000">cie|lo</w>
           <w lemma="imitar" type="VMG0000">i|mi|tan|do|</w>
         </l>
@@ -280,9 +283,7 @@
           <w lemma="pues" type="CS">pues|</w>
           <w lemma="su" type="DP3CSN">su|</w>
           <w lemma="luz" type="NCFS000">luz|</w>
-          <w lemma="luz" type="NCFS000">luz|</w>
           <w lemma="tu" type="DP2CSS">tu|</w>
-          <w lemma="luz" type="NCFS000">luz|</w>
           <w lemma="luz" type="NCFS000">luz|</w>
           <w lemma="preferir" type="VMIP3S0">pre|fie|re|</w>
         </l>
@@ -294,7 +295,7 @@
           <w lemma="quien" type="PR0CS00">quien|</w>
           <w lemma="decir" type="VMSF1S0">di|je|re|</w>
         </l>
-        <l met="1|-|3|-|5|-|-|" n="34">
+        <l met="1|-|3|-|5|-|7|-|" n="34">
           <!--Nunca fue mayor que cuando.-->
           <w lemma="nunca" type="RG">nun|ca|</w>
           <w lemma="ser" type="VSIS3S0">fue|</w>
@@ -305,9 +306,7 @@
         <l met="-|2|-|4|-|-|7|-|" n="35">
           <!--Mayores triunfos, mayores-->
           <w lemma="mayor" type="AQ0CP00">ma|yo|res|</w>
-          <w lemma="mayor" type="AQ0CP00">ma|yo|res|</w>
           <w lemma="triunfo" type="NCMP000">triun|fos|</w>
-          <w lemma="mayor" type="AQ0CP00">ma|yo|res|</w>
           <w lemma="mayor" type="AQ0CP00">ma|yo|res|</w>
         </l>
         <l met="1|-|-|-|5|-|7|-|" n="36">
