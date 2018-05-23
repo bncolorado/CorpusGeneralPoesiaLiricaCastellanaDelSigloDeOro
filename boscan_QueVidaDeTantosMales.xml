@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -48,16 +48,16 @@
           <w lemma="tanto" type="DI0MP0">tan|tos|</w>
           <w lemma="mal" type="NCMP000">ma|les|</w>
         </l>
-        <l met="1|2|-|4|-|-|7|-|" n="2">
+        <l met="1|2|-|-|-|-|7|-|" n="2">
           <!--qué mundo tan desigual,-->
           <w lemma="qué" type="DE0CN0">qué|</w>
           <w lemma="mundo" type="NCMS000">mun|do|</w>
           <w lemma="tan" type="RG">tan|</w>
           <w lemma="desigual" type="AQ0CS00">de|si|gual|</w>
         </l>
-        <l met="1|-|3|-|-|-|7|-|" n="3">
+        <l met="-|-|3|-|-|-|7|-|" n="3">
           <!--do los bienes con el mal-->
-          <w lemma="do" type="NCMS000">do|</w>
+          <w lemma="do" type="CS">do|</w>
           <w lemma="el" type="DA0MP0">los|</w>
           <w lemma="bien" type="NCMP000">bie|nes|</w>
           <w lemma="con" type="SP">con|</w>
@@ -74,8 +74,8 @@
         <l met="-|-|3|-|5|-|7|-|" n="5">
           <!--aunque sean de un igual!-->
           <w lemma="aunque" type="CC">aun|que|</w>
-          <w lemma="ser" type="VSSP3P0">sean|</w>
-          <w lemma="de" type="SP">de|</w>
+          <w lemma="ser" type="VSSP3P0">se|an|</w>
+          <w lemma="de" type="SP">de</w>
           <w lemma="uno" type="DI0MS0">un|</w>
           <w lemma="igual" type="AQ0CS00">i|gual|</w>
         </l>
@@ -117,7 +117,7 @@
           <w lemma="y" type="CC">y|</w>
           <w lemma="venir" type="VMIP3S0">vie|ne|</w>
           <w lemma="por" type="SP">por|</w>
-          <w lemma="acidente" type="NCMS000">a|ci|den|te|</w>
+          <w lemma="accidente" type="NCMS000">a|ci|den|te|</w>
         </l>
         <l met="-|2|-|-|5|-|7|-|" n="11">
           <!--Así que, entre tantos males,-->
@@ -150,11 +150,11 @@
           <w lemma="ser" type="VSN0000">ser|</w>
           <w lemma="igual" type="AQ0CP00">i|gua|les|</w>
         </l>
-        <l met="-|-|3|-|-|6|-|8|-|" n="15">
+        <l met="-|-|3|-|5|-|7|-|" n="15">
           <!--aunque sean de un igual.-->
           <w lemma="aunque" type="CC">aun|que|</w>
           <w lemma="ser" type="VSSP3P0">se|an|</w>
-          <w lemma="de" type="SP">de|</w>
+          <w lemma="de" type="SP">de</w>
           <w lemma="uno" type="DI0MS0">un|</w>
           <w lemma="igual" type="AQ0CS00">i|gual|</w>
         </l>

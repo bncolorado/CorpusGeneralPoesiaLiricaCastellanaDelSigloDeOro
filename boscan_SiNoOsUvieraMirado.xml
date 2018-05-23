@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -45,7 +45,7 @@
           <w lemma="si" type="CS">si|</w>
           <w lemma="no" type="RN">no</w>
           <w lemma="os" type="PP2CP00">os|</w>
-          <w lemma="uviera" type="VMSI3S0">u|vie|ra|</w>
+          <w lemma="haber" type="VMSI3S0">u|vie|ra|</w>
           <w lemma="mirar" type="VMP00SM">mi|ra|do|</w>
         </l>
         <l met="1|-|3|-|" n="2">
@@ -62,10 +62,11 @@
         </l>
         <l met="1|-|3|-|5|6|7|-|" n="4">
           <!--Veros harto mal á sido,-->
-          <w lemma="vero" type="NCMP000">ve|ros|</w>
+          <w lemma="ver" type="VMN0000">ver|</w>
+	  <w lemma="os" type="PP2CP00">os|</w>
           <w lemma="harto" type="AQ0MS00">har|to|</w>
-          <w lemma="mal" type="RG">mal|</w>
-          <w lemma="á" type="VMIF3S0">á|</w>
+          <w lemma="mal" type="NCMS000">mal|</w>
+          <w lemma="haber" type="VMIF3S0">á|</w>
           <w lemma="ser" type="VSP00SM">si|do|</w>
         </l>
         <l met="-|2|3|-|-|6|7|-|" n="5">
@@ -75,9 +76,9 @@
           <w lemma="ver" type="VMN0000">ver|</w>
           <w lemma="os" type="PP2CP00">os|</w>
           <w lemma="peor" type="RG">pe|or|</w>
-          <w lemma="fuera" type="RG">fue|ra|</w>
+          <w lemma="ser" type="VMSI3S0">fue|ra|</w>
         </l>
-        <l met="1|-|3|-|5|-|7|-|" n="6">
+        <l met="1|-|3|-|-|-|7|-|" n="6">
           <!--no quedara tan perdido-->
           <w lemma="no" type="RN">no|</w>
           <w lemma="quedar" type="VMSI3S0">que|da|ra|</w>
@@ -106,11 +107,11 @@
           <w lemma="cuál" type="PT0CS00">cuál|</w>
           <w lemma="quedar" type="VMSI3S0">que|da|ra|</w>
         </l>
-        <l met="-|2|-|-|5|-|-|8|-|" n="10">
+        <l met="-|2|-|-|5|-|7|-|" n="10">
           <!--señora, si no os mirara?-->
           <w lemma="señor" type="NCFS000">se|ño|ra|</w>
           <w lemma="si" type="CS">si|</w>
-          <w lemma="no" type="RN">no|</w>
+          <w lemma="no" type="RN">no</w>
           <w lemma="os" type="PP2CP00">os|</w>
           <w lemma="mirar" type="VMSI3S0">mi|ra|ra|</w>
         </l>
