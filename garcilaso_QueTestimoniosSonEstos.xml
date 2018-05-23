@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -88,7 +88,7 @@
           <w lemma="porque" type="CS">por|que|</w>
           <w lemma="tener" type="VMIP3S0">tie|ne|</w>
           <w lemma="por" type="SP">por|</w>
-          <w lemma="desculpa" type="NCFS000">des|cul|pa|</w>
+          <w lemma="disculpa" type="NCFS000">des|cul|pa|</w>
         </l>
         <l met="-|-|3|-|-|-|7|-|" n="8">
           <!--que lo hizo la mujer.-->

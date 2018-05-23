@@ -30,7 +30,7 @@
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
       <metDecl>
-        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
       </metDecl>
     </encodingDesc>
   </teiHeader>
@@ -61,7 +61,7 @@
           <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="danubio" type="NP00000">da|nu|bio</w>
           <w lemma="uno" type="DI0FS0">u|na</w>
-          <w lemma="isla" type="NCFS000">i|sla|</w>
+          <w lemma="isla" type="NCFS000">is|la|</w>
           <w lemma="que" type="PR0CN00">que|</w>
           <w lemma="poder" type="VMSI3S0">pu|die|ra|</w>
         </l>
@@ -83,13 +83,13 @@
           <w lemma="como" type="CS">co|mo</w>
           <w lemma="estó" type="VMIS3S0">es|tó|</w>
           <w lemma="yo" type="PP1CSN0">yo</w>
-          <w lemma="aágora" type="NCFS000">a|go|ra|</w>
+          <w lemma="agora" type="NCFS000">a|go|ra|</w>
           <w lemma="no" type="RN">no</w>
           <w lemma="estar" type="VMSI1S0">es|tu|vie|ra|</w>
         </l>
-        <l met="1|2|-|-|-|6|-|" n="7">
+        <l met="-|2|-|-|-|6|-|" n="7">
           <!--do siempre primavera-->
-          <w lemma="do" type="NCMS000">do|</w>
+          <w lemma="do" type="CS">do|</w>
           <w lemma="siempre" type="RG">siem|pre|</w>
           <w lemma="primavera" type="NCFS000">pri|ma|ve|ra|</w>
         </l>
@@ -137,7 +137,8 @@
           <w lemma="ni" type="CC">ni|</w>
           <w lemma="noche" type="NCFS000">no|che|</w>
           <w lemma="cesar" type="VMIP3P0">ce|san|</w>
-          <w lemma="dellas" type="NCFP000">de|llas|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="ellos" type="PP3FP00">e|llas|</w>
         </l>
         <l met="-|2|3|-|5|6|-|" n="14">
           <!--Aquí estuve yo puesto,-->
@@ -151,7 +152,8 @@
           <w lemma="o" type="CC">o|</w>
           <w lemma="por" type="SP">por|</w>
           <w lemma="mejor" type="AQ0CS00">me|jor|</w>
-          <w lemma="do" type="NCMS00V">de|ci|llo|</w>
+          <w lemma="decir" type="VMN0000">de|ci|</w>
+	  <w lemma="lo" type="PP3MSA0">llo|</w>
         </l>
         <l met="1|-|-|4|-|6|-|8|-|10|-|" n="16">
           <!--preso y forzado y solo en tierra ajena;-->
@@ -176,7 +178,8 @@
           <w lemma="en" type="SP">en|</w>
           <w lemma="quien" type="PR0CS00">quien|</w>
           <w lemma="poder" type="VMIP3S0">pue|de|</w>
-          <w lemma="sufrillo" type="NCMS000">su|fri|llo|</w>
+          <w lemma="sufrir" type="VMN0000">su|fri|</w>
+	  <w lemma="lo" type="PP3MSA0">llo|</w>
         </l>
         <l met="-|-|3|-|5|6|-|-|-|10|-|" n="19">
           <!--y en quien él a sí mismo se condena.-->
@@ -339,9 +342,9 @@
         <l met="-|2|-|4|-|6|-|" n="38">
           <!--me halla y me ha hallado,-->
           <w lemma="me" type="PP1CS00">me|</w>
-          <w lemma="hallar" type="VMIP3S0">ha|lla</w>
+          <w lemma="hallar" type="VMIP3S0">ha|lla|</w>
           <w lemma="y" type="CC">y|</w>
-          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="me" type="PP1CS00">me</w>
           <w lemma="haber" type="VAIP3S0">ha|</w>
           <w lemma="hallar" type="VMP00SM">ha|lla|do|</w>
         </l>
@@ -362,7 +365,7 @@
           <w lemma="no" type="RN">no</w>
           <w lemma="ser" type="VSIP3S0">es|</w>
           <w lemma="necesario" type="AQ0MS00">ne|ce|sa|rio</w>
-          <w lemma="aágora" type="NCFS000">a|go|ra|</w>
+          <w lemma="agora" type="RG">a|go|ra|</w>
         </l>
         <l met="-|2|3|-|-|6|-|" n="41">
           <!--hablar más sin provecho,-->
@@ -408,7 +411,8 @@
         <l met="-|2|-|4|-|6|-|" n="46">
           <!--Y al fin de tal jornada-->
           <w lemma="y" type="CC">y</w>
-          <w lemma="al" type="SP">al|</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
           <w lemma="fin" type="NCMS000">fin|</w>
           <w lemma="de" type="SP">de|</w>
           <w lemma="tal" type="DD0CS0">tal|</w>
@@ -470,7 +474,7 @@
         <l met="-|2|-|4|-|6|-|" n="53">
           <!--Danubio, rio divino,-->
           <w lemma="danubio" type="NP00000">da|nu|bio|</w>
-          <w lemma="rio" type="NCMS000">rio|</w>
+          <w lemma="río" type="NCMS000">rio|</w>
           <w lemma="divino" type="AQ0MS00">di|vi|no|</w>
         </l>
         <l met="-|-|3|-|-|6|-|" n="54">
@@ -504,7 +508,7 @@
           <w lemma="mi" type="DP1CPS">mis|</w>
           <w lemma="razón" type="NCFP000">ra|zo|nes|</w>
         </l>
-        <l met="1|-|-|-|-|6|-|-|-|10|-|" n="58">
+        <l met="1|-|3|-|-|6|-|-|-|10|-|" n="58">
           <!--vayan fuera de aquí sino corriendo-->
           <w lemma="ir" type="VMSP3P0">va|yan|</w>
           <w lemma="fuera_de" type="SP">fue|ra_|de</w>
@@ -526,7 +530,7 @@
           <w lemma="ellos" type="PP3FP00">e|llas|</w>
           <w lemma="anegar" type="VMP00PF">a|ne|ga|das|</w>
         </l>
-        <l met="-|2|-|4|-|6|-|" n="61">
+        <l met="-|2|-|-|-|6|-|" n="61">
           <!--si en tierra tan ajena,-->
           <w lemma="si" type="CS">si</w>
           <w lemma="en" type="SP">en|</w>
@@ -546,7 +550,7 @@
           <w lemma="de" type="SP">de</w>
           <w lemma="alguno" type="PI0MS00">al|gu|no|</w>
           <w lemma="ir" type="VMSF3P0">fue|ren|</w>
-          <w lemma="a" type="SP">a</w>
+          <w lemma="a" type="SP">a|</w>
           <w lemma="el" type="DA0FS0">la|</w>
           <w lemma="fin" type="NCMS000">fin|</w>
           <w lemma="hallar" type="VMP00PF">ha|lla|das|</w>
@@ -618,7 +622,7 @@
           <w lemma="que" type="PR0CN00">que|</w>
           <w lemma="se" type="P00CN00">se|</w>
           <w lemma="me" type="PP1CS00">me</w>
-          <w lemma="an" type="NCFS000">an|</w>
+          <w lemma="haber" type="VAIP3P0">an|</w>
           <w lemma="morir" type="VMP00SM">muer|to</w>
           <w lemma="en" type="SP">en|</w>
           <w lemma="el" type="DA0FS0">la|</w>
@@ -629,7 +633,7 @@
           <w lemma="quién" type="PT0CS00">quién|</w>
           <w lemma="tener" type="VMIP3S0">tie|ne|</w>
           <w lemma="culpa" type="NCFS000">cul|pa</w>
-          <w lemma="en" type="SP">e|n</w>
+          <w lemma="en" type="SP">en|</w>
           <w lemma="este" type="PD00S00">es|to|</w>
         </l>
         <l met="-|2|-|-|-|6|-|8|9|10|-|" n="73">
