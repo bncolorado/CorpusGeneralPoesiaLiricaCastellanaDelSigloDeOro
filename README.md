@@ -25,7 +25,7 @@ El corpus recoge autores de todo el periodo, desde Garcilaso de la Vega hasta so
 - Gaspar Gil Polo
 - Hernando de Acunya
 - Jacinto Polo de Medina
-- Juan Boscán
+- [Juan Boscán](https://es.wikipedia.org/wiki/Juan_Bosc%C3%A1n)
 - Juan de La Cueva
 - Juana Inés de la Cruz
 - Lope de Vega
@@ -38,7 +38,7 @@ El corpus recoge autores de todo el periodo, desde Garcilaso de la Vega hasta so
 - Teresa de Jesús
 
 ## Fuentes
-La mayoría de los textos proceden de la Biblioteca Virtual Migues de Cervantes. En el encabezado TEI de cada poema se indica la url de origen.
+La mayoría de los textos proceden de la [Biblioteca Virtual Migues de Cervantes](http://www.cervantesvirtual.com/). En el encabezado TEI de cada poema se indica la url de origen.
 
 ## Anotación
 Todos los poemas han sido anotados con el [sistema de escansión ADSO](http://adso.gplsi.es). Se ha anotado automáticamente la métrica y separación silábica de cada verso, así como el lema y categoría gramatical de cada palabra.
