@@ -22,7 +22,7 @@ El corpus recoge autores de todo el periodo, desde Garcilaso de la Vega hasta so
 - Francisco López de Zárate
 - [Fray Luis de León](https://es.wikipedia.org/wiki/Luis_de_Le%C3%B3n)
 - [Garcilaso de la Vega](https://es.wikipedia.org/wiki/Garcilaso_de_la_Vega)
-- Gaspar Gil Polo
+- [Gaspar Gil Polo](https://es.wikipedia.org/wiki/Gaspar_Gil_Polo)
 - Hernando de Acunya
 - Jacinto Polo de Medina
 - [Juan Boscán](https://es.wikipedia.org/wiki/Juan_Bosc%C3%A1n)
