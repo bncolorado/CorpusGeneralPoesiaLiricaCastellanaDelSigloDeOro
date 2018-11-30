@@ -1,0 +1,199 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Si os pesa de ser querida,  </title>
+          <author>Gaspar Gil Polo</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/primera-parte-de-diana-enamorada--0/html/fee0bafa-82b1-11df-acc7-002185ce6064_12.html#I_16_"/>
+          <editor>Edición digital a partir de Primera parte de Diana enamorada, Valencia, Joan Mey, 1564.</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Si os pesa de ser querida,</title>
+      </head>
+      <lg cert="high" type="Redondillas">
+        <l met="-|2|-|-|5|-|7|-|" n="1">
+          <!--Si os pesa de ser querida,-->
+          <w lemma="si" type="CS">si</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+          <w lemma="pesar" type="VMIP3S0">pe|sa|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="ser" type="VSN0000">ser|</w>
+          <w lemma="querer" type="VMP00SF">que|ri|da|</w>
+        </l>
+        <l met="1|2|3|-|5|-|7|-|" n="2">
+          <!--yo no puedo no os querer;-->
+          <w lemma="yo" type="PP1CSN0">yo|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="poder" type="VMIP1S0">pue|do|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+          <w lemma="querer" type="VMN0000">que|rer|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="3">
+          <!--pesar habréis de tener-->
+          <w lemma="pesar" type="VMN0000">pe|sar|</w>
+          <w lemma="haber" type="VMIF2P0">ha|bréis|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="tener" type="VMN0000">te|ner|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="4">
+          <!--mientras yo tuviera vida.-->
+          <w lemma="mientras" type="CS">mien|tras|</w>
+          <w lemma="yo" type="PP1CSN0">yo|</w>
+          <w lemma="tener" type="VMSI3S0">tu|vie|ra|</w>
+          <w lemma="vida" type="NCFS000">vi|da|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="5">
+          <!--Sufrid que pueda quejarme,-->
+          <w lemma="sufrir" type="VMM02P0">su|frid|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="poder" type="VMSP3S0">pue|da|</w>
+          <w lemma="quejar" type="VMN0000">que|jar|</w>
+          <w lemma="me" type="PP1CS00">me|</w>
+        </l>
+        <l met="-|-|3|4|5|-|7|-|" n="6">
+          <!--pues que sufro un tal tormento,-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="sufrir" type="VMIP1S0">su|fro</w>
+          <w lemma="uno" type="DI0MS0">un|</w>
+          <w lemma="tal" type="DD0CS0">tal|</w>
+          <w lemma="tormento" type="NCMS000">tor|men|to|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="7">
+          <!--o cumplid vuestro contento-->
+          <w lemma="o" type="CC">o|</w>
+          <w lemma="cumplir" type="VMM02P0">cum|plid|</w>
+          <w lemma="vuestro" type="DP2MSP">vues|tro|</w>
+          <w lemma="contento" type="AQ0MS00">con|ten|to|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="8">
+          <!--con acabar de matarme.-->
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="acabar" type="VMN0000">a|ca|bar|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="matar" type="VMN0000">ma|tar|</w>
+          <w lemma="me" type="PP1CS00">me|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="9">
+          <!--Que según sois descreída,-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="según" type="CS">se|gún|</w>
+          <w lemma="ser" type="VSIP2P0">sois|</w>
+          <w lemma="descreído" type="AQ0FS00">des|cre|í|da|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="10">
+          <!--y os ofende mi querer,-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+          <w lemma="ofender" type="VMIP3S0">o|fen|de|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="querer" type="VMN0000">que|rer|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="11">
+          <!--pesar habréis de tener-->
+          <w lemma="pesar" type="VMN0000">pe|sar|</w>
+          <w lemma="haber" type="VMIF2P0">ha|bréis|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="tener" type="VMN0000">te|ner|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="12">
+          <!--mientras yo tuviera vida.-->
+          <w lemma="mientras" type="CS">mien|tras|</w>
+          <w lemma="yo" type="PP1CSN0">yo|</w>
+          <w lemma="tener" type="VMSI3S0">tu|vie|ra|</w>
+          <w lemma="vida" type="NCFS000">vi|da|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="13">
+          <!--Si pudiendo conoceros,-->
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="poder" type="VMG0000">pu|dien|do|</w>
+          <w lemma="conocer" type="VMN0000">co|no|cer|</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="14">
+          <!--pudiera dejar de amaros,-->
+          <w lemma="poder" type="VMSI3S0">pu|die|ra|</w>
+          <w lemma="dejar" type="VMN0000">de|jar|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="amar" type="VMN0000">a|mar|</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="15">
+          <!--quisiera, por no enojaros,-->
+          <w lemma="querer" type="VMSI3S0">qui|sie|ra|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="no" type="RN">no</w>
+          <w lemma="enojar" type="VMN0000">e|no|jar|</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="16">
+          <!--poder dejar de quereros.-->
+          <w lemma="poder" type="VMN0000">po|der|</w>
+          <w lemma="dejar" type="VMN0000">de|jar|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="querer" type="VMN0000">que|rer|</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="17">
+          <!--Mas pues vos seréis querida-->
+          <w lemma="mas" type="CC">mas|</w>
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="vos" type="PP2CS0P">vos|</w>
+          <w lemma="ser" type="VSIF2P0">se|réis|</w>
+          <w lemma="querer" type="VMP00SF">que|ri|da|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="18">
+          <!--mientras yo podré querer,-->
+          <w lemma="mientras" type="CS">mien|tras|</w>
+          <w lemma="yo" type="PP1CSN0">yo|</w>
+          <w lemma="poder" type="VMIF1S0">po|dré|</w>
+          <w lemma="querer" type="VMN0000">que|rer|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="19">
+          <!--pesar habréis de tener,-->
+          <w lemma="pesar" type="VMN0000">pe|sar|</w>
+          <w lemma="haber" type="VMIF2P0">ha|bréis|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="tener" type="VMN0000">te|ner|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="20">
+          <!--mientras yo tuviere vida.-->
+          <w lemma="mientras" type="CS">mien|tras|</w>
+          <w lemma="yo" type="PP1CSN0">yo|</w>
+          <w lemma="tener" type="VMSF1S0">tu|vie|re|</w>
+          <w lemma="vida" type="NCFS000">vi|da|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

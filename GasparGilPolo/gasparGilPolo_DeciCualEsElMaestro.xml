@@ -1,0 +1,123 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Decí, ¿cuál es el maestro</title>
+          <author>Gaspar Gil Polo</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/primera-parte-de-diana-enamorada--0/html/fee0bafa-82b1-11df-acc7-002185ce6064_12.html#I_16_"/>
+          <editor>Edición digital a partir de Primera parte de Diana enamorada, Valencia, Joan Mey, 1564.</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Decí, ¿cuál es el maestro</title>
+      </head>
+      <lg cert="high" type="Quintillas">
+        <l met="-|2|3|4|-|-|7|-|" n="1">
+          <!--Decí, ¿cuál es el maestro-->
+          <w lemma="decir" type="VMMP2S0">de|cí|</w>
+          <w lemma="cuál" type="PT0CS00">cuál|</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="maestro" type="NCMS000">ma|es|tro|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="2">
+          <!--que su dueño le es criado,-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="dueño" type="NCMS000">due|ño|</w>
+          <w lemma="le" type="PP3CSD0">le</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="criar" type="VMP00SM">cri|a|do|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="3">
+          <!--está como loco atado,-->
+          <w lemma="estar" type="VMIP3S0">es|tá|</w>
+          <w lemma="como" type="CS">co|mo|</w>
+          <w lemma="loco" type="AQ0MS00">lo|co</w>
+          <w lemma="atado" type="NCMS000">a|ta|do|</w>
+        </l>
+        <l met="-|-|-|-|5|6|7|-|" n="4">
+          <!--sin habilidad es diestro-->
+          <w lemma="sin" type="SP">sin|</w>
+          <w lemma="habilidad" type="NCFS000">ha|bi|li|dad|</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="diestro" type="AQ0MS00">dies|tro|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="5">
+          <!--y sin doctrina letrado?-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="sin" type="SP">sin|</w>
+          <w lemma="doctrina" type="NCFS000">doc|tri|na|</w>
+          <w lemma="letrado" type="AQ0MS00">le|tra|do|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="6">
+          <!--Cuando cerca lo tenía,-->
+          <w lemma="cuando" type="CS">cuan|do|</w>
+          <w lemma="cerca" type="RG">cer|ca|</w>
+          <w lemma="lo" type="PP3MSA0">lo|</w>
+          <w lemma="tener" type="VMII3S0">te|ní|a|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="7">
+          <!--sin oírlo lo entendía,-->
+          <w lemma="sin" type="SP">sin|</w>
+          <w lemma="oír" type="VMN0000">o|ír|</w>
+          <w lemma="lo" type="PP3MSA0">lo|</w>
+          <w lemma="lo" type="PP3MSA0">lo</w>
+          <w lemma="entender" type="VMII3S0">en|ten|dí|a|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="8">
+          <!--y tan sabio se mostraba-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="sabio" type="AQ0MS00">sa|bio|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="mostrar" type="VMII3S0">mos|tra|ba|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="9">
+          <!--que palabras no me hablaba-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="palabra" type="NCFP000">pa|la|bras|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="me" type="PP1CS00">me</w>
+          <w lemma="hablar" type="VMII3S0">ha|bla|ba|</w>
+        </l>
+        <l met="-|2|3|-|-|-|7|-|" n="10">
+          <!--y mil cosas me decía.-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="1000" type="Z">mil|</w>
+          <w lemma="cosa" type="NCFP000">co|sas|</w>
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="decir" type="VMII3S0">de|cí|a|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

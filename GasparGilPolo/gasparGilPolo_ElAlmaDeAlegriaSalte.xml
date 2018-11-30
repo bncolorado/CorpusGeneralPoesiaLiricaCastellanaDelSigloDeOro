@@ -1,0 +1,142 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>El alma de alegría salte,</title>
+          <author>Gaspar Gil Polo</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/primera-parte-de-diana-enamorada--0/html/fee0bafa-82b1-11df-acc7-002185ce6064_12.html#I_16_"/>
+          <editor>Edición digital a partir de Primera parte de Diana enamorada, Valencia, Joan Mey, 1564.</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO  y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>El alma de alegría salte,</title>
+      </head>
+      <lg cert="high" type="Canción">
+        <l met="-|2|-|-|-|6|7|-|" n="1">
+          <!--El alma de alegría salte,-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="alma" type="NCFS000">al|ma|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="alegría" type="NCFS000">a|le|gría|</w>
+          <w lemma="saltar" type="VMSP3S0">sal|te|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="2">
+          <!--que en tener mi bien presente,-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="tener" type="VMN0000">te|ner|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="bien" type="RG">bien|</w>
+          <w lemma="presente" type="AQ0CS00">pre|sen|te|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="3">
+          <!--no hay descanso que me falte-->
+          <w lemma="no" type="RN">no</w>
+          <w lemma="haber" type="VMIP3S0">hay|</w>
+          <w lemma="descanso" type="NCMS000">des|can|so|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="faltar" type="VMSP3S0">fal|te|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="4">
+          <!--ni dolor que me atormente.-->
+          <w lemma="ni" type="CC">ni|</w>
+          <w lemma="dolor" type="NCMS000">do|lor|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="me" type="PP1CS00">me</w>
+          <w lemma="atormentar" type="VMSP3S0">a|tor|men|te|</w>
+        </l>
+        <l met="1|2|-|4|-|-|7|-|" n="5">
+          <!--No pienso en viejos cuidados,-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="pensar" type="VMIP1S0">pien|so</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="viejo" type="AQ0MP00">vie|jos|</w>
+          <w lemma="cuidado" type="NCMP000">cui|da|dos|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="6">
+          <!--que agravia nuestros amores-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="agraviar" type="VMIP3S0">a|gra|via|</w>
+          <w lemma="nuestro" type="DP1MPP">nues|tros|</w>
+          <w lemma="amor" type="NCMP000">a|mo|res|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="7">
+          <!--tener presentes dolores-->
+          <w lemma="tener" type="VMN0000">te|ner|</w>
+          <w lemma="presente" type="AQ0CP00">pre|sen|tes|</w>
+          <w lemma="dolor" type="NCMP000">do|lo|res|</w>
+        </l>
+        <l met="-|-|-|-|5|-|-|8|-|" n="8">
+          <!--por los olvidados pasados.-->
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="olvidar" type="VMP00PM">ol|vi|da|dos|</w>
+          <w lemma="pasado" type="NCMP000">pa|sa|dos|</w>
+        </l>
+        <l met="1|-|-|-|5|-|7|-|" n="9">
+          <!--Alma, de tu dicha válete,-->
+          <w lemma="alma" type="NP00000">al|ma|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="dicha" type="NCFS000">di|cha|</w>
+          <w lemma="valer" type="VMM02S0">va|le|</w>
+          <w lemma="te" type="PP2CS00">te|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="10">
+          <!--que, con bien tan excelente,-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="bien" type="RG">bien|</w>
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="excelente" type="AQ0CS00">ex|ce|len|te|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="11">
+          <!--no hay descanso que te falte-->
+          <w lemma="no" type="RN">no</w>
+          <w lemma="haber" type="VMIP3S0">hay|</w>
+          <w lemma="descanso" type="NCMS000">des|can|so|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="te" type="PP2CS00">te|</w>
+          <w lemma="faltar" type="VMSP3S0">fal|te|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="12">
+          <!--ni dolor que te atormente.-->
+          <w lemma="ni" type="CC">ni|</w>
+          <w lemma="dolor" type="NCMS000">do|lor|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="te" type="PP2CS00">te</w>
+          <w lemma="atormentar" type="VMSP3S0">a|tor|men|te|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

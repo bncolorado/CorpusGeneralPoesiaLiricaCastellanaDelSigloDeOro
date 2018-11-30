@@ -1,0 +1,140 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Mal consejo me parece,</title>
+          <author>Gaspar Gil Polo</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/primera-parte-de-diana-enamorada--0/html/fee0bafa-82b1-11df-acc7-002185ce6064_12.html#I_16_"/>
+          <editor>Edición digital a partir de Primera parte de Diana enamorada, Valencia, Joan Mey, 1564.</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Mal consejo me parece,</title>
+      </head>
+      <lg cert="high" type="Canción">
+        <l met="1|-|3|-|-|-|7|-|" n="1">
+          <!--Mal consejo me parece,-->
+          <w lemma="mal" type="RG">mal|</w>
+          <w lemma="consejo" type="NCMS000">con|se|jo|</w>
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="parecer" type="VMIP3S0">pa|re|ce|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="2">
+          <!--enamorado zagal,-->
+          <w lemma="enamorar" type="VMP00SM">e|na|mo|ra|do|</w>
+          <w lemma="zagal" type="NCMS000">za|gal|</w>
+        </l>
+        <l met="-|2|3|-|5|-|7|-|" n="3">
+          <!--que a ti mismo quieras mal-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="ti" type="PP2CSO0">ti|</w>
+          <w lemma="mismo" type="AQ0MS00">mis|mo|</w>
+          <w lemma="querer" type="VMSP2S0">quie|ras|</w>
+          <w lemma="mal" type="RG">mal|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="4">
+          <!--por amar quien te aborrece.-->
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="amar" type="VMN0000">a|mar|</w>
+          <w lemma="quien" type="PR0CS00">quien|</w>
+          <w lemma="te" type="PP2CS00">te</w>
+          <w lemma="aborrecer" type="VMIP3S0">a|bo|rre|ce|</w>
+        </l>
+        <l met="-|-|3|4|-|-|7|-|" n="5">
+          <!--Para ti debes guardar-->
+          <w lemma="para" type="SP">pa|ra|</w>
+          <w lemma="ti" type="PP2CSO0">ti|</w>
+          <w lemma="deber" type="VMIP2S0">de|bes|</w>
+          <w lemma="guardar" type="VMN0000">guar|dar|</w>
+        </l>
+        <l met="1|-|-|-|5|6|7|-|" n="6">
+          <!--ese corazón tan triste,-->
+          <w lemma="ese" type="DD0MS0">e|se|</w>
+          <w lemma="corazón" type="NCMS000">co|ra|zón|</w>
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="triste" type="AQ0CS00">tris|te|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="7">
+          <!--pues aquella a quien lo diste-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="aquel" type="DD0FS0">a|que|lla</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="quien" type="PR0CS00">quien|</w>
+          <w lemma="lo" type="PP3MSA0">lo|</w>
+          <w lemma="dar" type="VMIS2S0">dis|te|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="8">
+          <!--jamás lo quiso tomar.-->
+          <w lemma="jamás" type="RG">ja|más|</w>
+          <w lemma="lo" type="PP3MSA0">lo|</w>
+          <w lemma="querer" type="VMIS3S0">qui|so|</w>
+          <w lemma="tomar" type="VMN0000">to|mar|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="9">
+          <!--A quien no te favorece,-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="quien" type="PR0CS00">quien|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="te" type="PP2CS00">te|</w>
+          <w lemma="favorecer" type="VMIP3S0">fa|vo|re|ce|</w>
+        </l>
+        <l met="1|-|3|-|5|-|-|8|-|" n="10">
+          <!--no la sigas, piensa en él,-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="lo" type="PP3FSA0">la|</w>
+          <w lemma="seguir" type="VMSP2S0">si|gas|</w>
+          <w lemma="pensar" type="VMIP3S0">pien|sa|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="él" type="PP3MS00">él|</w>
+        </l>
+        <l met="-|2|3|-|5|-|7|-|" n="11">
+          <!--y a ti no te quieras mal-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="ti" type="PP2CSO0">ti|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="te" type="PP2CS00">te|</w>
+          <w lemma="querer" type="VMSP2S0">quie|ras|</w>
+          <w lemma="mal" type="RG">mal|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="12">
+          <!--por querer quien te aborrece.-->
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="querer" type="VMN0000">que|rer|</w>
+          <w lemma="quien" type="PR0CS00">quien|</w>
+          <w lemma="te" type="PP2CS00">te</w>
+          <w lemma="aborrecer" type="VMIP3S0">a|bo|rre|ce|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

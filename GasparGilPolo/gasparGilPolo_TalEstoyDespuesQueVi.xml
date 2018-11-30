@@ -1,0 +1,147 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Tal estoy después que vi</title>
+          <author>Gaspar Gil Polo</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/primera-parte-de-diana-enamorada--0/html/fee0bafa-82b1-11df-acc7-002185ce6064_8.html#I_4_"/>
+          <editor>Edición digital a partir de Primera parte de Diana enamorada, Valencia, Joan Mey, 1564.</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Tal estoy después que vi</title>
+      </head>
+      <lg cert="low" type="Villancico">
+        <l met="1|-|3|-|5|-|7|-|" n="1">
+          <!--Tal estoy después que vi-->
+          <w lemma="tal" type="PD0CS00">tal|</w>
+          <w lemma="estar" type="VMIP1S0">es|toy|</w>
+          <w lemma="después" type="RG">des|pués|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="ver" type="VMIS1S0">vi|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="2">
+          <!--la crueldad de mi pastora,-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="crueldad" type="NCFS000">cruel|dad|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="pastor" type="NCFS000">pas|to|ra|</w>
+        </l>
+        <l met="-|2|3|4|5|-|7|-|" n="3">
+          <!--que ni sé quién soy agora-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="ni" type="RN">ni|</w>
+          <w lemma="saber" type="VMIP1S0">sé|</w>
+          <w lemma="quién" type="PT0CS00">quién|</w>
+          <w lemma="ser" type="VSIP1S0">soy|</w>
+          <w lemma="aágora" type="NCFS000">a|go|ra|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="4">
+          <!--ni lo que será de mí.-->
+          <w lemma="ni" type="CC">ni|</w>
+          <w lemma="el" type="DA00S0">lo|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="ser" type="VSIF3S0">se|rá|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="mí" type="PP1CSO0">mí|</w>
+        </l>
+        <l met="1|2|3|-|5|-|7|-|" n="5">
+          <!--Sé muy bien que si hombre fuera,-->
+          <w lemma="saber" type="VMIP1S0">sé|</w>
+          <w lemma="muy" type="RG">muy|</w>
+          <w lemma="bien" type="RG">bien|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="si" type="CS">si</w>
+          <w lemma="hombre" type="NCMS000">hom|bre|</w>
+          <w lemma="fuera" type="RG">fue|ra|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="6">
+          <!--el dolor me hubiera muerto;-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="dolor" type="NCMS000">do|lor|</w>
+          <w lemma="me" type="P01CS00">me</w>
+          <w lemma="haber" type="VASI1S0">hu|bie|ra|</w>
+          <w lemma="morir" type="VMP00SM">muer|to|</w>
+        </l>
+        <l met="-|-|3|-|5|6|7|-|" n="7">
+          <!--y si piedra, está muy cierto-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="piedra" type="NCFS000">pie|dra</w>
+          <w lemma="estar" type="VMIP3S0">es|tá|</w>
+          <w lemma="muy" type="RG">muy|</w>
+          <w lemma="cierto" type="AQ0MS00">cier|to|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="8">
+          <!--que el llorar me deshiciera.-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="llorar" type="VMN0000">llo|rar|</w>
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="deshacer" type="VMSI3S0">de|shi|cie|ra|</w>
+        </l>
+        <l met="1|-|-|-|-|-|7|-|" n="9">
+          <!--Llámanme Marcelio a mí,-->
+          <w lemma="llámanme_marcelio" type="NP00000">llá|man|me_|mar|ce|lio</w>
+          <w lemma="a" type="SP">a</w>
+          <w lemma="mí" type="PP1CSO0">mí|</w>
+        </l>
+        <l met="-|-|3|4|-|-|7|-|" n="10">
+          <!--pero soy de una pastora,-->
+          <w lemma="pero" type="CC">pe|ro|</w>
+          <w lemma="ser" type="VSIP1S0">soy|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="uno" type="DI0FS0">u|na|</w>
+          <w lemma="pastor" type="NCFS000">pas|to|ra|</w>
+        </l>
+        <l met="-|2|3|4|5|-|7|-|" n="11">
+          <!--que ni sé quién soy agora-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="ni" type="RN">ni|</w>
+          <w lemma="saber" type="VMIP1S0">sé|</w>
+          <w lemma="quién" type="PT0CS00">quién|</w>
+          <w lemma="ser" type="VSIP1S0">soy|</w>
+          <w lemma="aágora" type="NCFS000">a|go|ra|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="12">
+          <!--ni lo que será de mí.-->
+          <w lemma="ni" type="CC">ni|</w>
+          <w lemma="el" type="DA00S0">lo|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="ser" type="VSIF3S0">se|rá|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="mí" type="PP1CSO0">mí|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>
