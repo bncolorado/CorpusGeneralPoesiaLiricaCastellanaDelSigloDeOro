@@ -1,0 +1,127 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>El que ensalzar procura su sentido</title>
+          <author>Hernando de Acunya</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/varias-poesias--0/html/fede64e4-82b1-11df-acc7-002185ce6064_7.html#I_182_"/>
+          <editor>...</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title> El que ensalzar procura su sentido</title>
+      </head>
+      <lg cert="high" type="Octava real">
+        <l met="-|-|-|4|-|6|-|-|-|10|-|" n="1">
+          <!--El que ensalzar procura su sentido-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="que" type="PR0CN00">que</w>
+          <w lemma="ensalzar" type="VMN0000">en|sal|zar|</w>
+          <w lemma="procurar" type="VMIP3S0">pro|cu|ra|</w>
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="sentido" type="NCMS000">sen|ti|do|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|8|-|10|-|" n="2">
+          <!--y de toda bajeza libre verse,-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="todo" type="DI0FS0">to|da|</w>
+          <w lemma="bajeza" type="NCFS000">ba|je|za|</w>
+          <w lemma="libre" type="AQ0CS00">li|bre|</w>
+          <w lemma="ver" type="VMN0000">ver|</w>
+          <w lemma="se" type="PP3CN00">se|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|8|-|10|-|" n="3">
+          <!--el que más sin remedio está perdido-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="sin" type="SP">sin|</w>
+          <w lemma="remedio" type="NCMS000">re|me|dio</w>
+          <w lemma="estar" type="VMIP3S0">es|tá|</w>
+          <w lemma="perder" type="VMP00SM">per|di|do|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|-|-|10|-|" n="4">
+          <!--y cobrarse quisiere con perderse,-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="cobrar" type="VMN0000">co|brar|</w>
+          <w lemma="se" type="PP3CN00">se|</w>
+          <w lemma="se" type="PP3CN00">se|</w>
+          <w lemma="querer" type="VMSF1S0">qui|sie|re|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="perder" type="VMN0000">per|der|</w>
+          <w lemma="se" type="PP3CN00">se|</w>
+          <w lemma="se" type="PP3CN00">se|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|8|-|10|-|" n="5">
+          <!--y el que busca el deseo bien cumplido-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="buscar" type="VMIP3S0">bus|ca</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="deseo" type="NCMS000">de|se|o|</w>
+          <w lemma="bien" type="RG">bien|</w>
+          <w lemma="cumplir" type="VMP00SM">cum|pli|do|</w>
+        </l>
+        <l met="-|2|-|-|5|6|-|-|-|10|-|" n="6">
+          <!--y extremo que no pueda merecerse,-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="extremo" type="NCMS000">ex|tre|mo|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="poder" type="VMSP3S0">pue|da|</w>
+          <w lemma="merecer" type="VMN0000">me|re|cer|</w>
+          <w lemma="se" type="PP3CN00">se|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|-|-|10|-|" n="7">
+          <!--de gracia, de valor y hermosura-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="gracia" type="NCFS000">gra|cia|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="valor" type="NCMS000">va|lor|</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="hermosura" type="NCFS000">her|mo|su|ra|</w>
+        </l>
+        <l met="-|2|-|-|-|6|7|-|-|10|-|" n="8">
+          <!--reposen, en mirando esta figura.-->
+          <w lemma="reposar" type="VMM03P0">re|po|sen|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="mirar" type="VMG0000">mi|ran|do</w>
+          <w lemma="este" type="DD0FS0">es|ta|</w>
+          <w lemma="figura" type="NCFS000">fi|gu|ra|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>
