@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Cuando dejaba la guerra</title>
+          <author>Miguel de Cervantes</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/poesias-sueltas--1/html/ff32a2de-82b1-11df-acc7-002185ce6064_2.html#I_2_"/>
+          <editor>Florencio Sevilla Arroyo, 2001</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Cuando dejaba la guerra</title>
+      </head>
+      <lg cert="high" type="Redondilla">
+        <l met="-|-|-|4|-|-|7|-|" n="1">
+          <!--Cuando dejaba la guerra-->
+          <w lemma="cuando" type="CS">cuan|do|</w>
+          <w lemma="dejar" type="VMII3S0">de|ja|ba|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="guerra" type="NCFS000">gue|rra|</w>
+        </l>
+        <l met="1|-|-|-|5|-|7|-|" n="2">
+          <!--libre nuestro hispano suelo,-->
+          <w lemma="librar" type="VMM03S0">li|bre|</w>
+          <w lemma="nuestro" type="DP1MSP">nues|tro</w>
+          <w lemma="hispano" type="AQ0MS00">his|pa|no|</w>
+          <w lemma="suelo" type="NCMS000">sue|lo|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="3">
+          <!--con un repentino vuelo-->
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="uno" type="DI0MS0">un|</w>
+          <w lemma="repentino" type="AQ0MS00">re|pen|ti|no|</w>
+          <w lemma="vuelo" type="NCMS000">vue|lo|</w>
+        </l>
+        <l met="-|-|3|4|-|-|7|-|" n="4">
+          <!--la mejor flor de la tierra-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="mejor" type="AQ0CS00">me|jor|</w>
+          <w lemma="flor" type="NCFS000">flor|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="tierra" type="NCFS000">tie|rra|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="5">
+          <!--fue trasplantada en el cielo;-->
+          <w lemma="ser" type="VSIS3S0">fue|</w>
+          <w lemma="trasplantar" type="VMP00SF">tras|plan|ta|da</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="cielo" type="NCMS000">cie|lo|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="6">
+          <!--y, al cortarla de su rama,-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="cortar" type="VMN0000">cor|tar|</w>
+          <w lemma="lo" type="PP3FSA0">la|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="rama" type="NCFS000">ra|ma|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="7">
+          <!--el mortífero accidente-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="mortífero" type="AQ0MS00">mor|tí|fe|ro</w>
+          <w lemma="accidente" type="NCMS000">ac|ci|den|te|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="8">
+          <!--fue tan oculto a la gente-->
+          <w lemma="ser" type="VSIS3S0">fue|</w>
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="oculto" type="AQ0MS00">o|cul|to</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="gente" type="NCFS000">gen|te|</w>
+        </l>
+        <l met="-|-|-|4|5|-|7|-|" n="9">
+          <!--como el que no ve la llama-->
+          <w lemma="como" type="CS">co|mo</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="ver" type="VMIP3S0">ve|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="llama" type="NCFS000">lla|ma|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="10">
+          <!--hasta que quemar se siente.-->
+          <w lemma="hasta" type="SP">has|ta|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="quemar" type="VMN0000">que|mar|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="sentir" type="VMIP3S0">sien|te|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>
