@@ -1,0 +1,290 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Me acerco y me retiro</title>
+          <author>Juana Inés de la Cruz</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/obras-escogidas--0/html/c7822235-3f49-4a31-9ea3-485840a7c278_4.html#I_73_"/>
+          <editor>Espasa-Calpe</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Me acerco y me retiro:</title>
+      </head>
+      <lg cert="high" type="Endechas">
+        <l met="-|2|-|-|-|6|-|" n="1">
+          <!--Me acerco y me retiro:-->
+          <w lemma="me" type="PP1CS00">me</w>
+          <w lemma="acercar" type="VMIP1S0">a|cer|co</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="me" type="PP1CS00">me</w>
+          <w lemma="retirar" type="VMIP1S0">re|ti|ro|</w>
+        </l>
+        <l met="1|-|-|4|5|6|-|" n="2">
+          <!--¿quién sino yo hallar puedo-->
+          <w lemma="quién" type="PT0CS00">quién|</w>
+          <w lemma="sino" type="CC">si|no|</w>
+          <w lemma="yo" type="PP1CSN0">yo</w>
+          <w lemma="hallar" type="VMN0000">ha|llar|</w>
+          <w lemma="poder" type="VMIP1S0">pue|do|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="3">
+          <!--a la ausencia en los ojos-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="ausencia" type="NCFS000">au|sen|cia</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="ojo" type="NCMP000">o|jos|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="4">
+          <!--la presencia en lo lejos?-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="presencia" type="NCFS000">pre|sen|cia</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="lo" type="PP3MSA0">lo|</w>
+          <w lemma="lejos" type="RG">le|jos|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="5">
+          <!--Del desprecio de Filis-->
+          <w lemma="de" type="SP">de</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="desprecio" type="NCMS000">des|pre|cio|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="filis" type="NP00000">fi|lis|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="6">
+          <!--infelice me ausento:-->
+          <w lemma="infeliz" type="AQ0CS00">in|fe|li|ce|</w>
+          <w lemma="me" type="PP1CS00">me</w>
+          <w lemma="ausentar" type="VMIP1S0">au|sen|to|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="7">
+          <!--¡ay de aquel de quien es-->
+          <w lemma="ay" type="I">ay|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="aquel" type="DD0MS0">a|quel|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="quien" type="PR0CS00">quien|</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+        </l>
+        <l met="1|-|3|-|-|6|-|" n="8">
+          <!--aún perdida el desprecio!-->
+          <w lemma="aun" type="RG">aún|</w>
+          <w lemma="perder" type="VMP00SF">per|di|da</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="desprecio" type="NCMS000">des|pre|cio|</w>
+        </l>
+        <l met="1|-|3|-|-|6|-|" n="9">
+          <!--Tan atento la adora,-->
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="atento" type="AQ0MS00">a|ten|to|</w>
+          <w lemma="lo" type="PP3FSA0">la</w>
+          <w lemma="adorar" type="VMIP3S0">a|do|ra|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="10">
+          <!--que en el mal que padezco-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="mal" type="NCMS000">mal|</w>
+          <w lemma="que" type="PR0CN00">que</w>
+          <w lemma="padecer" type="VMIP1S0">pa|dez|co|</w>
+        </l>
+        <l met="1|2|-|-|-|6|-|" n="11">
+          <!--no siento sus rigores-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="sentar" type="VMIP1S0">sien|to|</w>
+          <w lemma="su" type="DP3CPN">sus|</w>
+          <w lemma="rigor" type="NCMP000">ri|go|res|</w>
+        </l>
+        <l met="1|-|-|-|-|6|-|" n="12">
+          <!--tanto como el perderlos.-->
+          <w lemma="tanto" type="RG">tan|to|</w>
+          <w lemma="como" type="CS">co|mo</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="perder" type="VMN0000">per|der|</w>
+          <w lemma="lo" type="PP3MPA0">los|</w>
+        </l>
+        <l met="1|2|-|-|5|6|-|" n="13">
+          <!--No pierdo al partir sólo-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="perder" type="VMIP1S0">pier|do</w>
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="partir" type="VMN0000">par|tir|</w>
+          <w lemma="sólo" type="RG">só|lo|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|" n="14">
+          <!--los bienes que poseo,-->
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="bien" type="NCMP000">bie|nes|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="poseer" type="VMIP1S0">po|se|o|</w>
+        </l>
+        <l met="-|2|-|-|5|6|-|" n="15">
+          <!--si en Filis, que no es mía,-->
+          <w lemma="si" type="CS">si</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="filis" type="NP00000">fi|lis|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="no" type="RN">no</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="mío" type="AP0FS1S">mí|a|</w>
+        </l>
+        <l met="1|-|-|-|5|6|-|" n="16">
+          <!--pierdo lo que no pierdo.-->
+          <w lemma="perder" type="VMIP1S0">pier|do|</w>
+          <w lemma="perder" type="VMIP1S0">pier|do|</w>
+          <w lemma="el" type="DA00S0">lo|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="perder" type="VMIP1S0">pier|do|</w>
+          <w lemma="perder" type="VMIP1S0">pier|do|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|" n="17">
+          <!--¡Ay de quien un desdén-->
+          <w lemma="ay" type="I">ay|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="quien" type="PR0CS00">quien|</w>
+          <w lemma="uno" type="DI0MS0">un|</w>
+          <w lemma="desdén" type="NCMS000">des|dén|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|" n="18">
+          <!--lograba tan atento-->
+          <w lemma="lograr" type="VMII3S0">lo|gra|ba|</w>
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="atento" type="AQ0MS00">a|ten|to|</w>
+        </l>
+        <l met="-|-|3|4|-|6|-|" n="19">
+          <!--que por no ser dolor-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="ser" type="VSN0000">ser|</w>
+          <w lemma="dolor" type="NCMS000">do|lor|</w>
+        </l>
+        <l met="1|-|-|4|5|6|-|" n="20">
+          <!--no se atrevió a ser premio!-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="se" type="P00CN00">se</w>
+          <w lemma="atrever" type="VMIS3S0">a|tre|vió</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="ser" type="VSN0000">ser|</w>
+          <w lemma="premio" type="NCMS000">pre|mio|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|" n="21">
+          <!--Pues viendo en mi destino-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="ver" type="VMG0000">vien|do</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="destino" type="NCMS000">des|ti|no|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|" n="22">
+          <!--preciso mi destierro,-->
+          <w lemma="preciso" type="AQ0MS00">pre|ci|so|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="destierro" type="NCMS000">des|tie|rro|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|" n="23">
+          <!--me desdeñaba más-->
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="desdeñar" type="VMII3S0">des|de|ña|ba|</w>
+          <w lemma="más" type="RG">más|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|" n="24">
+          <!--porque perdiera menos.-->
+          <w lemma="porque" type="CS">por|que|</w>
+          <w lemma="perder" type="VMSI3S0">per|die|ra|</w>
+          <w lemma="menos" type="RG">me|nos|</w>
+        </l>
+        <l met="-|-|-|-|5|6|-|" n="25">
+          <!--¡Ay! ¿Quién te enseñó, Filis,-->
+          <w lemma="ayQuién" type="I">PT0CS00</w>
+          <w lemma="te" type="PP2CS00">te|</w>
+          <w lemma="enseñar" type="VMIS3S0">en|se|ñó|</w>
+          <w lemma="filis" type="NP00000">fi|lis|</w>
+        </l>
+        <l met="1|-|-|4|-|6|-|" n="26">
+          <!--tan primoroso medio:-->
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="primoroso" type="AQ0MS00">pri|mo|ro|so|</w>
+          <w lemma="medio" type="AQ0MS00">me|dio|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|" n="27">
+          <!--vedar a los desdenes-->
+          <w lemma="vedar" type="VMN0000">ve|dar|</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="desdén" type="NCMP000">des|de|nes|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|" n="28">
+          <!--el traje del afecto?-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="traje" type="NCMS000">tra|je|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="afecto" type="NCMS000">a|fec|to|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="29">
+          <!--A vivir ignorado-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="vivir" type="VMN0000">vi|vir|</w>
+          <w lemma="ignorar" type="VMP00SM">ig|no|ra|do|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="30">
+          <!--de tus luces me ausento,-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="tu" type="DP2CPS">tus|</w>
+          <w lemma="luz" type="NCFP000">lu|ces|</w>
+          <w lemma="me" type="PP1CS00">me</w>
+          <w lemma="ausentar" type="VMIP1S0">au|sen|to|</w>
+        </l>
+        <l met="-|-|-|-|5|6|-|" n="31">
+          <!--donde ni aun mi mal sirva-->
+          <w lemma="donde" type="CS">don|de|</w>
+          <w lemma="ni" type="CC">ni</w>
+          <w lemma="aun" type="CS">aun|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="mal" type="NCMS000">mal|</w>
+          <w lemma="servir" type="VMSP3S0">sir|va|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|" n="32">
+          <!--a tu desdén de obsequio.-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="desdén" type="NCMS000">des|dén|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="obsequio" type="NCMS000">ob|se|quio|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

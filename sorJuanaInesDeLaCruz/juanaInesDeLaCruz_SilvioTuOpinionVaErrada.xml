@@ -1,0 +1,354 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Silvio, tu opinión va errada</title>
+          <author>Juana Inés de la Cruz</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/obras-escogidas--0/html/c7822235-3f49-4a31-9ea3-485840a7c278_3.html#I_64_"/>
+          <editor>Espasa-Calpe</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Silvio, tu opinión va errada,</title>
+      </head>
+      <lg cert="high" type="Redondillas">
+        <l met="1|-|-|-|5|6|7|-|" n="1">
+          <!--Silvio, tu opinión va errada,-->
+          <w lemma="silvio" type="NP00000">sil|vio|</w>
+          <w lemma="tu" type="DP2CSS">tu</w>
+          <w lemma="opinión" type="NCFS000">o|pi|nión|</w>
+          <w lemma="ir" type="VMIP3S0">va</w>
+          <w lemma="errar" type="VMP00SF">e|rra|da|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="2">
+          <!--que en lo común, si se apura,-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA00S0">lo|</w>
+          <w lemma="común" type="AQ0CS00">co|mún|</w>
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="se" type="P00CN00">se</w>
+          <w lemma="apurar" type="VMIP3S0">a|pu|ra|</w>
+        </l>
+        <l met="1|2|-|-|-|-|7|-|" n="3">
+          <!--no admiten por hermosura-->
+          <w lemma="no" type="RN">no</w>
+          <w lemma="admitir" type="VMIP3P0">ad|mi|ten|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="hermosura" type="NCFS000">her|mo|su|ra|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="4">
+          <!--hermosura enamorada.-->
+          <w lemma="hermosura" type="NCFS000">her|mo|su|ra</w>
+          <w lemma="enamorar" type="VMP00SF">e|na|mo|ra|da|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="5">
+          <!--Pues si bien de la extrañeza-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="bien" type="RG">bien|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="extrañeza" type="NCFS000">ex|tra|ñe|za|</w>
+        </l>
+        <l met="-|-|-|4|-|6|7|-|" n="6">
+          <!--el atractivo más grato-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="atractivo" type="NCMS000">a|trac|ti|vo|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="grato" type="AQ0MS00">gra|to|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="7">
+          <!--es el agrio de lo ingrato-->
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="agrio" type="NCMS000">a|grio|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA00S0">lo</w>
+          <w lemma="ingrato" type="AQ0MS00">in|gra|to|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="8">
+          <!--la sazón de la belleza.-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="sazón" type="NCFS000">sa|zón|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="belleza" type="NCFS000">be|lle|za|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="9">
+          <!--Porque gozando excepciones-->
+          <w lemma="porque" type="CS">por|que|</w>
+          <w lemma="gozar" type="VMG0000">go|zan|do</w>
+          <w lemma="excepción" type="NCFP000">ex|cep|cio|nes|</w>
+        </l>
+        <l met="-|-|-|4|5|-|7|-|" n="10">
+          <!--de perfección más que humana,-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="perfección" type="NCFS000">per|fec|ción|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="que" type="CS">que</w>
+          <w lemma="humano" type="AQ0FS00">hu|ma|na|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="11">
+          <!--la acredita soberana-->
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="acreditar" type="VMIP3S0">a|cre|di|ta|</w>
+          <w lemma="soberano" type="AQ0FS00">so|be|ra|na|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="12">
+          <!--lo libre de las pasiones.-->
+          <w lemma="el" type="DA00S0">lo|</w>
+          <w lemma="libre" type="AQ0CS00">li|bre|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="pasión" type="NCFP000">pa|sio|nes|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="13">
+          <!--Que no se conserva bien-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="conservar" type="VMIP3S0">con|ser|va|</w>
+          <w lemma="bien" type="RG">bien|</w>
+        </l>
+        <l met="1|2|-|-|-|-|7|-|" n="14">
+          <!--ni tiene seguridad-->
+          <w lemma="ni" type="RN">ni|</w>
+          <w lemma="tener" type="VMIP3S0">tie|ne|</w>
+          <w lemma="seguridad" type="NCFS000">se|gu|ri|dad|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="15">
+          <!--la rosa de la beldad-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="rosa" type="NCCS000">ro|sa|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="beldad" type="NCFS000">bel|dad|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="16">
+          <!--sin la espina del desdén.-->
+          <w lemma="sin" type="SP">sin|</w>
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="espina" type="NCFS000">es|pi|na|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="desdén" type="NCMS000">des|dén|</w>
+        </l>
+        <l met="-|-|-|4|5|-|7|-|" n="17">
+          <!--Mas si el amor hace hermosas,-->
+          <w lemma="mas" type="CC">mas|</w>
+          <w lemma="si" type="CS">si</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="amor" type="NCMS000">a|mor|</w>
+          <w lemma="hacer" type="VMIP3S0">ha|ce</w>
+          <w lemma="hermoso" type="AQ0FP00">her|mo|sas|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="18">
+          <!--pudiera excusar ufana-->
+          <w lemma="poder" type="VMSI3S0">pu|die|ra</w>
+          <w lemma="excusar" type="VMN0000">ex|cu|sar|</w>
+          <w lemma="ufano" type="AQ0FS00">u|fa|na|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="19">
+          <!--con merecer la manzana-->
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="merecer" type="VMN0000">me|re|cer|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="manzana" type="NCFS000">man|za|na|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="20">
+          <!--la contienda de las diosas.-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="contienda" type="NCFS000">con|tien|da|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="dios" type="NCFP000">dio|sas|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="21">
+          <!--Belleza llego a tener-->
+          <w lemma="belleza" type="NP00000">be|lle|za|</w>
+          <w lemma="llegar" type="VMIP1S0">lle|go</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="tener" type="VMN0000">te|ner|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="22">
+          <!--de mano ten generosa,-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="mano" type="NCFS000">ma|no|</w>
+          <w lemma="tener" type="VMM02S0">ten|</w>
+          <w lemma="generoso" type="AQ0FS00">ge|ne|ro|sa|</w>
+        </l>
+        <l met="-|2|-|-|-|6|7|-|" n="23">
+          <!--que dices que seré hermosa-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="decir" type="VMIP2S0">di|ces|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="ser" type="VSIF1S0">se|ré</w>
+          <w lemma="hermoso" type="AQ0FS00">her|mo|sa|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="24">
+          <!--solamente con querer.-->
+          <w lemma="solamente" type="RG">so|la|men|te|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="querer" type="VMN0000">que|rer|</w>
+        </l>
+        <l met="-|-|3|4|-|-|7|-|" n="25">
+          <!--Y así en lid contenciosa-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="así" type="RG">a|sí</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="lid" type="NCMS000">lid|</w>
+          <w lemma="contencioso" type="AQ0FS00">con|ten|cio|sa|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="26">
+          <!--fuera siempre la triunfante;-->
+          <w lemma="fuera" type="RG">fue|ra|</w>
+          <w lemma="siempre" type="RG">siem|pre|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="triunfante" type="AQ0CS00">triun|fan|te|</w>
+        </l>
+        <l met="-|-|3|4|5|-|7|-|" n="27">
+          <!--que, pues nadie es tan amante,-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="nadie" type="PI0CS00">na|die</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="amante" type="NCCS000">a|man|te|</w>
+        </l>
+        <l met="1|-|3|-|5|-|7|-|" n="28">
+          <!--luego nadie tan hermosa.-->
+          <w lemma="luego" type="RG">lue|go|</w>
+          <w lemma="nadie" type="PI0CS00">na|die|</w>
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="hermoso" type="AQ0FS00">her|mo|sa|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="29">
+          <!--Mas si de amor el primor-->
+          <w lemma="mas" type="CC">mas|</w>
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="amor" type="NCMS000">a|mor|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="primor" type="NCMS000">pri|mor|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="30">
+          <!--la belleza me asegura,-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="belleza" type="NCFS000">be|lle|za|</w>
+          <w lemma="me" type="PP1CS00">me</w>
+          <w lemma="asegurar" type="VMIP3S0">a|se|gu|ra|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="31">
+          <!--te deberé la hermosura,-->
+          <w lemma="te" type="PP2CS00">te|</w>
+          <w lemma="deber" type="VMIF1S0">de|be|ré|</w>
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="hermosura" type="NCFS000">her|mo|su|ra|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="32">
+          <!--pues me causas el amor.-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="causar" type="VMIP2S0">cau|sas|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="amor" type="NCMS000">a|mor|</w>
+        </l>
+        <l met="-|-|3|4|-|-|7|-|" n="33">
+          <!--Del amor tuyo confío-->
+          <w lemma="de" type="SP">de</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="amor" type="NCMS000">a|mor|</w>
+          <w lemma="tuyo" type="AP0MS2S">tu|yo|</w>
+          <w lemma="confiar" type="VMIP1S0">con|fí|o|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="34">
+          <!--la beldad que me atribuyo-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="beldad" type="NCFS000">bel|dad|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="me" type="PP1CS00">me</w>
+          <w lemma="atribuir" type="VMIP1S0">a|tri|bu|yo|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="35">
+          <!--porque siendo obsequio tuyo-->
+          <w lemma="porque" type="CS">por|que|</w>
+          <w lemma="ser" type="VSG0000">sien|do</w>
+          <w lemma="obsequio" type="NCMS000">ob|se|quio|</w>
+          <w lemma="tuyo" type="AP0MS2S">tu|yo|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="36">
+          <!--resulta en provecho mío.-->
+          <w lemma="resultar" type="VMIP3S0">re|sul|ta</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="provecho" type="NCMS000">pro|ve|cho|</w>
+          <w lemma="mío" type="AP0MS1S">mí|o|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="37">
+          <!--Pero a todo satisfago-->
+          <w lemma="pero" type="CC">pe|ro</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="todo" type="PI0MS00">to|do|</w>
+          <w lemma="satisfacer" type="VMIP1S0">sa|tis|fa|go|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="38">
+          <!--con ofrecerte de nuevo-->
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="ofrecer" type="VMN0000">o|fre|cer|</w>
+          <w lemma="te" type="PP2CS00">te|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="nuevo" type="AQ0MS00">nue|vo|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="39">
+          <!--la hermosura que te debo-->
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="hermosura" type="NCFS000">her|mo|su|ra|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="te" type="PP2CS00">te|</w>
+          <w lemma="deber" type="VMIP1S0">de|bo|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="40">
+          <!--y el amor con que te pago.-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="amor" type="NCMS000">a|mor|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="te" type="PP2CS00">te|</w>
+          <w lemma="pago" type="NCMS000">pa|go|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>
