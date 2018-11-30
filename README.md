@@ -23,7 +23,7 @@ El corpus recoge autores de todo el periodo, desde Garcilaso de la Vega hasta so
 - [Fray Luis de León](https://es.wikipedia.org/wiki/Luis_de_Le%C3%B3n)
 - [Garcilaso de la Vega](https://es.wikipedia.org/wiki/Garcilaso_de_la_Vega)
 - [Gaspar Gil Polo](https://es.wikipedia.org/wiki/Gaspar_Gil_Polo)
-- Hernando de Acunya
+- [Hernando de Acunya](https://es.wikipedia.org/wiki/Hernando_de_Acu%C3%B1a)
 - Jacinto Polo de Medina
 - [Juan Boscán](https://es.wikipedia.org/wiki/Juan_Bosc%C3%A1n)
 - Juan de La Cueva
