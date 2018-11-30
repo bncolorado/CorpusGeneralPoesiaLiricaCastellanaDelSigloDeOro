@@ -29,9 +29,8 @@ El corpus recoge autores de todo el periodo, desde Garcilaso de la Vega hasta so
 - Juan de La Cueva
 - Juana Inés de la Cruz
 - Lope de Vega
-- Luis Barahona de Soto
 - Luis de Camoes
-- Luis de Góngora Y Argote
+- [Luis de Góngora Y Argote](https://es.wikipedia.org/wiki/Luis_de_G%C3%B3ngora)
 - Lupercio Leonardo Argensola
 - [Miguel de Cervantes](https://es.wikipedia.org/wiki/Miguel_de_Cervantes)
 - San Juan de la Cruz
