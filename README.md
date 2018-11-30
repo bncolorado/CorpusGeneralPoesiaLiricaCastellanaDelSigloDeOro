@@ -26,7 +26,7 @@ El corpus recoge autores de todo el periodo, desde Garcilaso de la Vega hasta so
 - [Hernando de Acuña](https://es.wikipedia.org/wiki/Hernando_de_Acu%C3%B1a)
 - Jacinto Polo de Medina
 - [Juan Boscán](https://es.wikipedia.org/wiki/Juan_Bosc%C3%A1n)
-- Juan de La Cueva
+- [Juan de La Cueva](https://es.wikipedia.org/wiki/Juan_de_la_Cueva)
 - [sor Juana Inés de la Cruz](https://es.wikipedia.org/wiki/Sor_Juana_In%C3%A9s_de_la_Cruz)
 - Lope de Vega
 - Luis de Camoes
