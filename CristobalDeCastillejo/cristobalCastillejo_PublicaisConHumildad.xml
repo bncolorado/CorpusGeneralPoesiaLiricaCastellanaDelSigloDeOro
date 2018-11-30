@@ -1,0 +1,107 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Publicáis con humildad </title>
+          <author>Cristóbal de Castillejo</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/obras-de-devocion--0/html/fef95092-82b1-11df-acc7-002185ce6064_1.html#I_1_"/>
+          <editor>Edición digital basada en la de Obras de Castillejo, edición, prólogo y notas de Jesús Rodríguez Bordona, Madrid, Espasa-Calpe, 1958, t. IV, pp. 175-236. </editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Publicáis con humildad</title>
+      </head>
+      <lg cert="low" type="Coplas">
+        <l met="-|-|3|-|-|-|7|-|" n="1">
+          <!--Publicáis con humildad-->
+          <w lemma="publicar" type="VMIP2P0">pu|bli|cáis|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="humildad" type="NCFS000">hu|mil|dad|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="2">
+          <!--en vos, Señora, defeto-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="vos" type="PP2CS0P">vos|</w>
+          <w lemma="señora" type="NP00000">se|ño|ra|</w>
+          <w lemma="defecto" type="NCMS000">de|fe|to|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="3">
+          <!--por encubrir el secreto-->
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="encubrir" type="VMN0000">en|cu|brir|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="secreto" type="NCMS000">se|cre|to|</w>
+        </l>
+        <l met="-|-|-|-|-|-|7|-|" n="4">
+          <!--de vuestra virginidad;-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="vuestro" type="DP2FSP">vues|tra|</w>
+          <w lemma="virginidad" type="NCFS000">vir|gi|ni|dad|</w>
+        </l>
+        <l met="-|2|3|-|-|-|7|-|" n="5">
+          <!--mas no engaña a Simeón-->
+          <w lemma="mas" type="CC">mas|</w>
+          <w lemma="no" type="RN">no</w>
+          <w lemma="engañar" type="VMIP3S0">en|ga|ña</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="simeón" type="NP00000">si|me|ón|</w>
+        </l>
+        <l met="-|-|-|-|-|-|7|-|" n="6">
+          <!--vuestra disimulación;-->
+          <w lemma="vuestro" type="DP2FSP">vues|tra|</w>
+          <w lemma="disimulación" type="NCFS000">di|si|mu|la|ción|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="7">
+          <!--que cumplirse su esperanza,-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="cumplir" type="VMN0000">cum|plir|</w>
+          <w lemma="se" type="PP3CN00">se|</w>
+          <w lemma="su" type="DP3CSN">su</w>
+          <w lemma="esperanza" type="NCFS000">es|pe|ran|za|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="8">
+          <!--por obra de Dios alcanza-->
+          <w lemma="por_obra_de" type="SP">por_o|bra_|de|</w>
+          <w lemma="dios" type="NP00000">dios|</w>
+          <w lemma="alcanzar" type="VMIP3S0">al|can|za|</w>
+        </l>
+        <l met="1|2|-|4|-|-|7|-|" n="9">
+          <!--ser hecho, no de varón.-->
+          <w lemma="ser" type="VSN0000">ser|</w>
+          <w lemma="hacer" type="VMP00SM">he|cho|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="varón" type="NCMS000">va|rón|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,148 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Consuélense en tu presencia, </title>
+          <author>Cristóbal de Castillejo</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/obras-de-devocion--0/html/fef95092-82b1-11df-acc7-002185ce6064_1.html#I_36_"/>
+          <editor>Edición digital basada en la de Obras de Castillejo, edición, prólogo y notas de Jesús Rodríguez Bordona, Madrid, Espasa-Calpe, 1958, t. IV, pp. 175-236. </editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title> Consuélense en tu presencia,</title>
+      </head>
+      <lg cert="high" type="Canción-quintillas">
+        <l met="-|2|-|-|-|-|7|-|" n="1">
+          <!--Consuélense en tu presencia,-->
+          <w lemma="consolar" type="VMM03P0">con|sue|len|</w>
+          <w lemma="se" type="PP3CN00">se</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="presencia" type="NCFS000">pre|sen|cia|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="2">
+          <!--Señor, mis grandes pecados,-->
+          <w lemma="señor" type="NCMS000">se|ñor|</w>
+          <w lemma="mi" type="DP1CPS">mis|</w>
+          <w lemma="grande" type="AQ0CP00">gran|des|</w>
+          <w lemma="pecado" type="NCMP000">pe|ca|dos|</w>
+        </l>
+        <l met="-|2|3|-|-|-|7|-|" n="3">
+          <!--pues Tú más a los culpados-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="tú" type="NP00000">tú|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="culpar" type="VMP00PM">cul|pa|dos|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="4">
+          <!--debes toda tu clemencia-->
+          <w lemma="deber" type="VMIP2S0">de|bes|</w>
+          <w lemma="todo" type="DI0FS0">to|da|</w>
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="clemencia" type="NCFS000">cle|men|cia|</w>
+        </l>
+        <l met="-|-|-|-|-|-|7|-|" n="5">
+          <!--que a los bienaventurados.-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="bienaventurado" type="NCMP000">bie|na|ven|tu|ra|dos|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="6">
+          <!--Tu sempiterna bondad-->
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="sempiterno" type="AQ0FS00">sem|pi|ter|na|</w>
+          <w lemma="bondad" type="NCFS000">bon|dad|</w>
+        </l>
+        <l met="1|-|-|-|-|-|7|-|" n="7">
+          <!--muéstrala donde conviene,-->
+          <w lemma="mostrar" type="VMM02S0">mues|tra|</w>
+          <w lemma="lo" type="PP3FSA0">la|</w>
+          <w lemma="donde" type="PR00000">don|de|</w>
+          <w lemma="convenir" type="VMIP3S0">con|vie|ne|</w>
+        </l>
+        <l met="-|-|-|4|5|-|7|-|" n="8">
+          <!--que por salud nunca viene-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="salud" type="NCFS000">sa|lud|</w>
+          <w lemma="nunca" type="RG">nun|ca|</w>
+          <w lemma="venir" type="VMIP3S0">vie|ne|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="9">
+          <!--quien goza de sanidad.-->
+          <w lemma="quien" type="PR0CS00">quien|</w>
+          <w lemma="gozar" type="VMIP3S0">go|za|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="sanidad" type="NCFS000">sa|ni|dad|</w>
+        </l>
+        <l met="-|-|-|-|-|-|7|-|" n="10">
+          <!--Como para la dolencia-->
+          <w lemma="como" type="CS">co|mo|</w>
+          <w lemma="para" type="SP">pa|ra|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="dolencia" type="NCFS000">do|len|cia|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="11">
+          <!--son los remedios hallados,-->
+          <w lemma="ser" type="VSIP3P0">son|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="remedio" type="NCMP000">re|me|dios|</w>
+          <w lemma="hallar" type="VMP00PM">ha|lla|dos|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="12">
+          <!--así para los culpados-->
+          <w lemma="así" type="RG">a|sí|</w>
+          <w lemma="para" type="SP">pa|ra|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="culpar" type="VMP00PM">cul|pa|dos|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="13">
+          <!--es el perdón y clemencia,-->
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="perdón" type="NCMS000">per|dón|</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="clemencia" type="NCFS000">cle|men|cia|</w>
+        </l>
+        <l met="1|-|-|-|-|-|7|-|" n="14">
+          <!--no para los condenados.-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="para" type="SP">pa|ra|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="condenar" type="VMP00PM">con|de|na|dos|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,377 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Clara estrella de la mar,</title>
+          <author>Cristóbal de Castillejo</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/obras-de-devocion--0/html/fef95092-82b1-11df-acc7-002185ce6064_1.html#I_1_"/>
+          <editor>Edición digital basada en la de Obras de Castillejo, edición, prólogo y notas de Jesús Rodríguez Bordona, Madrid, Espasa-Calpe, 1958, t. IV, pp. 175-236. </editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Clara estrella de la mar,</title>
+      </head>
+      <lg cert="high" type="Canción">
+        <l met="1|-|3|-|-|-|7|-|" n="1">
+          <!--Clara estrella de la mar,-->
+          <w lemma="claro" type="AQ0FS00">cla|ra</w>
+          <w lemma="estrella" type="NCFS000">es|tre|lla|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="mar" type="NCCS000">mar|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="2">
+          <!--dichosa puerta del cielo,-->
+          <w lemma="dichoso" type="AQ0FS00">di|cho|sa|</w>
+          <w lemma="puerta" type="NCFS000">puer|ta|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="cielo" type="NCMS000">cie|lo|</w>
+        </l>
+        <l met="1|-|-|-|-|-|7|-|" n="3">
+          <!--Madre de nuestro consuelo,-->
+          <w lemma="madre" type="NP00000">ma|dre|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="nuestro" type="DP1MSP">nues|tro|</w>
+          <w lemma="consuelo" type="NCMS000">con|sue|lo|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="4">
+          <!--Virgen nacida sin par;-->
+          <w lemma="virgen" type="NCCS000">vir|gen|</w>
+          <w lemma="nacer" type="VMP00SF">na|ci|da|</w>
+          <w lemma="sin" type="SP">sin|</w>
+          <w lemma="par" type="NCMS000">par|</w>
+        </l>
+        <l met="1|-|-|-|-|-|7|-|" n="5">
+          <!--Reina bienaventurada,-->
+          <w lemma="reina" type="NCFS000">rei|na|</w>
+          <w lemma="bienaventurado" type="AQ0FS00">bie|na|ven|tu|ra|da|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="6">
+          <!--de todos consolación-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="todo" type="DI0MP0">to|dos|</w>
+          <w lemma="consolación" type="NCFS000">con|so|la|ción|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="7">
+          <!--en todo tiempo y sazón-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="todo" type="DI0MS0">to|do|</w>
+          <w lemma="tiempo" type="NCMS000">tiem|po</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="sazón" type="NCFS000">sa|zón|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="8">
+          <!--sed, pues sois nuestra abogada;-->
+          <w lemma="ser" type="VSM02P0">sed|</w>
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="ser" type="VSIP2P0">sois|</w>
+          <w lemma="nuestro" type="DP1FSP">nues|tra</w>
+          <w lemma="abogado" type="NCFS000">a|bo|ga|da|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="9">
+          <!--mas por gracia singular,-->
+          <w lemma="mas" type="CC">mas|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="gracia" type="NCFS000">gra|cia|</w>
+          <w lemma="singular" type="AQ0CS00">sin|gu|lar|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="10">
+          <!--las rodillas por el suelo,-->
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="rodilla" type="NCFP000">ro|di|llas|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="suelo" type="NCMS000">sue|lo|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="11">
+          <!--pedimos nuestro consuelo-->
+          <w lemma="pedir" type="VMIP1P0">pe|di|mos|</w>
+          <w lemma="nuestro" type="DP1MSP">nues|tro|</w>
+          <w lemma="consuelo" type="NCMS000">con|sue|lo|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="12">
+          <!--mientra estamos en la mar.-->
+          <w lemma="mientra" type="RG">mien|tra</w>
+          <w lemma="estar" type="VMIP1P0">es|ta|mos|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="mar" type="NCMS000">mar|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="13">
+          <!--Guardad la fusta en que vamos-->
+          <w lemma="guardar" type="VMM02P0">guar|dad|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="fusta" type="NCFS000">fus|ta</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="ir" type="VMIP1P0">va|mos|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="14">
+          <!--que es nuestro cuerpo vicioso,-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="nuestro" type="DP1MSP">nues|tro|</w>
+          <w lemma="cuerpo" type="NCMS000">cuer|po|</w>
+          <w lemma="vicioso" type="AQ0MS00">vi|cio|so|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="15">
+          <!--deste mar, tempestuoso-->
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="este" type="DD0MS0">es|te|</w>
+          <w lemma="mar" type="NCCS000">mar|</w>
+          <w lemma="tempestuoso" type="AQ0MS00">tem|pes|tu|o|so|</w>
+        </l>
+        <l met="1|-|-|-|-|-|7|-|" n="16">
+          <!--mundo por do navegamos.-->
+          <w lemma="mundo" type="NCMS000">mun|do|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="do" type="CS">do|</w>
+          <w lemma="navegar" type="VMIP1P0">na|ve|ga|mos|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="17">
+          <!--La quilla del sustentar,-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="quilla" type="NCFS000">qui|lla|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="sustentar" type="VMN0000">sus|ten|tar|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="18">
+          <!--que es la carne peligrosa,-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="carne" type="NCFS000">car|ne|</w>
+          <w lemma="peligroso" type="AQ0FS00">pe|li|gro|sa|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="19">
+          <!--vaya siempre temerosa-->
+          <w lemma="ir" type="VMM03S0">va|ya|</w>
+          <w lemma="siempre" type="RG">siem|pre|</w>
+          <w lemma="temeroso" type="AQ0FS00">te|me|ro|sa|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="20">
+          <!--adónde podrá topar;-->
+          <w lemma="adónde" type="PT00000">a|dón|de|</w>
+          <w lemma="poder" type="VMIF3S0">po|drá|</w>
+          <w lemma="topar" type="VMN0000">to|par|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="21">
+          <!--la proa, que es el deseo,-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="proa" type="NCFS000">proa|</w>
+          <w lemma="que" type="PR0CN00">que</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="deseo" type="NCMS000">de|se|o|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="22">
+          <!--no, se empache en lo que topa;-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="se" type="P00CN00">se</w>
+          <w lemma="empachar" type="VMSP3S0">em|pa|che</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA00S0">lo|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="topar" type="VMIP3S0">to|pa|</w>
+        </l>
+        <l met="-|-|-|4|5|-|7|-|" n="23">
+          <!--la voluntad, que es la popa,-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="voluntad" type="NCFS000">vo|lun|tad|</w>
+          <w lemma="que" type="PR0CN00">que</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="popa" type="NCFS000">po|pa|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="24">
+          <!--no la hiera devaneo;-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="lo" type="PP3FSA0">la|</w>
+          <w lemma="herir" type="VMSP3S0">hie|ra|</w>
+          <w lemma="devaneo" type="NCMS000">de|va|ne|o|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="25">
+          <!--y el piloto gobernar,-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="piloto" type="NCCS000">pi|lo|to|</w>
+          <w lemma="gobernar" type="VMN0000">go|ber|nar|</w>
+        </l>
+        <l met="1|-|3|-|5|-|7|-|" n="26">
+          <!--que es el flaco seso humano,-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="flaco" type="AQ0MS00">fla|co|</w>
+          <w lemma="seso" type="NCMS000">se|so</w>
+          <w lemma="humano" type="AQ0MS00">hu|ma|no|</w>
+        </l>
+        <l met="1|-|3|4|-|-|7|-|" n="27">
+          <!--lleve tal tiento en la mano-->
+          <w lemma="llevar" type="VMM03S0">lle|ve|</w>
+          <w lemma="tal" type="DD0CS0">tal|</w>
+          <w lemma="tiento" type="NCMS000">tien|to</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="mano" type="NCFS000">ma|no|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="28">
+          <!--que la sepa encaminar.-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="lo" type="PP3FSA0">la|</w>
+          <w lemma="saber" type="VMSP3S0">se|pa</w>
+          <w lemma="encaminar" type="VMN0000">en|ca|mi|nar|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="29">
+          <!--El mástil, que es la razón,-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="mástil" type="NCMS000">más|til|</w>
+          <w lemma="que" type="PR0CN00">que</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="razón" type="NCFS000">ra|zón|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="30">
+          <!--de tantas cuerdas asido,-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="tanto" type="DI0FP0">tan|tas|</w>
+          <w lemma="cuerda" type="NCFP000">cuer|das|</w>
+          <w lemma="asir" type="VMP00SM">a|si|do|</w>
+        </l>
+        <l met="1|-|3|-|5|-|7|-|" n="31">
+          <!--vaya enhiesto, no torcido,-->
+          <w lemma="ir" type="VMM03S0">va|ya</w>
+          <w lemma="enhiesto" type="AQ0MS00">e|nhies|to|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="torcer" type="VMP00SM">tor|ci|do|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="32">
+          <!--no le doblegue pasión.-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="le" type="PP3CSD0">le|</w>
+          <w lemma="doblegar" type="VMSP3S0">do|ble|gue|</w>
+          <w lemma="pasión" type="NCFS000">pa|sión|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="33">
+          <!--Para atar y desatar-->
+          <w lemma="para" type="SP">pa|ra</w>
+          <w lemma="atar" type="VMN0000">a|tar|</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="desatar" type="VMN0000">de|sa|tar|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="34">
+          <!--suban y bajen ligeros-->
+          <w lemma="subir" type="VMSP3P0">su|ban|</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="bajar" type="VMSP3P0">ba|jen|</w>
+          <w lemma="ligero" type="AQ0MP00">li|ge|ros|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="35">
+          <!--otros que son marineros,-->
+          <w lemma="otro" type="PI0MP00">o|tros|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="ser" type="VSIP3P0">son|</w>
+          <w lemma="marinero" type="AQ0MP00">ma|ri|ne|ros|</w>
+        </l>
+        <l met="1|-|-|-|-|-|7|-|" n="36">
+          <!--puestos para ejecutar.-->
+          <w lemma="poner" type="VMP00PM">pues|tos|</w>
+          <w lemma="para" type="SP">pa|ra</w>
+          <w lemma="ejecutar" type="VMN0000">e|je|cu|tar|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="37">
+          <!--Las velas por do se guía,-->
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="vela" type="NCFP000">ve|las|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="do" type="CS">do|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="guía" type="NCCS000">guí|a|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="38">
+          <!--que son los cinco sentidos,-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="ser" type="VSIP3P0">son|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="5" type="Z">cin|co|</w>
+          <w lemma="sentido" type="NCMP000">sen|ti|dos|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="39">
+          <!--sean de vientos heridos-->
+          <w lemma="ser" type="VSSP3P0">se|an|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="viento" type="NCMP000">vien|tos|</w>
+          <w lemma="herir" type="VMP00PM">he|ri|dos|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="40">
+          <!--que vengan sin travesía;-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="vengar" type="VMIP3P0">ven|gan|</w>
+          <w lemma="sin" type="SP">sin|</w>
+          <w lemma="travesía" type="NCFS000">tra|ve|sí|a|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="41">
+          <!--y si no pudiere andar-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="poder" type="VMSF1S0">pu|die|re</w>
+          <w lemma="andar" type="VMN0000">an|dar|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="42">
+          <!--nuestra flaqueza mezquina,-->
+          <w lemma="nuestro" type="DP1FSP">nues|tra|</w>
+          <w lemma="flaqueza" type="NCFS000">fla|que|za|</w>
+          <w lemma="mezquino" type="AQ0FS00">mez|qui|na|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="43">
+          <!--viento en popa a la bolina-->
+          <w lemma="viento" type="NCMS000">vien|to</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="popa" type="NCFS000">po|pa</w>
+          <w lemma="a" type="SP">a</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="bolina" type="NCFS000">bo|li|na|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="44">
+          <!--sepa al menos navegar.-->
+          <w lemma="saber" type="VMSP3S0">se|pa</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="menos" type="RG">me|nos|</w>
+          <w lemma="navegar" type="VMN0000">na|ve|gar|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

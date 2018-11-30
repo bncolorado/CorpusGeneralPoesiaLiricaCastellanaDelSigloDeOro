@@ -1,0 +1,116 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>¿En qué conocéis qu'es rey,</title>
+          <author>Cristóbal de Castillejo</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/obras-de-devocion--0/html/fef95092-82b1-11df-acc7-002185ce6064_1.html#I_1_"/>
+          <editor>Edición digital basada en la de Obras de Castillejo, edición, prólogo y notas de Jesús Rodríguez Bordona, Madrid, Espasa-Calpe, 1958, t. IV, pp. 175-236. </editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>¿En qué conocéis que es rey,</title>
+      </head>
+      <lg cert="low" type="Coplas">
+        <l met="-|2|-|-|5|6|7|-|" n="1">
+          <!--¿En qué conocéis que es rey,-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="qué" type="PT00000">qué|</w>
+          <w lemma="conocer" type="VMIP2P0">co|no|céis|</w>
+          <w lemma="que" type="CS">que</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="rey" type="NCMS000">rey|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="2">
+          <!--Reyes, éste que adoráis,-->
+          <w lemma="reyes" type="NP00000">re|yes|</w>
+          <w lemma="este" type="PD0MS00">és|te|</w>
+          <w lemma="que" type="PR0CN00">que</w>
+          <w lemma="adorar" type="VMIP2P0">a|do|ráis|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="3">
+          <!--pues lo más que le halláis-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="lo" type="PP3MSA0">lo|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="le" type="PP3CSD0">le|</w>
+          <w lemma="hallar" type="VMIP2P0">ha|lláis|</w>
+        </l>
+        <l met="1|2|3|-|-|6|7|-|" n="4">
+          <!--es un asna con un buey?-->
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="uno" type="DI0MS0">un|</w>
+          <w lemma="asno" type="NCFS000">as|na|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="uno" type="DI0MS0">un|</w>
+          <w lemma="buey" type="NCMS000">buey|</w>
+        </l>
+        <l met="-|-|-|-|-|-|7|-|" n="5">
+          <!--Mas vuestro conocimiento-->
+          <w lemma="mas" type="CC">mas|</w>
+          <w lemma="vuestro" type="DP2MSP">vues|tro|</w>
+          <w lemma="conocimiento" type="NCMS000">co|no|ci|mien|to|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="6">
+          <!--no es de humano acertamiento;-->
+          <w lemma="no" type="RN">no</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="humano" type="AQ0MS00">hu|ma|no</w>
+          <w lemma="acertamiento" type="NCMS000">a|cer|ta|mien|to|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="7">
+          <!--la estrella os muestra el camino,-->
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="estrella" type="NCFS000">es|tre|lla</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+          <w lemma="mostrar" type="VMIP3S0">mues|tra</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="camino" type="NCMS000">ca|mi|no|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="8">
+          <!--y el Espíritu divino-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="espíritu" type="NP00000">es|pí|ri|tu|</w>
+          <w lemma="divino" type="AQ0MS00">di|vi|no|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="9">
+          <!--alumbra el entendimiento.-->
+          <w lemma="alumbrar" type="VMIP3S0">a|lum|bra</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="entendimiento" type="NCMS000">en|ten|di|mien|to|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>
