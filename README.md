@@ -8,10 +8,11 @@ Este repositorio contiene un corpus piloto para la creación de un corpus genera
 Los poemas han sido seleccionados como muestras de diferentes tipos métrico-estróficos característicos del periodo, como canciones, coplas, églogase, endechas, madrigales, octavas y octavas reales, redondillas, romances, seguidillas, silva, tercetos o villancico, entre otros.
 
 ## Autores
-El corpus recoge autores de todo el perido, desde Garcilaso de la Vega hasta sor Juana Inés de la Cruz:
+El corpus recoge autores de todo el periodo, desde Garcilaso de la Vega hasta sor Juana Inés de la Cruz:
 
 - [Alonso de Ercilla](https://es.wikipedia.org/wiki/Alonso_de_Ercilla)
-- Antonio Enríquez Gómez
+- [Antonio Enríquez Gómez](https://es.wikipedia.org/wiki/Antonio_Enr%C3%ADquez_G%C3%B3mez)
+- [Luis Barahona de Soto](https://es.wikipedia.org/wiki/Luis_Barahona_de_Soto)
 - Calderón de la Barca
 - Cristóbal de Castillejo
 - Cristóbal de Virués
