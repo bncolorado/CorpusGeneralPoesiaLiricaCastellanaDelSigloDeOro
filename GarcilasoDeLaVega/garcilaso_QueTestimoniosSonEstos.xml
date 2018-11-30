@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>¿Qué testimonios son éstos</title>
+          <author>Garcilaso de la Vega</author>
+          <publisher>CVC</publisher>
+          <ref target="http://cvc.cervantes.es/actcult/garcilaso/versos/coplas.htm"/>
+          <editor>Bienvenido Morros, 1995</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title> ¿Qué testimonios son éstos</title>
+      </head>
+      <lg cert="high" type="Copla">
+        <l met="1|-|-|4|-|6|7|-|" n="1">
+          <!--¿Qué testimonios son éstos-->
+          <w lemma="qué" type="DT0CN0">qué|</w>
+          <w lemma="testimonio" type="NCMP000">tes|ti|mo|nios|</w>
+          <w lemma="ser" type="VSIP3P0">son|</w>
+          <w lemma="este" type="PD0MP00">és|tos|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="2">
+          <!--que le queréis levantar?-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="le" type="PP3CSD0">le|</w>
+          <w lemma="querer" type="VMIP2P0">que|réis|</w>
+          <w lemma="levantar" type="VMN0000">le|van|tar|</w>
+        </l>
+        <l met="-|2|3|-|-|-|7|-|" n="3">
+          <!--¡Que no fue sino bailar!-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="ser" type="VSIS3S0">fue|</w>
+          <w lemma="sino" type="CC">si|no|</w>
+          <w lemma="bailar" type="VMN0000">bai|lar|</w>
+        </l>
+        <l met="-|-|3|-|" n="4">
+          <!--Garcilaso-->
+          <w lemma="garcilaso" type="NP00000">gar|ci|la|so|</w>
+        </l>
+        <l met="1|-|3|-|-|6|7|-|" n="5">
+          <!--¿Ésta tienen por gran culpa?-->
+          <w lemma="este" type="PD0FS00">és|ta|</w>
+          <w lemma="tener" type="VMIP3P0">tie|nen|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="gran" type="AQ0CS00">gran|</w>
+          <w lemma="culpa" type="NCFS000">cul|pa|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="6">
+          <!--No lo fue, a mi parecer,-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="lo" type="PP3MSA0">lo|</w>
+          <w lemma="ser" type="VSIS3S0">fue</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="parecer" type="VMN0000">pa|re|cer|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="7">
+          <!--porque tiene por desculpa-->
+          <w lemma="porque" type="CS">por|que|</w>
+          <w lemma="tener" type="VMIP3S0">tie|ne|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="disculpa" type="NCFS000">des|cul|pa|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="8">
+          <!--que lo hizo la mujer.-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="lo" type="PP3MSA0">lo|</w>
+          <w lemma="hacer" type="VMIS3S0">hi|zo|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="mujer" type="NCFS000">mu|jer|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="9">
+          <!--Ésta le hizo caer-->
+          <w lemma="este" type="PD0FS00">és|ta|</w>
+          <w lemma="le" type="PP3CSD0">le|</w>
+          <w lemma="hacer" type="VMIS3S0">hi|zo|</w>
+          <w lemma="caer" type="VMN0000">ca|er|</w>
+        </l>
+        <l met="1|-|3|-|5|-|7|-|" n="10">
+          <!--mucho más que no el saltar-->
+          <w lemma="mucho" type="RG">mu|cho|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="no" type="RN">no</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="saltar" type="VMN0000">sal|tar|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="11">
+          <!--que hizo con el bailar.-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="hacer" type="VMIS3S0">hi|zo|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="bailar" type="VMN0000">bai|lar|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>
