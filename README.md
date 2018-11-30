@@ -20,7 +20,7 @@ El corpus recoge autores de todo el periodo, desde Garcilaso de la Vega hasta so
 - [Francisco de la Torre](https://es.wikipedia.org/wiki/Francisco_de_la_Torre_(poeta))
 - Francisco de Quevedo
 - Francisco López de Zárate
-- Fray Luis de León
+- [Fray Luis de León](https://es.wikipedia.org/wiki/Luis_de_Le%C3%B3n)
 - Garcilaso de la Vega
 - Gaspar Gil Polo
 - Hernando de Acunya
