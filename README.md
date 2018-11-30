@@ -14,7 +14,7 @@ El corpus recoge autores de todo el periodo, desde Garcilaso de la Vega hasta so
 - [Antonio Enríquez Gómez](https://es.wikipedia.org/wiki/Antonio_Enr%C3%ADquez_G%C3%B3mez)
 - [Luis Barahona de Soto](https://es.wikipedia.org/wiki/Luis_Barahona_de_Soto)
 - [Pedro Calderón de la Barca](https://es.wikipedia.org/wiki/Pedro_Calder%C3%B3n_de_la_Barca)
-- Cristóbal de Castillejo
+- [Cristóbal de Castillejo](https://es.wikipedia.org/wiki/Crist%C3%B3bal_de_Castillejo)
 - Cristóbal de Virués
 - Fernando de Herrera
 - Francisco de la Torre
