@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Cristales el Po desata</title>
+          <author>Luis de Góngora Y Argote</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/poesia-de-la-edad-de-oro-vol-ii/html/e022c8fa-a100-11e1-b1fb-00163ebf5e63_3.html#I_12_"/>
+          <editor>Juan Manuel Rozas</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Cristales el Po desata,</title>
+      </head>
+      <lg cert="..." type="...">
+        <l met="-|2|-|-|5|-|7|-|" n="1">
+          <!--Cristales el Po desata,-->
+          <w lemma="cristal" type="NCMP000">cris|ta|les|</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
+	  <w lemma="po" type="NP00000">po|</w>
+          <w lemma="desatar" type="VMIP3S0">de|sa|ta|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="2">
+          <!--que al hijo fueron del Sol,-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="hijo" type="NCMS000">hi|jo|</w>
+          <w lemma="ser" type="VSIS3P0">fue|ron|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="sol" type="NP00000">sol|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="3">
+          <!--si trémulo no farol,-->
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="trémulo" type="AQ0MS00">tré|mu|lo|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="farol" type="NCMS000">fa|rol|</w>
+        </l>
+        <l met="1|-|-|-|5|-|7|-|" n="4">
+          <!--túmulo de undosa plata;-->
+          <w lemma="túmulo" type="NCMS000">tú|mu|lo|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="undoso" type="AQ0FS00">un|do|sa|</w>
+          <w lemma="plata" type="NCFS000">pla|ta|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="5">
+          <!--las espumosas dilata-->
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="espumoso" type="AQ0FP00">es|pu|mo|sas|</w>
+          <w lemma="dilatar" type="VMIP3S0">di|la|ta|</w>
+        </l>
+        <l met="1|-|-|-|5|-|7|-|" n="6">
+          <!--armas de sañudo toro,-->
+          <w lemma="arma" type="NCFP000">ar|mas|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="sañudo" type="AQ0MS00">sa|ñu|do|</w>
+          <w lemma="toro" type="NCMS000">to|ro|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="7">
+          <!--contra arquitecto canoro,-->
+          <w lemma="contra" type="SP">con|tra</w>
+          <w lemma="arquitecto" type="NCMS000">ar|qui|tec|to|</w>
+          <w lemma="canoro" type="AQ0MS00">ca|no|ro|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="8">
+          <!--que orilla el Tajo eterniza-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="orillar" type="VMIP3S0">o|ri|lla</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="tajo" type="NP00000">ta|jo</w>
+          <w lemma="eternizar" type="VMIP3S0">e|ter|ni|za|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="9">
+          <!--la fulminada ceniza-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="fulminar" type="VMP00SF">ful|mi|na|da|</w>
+          <w lemma="ceniza" type="NCFS000">ce|ni|za|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="10">
+          <!--en simétrica urna de oro.-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="simétrico" type="AQ0FS00">si|mé|tri|ca</w>
+          <w lemma="urna" type="NCFS000">ur|na|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="oro" type="NCMS000">o|ro|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

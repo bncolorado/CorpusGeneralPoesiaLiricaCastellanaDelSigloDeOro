@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>La vidrïera mejor</title>
+          <author>Luis de Góngora Y Argote</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/sonetos-canciones-y-otros-poemas-en-arte-mayor--0/html/fee6a3de-82b1-11df-acc7-002185ce6064_2.html#I_32_"/>
+          <editor>Juan e Isabel Millé y Giménez</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>La vidrïera mejor</title>
+      </head>
+      <lg cert="high" type="Madrigal">
+        <l met="-|-|3|-|-|6|-|" n="1">
+          <!--La vidrïera mejor-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="vidrïera" type="NCFS000">vidrï|e|ra|</w>
+          <w lemma="mejor" type="AQ0CS00">me|jor|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="2">
+          <!--en sus brazos de cristal-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="su" type="DP3CPN">sus|</w>
+          <w lemma="brazo" type="NCMP000">bra|zos|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="cristal" type="NCMS000">cris|tal|</w>
+        </l>
+        <l met="1|-|3|4|-|-|7|-|" n="3">
+          <!--entra al Sol hoy celestial-->
+          <w lemma="entrar" type="VMIP3S0">en|tra</w>
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="sol" type="NP00000">sol|</w>
+          <w lemma="hoy" type="RG">hoy|</w>
+          <w lemma="celestial" type="AQ0CS00">ce|les|tial|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="4">
+          <!--en la capilla mayor;-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="capilla" type="NCFS000">ca|pi|lla|</w>
+          <w lemma="mayor" type="AQ0CS00">ma|yor|</w>
+        </l>
+        <l met="-|-|-|-|-|6|-|" n="5">
+          <!--a cuyo resplandor,-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="cuyo" type="PR0MS00">cu|yo|</w>
+          <w lemma="resplandor" type="NCMS000">res|plan|dor|</w>
+        </l>
+        <l met="-|-|3|4|-|6|-|" n="6">
+          <!--sin que más luz espere,-->
+          <w lemma="sin" type="SP">sin|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="luz" type="NCFS000">luz|</w>
+          <w lemma="esperar" type="VMSP3S0">es|pe|re|</w>
+        </l>
+        <l met="-|-|3|4|-|6|-|8|-|10|-|" n="7">
+          <!--Simeón fénix arde y cisne muere.-->
+          <w lemma="simeón" type="NP00000">si|me|ón|</w>
+          <w lemma="fénix" type="NCMS000">fé|nix|</w>
+          <w lemma="arder" type="VMIP3S0">ar|de</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="cisne" type="NCMS000">cis|ne|</w>
+          <w lemma="morir" type="VMIP3S0">mue|re|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>
