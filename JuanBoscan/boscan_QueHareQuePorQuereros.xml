@@ -1,0 +1,144 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>¿Qué haré, que por quereros</title>
+          <author>Juan Boscán</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/obras-poeticas--0/html/fedcb9d2-82b1-11df-acc7-002185ce6064_1.html#I_2_"/>
+          <editor>Enrique Canedo, 1917</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>¿Qué haré, que por quereros</title>
+      </head>
+      <lg cert="high" type="Canción">
+        <l met="1|-|3|-|-|-|7|-|" n="1">
+          <!--¿Qué haré, que por quereros-->
+          <w lemma="qué" type="PT00000">qué|</w>
+          <w lemma="hacer" type="VMIF1S0">ha|ré|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="querer" type="VMN0000">que|rer|</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="2">
+          <!--mis estremos son tan claros-->
+          <w lemma="mi" type="DP1CPS">mis|</w>
+          <w lemma="extremo" type="NCMP000">es|tre|mos|</w>
+          <w lemma="ser" type="VSIP3P0">son|</w>
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="claro" type="AQ0MP00">cla|ros|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="3">
+          <!--que ni soy para miraros-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="ni" type="RN">ni|</w>
+          <w lemma="ser" type="VSIP1S0">soy|</w>
+          <w lemma="para" type="SP">pa|ra|</w>
+          <w lemma="mirar" type="VMN0000">mi|rar|</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+        </l>
+        <l met="1|2|-|-|5|-|7|-|" n="4">
+          <!--ni puedo dexar de veros?-->
+          <w lemma="ni" type="RN">ni|</w>
+          <w lemma="poder" type="VMIP1S0">pue|do|</w>
+          <w lemma="dejar" type="VMN0000">de|xar|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="ver" type="VMN0000">ver|</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+        </l>
+        <l met="1|2|3|-|-|-|7|-|" n="5">
+          <!--Yo no sé con vuestra ausencia-->
+          <w lemma="yo" type="PP1CSN0">yo|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="saber" type="VMIP1S0">sé|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="vuestro" type="DP2FSP">vues|tra</w>
+          <w lemma="ausencia" type="NCFS000">au|sen|cia|</w>
+        </l>
+        <l met="1|2|-|-|5|-|7|-|" n="6">
+          <!--un punto bivir ausente,-->
+          <w lemma="uno" type="DI0MS0">un|</w>
+          <w lemma="punto" type="NCMS000">pun|to|</w>
+          <w lemma="vivir" type="VMN0000">bi|vir|</w>
+          <w lemma="ausente" type="NCCS000">au|sen|te|</w>
+        </l>
+        <l met="1|2|-|-|5|-|7|-|" n="7">
+          <!--ni puedo sufrir presente,-->
+          <w lemma="ni" type="RN">ni|</w>
+          <w lemma="poder" type="VMIP1S0">pue|do|</w>
+          <w lemma="sufrir" type="VMN0000">su|frir|</w>
+          <w lemma="presente" type="AQ0CS00">pre|sen|te|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="8">
+          <!--señora, tan gran presencia.-->
+          <w lemma="señor" type="NCFS000">se|ño|ra|</w>
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="gran" type="AQ0CS00">gran|</w>
+          <w lemma="presencia" type="NCFS000">pre|sen|cia|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="9">
+          <!--De suerte que, por quereros,-->
+          <w lemma="de_suerte_que" type="CS">de_|suer|te_|que|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="querer" type="VMN0000">que|rer|</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="10">
+          <!--mis estremos son tan claros-->
+          <w lemma="mi" type="DP1CPS">mis|</w>
+          <w lemma="extremo" type="NCMP000">es|tre|mos|</w>
+          <w lemma="ser" type="VSIP3P0">son|</w>
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="claro" type="AQ0MP00">cla|ros|</w>
+        </l>
+        <l met="-|2|3|-|-|-|7|-|" n="11">
+          <!--que ni soy para miraros-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="ni" type="RN">ni|</w>
+          <w lemma="ser" type="VSIP1S0">soy|</w>
+          <w lemma="para" type="SP">pa|ra|</w>
+          <w lemma="mirar" type="VMN0000">mi|rar|</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+        </l>
+        <l met="1|2|-|-|5|-|7|-|" n="12">
+          <!--ni puedo dexar de veros.-->
+          <w lemma="ni" type="RN">ni|</w>
+          <w lemma="poder" type="VMIP1S0">pue|do|</w>
+          <w lemma="dejar" type="VMN0000">de|xar|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="ver" type="VMN0000">ver|</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

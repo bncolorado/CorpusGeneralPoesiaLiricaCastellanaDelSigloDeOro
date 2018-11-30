@@ -1,0 +1,151 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Mi mal está en crecimiento:</title>
+          <author>Juan Boscán</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/obras-poeticas--0/html/fedcb9d2-82b1-11df-acc7-002185ce6064_1.html#I_3_"/>
+          <editor>Enrique Canedo, 1917</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Mi mal está en crecimiento:</title>
+      </head>
+      <lg cert="high" type="Canción">
+        <l met="-|2|-|4|-|-|7|-|" n="1">
+          <!--Mi mal está en crecimiento:-->
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="mal" type="NCMS000">mal|</w>
+          <w lemma="estar" type="VMIP3S0">es|tá</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="crecimiento" type="NCMS000">cre|ci|mien|to|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="2">
+          <!--comiença, y es tan estremo,-->
+          <w lemma="comenzar" type="VMIP3S0">co|mien|ça|</w>
+          <w lemma="y" type="CC">y</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="estremo" type="AQ0MS00">es|tre|mo|</w>
+        </l>
+        <l met="-|2|3|-|-|-|7|-|" n="3">
+          <!--que no siento lo que siento-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="sentar" type="VMIP1S0">sien|to|</w>
+          <w lemma="el" type="DA00S0">lo|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="sentar" type="VMIP1S0">sien|to|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="4">
+          <!--de temor de lo que temo.-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="temor" type="NCMS000">te|mor|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA00S0">lo|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="temer" type="VMIP1S0">te|mo|</w>
+        </l>
+        <l met="1|2|-|-|-|-|7|-|" n="5">
+          <!--No hize lo que convino;-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="hacer" type="VMIP3S0">hi|ze|</w>
+          <w lemma="el" type="DA00S0">lo|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="convenir" type="VMIS3S0">con|vi|no|</w>
+        </l>
+        <l met="1|2|3|-|-|-|7|-|" n="6">
+          <!--ya no sé lo que conviene.-->
+          <w lemma="ya" type="RG">ya|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="saber" type="VMIP1S0">sé|</w>
+          <w lemma="el" type="DA00S0">lo|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="convenir" type="VMIP3S0">con|vie|ne|</w>
+        </l>
+        <l met="1|-|-|-|5|-|7|-|" n="7">
+          <!--Témome del mal que viene,-->
+          <w lemma="temer" type="VMIP1S0">té|mo|</w>
+          <w lemma="me" type="PP1CS00">me|</w>
+	  <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="mal" type="NCMS000">mal|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="venir" type="VMIP3S0">vie|ne|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="8">
+          <!--no pensando en el que vino.-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="pensar" type="VMG0000">pen|san|do</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="venir" type="VMIS3S0">vi|no|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="9">
+          <!--En su primer movimiento-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="1" type="AO0MS00">pri|mer|</w>
+          <w lemma="movimiento" type="NCMS000">mo|vi|mien|to|</w>
+        </l>
+        <l met="1|-|3|4|5|-|7|-|" n="10">
+          <!--es mi mal, y es tan estremo,-->
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="mal" type="NCMS000">mal|</w>
+          <w lemma="y" type="CC">y</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="extremo" type="NCMS000">es|tre|mo|</w>
+        </l>
+        <l met="-|2|3|-|-|-|7|-|" n="11">
+          <!--que no siento lo que siento-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="sentar" type="VMIP1S0">sien|to|</w>
+          <w lemma="el" type="DA00S0">lo|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="sentar" type="VMIP1S0">sien|to|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="12">
+          <!--de temor de lo que temo.-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="temor" type="NCMS000">te|mor|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA00S0">lo|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="temer" type="VMIP1S0">te|mo|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,198 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Aí van las ansias mías,</title>
+          <author>Juan Boscán</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/obras-poeticas--0/html/fedcb9d2-82b1-11df-acc7-002185ce6064_1.html#I_3_"/>
+          <editor>Enrique Canedo, 1917</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Aí van las ansias mías,</title>
+      </head>
+      <lg cert="high" type="Glosa">
+        <l met="-|2|3|-|5|-|7|-|" n="1">
+          <!--Aí van las ansias mías,-->
+          <w lemma="ahí" type="RG">a|í|</w>
+          <w lemma="ir" type="VMIP3P0">van|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="ansia" type="NCFP000">an|sias|</w>
+          <w lemma="mío" type="AP0FP1S">mí|as|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="2">
+          <!--presentes y las pasadas,-->
+          <w lemma="presente" type="AQ0CP00">pre|sen|tes|</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="pasada" type="AQ0FP00">pa|sa|das|</w>
+        </l>
+        <l met="1|2|3|-|-|-|7|-|" n="3">
+          <!--do más bivas que pintadas-->
+          <w lemma="do" type="RG">do|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="vivo" type="AQ0FP00">bi|vas|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="pintar" type="VMP00PF">pin|ta|das|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="4">
+          <!--hallaréis mis fantasías-->
+          <w lemma="hallar" type="VMIF2P0">ha|lla|réis|</w>
+          <w lemma="mi" type="DP1CPS">mis|</w>
+          <w lemma="fantasía" type="NCFP000">fan|ta|sí|as|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="5">
+          <!--de mi mano trasladadas.-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="mano" type="NCFS000">ma|no|</w>
+          <w lemma="trasladar" type="VMP00PF">tras|la|da|das|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="6">
+          <!--Aunque a otras se presenta-->
+          <w lemma="aunque" type="CC">aun|que</w>
+          <w lemma="a" type="SP">a</w>
+          <w lemma="otro" type="PI0FP00">o|tras|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="presentar" type="VMIP3S0">pre|sen|ta|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="7">
+          <!--parte aquí de mis querellas,-->
+          <w lemma="parte" type="NCCS000">par|te</w>
+          <w lemma="aquí" type="RG">a|quí|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="mi" type="DP1CPS">mis|</w>
+          <w lemma="querella" type="NCFP000">que|re|llas|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="8">
+          <!--al rematar de la cuenta,-->
+          <w lemma="a" type="SP">a</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="rematar" type="VMN0000">re|ma|tar|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="cuenta" type="NCFS000">cuen|ta|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="9">
+          <!--la suma de todas ellas-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="suma" type="NCFS000">su|ma|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="todo" type="DI0FP0">to|das|</w>
+          <w lemma="ellos" type="PP3FP00">e|llas|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="10">
+          <!--a vuestra merced se asienta.-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="vuestro" type="DP2FSP">vues|tra|</w>
+          <w lemma="merced" type="NCFS000">mer|ced|</w>
+          <w lemma="se" type="P00CN00">se</w>
+          <w lemma="asentar" type="VMIP3S0">a|sien|ta|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="11">
+          <!--Si antes de yo seguiros-->
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="antes_de" type="SP">an|tes_|de|</w>
+          <w lemma="yo" type="PP1CSN0">yo|</w>
+          <w lemma="seguir" type="VMN0000">se|guir|</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="12">
+          <!--lo que hize fue acertado,-->
+          <w lemma="el" type="DA00S0">lo|</w>
+          <w lemma="que" type="PR0CN00">que</w>
+          <w lemma="hacer" type="VMIS1S0">hi|ze|</w>
+          <w lemma="ser" type="VSIS3S0">fue|</w>
+          <w lemma="acertar" type="VMP00SM">a|cer|ta|do|</w>
+        </l>
+        <l met="-|2|3|-|-|-|7|-|" n="13">
+          <!--de ser ya predestinado-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="ser" type="VSN0000">ser|</w>
+          <w lemma="ya" type="RG">ya|</w>
+          <w lemma="predestinar" type="VMP00SM">pre|des|ti|na|do|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="14">
+          <!--a la gloria de serviros,-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="gloria" type="NCFS000">glo|ria|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="servir" type="VMN0000">ser|vir|</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="15">
+          <!--parece que fui salvado.-->
+          <w lemma="parecer" type="VMIP3S0">pa|re|ce|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="ser" type="VSIS1S0">fui|</w>
+          <w lemma="salvar" type="VMP00SM">sal|va|do|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="16">
+          <!--Y si en otras hermosuras-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="si" type="CS">si</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="otro" type="DI0FP0">o|tras|</w>
+          <w lemma="hermosura" type="NCFP000">her|mo|su|ras|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="17">
+          <!--anduvo mi sentimiento,-->
+          <w lemma="andar" type="VMIS3S0">an|du|vo|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="sentimiento" type="NCMS000">sen|ti|mien|to|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="18">
+          <!--los males de aquel tormento-->
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="mal" type="NCMP000">ma|les|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="aquel" type="DD0MS0">a|quel|</w>
+          <w lemma="tormento" type="NCMS000">tor|men|to|</w>
+        </l>
+        <l met="1|2|-|-|-|-|7|-|" n="19">
+          <!--no fueron sino figuras-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="ser" type="VSIS3P0">fue|ron|</w>
+          <w lemma="sino" type="CC">si|no|</w>
+          <w lemma="figura" type="NCFP000">fi|gu|ras|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="20">
+          <!--deste nuevo pensamiento.-->
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="este" type="DD0MS0">es|te|</w>
+          <w lemma="nuevo" type="AQ0MS00">nue|vo|</w>
+          <w lemma="pensamiento" type="NCMS000">pen|sa|mien|to|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

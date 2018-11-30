@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Villa, y luego en aquel ver</title>
+          <author>Juan Boscán</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/obras-poeticas--0/html/fedcb9d2-82b1-11df-acc7-002185ce6064_5.html#I_141_"/>
+          <editor>Enrique Canedo, 1917</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Villa, y luego en aquel ver</title>
+      </head>
+      <lg cert="..." type="...">
+        <l met="1|-|3|-|-|6|7|-|" n="1">
+          <!--Villa, y luego en aquel ver-->
+          <w lemma="ver" type="VMIS1S0">vi|</w>
+	  <w lemma="lo" type="PP3FSA0">lla</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="luego" type="RG">lue|go</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="aquel" type="DD0MS0">a|quel|</w>
+          <w lemma="ver" type="VMN0000">ver|</w>
+        </l>
+        <l met="1|-|-|-|5|6|7|-|" n="2">
+          <!--vi quen nuestro mal no ay medio,-->
+          <w lemma="ver" type="VMIS1S0">vi|</w>
+          <w lemma="que" type="VMSP3P0">que</w>
+	  <w lemma="en" type="SP">en|</w>
+          <w lemma="nuestro" type="DP1MSP">nues|tro|</w>
+          <w lemma="mal" type="NCMS000">mal|</w>
+          <w lemma="no" type="RN">no</w>
+          <w lemma="haber" type="VMIP3S0">ay|</w>
+          <w lemma="medio" type="AQ0MS00">me|dio|</w>
+        </l>
+        <l met="-|-|3|4|5|-|7|-|" n="3">
+          <!--y sin él no ay remedio,-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="sin" type="SP">sin|</w>
+          <w lemma="él" type="PP3MS00">él|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="haber" type="VMIP3S0">ay|</w>
+          <w lemma="remedio" type="NCMS000">re|me|dio|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="4">
+          <!--sin perderme y vos perder.-->
+          <w lemma="sin" type="SP">sin|</w>
+          <w lemma="perder" type="VMN0000">per|der|</w>
+          <w lemma="me" type="PP1CS00">me</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="vos" type="PP2CS0P">vos|</w>
+          <w lemma="perder" type="VMN0000">per|der|</w>
+        </l>
+        <l met="1|2|-|4|5|6|-|" n="5">
+          <!--Quen mí la honor perderçe-->
+          <w lemma="que" type="CS">que</w>
+	  <w lemma="en" type="SP">en|</w>
+          <w lemma="mí" type="PP1CSO0">mí|</w>
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="honor" type="NCMS000">ho|nor|</w>
+          <w lemma="perder" type="VMN0000">per|der|</w>
+	  <w lemma="se" type="P00CN00">se|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="6">
+          <!--y la vida, ques mortal,-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="vida" type="NCFS000">vi|da|</w>
+          <w lemma="que" type="CS">que</w>
+	  <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="mortal" type="AQ0CS00">mor|tal|</w>
+        </l>
+        <l met="-|-|3|4|5|-|7|-|" n="7">
+          <!--ni en vos todo este mal-->
+          <w lemma="ni" type="CC">ni|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="vos" type="PP2CS0P">vos|</w>
+          <w lemma="todo" type="DI0MS0">to|do</w>
+          <w lemma="este" type="DD0MS0">es|te|</w>
+          <w lemma="mal" type="NCMS000">mal|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="8">
+          <!--no sería de dolerçe,-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="ser" type="VSIC1S0">se|ría|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="doler" type="VMN0000">do|ler|</w>
+	  <w lemma="se" type="P00CN00">se|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="9">
+          <!--no perdiendo el principal.-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="perder" type="VMG0000">per|dien|do</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="principal" type="AQ0CS00">prin|ci|pal|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="10">
+          <!--Temo abrán de padecer-->
+          <w lemma="temer" type="VMIP1S0">te|mo</w>
+          <w lemma="haber" type="VMIF3P0">a|brán|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="padecer" type="VMN0000">pa|de|cer|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="11">
+          <!--nuestras almas sin remedio,-->
+          <w lemma="nuestro" type="DP1FPP">nues|tras|</w>
+          <w lemma="alma" type="NCFP000">al|mas|</w>
+          <w lemma="sin" type="SP">sin|</w>
+          <w lemma="remedio" type="NCMS000">re|me|dio|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="12">
+          <!--pues que nos halla remedio-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="nos" type="PP1CP00">nos|</w>
+          <w lemma="hallar" type="VMIP3S0">ha|lla|</w>
+          <w lemma="remedio" type="NCMS000">re|me|dio|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="13">
+          <!--sin perderme y vos perder.-->
+          <w lemma="sin" type="SP">sin|</w>
+          <w lemma="perder" type="VMN0000">per|der|</w>
+          <w lemma="me" type="PP1CS00">me</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="vos" type="PP2CS0P">vos|</w>
+          <w lemma="perder" type="VMN0000">per|der|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,167 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Manya deve ser de Amor, </title>
+          <author>Juan Boscán</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/obras-poeticas--0/html/fedcb9d2-82b1-11df-acc7-002185ce6064_5.html#I_141_"/>
+          <editor>Enrique Canedo, 1917</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO y revisados manualmente. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Manya deve ser de Amor,</title>
+      </head>
+      <lg cert="..." type="...">
+        <l met="1|-|3|-|5|-|7|-|" n="1">
+          <!--Manya deve ser de Amor,-->
+          <w lemma="maño" type="AQ0FS00">man|ya|</w>
+          <w lemma="deber" type="VMIP3S0">de|ve|</w>
+          <w lemma="ser" type="VSN0000">ser|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="amor" type="NP00000">a|mor|</w>
+        </l>
+        <l met="-|-|3|4|-|-|7|-|" n="2">
+          <!--porque dél no me desmande,-->
+          <w lemma="porque" type="CS">por|que|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="él" type="PP3MS00">él|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="desmandar" type="VMSP3S0">des|man|de|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="3">
+          <!--que al tiempo que estoy peor,-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="al_tiempo_que" type="CS">a_el_|tiem|po_|que</w>
+          <w lemma="estar" type="VMIP1S0">es|toy|</w>
+          <w lemma="peor" type="AQ0CS00">pe|or|</w>
+        </l>
+        <l met="-|2|3|4|-|-|7|-|" n="4">
+          <!--ningún mal çufro tan grande-->
+          <w lemma="ninguno" type="DI0MS0">nin|gún|</w>
+          <w lemma="mal" type="AQ0MS00">mal|</w>
+          <w lemma="sufrir" type="VMIP1S0">çu|fro|</w>
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="grande" type="AQ0CS00">gran|de|</w>
+        </l>
+        <l met="-|2|3|4|-|-|7|-|" n="5">
+          <!--que no escuse otro mayor.-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="no" type="RN">no</w>
+          <w lemma="escusar" type="VMSP3S0">es|cu|se</w>
+          <w lemma="otro" type="PI0MS00">o|tro|</w>
+          <w lemma="mayor" type="AQ0CS00">ma|yor|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="6">
+          <!--La llaga del escarmiento-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="llaga" type="NCFS000">lla|ga|</w>
+          <w lemma="de" type="SP">de</w>
+	  <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="escarmiento" type="NCMS000">es|car|mien|to|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="7">
+          <!--de los males que an venido-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="mal" type="NCMP000">ma|les|</w>
+          <w lemma="que" type="PR0CN00">que</w>
+          <w lemma="haber" type="VMIP3P0">an|</w>
+          <w lemma="venir" type="VMP00SM">ve|ni|do|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="8">
+          <!--me haze que lo que siento-->
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="hacer" type="VMIP3S0">ha|ze|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="el" type="DA00S0">lo|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="sentar" type="VMIP1S0">sien|to|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="9">
+          <!--me parece buen partido-->
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="parecer" type="VMIP3S0">pa|re|ce|</w>
+          <w lemma="bueno" type="AQ0MS00">buen|</w>
+          <w lemma="partido" type="NCMS000">par|ti|do|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="10">
+          <!--de miedo de más tormento.-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="miedo" type="NCMS000">mie|do|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="tormento" type="NCMS000">tor|men|to|</w>
+        </l>
+        <l met="1|2|-|4|-|-|7|-|" n="11">
+          <!--Quiçá es enganyo de amor,-->
+          <w lemma="quizá" type="RG">qui|çá</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="enganyo" type="NCMS000">en|gan|yo|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="amor" type="NCMS000">a|mor|</w>
+        </l>
+        <l met="-|-|-|4|-|6|7|-|" n="12">
+          <!--porque mejor en mí mande,-->
+          <w lemma="porque" type="CS">por|que|</w>
+          <w lemma="mejor" type="RG">me|jor|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="mí" type="PP1CSO0">mí|</w>
+          <w lemma="mandar" type="VMSP3S0">man|de|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="13">
+          <!--pues cuando me va peor-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="cuando" type="CS">cuan|do|</w>
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="ir" type="VMIP3S0">va|</w>
+          <w lemma="peor" type="AQ0CS00">pe|or|</w>
+        </l>
+        <l met="-|2|3|4|-|-|7|-|" n="14">
+          <!--ningún mal sufro tan grande-->
+          <w lemma="ninguno" type="DI0MS0">nin|gún|</w>
+          <w lemma="mal" type="NCMS000">mal|</w>
+          <w lemma="sufrir" type="VMIP1S0">su|fro|</w>
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="grande" type="AQ0CS00">gran|de|</w>
+        </l>
+        <l met="-|2|3|4|-|-|7|-|" n="15">
+          <!--que no escuse otro peor.-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="no" type="RN">no</w>
+          <w lemma="escuse" type="VMSP3S0">es|cu|se</w>
+          <w lemma="otro" type="PI0MS00">o|tro|</w>
+          <w lemma="peor" type="AQ0CS00">pe|or|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>
