@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Río de Sevilla,</title>
+          <author>Lope de Vega</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/poesias-liricas--0/html/ff775820-82b1-11df-acc7-002185ce6064_3.html#I_18_"/>
+          <editor>Edición digital basada en la 7ª ed. de Madrid, Espasa-Calpe, 1978. </editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Río de Sevilla,</title>
+      </head>
+      <lg cert="high" type="Seguidillas">
+        <l met="1|-|-|-|-|" n="1">
+          <!--Río de Sevilla,-->
+          <w lemma="río_de_sevilla" type="NP00000">rí|o_|de_|se|vi|lla|</w>
+        </l>
+        <l met="1|-|-|4|-|" n="2">
+          <!--¡quién te pasase-->
+          <w lemma="quién" type="PT0CS00">quién|</w>
+          <w lemma="te" type="PP2CS00">te|</w>
+          <w lemma="pasar" type="VMSI3S0">pa|sa|se|</w>
+        </l>
+        <l met="-|-|-|-|-|6|-|" n="3">
+          <!--sin que la mi servilla-->
+          <w lemma="sin" type="SP">sin|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="servilla" type="NCFS000">ser|vi|lla|</w>
+        </l>
+        <l met="-|-|-|4|-|" n="4">
+          <!--se me mojase!-->
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="mojar" type="VMSI3S0">mo|ja|se|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="5">
+          <!--Salí de Sevilla-->
+          <w lemma="salir" type="VMIS1S0">sa|lí|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="sevilla" type="NP00000">se|vi|lla|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="6">
+          <!--a buscar mi dueño,-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="buscar" type="VMN0000">bus|car|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="dueño" type="NCMS000">due|ño|</w>
+        </l>
+        <l met="1|-|3|-|5|-|" n="7">
+          <!--puse al pie pequeño-->
+          <w lemma="poner" type="VMIS1S0">pu|se</w>
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="pie" type="NCMS000">pie|</w>
+          <w lemma="pequeño" type="AQ0MS00">pe|que|ño|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="8">
+          <!--dorada servilla.-->
+          <w lemma="dorar" type="VMP00SF">do|ra|da|</w>
+          <w lemma="servilla" type="NCFS000">ser|vi|lla|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="9">
+          <!--Como estoy a la orilla-->
+          <w lemma="como" type="CS">co|mo</w>
+          <w lemma="estar" type="VMIP1S0">es|toy</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="orilla" type="NCFS000">o|ri|lla|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="10">
+          <!--mi amor mirando,-->
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="amor" type="NCMS000">a|mor|</w>
+          <w lemma="mirar" type="VMG0000">mi|ran|do|</w>
+        </l>
+        <l met="1|-|-|-|5|-|" n="11">
+          <!--digo suspirando:-->
+          <w lemma="decir" type="VMIP1S0">di|go|</w>
+          <w lemma="suspirar" type="VMG0000">sus|pi|ran|do|</w>
+        </l>
+        <l met="1|-|-|4|-|" n="12">
+          <!--¡Quién te pasase-->
+          <w lemma="quién" type="PT0CS00">quién|</w>
+          <w lemma="te" type="PP2CS00">te|</w>
+          <w lemma="pasar" type="VMSI3S0">pa|sa|se|</w>
+        </l>
+        <l met="-|-|-|-|-|6|-|" n="13">
+          <!--sin que la mi servilla-->
+          <w lemma="sin" type="SP">sin|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="servilla" type="NCFS000">ser|vi|lla|</w>
+        </l>
+        <l met="-|-|-|4|-|" n="14">
+          <!--se me mojase!-->
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="mojar" type="VMSI3S0">mo|ja|se|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

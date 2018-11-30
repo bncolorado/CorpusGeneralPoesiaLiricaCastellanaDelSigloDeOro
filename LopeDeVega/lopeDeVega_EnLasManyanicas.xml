@@ -1,0 +1,162 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>En las mañanicas</title>
+          <author>Lope de Vega</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/poesias-liricas--0/html/ff775820-82b1-11df-acc7-002185ce6064_2.html#I_12_"/>
+          <editor>Edición digital basada en la 7ª ed. de Madrid, Espasa-Calpe, 1978. </editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>En las mañanicas</title>
+      </head>
+      <lg cert="..." type="...">
+        <l met="-|-|-|-|5|-|" n="1">
+          <!--En las mañanicas-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="mañanicas" type="AQ0FP00">ma|ña|ni|cas|</w>
+        </l>
+        <l met="-|-|-|-|" n="2">
+          <!--del mes de mayo-->
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="[??:??/5/??:??.??:??]" type="W">mes_|de_|ma|yo|</w>
+        </l>
+        <l met="1|-|-|-|-|6|-|" n="3">
+          <!--cantan los ruiseñores,-->
+          <w lemma="cantar" type="VMIP3P0">can|tan|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="ruiseñor" type="NCMP000">rui|se|ño|res|</w>
+        </l>
+        <l met="-|2|-|4|-|" n="4">
+          <!--retumba el campo.-->
+          <w lemma="retumbar" type="VMIP3S0">re|tum|ba</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="campo" type="NCMS000">cam|po|</w>
+        </l>
+        <l met="-|-|-|-|5|-|" n="5">
+          <!--En las mañanicas,-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="mañanicas" type="AQ0FP00">ma|ña|ni|cas|</w>
+        </l>
+        <l met="-|-|3|4|-|" n="6">
+          <!--como son frescas,-->
+          <w lemma="como" type="CS">co|mo|</w>
+          <w lemma="ser" type="VSIP3P0">son|</w>
+          <w lemma="fresco" type="AQ0FP00">fres|cas|</w>
+        </l>
+        <l met="1|-|-|-|5|-|" n="7">
+          <!--cubren ruiseñores-->
+          <w lemma="cubrir" type="VMIP3P0">cu|bren|</w>
+          <w lemma="ruiseñor" type="NCMP000">rui|se|ño|res|</w>
+        </l>
+        <l met="-|-|-|4|-|" n="8">
+          <!--las alamedas.-->
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="alameda" type="NCFP000">a|la|me|das|</w>
+        </l>
+        <l met="1|-|-|-|5|-|" n="9">
+          <!--Ríense las fuentes-->
+          <w lemma="ríense" type="NP00000">rí|en|se|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="fuente" type="NCFP000">fuen|tes|</w>
+        </l>
+        <l met="-|2|-|4|-|" n="10">
+          <!--tirando perlas-->
+          <w lemma="tirar" type="VMG0000">ti|ran|do|</w>
+          <w lemma="perla" type="NCFP000">pe|rlas|</w>
+        </l>
+        <l met="-|-|-|-|5|-|" n="11">
+          <!--a las florecillas-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="flor" type="NCFP00V">flo|re|ci|llas|</w>
+        </l>
+        <l met="-|-|3|4|5|-|" n="12">
+          <!--que están más cerca.-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="estar" type="VMIP3P0">es|tán|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="cerca" type="RG">cer|ca|</w>
+        </l>
+        <l met="1|-|-|-|5|-|" n="13">
+          <!--Vístense las plantas-->
+          <w lemma="vístense" type="NP00000">vís|ten|se|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="planta" type="NCFP000">plan|tas|</w>
+        </l>
+        <l met="-|2|-|4|-|" n="14">
+          <!--de varias sedas-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="varios" type="DI0FP0">va|rias|</w>
+          <w lemma="seda" type="NCFP000">se|das|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="15">
+          <!--que sacar colores-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="sacar" type="VMN0000">sa|car|</w>
+          <w lemma="color" type="NCMP000">co|lo|res|</w>
+        </l>
+        <l met="1|-|-|4|-|" n="16">
+          <!--poco les cuesta.-->
+          <w lemma="poco" type="RG">po|co|</w>
+          <w lemma="le" type="PP3CPD0">les|</w>
+          <w lemma="costar" type="VMIP3S0">cues|ta|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="17">
+          <!--Los campos alegran-->
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="campo" type="NCMP000">cam|pos|</w>
+          <w lemma="alegrar" type="VMIP3P0">a|le|gran|</w>
+        </l>
+        <l met="-|2|-|4|-|" n="18">
+          <!--tapetes varios,-->
+          <w lemma="tapete" type="NCMP000">ta|pe|tes|</w>
+          <w lemma="varios" type="DI0MP0">va|rios|</w>
+        </l>
+        <l met="1|-|-|-|-|6|-|" n="19">
+          <!--cantan los ruiseñores,-->
+          <w lemma="cantar" type="VMIP3P0">can|tan|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="ruiseñor" type="NCMP000">rui|se|ño|res|</w>
+        </l>
+        <l met="-|2|-|4|-|" n="20">
+          <!--retumba el campo.-->
+          <w lemma="retumbar" type="VMIP3S0">re|tum|ba</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="campo" type="NCMS000">cam|po|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

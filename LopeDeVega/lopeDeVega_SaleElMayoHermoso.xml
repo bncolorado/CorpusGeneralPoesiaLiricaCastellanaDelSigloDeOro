@@ -1,0 +1,150 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Sale el mayo hermoso</title>
+          <author>Lope de Vega</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/poesias-liricas--0/html/ff775820-82b1-11df-acc7-002185ce6064_2.html#I_12_"/>
+          <editor>Edición digital basada en la 7ª ed. de Madrid, Espasa-Calpe, 1978. </editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Sale el mayo hermoso</title>
+      </head>
+      <lg cert="..." type="...">
+        <l met="1|-|-|-|5|-|" n="1">
+          <!--Sale el mayo hermoso-->
+          <w lemma="salir" type="VMIP3S0">sa|le</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="[??:??/5/??:??.??:??]" type="W">ma|yo</w>
+          <w lemma="hermoso" type="AQ0MS00">her|mo|so|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="2">
+          <!--con los frescos vientos-->
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="fresco" type="AQ0MP00">fres|cos|</w>
+          <w lemma="viento" type="NCMP000">vien|tos|</w>
+        </l>
+        <l met="-|2|3|-|-|" n="3">
+          <!--que le ha dado marzo-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="le" type="PP3CSD0">le</w>
+          <w lemma="haber" type="VAIP3S0">ha|</w>
+          <w lemma="dar" type="VMP00SM">da|do|</w>
+          <w lemma="[??:??/3/??:??.??:??]" type="W">mar|zo|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="4">
+          <!--de céfiros bellos.-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="céfiro" type="NCMP000">cé|fi|ros|</w>
+          <w lemma="bello" type="AQ0MP00">be|llos|</w>
+        </l>
+        <l met="-|2|-|-|-|" n="5">
+          <!--Las lluvias de abril-->
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="lluvia" type="NCFP000">llu|vias|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="[??:??/4/??:??.??:??]" type="W">a|bril|</w>
+        </l>
+        <l met="1|-|-|-|5|-|" n="6">
+          <!--flores le trujeron:-->
+          <w lemma="flor" type="NCFP000">flo|res|</w>
+          <w lemma="le" type="PP3CSD0">le|</w>
+          <w lemma="trujeron" type="VMIS3P0">tru|je|ron|</w>
+        </l>
+        <l met="1|-|-|-|5|-|" n="7">
+          <!--púsose guirnaldas-->
+          <w lemma="púsose" type="VMSP3S0">pú|so|se|</w>
+          <w lemma="guirnalda" type="NCFP000">guir|nal|das|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="8">
+          <!--en rojos cabellos.-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="rojo" type="AQ0MP00">ro|jos|</w>
+          <w lemma="cabello" type="NCMP000">ca|be|llos|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="9">
+          <!--Los que eran amantes-->
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="que" type="PR0CN00">que</w>
+          <w lemma="ser" type="VSII3P0">e|ran|</w>
+          <w lemma="amante" type="AQ0CP00">a|man|tes|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="10">
+          <!--amaron de nuevo-->
+          <w lemma="amar" type="VMIS3P0">a|ma|ron|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="nuevo" type="AQ0MS00">nue|vo|</w>
+        </l>
+        <l met="-|-|-|4|5|-|" n="11">
+          <!--y los que no amaban-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="no" type="RN">no</w>
+          <w lemma="amar" type="VMII3P0">a|ma|ban|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="12">
+          <!--a buscarlo fueron.-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="buscar" type="VMN0000">bus|car|</w>
+          <w lemma="lo" type="PP3MSA0">lo|</w>
+          <w lemma="ser" type="VSIS3P0">fue|ron|</w>
+        </l>
+        <l met="-|-|-|-|5|-|" n="13">
+          <!--Y luego que vieron-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="luego_que" type="CS">lue|go_|que|</w>
+          <w lemma="ver" type="VMIS3P0">vie|ron|</w>
+        </l>
+        <l met="-|2|-|-|-|" n="14">
+          <!--mañanas de mayo,-->
+          <w lemma="mañana" type="NCCP000">ma|ña|nas|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="[??:??/5/??:??.??:??]" type="W">ma|yo|</w>
+        </l>
+        <l met="1|-|-|-|-|6|-|" n="15">
+          <!--cantan los ruiseñores,-->
+          <w lemma="cantar" type="VMIP3P0">can|tan|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="ruiseñor" type="NCMP000">rui|se|ño|res|</w>
+        </l>
+        <l met="-|2|-|4|-|" n="16">
+          <!--retumba el campo.-->
+          <w lemma="retumbar" type="VMIP3S0">re|tum|ba</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="campo" type="NCMS000">cam|po|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

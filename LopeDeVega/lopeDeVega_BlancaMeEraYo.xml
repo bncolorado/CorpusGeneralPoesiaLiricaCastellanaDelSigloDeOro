@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Blanca me era yo</title>
+          <author>Lope de Vega</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/poesias-liricas--0/html/ff775820-82b1-11df-acc7-002185ce6064_2.html#I_5_"/>
+          <editor>Edición digital basada en la 7ª ed. de Madrid, Espasa-Calpe, 1978. </editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title> Blanca me era yo</title>
+      </head>
+      <lg cert="..." type="...">
+        <l met="1|-|3|-|5|-|" n="1">
+          <!--Blanca me era yo-->
+          <w lemma="blanca" type="NP00000">blan|ca|</w>
+          <w lemma="me" type="PP1CS00">me</w>
+          <w lemma="ser" type="VSII3S0">e|ra|</w>
+          <w lemma="yo" type="PP1CSN0">yo|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="2">
+          <!--cuando entré en la siega;-->
+          <w lemma="cuando" type="CS">cuan|do</w>
+          <w lemma="entrar" type="VMIS1S0">en|tré</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="siega" type="NCFS000">sie|ga|</w>
+        </l>
+        <l met="1|-|3|-|5|6|-|8|-|" n="3">
+          <!--diome el sol y ya soy morena.-->
+          <w lemma="diome" type="VMSP3S0">dio|me</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="sol" type="NCMS000">sol|</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="ya" type="RG">ya|</w>
+          <w lemma="ser" type="VSIP1S0">soy|</w>
+          <w lemma="moreno" type="AQ0FS00">mo|re|na|</w>
+        </l>
+        <l met="1|-|-|4|-|6|7|-|" n="4">
+          <!--Blanca solía yo ser-->
+          <w lemma="blanca" type="NP00000">blan|ca|</w>
+          <w lemma="soler" type="VMII3S0">so|lí|a|</w>
+          <w lemma="yo" type="PP1CSN0">yo|</w>
+          <w lemma="ser" type="VSN0000">ser|</w>
+        </l>
+        <l met="1|-|-|-|5|-|7|-|" n="5">
+          <!--antes que a segar viniese;-->
+          <w lemma="antes" type="RG">an|tes|</w>
+          <w lemma="que" type="CS">que</w>
+          <w lemma="a" type="SP">a</w>
+          <w lemma="segar" type="VMN0000">se|gar|</w>
+          <w lemma="venir" type="VMSI3S0">vi|nie|se|</w>
+        </l>
+        <l met="-|2|3|-|5|-|7|-|" n="6">
+          <!--mas no quiso el sol que fuese-->
+          <w lemma="mas" type="CC">mas|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="querer" type="VMIS3S0">qui|so</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="sol" type="NCMS000">sol|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="ser" type="VSSI3S0">fue|se|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="7">
+          <!--blanco el fuego en mi poder.-->
+          <w lemma="blanco" type="AQ0MS00">blan|co</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="fuego" type="NCMS000">fue|go</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="poder" type="NCMS000">po|der|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="8">
+          <!--Mi edad al amanecer-->
+          <w lemma="mi" type="DP1CSS">mi</w>
+          <w lemma="edad" type="NCFS000">e|dad|</w>
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="amanecer" type="NCMS000">a|ma|ne|cer|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="9">
+          <!--era lustrosa azucena;-->
+          <w lemma="ser" type="VSII3S0">e|ra|</w>
+          <w lemma="lustroso" type="AQ0FS00">lus|tro|sa</w>
+          <w lemma="azucena" type="NCFS000">a|zu|ce|na|</w>
+        </l>
+        <l met="1|-|3|-|5|6|-|8|-|" n="10">
+          <!--diome el sol y ya soy morena.-->
+          <w lemma="diome" type="VMSP3S0">dio|me</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="sol" type="NCMS000">sol|</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="ya" type="RG">ya|</w>
+          <w lemma="ser" type="VSIP1S0">soy|</w>
+          <w lemma="moreno" type="AQ0FS00">mo|re|na|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

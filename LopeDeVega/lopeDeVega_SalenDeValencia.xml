@@ -1,0 +1,122 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Salen de Valencia</title>
+          <author>Lope de Vega</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/poesias-liricas--0/html/ff775820-82b1-11df-acc7-002185ce6064_3.html#I_20_"/>
+          <editor>Edición digital basada en la 7ª ed. de Madrid, Espasa-Calpe, 1978. </editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>   Salen de Valencia</title>
+      </head>
+      <lg cert="high" type="Seguidillas">
+        <l met="1|-|-|-|5|-|" n="1">
+          <!--Salen de Valencia-->
+          <w lemma="salir" type="VMIP3P0">sa|len|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="valencia" type="NP00000">va|len|cia|</w>
+        </l>
+        <l met="1|-|-|4|-|" n="2">
+          <!--noche de San Juan-->
+          <w lemma="noche" type="NCFS000">no|che|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="san_juan" type="NP00000">san_|juan|</w>
+        </l>
+        <l met="1|2|-|-|5|-|" n="3">
+          <!--mil coches de damas-->
+          <w lemma="1000" type="Z">mil|</w>
+          <w lemma="coche" type="NCMP000">co|ches|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="dama" type="NCFP000">da|mas|</w>
+        </l>
+        <l met="-|2|-|-|5|-|" n="4">
+          <!--al fresco del mar.-->
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="fresco" type="NCMS000">fres|co|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="marzo" type="NCMS000">mar.|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="5">
+          <!--¡Cómo retumban los remos,-->
+          <w lemma="cómo" type="PT00000">có|mo|</w>
+          <w lemma="retumbar" type="VMIP3P0">re|tum|ban|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="remo" type="NCMP000">re|mos|</w>
+        </l>
+        <l met="1|-|-|-|5|-|" n="6">
+          <!--madre, en el agua,-->
+          <w lemma="madre" type="NCFS000">ma|dre|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="agua" type="NCCS000">a|gua|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="7">
+          <!--con el fresco viento-->
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="fresco" type="AQ0MS00">fres|co|</w>
+          <w lemma="viento" type="NCMS000">vien|to|</w>
+        </l>
+        <l met="-|-|-|4|-|" n="8">
+          <!--de la mañana!-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="mañana" type="NCCS000">ma|ña|na|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="9">
+          <!--Despertad, señora mía,-->
+          <w lemma="despertar" type="VMM02P0">des|per|tad|</w>
+          <w lemma="señor" type="NCFS000">se|ño|ra|</w>
+          <w lemma="mío" type="AP0FS1S">mí|a|</w>
+        </l>
+        <l met="-|-|3|-|" n="10">
+          <!--despertad,-->
+          <w lemma="despertar" type="VMM02P0">des|per|tad|</w>
+        </l>
+        <l met="-|-|3|-|5|-|" n="11">
+          <!--porque viene el alba-->
+          <w lemma="porque" type="CS">por|que|</w>
+          <w lemma="venir" type="VMIP3S0">vie|ne</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="alba" type="NCFS000">al|ba|</w>
+        </l>
+        <l met="-|-|3|4|-|" n="12">
+          <!--del señor San Juan.-->
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="señor" type="NCMS000">se|ñor|</w>
+          <w lemma="san_juan" type="NP00000">san_|juan|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>
