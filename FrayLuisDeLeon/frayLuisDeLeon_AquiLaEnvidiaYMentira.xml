@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Aquí la envidia y mentira</title>
+          <author>Fray Luis de León</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/poesias--3/html/01e9471c-82b2-11df-acc7-002185ce6064_4.html#I_34_"/>
+          <editor>Javier San José Lera</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Aquí la envidia y mentira</title>
+      </head>
+      <lg cert="high" type="Décima">
+        <l met="-|2|-|4|-|-|7|-|" n="1">
+          <!--Aquí la envidia y mentira-->
+          <w lemma="aquí" type="RG">a|quí|</w>
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="envidia" type="NCFS000">en|vi|dia</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="mentira" type="NCFS000">men|ti|ra|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="2">
+          <!--me tuvieron encerrado.-->
+          <w lemma="me" type="PP1CS00">me|</w>
+          <w lemma="tener" type="VMIS3P0">tu|vie|ron|</w>
+          <w lemma="encerrar" type="VMP00SM">en|ce|rra|do|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="3">
+          <!--Dichoso el humilde estado-->
+          <w lemma="dichoso" type="NP00000">di|cho|so</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="humilde" type="AQ0CS00">hu|mil|de</w>
+          <w lemma="estado" type="NCMS000">es|ta|do|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="4">
+          <!--del sabio que se retira-->
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="sabio" type="NCMS000">sa|bio|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="retirar" type="VMIP3S0">re|ti|ra|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="5">
+          <!--de aqueste mundo malvado,-->
+          <w lemma="de" type="SP">de</w>
+          <w lemma="aqueste" type="VMSP3S0">a|ques|te|</w>
+          <w lemma="mundo" type="NCMS000">mun|do|</w>
+          <w lemma="malvado" type="AQ0MS00">mal|va|do|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="6">
+          <!--y con pobre mesa y casa-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="pobre" type="AQ0CS00">po|bre|</w>
+          <w lemma="mesa" type="NCFS000">me|sa</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="casa" type="NCFS000">ca|sa|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="7">
+          <!--en el campo deleitoso,-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="campo" type="NCMS000">cam|po|</w>
+          <w lemma="deleitoso" type="AQ0MS00">de|lei|to|so|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="8">
+          <!--con sólo Dios se compasa,-->
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="sólo" type="RG">só|lo|</w>
+          <w lemma="dios" type="NP00000">dios|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="compasar" type="VMIP3S0">com|pa|sa|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="9">
+          <!--y a solas su vida pasa-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="a_solas" type="RG">a_|so|las|</w>
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="vida" type="NCFS000">vi|da|</w>
+          <w lemma="pasar" type="VMIP3S0">pa|sa|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="10">
+          <!--ni envidiado ni envidioso.-->
+          <w lemma="ni" type="CC">ni</w>
+          <w lemma="envidiar" type="VMP00SM">en|vi|dia|do|</w>
+          <w lemma="ni" type="CC">ni</w>
+          <w lemma="envidioso" type="AQ0MS00">en|vi|dio|so|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

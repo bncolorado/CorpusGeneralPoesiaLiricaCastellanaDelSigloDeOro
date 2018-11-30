@@ -1,0 +1,141 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>¡Oh, Venus poderosa,</title>
+          <author>Fray Luis de León</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/poesias--3/html/01e9471c-82b2-11df-acc7-002185ce6064_9.html#I_79_"/>
+          <editor>Javier San José Lera</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>¡Oh, Venus poderosa,</title>
+      </head>
+      <lg cert="high" type="Sextetos-lira">
+        <l met="-|2|-|-|-|6|-|" n="1">
+          <!--¡Oh, Venus poderosa,-->
+          <w lemma="oh" type="I">oh|</w>
+          <w lemma="venus" type="NP00000">ve|nus|</w>
+          <w lemma="poderoso" type="AQ0FS00">po|de|ro|sa|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|8|-|-|-|-|13|-|" n="2">
+          <!--de Gnido y Pafo reina esclarecida,-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="gnido" type="NP00000">g|ni|do|</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="pafo" type="NP00000">pa|fo|</w>
+          <w lemma="reina" type="NCFS000">rei|na|</w>
+          <w lemma="esclarecer" type="VMP00SF">es|cla|re|ci|da|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="3">
+          <!--desampara la hermosa-->
+          <w lemma="desamparar" type="VMIP3S0">de|sam|pa|ra|</w>
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="hermoso" type="AQ0FS00">her|mo|sa|</w>
+        </l>
+        <l met="1|-|3|4|-|6|-|8|-|10|-|" n="4">
+          <!--Cipro, do fuiste siempre tan querida,-->
+          <w lemma="cipro" type="NP00000">ci|pro|</w>
+          <w lemma="do" type="NCMS000">do|</w>
+          <w lemma="ser" type="VSIS2S0">fuis|te|</w>
+          <w lemma="siempre" type="RG">siem|pre|</w>
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="querer" type="VMP00SF">que|ri|da|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|" n="5">
+          <!--y pásala volando-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="pasar" type="VMM02S0">pa|sa|</w>
+          <w lemma="lo" type="PP3FSA0">la|</w>
+          <w lemma="volar" type="VMG0000">vo|lan|do|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|-|-|10|-|" n="6">
+          <!--a do te está mi Glícera llamando!-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="do" type="NCMS000">do|</w>
+          <w lemma="te" type="PP2CS00">te</w>
+          <w lemma="estar" type="VMIP3S0">es|tá|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="glícera" type="NP00000">glí|ce|ra|</w>
+          <w lemma="llamar" type="VMG0000">lla|man|do|</w>
+        </l>
+        <l met="1|-|-|-|-|6|-|" n="7">
+          <!--Venga en tu compañía-->
+          <w lemma="vengar" type="VMM02S0">ven|ga</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="compañía" type="NCFS000">com|pa|ñí|a|</w>
+        </l>
+        <l met="-|-|3|-|5|-|-|-|9|-|" n="8">
+          <!--el mozuelo cruel, acelerado;-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="mozuelo" type="NCMS000">mo|zue|lo|</w>
+          <w lemma="cruel" type="AQ0CS00">cruel|</w>
+          <w lemma="acelerar" type="VMP00SM">a|ce|le|ra|do|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="9">
+          <!--y las Ninfas querría-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="ninfas" type="NP00000">nin|fas|</w>
+          <w lemma="querer" type="VMIC1S0">que|rrí|a|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|-|-|10|-|" n="10">
+          <!--con las Gracias trujeses a tu lado,-->
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="gracias" type="NP00000">gra|cias|</w>
+          <w lemma="trujeses" type="NCMP000">tru|je|ses|</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="lado" type="NCMS000">la|do|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|" n="11">
+          <!--la mocedad sabrosa,-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="mocedad" type="NCFS000">mo|ce|dad|</w>
+          <w lemma="sabroso" type="AQ0FS00">sa|bro|sa|</w>
+        </l>
+        <l met="1|-|3|4|-|6|7|8|-|10|-|" n="12">
+          <!--do, si no bulle amor, es triste cosa.-->
+          <w lemma="do" type="NCMS000">do|</w>
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="bullir" type="VMIP3S0">bu|lle</w>
+          <w lemma="amor" type="NCMS000">a|mor|</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="triste" type="AQ0CS00">tris|te|</w>
+          <w lemma="cosa" type="NCFS000">co|sa|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>
