@@ -33,7 +33,7 @@ El corpus recoge autores de todo el periodo, desde Garcilaso de la Vega hasta so
 - Luis de Camoes
 - Luis de Góngora Y Argote
 - Lupercio Leonardo Argensola
-- Miguel de Cervantes
+- [Miguel de Cervantes](https://es.wikipedia.org/wiki/Miguel_de_Cervantes)
 - San Juan de la Cruz
 - Teresa de Jesús
 
