@@ -1,0 +1,214 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>A comenzar el día, </title>
+          <author>Jacinto Polo de Medina</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/academias-del-jardin--0/html/fede6ca0-82b1-11df-acc7-002185ce6064_1.htm#I_6_"/>
+          <editor>Edición digital a partir de la de Madrid, Imp. del Reino, 1630. </editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>A comenzar el día,</title>
+      </head>
+      <lg cert="high" type="Silva">
+        <l met="-|-|-|4|-|6|-|" n="1">
+          <!--A comenzar el día,-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="comenzar" type="VMN0000">co|men|zar|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="día" type="NCMS000">dí|a|</w>
+        </l>
+        <l met="-|2|-|-|-|6|7|-|-|10|-|" n="2">
+          <!--pronóstico del sol, naces, Aurora,-->
+          <w lemma="pronóstico" type="NCMS000">pro|nós|ti|co|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="sol" type="NCMS000">sol|</w>
+          <w lemma="nacer" type="VMIP2S0">na|ces|</w>
+          <w lemma="aurora" type="NP00000">au|ro|ra|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|-|-|10|-|" n="3">
+          <!--de su venida bella embajadora,-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="venida" type="NCFS000">ve|ni|da|</w>
+          <w lemma="bello" type="AQ0FS00">be|lla</w>
+          <w lemma="embajador" type="NCFS000">em|ba|ja|do|ra|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="4">
+          <!--que a decirla te envía,-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="decir" type="VMN0000">de|cir|</w>
+          <w lemma="lo" type="PP3FSA0">la|</w>
+          <w lemma="te" type="PP2CS00">te</w>
+          <w lemma="enviar" type="VMIP3S0">en|ví|a|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|-|-|10|-|" n="5">
+          <!--y en montes la pregonas con reflejos,-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="monte" type="NCMP000">mon|tes|</w>
+          <w lemma="lo" type="PP3FSA0">la|</w>
+          <w lemma="pregonar" type="VMIP2S0">pre|go|nas|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="reflejo" type="NCMP000">re|fle|jos|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|-|9|10|-|" n="6">
+          <!--remendando a pedazos los más lejos;-->
+          <w lemma="remendar" type="VMG0000">re|men|dan|do</w>
+          <w lemma="a" type="SP">a</w>
+          <w lemma="pedazo" type="NCMP000">pe|da|zos|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="lejos" type="RG">le|jos|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="7">
+          <!--procurando que el prado-->
+          <w lemma="procurar" type="VMG0000">pro|cu|ran|do|</w>
+          <w lemma="que" type="CS">que</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="prado" type="NCMS000">pra|do|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|8|-|10|-|" n="8">
+          <!--prevenga al colorín, pensil alado,-->
+          <w lemma="prevenir" type="VMSP3S0">pre|ven|ga</w>
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="colorín" type="NCMS000">co|lo|rín|</w>
+          <w lemma="pensil" type="AQ0CS00">pen|sil|</w>
+          <w lemma="alado" type="AQ0MS00">a|la|do|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|-|-|10|-|" n="9">
+          <!--chirimía de pluma de la selva,-->
+          <w lemma="chirimía" type="NCFS000">chi|ri|mí|a|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="pluma" type="NCFS000">plu|ma|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="selva" type="NCFS000">sel|va|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="10">
+          <!--las bugetas de olores-->
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="bugetas" type="NCFP000">bu|ge|tas|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="olor" type="NCMP000">o|lo|res|</w>
+        </l>
+        <l met="-|2|-|4|-|-|-|8|-|10|-|" n="11">
+          <!--que duermen yerbas y recuerdan flores;-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="dormir" type="VMIP3P0">duer|men|</w>
+          <w lemma="yerba" type="NCFP000">yer|bas|</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="recordar" type="VMIP3P0">re|cuer|dan|</w>
+          <w lemma="flor" type="NCFP000">flo|res|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|-|-|10|-|" n="12">
+          <!--al músico arroyuelo sonoroso,-->
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="músico" type="NCMS000">mú|si|co</w>
+          <w lemma="arroyuelo" type="NCMS000">a|rro|yue|lo|</w>
+          <w lemma="sonoroso" type="AQ0MS00">so|no|ro|so|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|-|-|10|-|" n="13">
+          <!--del puro hacer gargantas espumoso,-->
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="puro" type="AQ0MS00">pu|ro</w>
+          <w lemma="hacer" type="VMN0000">ha|cer|</w>
+          <w lemma="garganta" type="NCFP000">gar|gan|tas|</w>
+          <w lemma="espumoso" type="AQ0MS00">es|pu|mo|so|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|-|-|10|-|" n="14">
+          <!--que cantando y volando se dilata,-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="cantar" type="VMG0000">can|tan|do</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="volar" type="VMG0000">vo|lan|do|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="dilatar" type="VMIP3S0">di|la|ta|</w>
+        </l>
+        <l met="1|-|-|-|-|6|7|-|-|10|-|" n="15">
+          <!--músico de cristal, ave de plata;-->
+          <w lemma="músico" type="NCMS000">mú|si|co|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="cristal" type="NCMS000">cris|tal|</w>
+          <w lemma="ave" type="NCFS000">a|ve|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="plata" type="NCFS000">pla|ta|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|-|-|10|-|" n="16">
+          <!--y, al punto, el sol renuncia el horizonte-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="punto" type="NCMS000">pun|to</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="sol" type="NCMS000">sol|</w>
+          <w lemma="renunciar" type="VMIP3S0">re|nun|cia</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="horizonte" type="NCMS000">ho|ri|zon|te|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|-|-|10|-|" n="17">
+          <!--porque se iguale el llano con el monte,-->
+          <w lemma="porque" type="CS">por|que|</w>
+          <w lemma="se" type="P00CN00">se</w>
+          <w lemma="igualar" type="VMSP3S0">i|gua|le</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="llano" type="NCMS000">lla|no|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="monte" type="NCMS000">mon|te|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|8|-|10|-|" n="18">
+          <!--y extiende, por teñir la negra sombra,-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="extender" type="VMIP3S0">ex|tien|de|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="teñir" type="VMN0000">te|ñir|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="negro" type="AQ0FS00">ne|gra|</w>
+          <w lemma="sombra" type="NCFS000">som|bra|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|8|-|10|-|" n="19">
+          <!--alcatifas de luz, bordada alfombra.-->
+          <w lemma="alcatifas" type="NCFP000">al|ca|ti|fas|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="luz" type="NCFS000">luz|</w>
+          <w lemma="bordar" type="VMP00SF">bor|da|da</w>
+          <w lemma="alfombra" type="NCFS000">al|fom|bra|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

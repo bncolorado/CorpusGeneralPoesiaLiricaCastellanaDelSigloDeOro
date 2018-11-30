@@ -1,0 +1,339 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Es lazada de cristal</title>
+          <author>Jacinto Polo de Medina</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/academias-del-jardin--0/html/fede6ca0-82b1-11df-acc7-002185ce6064_1.htm#I_6_"/>
+          <editor>Edición digital a partir de la de Madrid, Imp. del Reino, 1630. </editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Es lazada de cristal</title>
+      </head>
+      <lg cert="high" type="Romance">
+        <l met="1|-|3|-|-|-|7|-|" n="1">
+          <!--Es lazada de cristal-->
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="lazar" type="VMP00SF">la|za|da|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="cristal" type="NCMS000">cris|tal|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="2">
+          <!--en el pecho de una peña,-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="pecho" type="NCMS000">pe|cho|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="uno" type="DI0FS0">u|na|</w>
+          <w lemma="peña" type="NCFS000">pe|ña|</w>
+        </l>
+        <l met="-|-|-|4|5|-|" n="3">
+          <!--con armonía suave,-->
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="armonía" type="NCFS000">ar|mo|nía|</w>
+          <w lemma="suave" type="AQ0CS00">sua|ve|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="4">
+          <!--una fuente lisonjera.-->
+          <w lemma="uno" type="DI0FS0">u|na|</w>
+          <w lemma="fuente" type="NCFS000">fuen|te|</w>
+          <w lemma="lisonjero" type="AQ0FS00">li|son|je|ra|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="5">
+          <!--Del sol primer besamanos,-->
+          <w lemma="de" type="SP">de</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="sol" type="NCMS000">sol|</w>
+          <w lemma="1" type="AO0MS00">pri|mer|</w>
+          <w lemma="besamanos" type="NCMN000">be|sa|ma|nos|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="6">
+          <!--bien llegada primavera,-->
+          <w lemma="bien" type="RG">bien|</w>
+          <w lemma="llegada" type="NCFS000">lle|ga|da|</w>
+          <w lemma="primavera" type="NCFS000">pri|ma|ve|ra|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="7">
+          <!--tan amigas, que la risa-->
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="amigo" type="AQ0FP00">a|mi|gas|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="risa" type="NCFS000">ri|sa|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="8">
+          <!--ella y el alba se prestan.-->
+          <w lemma="él" type="PP3FS00">e|lla</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="el" type="DA0MS0">e|l</w>
+          <w lemma="alba" type="NCFS000">al|ba|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="prestar" type="VMIP3P0">pres|tan|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="9">
+          <!--Gracejante de cristal,-->
+          <w lemma="gracejante" type="NP00000">gra|ce|jan|te|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="cristal" type="NCMS000">cris|tal|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="10">
+          <!--pues sin murmurar risueña-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="sin" type="SP">sin|</w>
+          <w lemma="murmurar" type="VMN0000">mur|mu|rar|</w>
+          <w lemma="risueño" type="AQ0FS00">ri|sue|ña|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="11">
+          <!--burlándose con las flores-->
+          <w lemma="burlar" type="VMG0000">bu|rlan|do|</w>
+          <w lemma="se" type="PP3CN00">se|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="flor" type="NCFP000">flo|res|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="12">
+          <!--dice donaires de perlas;-->
+          <w lemma="decir" type="VMIP3S0">di|ce|</w>
+          <w lemma="donaire" type="NCMP000">do|nai|res|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="perla" type="NCFP000">pe|rlas|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="13">
+          <!--cuyas aguas fabricaron-->
+          <w lemma="cuyo" type="PR0FP00">cu|yas|</w>
+          <w lemma="agua" type="NCFP000">a|guas|</w>
+          <w lemma="fabricar" type="VMIS3P0">fa|bri|ca|ron|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="14">
+          <!--en poca florida tierra-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="poco" type="DI0FS0">po|ca|</w>
+          <w lemma="florido" type="AQ0FS00">flo|ri|da|</w>
+          <w lemma="tierra" type="NCFS000">tie|rra|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="15">
+          <!--a Flora, casa de campo,-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="flora" type="NP00000">flo|ra|</w>
+          <w lemma="casa" type="NCFS000">ca|sa|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="campo" type="NCMS000">cam|po|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="16">
+          <!--cigarrales de Amaltea.-->
+          <w lemma="cigarral" type="NCMP000">ci|ga|rra|les|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="amaltea" type="NP00000">a|mal|te|a|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="17">
+          <!--Escamada de las ondas-->
+          <w lemma="escamar" type="VMP00SF">es|ca|ma|da|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="onda" type="NCFP000">on|das|</w>
+        </l>
+        <l met="-|2|3|-|-|-|7|-|" n="18">
+          <!--velozmente se pasea-->
+          <w lemma="velozmente" type="RG">ve|loz|men|te|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="pasear" type="VMIP3S0">pa|se|a|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="19">
+          <!--por galerías de flores-->
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="galería" type="NCFP000">ga|le|rí|as|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="flor" type="NCFP000">flo|res|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="20">
+          <!--por baraustes de yerbas-->
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="baraustes" type="NCMP000">ba|raus|tes|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="yerba" type="NCFP000">yer|bas|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="21">
+          <!--Ocasionadas del aire-->
+          <w lemma="ocasionar" type="VMP00PF">o|ca|sio|na|das|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="aire" type="NCMS000">ai|re|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="22">
+          <!--unas con otras pelean-->
+          <w lemma="uno" type="DI0FP0">u|nas|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="otro" type="DI0FP0">o|tras|</w>
+          <w lemma="pelear" type="VMIP3P0">pe|le|an|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="23">
+          <!--las flores, por contemplar-->
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="flor" type="NCFP000">flo|res|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="contemplar" type="VMN0000">con|tem|plar|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="24">
+          <!--en su espejo su belleza.-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="su" type="DP3CSN">su</w>
+          <w lemma="espejo" type="NCMS000">es|pe|jo|</w>
+          <w lemma="su" type="DP3CSN">su</w>
+          <w lemma="belleza" type="NCFS000">be|lle|za|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="25">
+          <!--De lo continuo del prado-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA00S0">lo|</w>
+          <w lemma="continuo" type="NCMS000">con|ti|nuo|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="prado" type="NCMS000">pra|do|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="26">
+          <!--cansadas buscan la aldea,-->
+          <w lemma="cansar" type="VMP00PF">can|sa|das|</w>
+          <w lemma="buscar" type="VMIP3P0">bus|can|</w>
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="aldea" type="NCFS000">al|de|a|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="27">
+          <!--donde es zagal el narciso-->
+          <w lemma="donde" type="CS">don|de</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="zagal" type="NCMS000">za|gal|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="narciso" type="NCMS000">nar|ci|so|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="28">
+          <!--y serrana la azucena.-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="serrano" type="AQ0FS00">se|rra|na|</w>
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="azucena" type="NCFS000">a|zu|ce|na|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="29">
+          <!--Retiradas con la noche-->
+          <w lemma="retirar" type="VMP00PF">re|ti|ra|das|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="noche" type="NCFS000">no|che|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="30">
+          <!--se visten, por diferencia,-->
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="vestir" type="VMIP3P0">vis|ten|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="diferencia" type="NCFS000">di|fe|ren|cia|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="31">
+          <!--verde galán el clavel,-->
+          <w lemma="verde" type="AQ0CS00">ver|de|</w>
+          <w lemma="galán" type="NCMS000">ga|lán|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="clavel" type="NCMS000">cla|vel|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="32">
+          <!--y sayuelo la mosqueta.-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="sayo" type="NCMS00V">sa|yue|lo|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="mosca" type="NCFS00V">mos|que|ta|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="33">
+          <!--Mas al recibir del sol-->
+          <w lemma="mas" type="CC">mas|</w>
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="recibir" type="VMN0000">re|ci|bir|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="sol" type="NCMS000">sol|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="34">
+          <!--la visita, alegres truecan-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="visita" type="NCFS000">vi|si|ta</w>
+          <w lemma="alegre" type="AQ0CP00">a|le|gres|</w>
+          <w lemma="trocar" type="VMIP3P0">true|can|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="35">
+          <!--el embozo, y de sus hojas-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="embozo" type="NCMS000">em|bo|zo</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="su" type="DP3CPN">sus|</w>
+          <w lemma="hoja" type="NCFP000">ho|jas|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="36">
+          <!--las lechuguillas despliegan.-->
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="lechuguilla" type="NCFP000">le|chu|gui|llas|</w>
+          <w lemma="desplegar" type="VMIP3P0">des|plie|gan|</w>
+        </l>
+        <l met="-|2|3|-|5|-|7|-|" n="37">
+          <!--Con tal gala y tal aseo-->
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="tal" type="DD0CS0">tal|</w>
+          <w lemma="gala" type="NCFS000">ga|la</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="tal" type="DD0CS0">tal|</w>
+          <w lemma="aseo" type="NCMS000">a|se|o|</w>
+        </l>
+        <l met="-|2|3|-|5|-|7|-|" n="38">
+          <!--en un monte ¡quién creyera-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="uno" type="DI0MS0">un|</w>
+          <w lemma="monte" type="NCMS000">mon|te|</w>
+          <w lemma="quién" type="PT0CS00">quién|</w>
+          <w lemma="creer" type="VMSI3S0">cre|ye|ra|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="39">
+          <!--tan de palacio el jardín,-->
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="palacio" type="NCMS000">pa|la|cio</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="jardín" type="NCMS000">jar|dín|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="40">
+          <!--tan de la corte la selva!-->
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="corte" type="NCCS000">cor|te|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="selva" type="NCFS000">sel|va|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

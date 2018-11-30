@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>A una vieja que ignoraba</title>
+          <author>Jacinto Polo de Medina</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/el-buen-humor-de-las-musas--0/html/fede9afe-82b1-11df-acc7-002185ce6064_1.html#I_84_"/>
+          <editor>...</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>A una vieja que ignoraba</title>
+      </head>
+      <lg cert="high" type="Epigrama">
+        <l met="1|-|3|-|-|-|7|-|" n="1">
+          <!--A una vieja que ignoraba-->
+          <w lemma="a" type="SP">a</w>
+          <w lemma="uno" type="DI0FS0">u|na|</w>
+          <w lemma="viejo" type="AQ0FS00">vie|ja|</w>
+          <w lemma="que" type="PR0CN00">que</w>
+          <w lemma="ignorar" type="VMII3S0">ig|no|ra|ba|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="2">
+          <!--quince lustros que tenía,-->
+          <w lemma="15" type="Z">quin|ce|</w>
+          <w lemma="lustro" type="NCMP000">lus|tros|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="tener" type="VMII3S0">te|ní|a|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="3">
+          <!--y un mondadientes llevaba-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="uno" type="DI0MS0">un|</w>
+          <w lemma="mondadientes" type="NCMN000">mon|da|dien|tes|</w>
+          <w lemma="llevar" type="VMII3S0">lle|va|ba|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="4">
+          <!--(aunque sin ellos estaba),-->
+          <w lemma="aunque" type="CC">aun|que|</w>
+          <w lemma="sin" type="SP">sin|</w>
+          <w lemma="ellos" type="PP3MP00">e|llos|</w>
+          <w lemma="estar" type="VMII3S0">es|ta|ba|</w>
+        </l>
+        <l met="1|-|3|-|5|6|7|-|" n="5">
+          <!--un galán la dijo un día:-->
+          <w lemma="uno" type="DI0MS0">un|</w>
+          <w lemma="galán" type="NCMS000">ga|lán|</w>
+          <w lemma="lo" type="PP3FSA0">la|</w>
+          <w lemma="decir" type="VMIS3S0">di|jo</w>
+          <w lemma="uno" type="DI0MS0">un|</w>
+          <w lemma="día" type="NCMS000">dí|a|</w>
+        </l>
+        <l met="1|-|-|-|-|-|7|-|" n="6">
+          <!--Deja los impertinentes-->
+          <w lemma="dejar" type="VMIP3S0">de|ja|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="impertinente" type="NCCP000">im|per|ti|nen|tes|</w>
+        </l>
+        <l met="1|-|-|-|5|-|7|-|" n="7">
+          <!--modos de engañar las gentes-->
+          <w lemma="modo" type="NCMP000">mo|dos|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="engañar" type="VMN0000">en|ga|ñar|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="gente" type="NCFP000">gen|tes|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="8">
+          <!--con que mientes desengaños,-->
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="mentar" type="VMSP2S0">mien|tes|</w>
+          <w lemma="desengaño" type="NCMP000">de|sen|ga|ños|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="9">
+          <!--Clenarda, porque tus años-->
+          <w lemma="clenarda" type="NP00000">cle|nar|da|</w>
+          <w lemma="porque" type="CS">por|que|</w>
+          <w lemma="tu" type="DP2CPS">tus|</w>
+          <w lemma="año" type="NCMP000">a|ños|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="10">
+          <!--son el mejor mondadientes.-->
+          <w lemma="ser" type="VSIP3P0">son|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="mejor" type="AQ0CS00">me|jor|</w>
+          <w lemma="mondadientes" type="NCMN000">mon|da|dien|tes|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,246 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Rimbombe en trueno, relampague en luces </title>
+          <author>Jacinto Polo de Medina</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/academias-del-jardin--0/html/fede6ca0-82b1-11df-acc7-002185ce6064_1.htm#I_6_"/>
+          <editor>Edición digital a partir de la de Madrid, Imp. del Reino, 1630. </editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Rimbombe en trueno, relampague en luces</title>
+      </head>
+      <lg cert="high" type="Silva">
+        <l met="-|2|-|4|-|-|-|8|-|10|-|" n="1">
+          <!--Rimbombe en trueno, relampague en luces-->
+          <w lemma="rimbombe" type="NCMS000">rim|bom|be</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="trueno" type="NCMS000">true|no|</w>
+          <w lemma="relampague" type="VMSP3S0">re|lam|pa|gue</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="luz" type="NCFP000">lu|ces|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|-|10|-|" n="2">
+          <!--tu nombre y fama en glodios histriados;-->
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="nombre" type="NCMS000">nom|bre</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="fama" type="NCFS000">fa|ma|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="glodios" type="NCMP000">glo|dios|</w>
+          <w lemma="histriados" type="VMP00PM">his|tria|dos|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="3">
+          <!--y en los más remontados,-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="remontar" type="VMP00PM">re|mon|ta|dos|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|-|-|10|-|" n="4">
+          <!--del Meotis acuario a la Palura,-->
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="meotis" type="NP00000">me|o|tis|</w>
+          <w lemma="acuario" type="NCMS000">a|cua|rio</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="palura" type="NP00000">pa|lu|ra|</w>
+        </l>
+        <l met="-|-|-|4|-|-|-|8|9|10|-|" n="5">
+          <!--archiconflonfo en la región más pura.-->
+          <w lemma="archiconflonfo" type="NCMS000">ar|chi|con|flon|fo</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="región" type="NCFS000">re|gión|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="puro" type="AQ0FS00">pu|ra|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|-|-|10|-|" n="6">
+          <!--A tu ingenio servicien Hecatombes,-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="tu" type="DP2CSS">tu</w>
+          <w lemma="ingenio" type="NCMS000">in|ge|nio|</w>
+          <w lemma="servicien" type="RG">ser|vi|cien|</w>
+          <w lemma="hecatombes" type="NP00000">he|ca|tom|bes|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|" n="7">
+          <!--y canten estrambombes-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="cantar" type="VMSP3P0">can|ten|</w>
+          <w lemma="estrambombes" type="NCMP000">es|tram|bom|bes|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|-|-|11|-|" n="8">
+          <!--bajos Catulo sarcófago falsetes-->
+          <w lemma="bajo" type="AQ0MP00">ba|jos|</w>
+          <w lemma="catulo" type="NP00000">ca|tu|lo|</w>
+          <w lemma="sarcófago" type="NCMS000">sar|có|fa|go|</w>
+          <w lemma="falsete" type="NCMP000">fal|se|tes|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|-|-|10|-|" n="9">
+          <!--y calce Polipodio tafiletes;-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="calce" type="NCMS000">cal|ce|</w>
+          <w lemma="polipodio" type="NP00000">po|li|po|dio|</w>
+          <w lemma="tafilete" type="NCMP000">ta|fi|le|tes|</w>
+        </l>
+        <l met="1|-|-|-|-|6|-|-|-|10|-|" n="10">
+          <!--rinda su estimación a tu persona,-->
+          <w lemma="rendir" type="VMSP3S0">rin|da|</w>
+          <w lemma="su" type="DP3CSN">su</w>
+          <w lemma="estimación" type="NCFS000">es|ti|ma|ción|</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="persona" type="NCFS000">per|so|na|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="11">
+          <!--pues tu talle la abona,-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="talle" type="NCMS000">ta|lle|</w>
+          <w lemma="lo" type="PP3FSA0">la</w>
+          <w lemma="abonar" type="VMIP3S0">a|bo|na|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|" n="12">
+          <!--la bella Caligurna,-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="bello" type="AQ0FS00">be|lla|</w>
+          <w lemma="caligurna" type="NP00000">ca|li|gur|na|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|" n="13">
+          <!--y venga taciturna,-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="venir" type="VMSP3S0">ven|ga|</w>
+          <w lemma="taciturno" type="AQ0FS00">ta|ci|tur|na|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|-|-|10|-|" n="14">
+          <!--que envidia tu saber, la Tarasaña-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="envidiar" type="VMIP3S0">en|vi|dia|</w>
+          <w lemma="tu" type="DP2CSS">tu|</w>
+          <w lemma="saber" type="NCMS000">sa|ber|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="tarasaña" type="NP00000">ta|ra|sa|ña|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|8|-|10|-|" n="15">
+          <!--protocolo galán blandir la caña;-->
+          <w lemma="protocolo" type="NCMS000">pro|to|co|lo|</w>
+          <w lemma="galán" type="NCMS000">ga|lán|</w>
+          <w lemma="blandir" type="VMN0000">blan|dir|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="caña" type="NCFS000">ca|ña|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|-|-|10|-|" n="16">
+          <!--sacripantes aromas te coturnen-->
+          <w lemma="sacripantes" type="NCCP000">sa|cri|pan|tes|</w>
+          <w lemma="aroma" type="NCMP000">a|ro|mas|</w>
+          <w lemma="te" type="PP2CS00">te|</w>
+          <w lemma="coturnar" type="VMSP3P0">co|tur|nen|</w>
+        </l>
+        <l met="-|2|-|-|-|6|7|-|-|10|-|" n="17">
+          <!--y nácares, al sol tintos, te eburnen,-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="nácar" type="NCMP000">ná|ca|res|</w>
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="sol" type="NCMS000">sol|</w>
+          <w lemma="tinto" type="AQ0MP00">tin|tos|</w>
+          <w lemma="te" type="PP2CS00">te</w>
+          <w lemma="eburnen" type="VMIP3P0">e|bur|nen|</w>
+        </l>
+        <l met="1|-|-|4|-|6|-|-|-|10|-|" n="18">
+          <!--llantos del alba en verdes episedios,-->
+          <w lemma="llanto" type="NCMP000">llan|tos|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="alba" type="NCFS000">al|ba</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="verde" type="AQ0CP00">ver|des|</w>
+          <w lemma="episedios" type="NCMP000">e|pi|se|dios|</w>
+        </l>
+        <l met="-|2|3|-|-|6|-|" n="19">
+          <!--y no ponga remedios;-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="poner" type="VMSP3S0">pon|ga|</w>
+          <w lemma="remedio" type="NCMP000">re|me|dios|</w>
+        </l>
+        <l met="1|-|-|-|-|6|-|" n="20">
+          <!--rindan su valentía-->
+          <w lemma="rendir" type="VMSP3P0">rin|dan|</w>
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="valentía" type="NCFS000">va|len|tí|a|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|" n="21">
+          <!--a tu hinchada energía-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="tu" type="DP2CSS">tu</w>
+          <w lemma="hinchada" type="NCFS000">hin|cha|da</w>
+          <w lemma="energía" type="NCFS000">e|ner|gí|a|</w>
+        </l>
+        <l met="-|2|-|-|5|-|-|-|-|10|-|" n="22">
+          <!--diatribes de plata en los Patuecas,-->
+          <w lemma="diatribes" type="VMIP2S0">dia|tri|bes|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="plata" type="NCFS000">pla|ta|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="patuecas" type="NP00000">pa|tue|cas|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|" n="23">
+          <!--pues ya en su nombre truecas,-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="ya" type="RG">ya</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="nombre" type="NCMS000">nom|bre|</w>
+          <w lemma="trocar" type="VMIP2S0">true|cas|</w>
+        </l>
+        <l met="1|-|-|4|-|-|-|8|-|10|-|" n="24">
+          <!--no escatibando Cilibón canoro,-->
+          <w lemma="no" type="RN">no</w>
+          <w lemma="escatibando" type="NCMS000">es|ca|ti|ban|do|</w>
+          <w lemma="cilibón" type="NP00000">ci|li|bón|</w>
+          <w lemma="canoro" type="AQ0MS00">ca|no|ro|</w>
+        </l>
+        <l met="1|-|-|4|-|-|-|8|-|10|-|" n="25">
+          <!--metas de plata en retintines de oro.-->
+          <w lemma="meta" type="NCFP000">me|tas|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="plata" type="NCFS000">pla|ta</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="retintín" type="NCMP000">re|tin|ti|nes|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="oro" type="NCMS000">o|ro|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Tan gran pie tenéis, Torcuato,</title>
+          <author>Jacinto Polo de Medina</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/el-buen-humor-de-las-musas--0/html/fede9afe-82b1-11df-acc7-002185ce6064_1.html#I_84_"/>
+          <editor>...</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Tan gran pie tenéis, Torcuato,</title>
+      </head>
+      <lg cert="high" type="Epigrama">
+        <l met="1|2|3|-|5|-|7|-|" n="1">
+          <!--Tan gran pie tenéis, Torcuato,-->
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="gran" type="AQ0CS00">gran|</w>
+          <w lemma="pie" type="NCMS000">pie|</w>
+          <w lemma="tener" type="VMIP2P0">te|néis|</w>
+          <w lemma="torcuato" type="NP00000">tor|cua|to|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="2">
+          <!--que poco haréis, si reñís-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="poco" type="PI0MS00">po|co</w>
+          <w lemma="hacer" type="VMIF2P0">ha|réis|</w>
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="reñir" type="VMIP2P0">re|ñís|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="3">
+          <!--con alguno y le decís:-->
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="alguno" type="PI0MS00">al|gu|no</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="le" type="PP3CSD0">le|</w>
+          <w lemma="decir" type="VMIP2P0">de|cís|</w>
+        </l>
+        <l met="1|-|-|4|5|-|7|-|" n="4">
+          <!--Yo os meteré en un zapato.-->
+          <w lemma="yo" type="PP1CSN0">yo</w>
+          <w lemma="os" type="PP2CP00">os|</w>
+          <w lemma="meter" type="VMIF1S0">me|te|ré</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="uno" type="DI0MS0">un|</w>
+          <w lemma="zapato" type="NCMS000">za|pa|to|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="5">
+          <!--Salisteis calzado ayer-->
+          <w lemma="salir" type="VMIS2P0">sa|lis|teis|</w>
+          <w lemma="calzar" type="VMP00SM">cal|za|do</w>
+          <w lemma="ayer" type="RG">a|yer|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="6">
+          <!--con zapato tan terrible,-->
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="zapato" type="NCMS000">za|pa|to|</w>
+          <w lemma="tan" type="RG">tan|</w>
+          <w lemma="terrible" type="AQ0CS00">te|rri|ble|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="7">
+          <!--que lo que juzgué imposible,-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="el" type="DA00S0">lo|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="juzgar" type="VMIS1S0">juz|gué</w>
+          <w lemma="imposible" type="AQ0CS00">im|po|si|ble|</w>
+        </l>
+        <l met="1|-|-|-|5|-|7|-|" n="8">
+          <!--juzgo ya que puede ser.-->
+          <w lemma="juzgar" type="VMIP1S0">juz|go|</w>
+          <w lemma="ya_que" type="CS">ya_|que|</w>
+          <w lemma="poder" type="VMIP3S0">pue|de|</w>
+          <w lemma="ser" type="VSN0000">ser|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>
