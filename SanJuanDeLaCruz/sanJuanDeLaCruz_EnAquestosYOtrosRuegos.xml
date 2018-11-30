@@ -1,0 +1,182 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>En aquestos y otros ruegos</title>
+          <author>Juan de La Cueva</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/portales/san_juan_de_la_cruz/obra-visor/poesias--49/html/fedce812-82b1-11df-acc7-002185ce6064_2.html#PV_9_"/>
+          <editor>BVMC, 2000</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>En aquestos y otros ruegos</title>
+      </head>
+      <lg cert="..." type="...">
+        <l met="-|-|3|-|5|-|7|-|" n="1">
+          <!--En aquestos y otros ruegos-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="aquestos" type="NCMP000">a|ques|tos|</w>
+          <w lemma="y" type="CC">y</w>
+          <w lemma="otro" type="DI0MP0">o|tros|</w>
+          <w lemma="ruego" type="NCMP000">rue|gos|</w>
+        </l>
+        <l met="1|2|-|-|5|-|7|-|" n="2">
+          <!--gran tiempo pasado había;-->
+          <w lemma="gran" type="AQ0CS00">gran|</w>
+          <w lemma="tiempo" type="NCMS000">tiem|po|</w>
+          <w lemma="pasar" type="VMP00SM">pa|sa|do</w>
+          <w lemma="haber" type="VAII3S0">ha|bí|a|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="3">
+          <!--pero en los postreros años-->
+          <w lemma="pero" type="CC">pe|ro</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="postrero" type="AQ0MP00">pos|tre|ros|</w>
+          <w lemma="año" type="NCMP000">a|ños|</w>
+        </l>
+        <l met="-|-|3|4|-|-|7|-|" n="4">
+          <!--el fervor mucho crecía,-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="fervor" type="NCMS000">fer|vor|</w>
+          <w lemma="mucho" type="RG">mu|cho|</w>
+          <w lemma="crecer" type="VMII3S0">cre|cí|a|</w>
+        </l>
+        <l met="-|-|-|4|-|-|-|8|-|" n="5">
+          <!--cuando el viejo Simeón-->
+          <w lemma="cuando" type="CS">cuan|do|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="viejo" type="AQ0MS00">vie|jo|</w>
+          <w lemma="simeón" type="NP00000">si|me|ón|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="6">
+          <!--en deseo se encendía,-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="deseo" type="NCMS000">de|seo|</w>
+          <w lemma="se" type="P00CN00">se</w>
+          <w lemma="encender" type="VMII3S0">en|cen|dí|a|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="7">
+          <!--rogando a Dios que quisiese-->
+          <w lemma="rogar" type="VMG0000">ro|gan|do</w>
+          <w lemma="a" type="SP">a</w>
+          <w lemma="dios" type="NP00000">dios|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="querer" type="VMSI3S0">qui|sie|se|</w>
+        </l>
+        <l met="-|2|-|4|5|-|7|-|" n="8">
+          <!--dejalle ver este día.-->
+          <w lemma="dejalle" type="RG">de|ja|lle|</w>
+          <w lemma="ver" type="VMN0000">ver|</w>
+          <w lemma="este" type="DD0MS0">es|te|</w>
+          <w lemma="día" type="NCMS000">dí|a|</w>
+        </l>
+        <l met="-|2|-|4|-|-|-|" n="9">
+          <!--Y así, el Espíritu Santo-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="así" type="RG">a|sí</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="espíritu_santo" type="NP00000">es|pí|ri|tu_|san|to|</w>
+        </l>
+        <l met="-|2|3|-|-|-|7|-|" n="10">
+          <!--al buen viejo respondía-->
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="bueno" type="AQ0MS00">buen|</w>
+          <w lemma="viejo" type="AQ0MS00">vie|jo|</w>
+          <w lemma="responder" type="VMII3S0">res|pon|dí|a|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="11">
+          <!--que le daba su palabra-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="le" type="PP3CSD0">le|</w>
+          <w lemma="dar" type="VMII3S0">da|ba|</w>
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="palabra" type="NCFS000">pa|la|bra|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="12">
+          <!--que la muerte no vería-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="muerte" type="NCFS000">muer|te|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="ver" type="VMIC3S0">ve|rí|a|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="13">
+          <!--hasta que la vida viese-->
+          <w lemma="hasta" type="SP">has|ta|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="vida" type="NCFS000">vi|da|</w>
+          <w lemma="ver" type="VMSI3S0">vie|se|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="14">
+          <!--que de arriba descendía,-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="arriba" type="RG">a|rri|ba|</w>
+          <w lemma="descender" type="VMII3S0">des|cen|dí|a|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="15">
+          <!--y que él en sus mismas manos-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="que" type="CS">que</w>
+          <w lemma="él" type="PP3MS00">él|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="su" type="DP3CPN">sus|</w>
+          <w lemma="mismo" type="AQ0FP00">mis|mas|</w>
+          <w lemma="mano" type="NCFP000">ma|nos|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="16">
+          <!--al mismo Dios tomaría,-->
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="mismo" type="AQ0MS00">mis|mo|</w>
+          <w lemma="dios" type="NP00000">dios|</w>
+          <w lemma="tomar" type="VMIC3S0">to|ma|rí|a|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="17">
+          <!--y le tendría en sus brazos-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="le" type="PP3CSD0">le|</w>
+          <w lemma="tener" type="VMIC3S0">ten|dría|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="su" type="DP3CPN">sus|</w>
+          <w lemma="brazo" type="NCMP000">bra|zos|</w>
+        </l>
+        <l met="-|-|3|-|-|-|-|8|-|" n="18">
+          <!--y consigo abrazaría.-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="consigo" type="PP3CNO0">con|si|go|</w>
+          <w lemma="abrazar" type="VMIC3S0">a|bra|za|rí|a|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

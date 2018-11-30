@@ -1,0 +1,562 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>«-Hágase, pues -dijo el Padre-,</title>
+          <author>San Juan de la Cruz</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/portales/san_juan_de_la_cruz/obra-visor/poesias--49/html/fedce812-82b1-11df-acc7-002185ce6064_2.html#PV_9_"/>
+          <editor>BVMC, 2000</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Hágase, pues -dijo el Padre-,</title>
+      </head>
+      <lg cert="..." type="...">
+        <l met="1|-|-|-|5|-|7|-|" n="1">
+          <!--Hágase, pues -dijo el Padre-,-->
+          <w lemma="hacer" type="VMM03S0">ha|ga|</w>
+          <w lemma="se" type="PP3CN00">se|</w>
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="decir" type="VMIS3S0">di|jo</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="padre" type="NP00000">pa|dre|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="2">
+          <!--que tu amor lo merecía.-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="tu" type="DP2CSS">tu</w>
+          <w lemma="amor" type="NCMS000">a|mor|</w>
+          <w lemma="lo" type="PP3MSA0">lo|</w>
+          <w lemma="merecer" type="VMII3S0">me|re|cí|a|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="3">
+          <!--Y en este dicho que dijo,-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="este" type="DD0MS0">es|te|</w>
+          <w lemma="decir" type="VMP00SM">di|cho|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="decir" type="VMIS3S0">di|jo|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="4">
+          <!--el mundo criado había-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="mundo" type="NCMS000">mun|do|</w>
+          <w lemma="criar" type="VMP00SM">cria|do|</w>
+          <w lemma="haber" type="VAII3S0">ha|bí|a|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="5">
+          <!--palacio para la esposa-->
+          <w lemma="palacio" type="NCMS000">pa|la|cio|</w>
+          <w lemma="para" type="SP">pa|ra|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="esposo" type="NCFS000">es|po|sa|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="6">
+          <!--hecho en gran sabiduría;-->
+          <w lemma="hacer" type="VMP00SM">he|cho</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="gran" type="AQ0CS00">gran|</w>
+          <w lemma="sabiduría" type="NCFS000">sa|bi|du|rí|a|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="7">
+          <!--el cual en dos aposentos,-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="cual" type="PR0CS00">cual|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="2" type="Z">dos|</w>
+          <w lemma="aposento" type="NCMP000">a|po|sen|tos|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="8">
+          <!--alto y bajo, dividía.-->
+          <w lemma="alto" type="AQ0MS00">al|to</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="bajo" type="AQ0MS00">ba|jo|</w>
+          <w lemma="dividir" type="VMII3S0">di|vi|dí|a|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="9">
+          <!--El bajo de diferencias-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="bajo" type="NCMS000">ba|jo|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="diferencia" type="NCFP000">di|fe|ren|cias|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="10">
+          <!--infinitas componía;-->
+          <w lemma="infinito" type="AQ0FP00">in|fi|ni|tas|</w>
+          <w lemma="componer" type="VMII3S0">com|po|ní|a|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="11">
+          <!--mas el alto hermoseaba-->
+          <w lemma="mas" type="CC">mas|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="alto" type="AQ0MS00">al|to</w>
+          <w lemma="hermosear" type="VMII3S0">her|mo|se|a|ba|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="12">
+          <!--de admirable pedrería,-->
+          <w lemma="de" type="SP">de</w>
+          <w lemma="admirable" type="AQ0CS00">ad|mi|ra|ble|</w>
+          <w lemma="pedrería" type="NCFS000">pe|dre|rí|a|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="13">
+          <!--porque conozca la esposa-->
+          <w lemma="porque" type="CS">por|que|</w>
+          <w lemma="conocer" type="VMSP3S0">co|noz|ca|</w>
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="esposo" type="NCFS000">es|po|sa|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="14">
+          <!--el Esposo que tenía.-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="esposo" type="NP00000">es|po|so|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="tener" type="VMII3S0">te|ní|a|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="15">
+          <!--En el alto colocaba-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="alto" type="AQ0MS00">al|to|</w>
+          <w lemma="colocar" type="VMII3S0">co|lo|ca|ba|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="16">
+          <!--la angélica jerarquía;-->
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="angélico" type="AQ0FS00">an|gé|li|ca|</w>
+          <w lemma="jerarquía" type="NCFS000">je|rar|quí|a|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="17">
+          <!--pero la natura humana-->
+          <w lemma="pero" type="CC">pe|ro|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="natura" type="NCFS000">na|tu|ra</w>
+          <w lemma="humano" type="AQ0FS00">hu|ma|na|</w>
+        </l>
+        <l met="-|-|-|-|-|-|7|-|" n="18">
+          <!--en el bajo la ponía-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="bajo" type="SP">ba|jo|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="poner" type="VMII3S0">po|ní|a|</w>
+        </l>
+        <l met="-|2|-|-|5|-|-|8|-|" n="19">
+          <!--por ser en su ser compostura-->
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="ser" type="VSN0000">ser|</w>
+          <w lemma="ser" type="VSN0000">ser|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="ser" type="VSN0000">ser|</w>
+          <w lemma="ser" type="VSN0000">ser|</w>
+          <w lemma="compostura" type="NCFS000">com|pos|tu|ra|</w>
+        </l>
+        <l met="1|-|-|-|5|-|7|-|" n="20">
+          <!--algo de menor valía.-->
+          <w lemma="algo" type="PI0CS00">al|go|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="menor" type="AQ0CS00">me|nor|</w>
+          <w lemma="valía" type="NCFS000">va|lí|a|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="21">
+          <!--Y aunque el ser y los lugares-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="aunque" type="CC">aun|que</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="ser" type="NCMS000">ser|</w>
+          <w lemma="y" type="CC">y</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="lugar" type="NCMP000">lu|ga|res|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="22">
+          <!--desta suerte los partía,-->
+          <w lemma="desta" type="AQ0FS00">des|ta|</w>
+          <w lemma="suerte" type="NCFS000">suer|te|</w>
+          <w lemma="lo" type="PP3MPA0">los|</w>
+          <w lemma="partir" type="VMII3S0">par|tí|a|</w>
+        </l>
+        <l met="-|-|3|-|5|6|7|-|" n="23">
+          <!--pero todos son un cuerpo-->
+          <w lemma="pero" type="CC">pe|ro|</w>
+          <w lemma="todo" type="PI0MP00">to|dos|</w>
+          <w lemma="ser" type="VSIP3P0">son|</w>
+          <w lemma="uno" type="DI0MS0">un|</w>
+          <w lemma="cuerpo" type="NCMS000">cuer|po|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="24">
+          <!--de la esposa que decía;-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="esposo" type="NCFS000">es|po|sa|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="decir" type="VMII3S0">de|cí|a|</w>
+        </l>
+        <l met="-|-|3|4|5|-|7|-|" n="25">
+          <!--que el amor de un mismo Esposo-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="amor" type="NCMS000">a|mor|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="uno" type="DI0MS0">un|</w>
+          <w lemma="mismo" type="AQ0MS00">mis|mo</w>
+          <w lemma="esposo" type="NP00000">es|po|so|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="26">
+          <!--una esposa los hacía.-->
+          <w lemma="uno" type="DI0FS0">u|na</w>
+          <w lemma="esposo" type="NCFS000">es|po|sa|</w>
+          <w lemma="lo" type="PP3MPA0">los|</w>
+          <w lemma="hacer" type="VMII3S0">ha|cí|a|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="27">
+          <!--Los de arriba poseían-->
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="arriba" type="RG">a|rri|ba|</w>
+          <w lemma="poseer" type="VMII3P0">po|se|í|an|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="28">
+          <!--al Esposo en alegría;-->
+          <w lemma="al" type="SP">al|</w>
+          <w lemma="esposo" type="NP00000">es|po|so</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="alegría" type="NCFS000">a|le|grí|a|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="29">
+          <!--los de abajo, en esperanza-->
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="abajo" type="RG">a|ba|jo</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="esperanza" type="NCFS000">es|pe|ran|za|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="30">
+          <!--de fe que les infundía,-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="fe" type="NCFS000">fe|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="le" type="PP3CPD0">les|</w>
+          <w lemma="infundir" type="VMII3S0">in|fun|dí|a|</w>
+        </l>
+        <l met="-|2|-|-|-|6|7|-|" n="31">
+          <!--diciéndoles que algún tiempo-->
+          <w lemma="decir" type="VMG0000">di|cien|do|</w>
+          <w lemma="le" type="PP3CPD0">les|</w>
+          <w lemma="que" type="CS">que</w>
+          <w lemma="alguno" type="DI0MS0">al|gún|</w>
+          <w lemma="tiempo" type="NCMS000">tiem|po|</w>
+        </l>
+        <l met="1|-|-|-|-|-|7|-|" n="32">
+          <!--él los engrandecería,-->
+          <w lemma="él" type="PP3MS00">él|</w>
+          <w lemma="lo" type="PP3MPA0">los|</w>
+          <w lemma="engrandecer" type="VMIC3S0">en|gran|de|ce|rí|a|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="33">
+          <!--y que aquella su bajeza-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="que" type="CS">que</w>
+          <w lemma="aquel" type="PD0FS00">a|que|lla|</w>
+          <w lemma="su" type="DP3CSN">su|</w>
+          <w lemma="bajeza" type="NCFS000">ba|je|za|</w>
+        </l>
+        <l met="1|-|-|-|-|-|7|-|" n="34">
+          <!--él se la levantaría-->
+          <w lemma="él" type="PP3MS00">él|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="lo" type="PP3FSA0">la|</w>
+          <w lemma="levantar" type="VMIC3S0">le|van|ta|rí|a|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="35">
+          <!--de manera que ninguno-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="manera" type="NCFS000">ma|ne|ra|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="ninguno" type="PI0MS00">nin|gu|no|</w>
+        </l>
+        <l met="1|-|-|-|-|-|7|-|" n="36">
+          <!--ya la vituperaría;-->
+          <w lemma="ya" type="RG">ya|</w>
+          <w lemma="lo" type="PP3FSA0">la|</w>
+          <w lemma="vituperar" type="VMIC3S0">vi|tu|pe|ra|rí|a|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="37">
+          <!--porque en todo semejante-->
+          <w lemma="porque" type="CS">por|que</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="todo" type="DI0MS0">to|do|</w>
+          <w lemma="semejante" type="AQ0CS00">se|me|jan|te|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="38">
+          <!--él a ellos se haría-->
+          <w lemma="él" type="PP3MS00">él|</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="ellos" type="PP3MP00">e|llos|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="hacer" type="VMIC3S0">ha|rí|a|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="39">
+          <!--y se vendría con ellos,-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="venir" type="VMIC3S0">ven|drí|a|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="ellos" type="PP3MP00">e|llos|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="40">
+          <!--y con ellos moraría;-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="ellos" type="PP3MP00">e|llos|</w>
+          <w lemma="morar" type="VMIC3S0">mo|ra|rí|a|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="41">
+          <!--y que Dios sería hombre,-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="dios" type="NP00000">dios|</w>
+          <w lemma="ser" type="VSIC1S0">se|rí|a|</w>
+          <w lemma="hombre" type="NCMS000">hom|bre|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="42">
+          <!--y que el hombre Dios sería,-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="que" type="CS">que</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="hombre" type="NCMS000">hom|bre|</w>
+          <w lemma="dios" type="NP00000">dios|</w>
+          <w lemma="ser" type="VSIC1S0">se|rí|a|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="43">
+          <!--y que trataría con ellos,-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="tratar" type="VMIC3S0">tra|ta|ría|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="ellos" type="PP3MP00">e|llos|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="44">
+          <!--comería y bebería;-->
+          <w lemma="comer" type="VMIC3S0">co|me|ría|</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="beber" type="VMIC3S0">be|be|rí|a|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="45">
+          <!--y que con ellos continuo-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="ellos" type="PP3MP00">e|llos|</w>
+          <w lemma="continuo" type="AQ0MS00">con|ti|nuo|</w>
+        </l>
+        <l met="1|2|-|-|-|-|7|-|" n="46">
+          <!--él mismo se quedaría,-->
+          <w lemma="él" type="PP3MS00">él|</w>
+          <w lemma="mismo" type="RG">mis|mo|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="quedar" type="VMIC3S0">que|da|rí|a|</w>
+        </l>
+        <l met="-|-|-|-|-|-|7|-|" n="47">
+          <!--hasta que se consumase-->
+          <w lemma="hasta" type="SP">has|ta|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="consumar" type="VMSI3S0">con|su|ma|se|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="48">
+          <!--este siglo que corría,-->
+          <w lemma="este" type="DD0MS0">es|te|</w>
+          <w lemma="siglo" type="NCMS000">si|glo|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="correr" type="VMII3S0">co|rrí|a|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="49">
+          <!--cuando se gozaran juntos-->
+          <w lemma="cuando" type="CS">cuan|do|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="gozar" type="VMSI3P0">go|za|ran|</w>
+          <w lemma="junto" type="AQ0MP00">jun|tos|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="50">
+          <!--en eterna melodía;-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="eterno" type="AQ0FS00">e|ter|na|</w>
+          <w lemma="melodía" type="NCFS000">me|lo|dí|a|</w>
+        </l>
+        <l met="-|2|3|-|-|-|7|-|" n="51">
+          <!--porque él era la cabeza-->
+          <w lemma="porque" type="CS">por|que</w>
+          <w lemma="él" type="PP3MS00">él|</w>
+          <w lemma="ser" type="VSII3S0">e|ra|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="cabeza" type="NCCS000">ca|be|za|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="52">
+          <!--de la esposa que tenía,-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="esposo" type="NCFS000">es|po|sa|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="tener" type="VMII3S0">te|ní|a|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="53">
+          <!--a la cual todos los miembros-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="cual" type="PR0CS00">cual|</w>
+          <w lemma="todo" type="DI0MP0">to|dos|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="miembro" type="NCMP000">miem|bros|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="54">
+          <!--de los justos juntaría,-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="justo" type="NCMP000">jus|tos|</w>
+          <w lemma="juntar" type="VMIC3S0">jun|ta|rí|a|</w>
+        </l>
+        <l met="-|2|3|-|-|-|7|-|" n="55">
+          <!--que son cuerpo de la esposa,-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="ser" type="VSIP3P0">son|</w>
+          <w lemma="cuerpo" type="NCMS000">cuer|po|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="esposo" type="NCFS000">es|po|sa|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="56">
+          <!--a la cual él tomaría-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="cual" type="PR0CS00">cual|</w>
+          <w lemma="él" type="PP3MS00">él|</w>
+          <w lemma="tomar" type="VMIC3S0">to|ma|rí|a|</w>
+        </l>
+        <l met="-|-|3|-|5|-|7|-|" n="57">
+          <!--en sus brazos tiernamente,-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="su" type="DP3CPN">sus|</w>
+          <w lemma="brazo" type="NCMP000">bra|zos|</w>
+          <w lemma="tiernamente" type="RG">tier|na|men|te|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="58">
+          <!--y allí su amor le daría;-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="allí" type="RG">a|llí|</w>
+          <w lemma="su" type="DP3CSN">su</w>
+          <w lemma="amor" type="NCMS000">a|mor|</w>
+          <w lemma="le" type="PP3CSD0">le|</w>
+          <w lemma="dar" type="VMIC3S0">da|rí|a|</w>
+        </l>
+        <l met="-|-|3|4|-|-|7|-|" n="59">
+          <!--y que, así juntos en uno,-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="que" type="CS">que</w>
+          <w lemma="así" type="RG">a|sí|</w>
+          <w lemma="junto" type="AQ0MP00">jun|tos|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="uno" type="PI0MS00">u|no|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="60">
+          <!--el Padre la llevaría-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="padre" type="NP00000">pa|dre|</w>
+          <w lemma="lo" type="PP3FSA0">la|</w>
+          <w lemma="llevar" type="VMIC3S0">lle|va|rí|a|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="61">
+          <!--donde del mismo deleite-->
+          <w lemma="donde" type="CS">don|de|</w>
+          <w lemma="del" type="SP">del|</w>
+          <w lemma="mismo" type="AQ0MS00">mis|mo|</w>
+          <w lemma="deleite" type="NCMS000">de|lei|te|</w>
+        </l>
+        <l met="-|2|3|-|-|-|7|-|" n="62">
+          <!--que Dios goza gozaría;-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="dios" type="NP00000">dios|</w>
+          <w lemma="gozar" type="VMIP3S0">go|za|</w>
+          <w lemma="gozar" type="VMIC3S0">go|za|rí|a|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="63">
+          <!--que, como el Padre y el Hijo-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="como" type="CS">co|mo</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="padre" type="NP00000">pa|dre</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="hijo" type="NP00000">hi|jo|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="64">
+          <!--y el que de ellos procedía,-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="ellos" type="PP3MP00">e|llos|</w>
+          <w lemma="proceder" type="VMII3S0">pro|ce|dí|a|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="65">
+          <!--el uno vive en el otro;-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="uno" type="PI0MS00">u|no|</w>
+          <w lemma="vivir" type="VMIP3S0">vi|ve</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="otro" type="PI0MS00">o|tro|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="66">
+          <!--así la esposa sería,-->
+          <w lemma="así" type="RG">a|sí|</w>
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="esposo" type="NCFS000">es|po|sa|</w>
+          <w lemma="ser" type="VSIC1S0">se|rí|a|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="67">
+          <!--que, dentro de Dios absorta,-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="dentro_de" type="SP">den|tro_|de|</w>
+          <w lemma="dios" type="NP00000">dios|</w>
+          <w lemma="absorto" type="AQ0FS00">ab|sor|ta|</w>
+        </l>
+        <l met="1|-|-|4|-|-|7|-|" n="68">
+          <!--vida de Dios viviría.-->
+          <w lemma="vida" type="NCFS000">vi|da|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="dios" type="NP00000">dios|</w>
+          <w lemma="vivir" type="VMIC3S0">vi|vi|rí|a|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>
