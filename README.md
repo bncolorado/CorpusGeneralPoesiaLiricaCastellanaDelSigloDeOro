@@ -28,7 +28,7 @@ El corpus recoge autores de todo el periodo, desde Garcilaso de la Vega hasta so
 - [Juan Boscán](https://es.wikipedia.org/wiki/Juan_Bosc%C3%A1n)
 - [Juan de La Cueva](https://es.wikipedia.org/wiki/Juan_de_la_Cueva)
 - [sor Juana Inés de la Cruz](https://es.wikipedia.org/wiki/Sor_Juana_In%C3%A9s_de_la_Cruz)
-- Lope de Vega
+- [Lope de Vega](https://es.wikipedia.org/wiki/Lope_de_Vega)
 - Luis de Camoes
 - [Luis de Góngora Y Argote](https://es.wikipedia.org/wiki/Luis_de_G%C3%B3ngora)
 - Lupercio Leonardo Argensola
