@@ -1,7 +1,6 @@
 # Corpus general de poesía lírica castellana del Siglo de Oro
 
-Borja Navarro Colorado
-Universidad de Alicante
+Borja Navarro Colorado - Universidad de Alicante
 
 Este repositorio contiene un corpus piloto para la creación de un corpus general de referencia de la poesía lírica castellana del Siglo de Oro.
 
@@ -40,7 +39,7 @@ El corpus recoge autores de todo el perido, desde Garcilaso de la Vega hasta sor
 ## Fuentes
 La mayoría de los textos proceden de la Biblioteca Virtual Migues de Cervantes. En el encabezado TEI de cada poema se indica la url de origen.
 
-## Antación
+## Anotación
 Todos los poemas han sido anotados con el [sistema de escansión ADSO](http://adso.gplsi.es). Se ha anotado automáticamente la métrica y separación silábica de cada verso, así como el lema y categoría gramatical de cada palabra.
 
 Parte de la anotación del corpus ha sido revisada y corregienda a mano. En el encabezado TEI se indica si la anotación es automática o si ha sido ya revisado.
