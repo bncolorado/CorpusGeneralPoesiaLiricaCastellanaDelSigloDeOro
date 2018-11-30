@@ -16,14 +16,14 @@ El corpus recoge autores de todo el periodo, desde Garcilaso de la Vega hasta so
 - [Pedro Calderón de la Barca](https://es.wikipedia.org/wiki/Pedro_Calder%C3%B3n_de_la_Barca)
 - [Cristóbal de Castillejo](https://es.wikipedia.org/wiki/Crist%C3%B3bal_de_Castillejo)
 - Cristóbal de Virués
-- Fernando de Herrera
+- [Fernando de Herrera](https://es.wikipedia.org/wiki/Fernando_de_Herrera)
 - [Francisco de la Torre](https://es.wikipedia.org/wiki/Francisco_de_la_Torre_(poeta))
 - Francisco de Quevedo
 - Francisco López de Zárate
 - [Fray Luis de León](https://es.wikipedia.org/wiki/Luis_de_Le%C3%B3n)
 - [Garcilaso de la Vega](https://es.wikipedia.org/wiki/Garcilaso_de_la_Vega)
 - [Gaspar Gil Polo](https://es.wikipedia.org/wiki/Gaspar_Gil_Polo)
-- [Hernando de Acunya](https://es.wikipedia.org/wiki/Hernando_de_Acu%C3%B1a)
+- [Hernando de Acuña](https://es.wikipedia.org/wiki/Hernando_de_Acu%C3%B1a)
 - Jacinto Polo de Medina
 - [Juan Boscán](https://es.wikipedia.org/wiki/Juan_Bosc%C3%A1n)
 - Juan de La Cueva
