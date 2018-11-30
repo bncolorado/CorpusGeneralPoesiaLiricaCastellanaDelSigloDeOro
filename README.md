@@ -17,7 +17,7 @@ El corpus recoge autores de todo el periodo, desde Garcilaso de la Vega hasta so
 - [Cristóbal de Castillejo](https://es.wikipedia.org/wiki/Crist%C3%B3bal_de_Castillejo)
 - Cristóbal de Virués
 - Fernando de Herrera
-- Francisco de la Torre
+- [Francisco de la Torre](https://es.wikipedia.org/wiki/Francisco_de_la_Torre_(poeta))
 - Francisco de Quevedo
 - Francisco López de Zárate
 - Fray Luis de León
