@@ -5,7 +5,7 @@ Borja Navarro Colorado - Universidad de Alicante
 Este repositorio contiene un corpus piloto para la creación de un corpus general de referencia de la poesía lírica castellana del Siglo de Oro.
 
 ## Tipos métrico-estróficos
-Los poemas han sido seleccionados como muestras de diferentes tipos métrico-estróficos característicos del periodo, como canciones, coplas, églogase, endechas, madrigales, octavas y octavas reales, redondillas, romances, seguidillas, silva, tercetos o villancico, entre otros.
+Los poemas han sido seleccionados como muestras de diferentes tipos métrico-estróficos característicos del periodo como canciones, coplas, églogase, endechas, madrigales, octavas y octavas reales, redondillas, romances, seguidillas, silva, tercetos o villancico, entre otros.
 
 ## Autores
 El corpus recoge autores de todo el periodo, desde Garcilaso de la Vega hasta sor Juana Inés de la Cruz:
@@ -21,7 +21,7 @@ El corpus recoge autores de todo el periodo, desde Garcilaso de la Vega hasta so
 - Francisco de Quevedo
 - Francisco López de Zárate
 - [Fray Luis de León](https://es.wikipedia.org/wiki/Luis_de_Le%C3%B3n)
-- Garcilaso de la Vega
+- [Garcilaso de la Vega](https://es.wikipedia.org/wiki/Garcilaso_de_la_Vega)
 - Gaspar Gil Polo
 - Hernando de Acunya
 - Jacinto Polo de Medina
