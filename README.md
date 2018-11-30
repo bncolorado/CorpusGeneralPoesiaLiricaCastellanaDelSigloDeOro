@@ -10,7 +10,7 @@ Los poemas han sido seleccionados como muestras de diferentes tipos métrico-est
 ## Autores
 El corpus recoge autores de todo el perido, desde Garcilaso de la Vega hasta sor Juana Inés de la Cruz:
 
-- [Alonso de Ercilla](https://es.wikipedia.org/wiki/Alonso_de_Ercilla)
+- [Alonso de Ercilla](https://es.wikipedia.org/wiki/Alonso_de_Ercilla){:target="_blank"}
 - Antonio Enríquez Gómez
 - Calderón de la Barca
 - Cristóbal de Castillejo
