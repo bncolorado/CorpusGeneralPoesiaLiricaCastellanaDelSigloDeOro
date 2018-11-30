@@ -1,0 +1,331 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Vuela, pensamiento, y diles</title>
+          <author>Francisco de Quevedo</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/antologia-poetica--39/html/ffa6b3fe-82b1-11df-acc7-002185ce6064_2.html#I_102_"/>
+          <editor>Roque Esteban Scarpa</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Vuela, pensamiento, y diles</title>
+      </head>
+      <lg cert="high" type="Letrilla">
+        <l met="1|-|-|-|5|-|7|-|" n="1">
+          <!--Vuela, pensamiento, y diles-->
+          <w lemma="volar" type="VMIP3S0">vue|la|</w>
+          <w lemma="pensamiento" type="NCMS000">pen|sa|mien|to</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="decir" type="VMM02S0">di|</w>
+          <w lemma="le" type="PP3CPD0">les|</w>
+        </l>
+        <l met="-|-|3|-|-|6|7|-|" n="2">
+          <!--a los ojos que más quiero,-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="ojo" type="NCMP000">o|jos|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="querer" type="VMIP1S0">quie|ro|</w>
+        </l>
+        <l met="1|-|3|-|" n="3">
+          <!--que hay dinero.-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="haber" type="VMIP3S0">hay|</w>
+          <w lemma="dinero" type="NCMS000">di|ne|ro|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="4">
+          <!--Del dinero que pidió-->
+          <w lemma="de" type="SP">de</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="dinero" type="NCMS000">di|ne|ro|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="pedir" type="VMIS3S0">pi|dió|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="5">
+          <!--a la que adorando estás,-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="que" type="PR0CN00">que</w>
+          <w lemma="adorar" type="VMG0000">a|do|ran|do</w>
+          <w lemma="estar" type="VMIP2S0">es|tás|</w>
+        </l>
+        <l met="-|2|-|-|-|-|7|-|" n="6">
+          <!--las nuevas le llevarás,-->
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="nuevo" type="AQ0FP00">nue|vas|</w>
+          <w lemma="le" type="PP3CSD0">le|</w>
+          <w lemma="llevar" type="VMIF2S0">lle|va|rás|</w>
+        </l>
+        <l met="-|-|-|-|5|-|7|-|" n="7">
+          <!--pero los talegos no.-->
+          <w lemma="pero" type="CC">pe|ro|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="talego" type="NCMP000">ta|le|gos|</w>
+          <w lemma="no" type="RN">no|</w>
+        </l>
+        <l met="1|-|3|-|5|6|7|-|" n="8">
+          <!--Di, que doy en no dar yo,-->
+          <w lemma="dar" type="VMIS1S0">di|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="dar" type="VMIP1S0">doy|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="dar" type="VMN0000">dar|</w>
+          <w lemma="yo" type="PP1CSN0">yo|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="9">
+          <!--pues para hallar el placer,-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="para" type="SP">pa|ra</w>
+          <w lemma="hallar" type="VMN0000">ha|llar|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="placer" type="NCMS000">pla|cer|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="10">
+          <!--el ahorrar y el tener-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="ahorrar" type="VMN0000">aho|rrar|</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="tener" type="VMN0000">te|ner|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="11">
+          <!--han mudado los carriles.-->
+          <w lemma="haber" type="VAIP3P0">han|</w>
+          <w lemma="mudar" type="VMP00SM">mu|da|do|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="carril" type="NCMP000">ca|rri|les|</w>
+        </l>
+        <l met="1|-|-|-|5|-|7|-|" n="12">
+          <!--Vuela, pensamiento, y diles-->
+          <w lemma="volar" type="VMIP3S0">vue|la|</w>
+          <w lemma="pensamiento" type="NCMS000">pen|sa|mien|to</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="decir" type="VMM02S0">di|</w>
+          <w lemma="le" type="PP3CPD0">les|</w>
+        </l>
+        <l met="-|-|3|-|-|6|7|-|" n="13">
+          <!--a los ojos que más quiero,-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="ojo" type="NCMP000">o|jos|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="querer" type="VMIP1S0">quie|ro|</w>
+        </l>
+        <l met="1|-|3|-|" n="14">
+          <!--que hay dinero.-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="haber" type="VMIP3S0">hay|</w>
+          <w lemma="dinero" type="NCMS000">di|ne|ro|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="15">
+          <!--A los ojos, que en mirallos-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="ojo" type="NCMP000">o|jos|</w>
+          <w lemma="que" type="PR0CN00">que</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="mirallos" type="NCMP000">mi|ra|llos|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="16">
+          <!--la libertad perderás,-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="libertad" type="NCFS000">li|ber|tad|</w>
+          <w lemma="perder" type="VMIF2S0">per|de|rás|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="17">
+          <!--que hay dineros les dirás,-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="haber" type="VMIP3S0">hay|</w>
+          <w lemma="dinero" type="NCMP000">di|ne|ros|</w>
+          <w lemma="le" type="PP3CPD0">les|</w>
+          <w lemma="decir" type="VMIF2S0">di|rás|</w>
+        </l>
+        <l met="-|-|3|4|-|-|7|-|" n="18">
+          <!--pero no gana de dallos;-->
+          <w lemma="pero" type="CC">pe|ro|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="ganar" type="VMIP3S0">ga|na|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="dallos" type="NCMP000">da|llos|</w>
+        </l>
+        <l met="1|2|-|4|-|-|7|-|" n="19">
+          <!--yo sólo pienso cerrallos,-->
+          <w lemma="yo" type="PP1CSN0">yo|</w>
+          <w lemma="sólo" type="RG">só|lo|</w>
+          <w lemma="pensar" type="VMIP1S0">pien|so|</w>
+          <w lemma="cerrallos" type="NCMP000">ce|rra|llos|</w>
+        </l>
+        <l met="-|2|3|-|5|-|7|-|" n="20">
+          <!--que no son la ley de Dios,-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="ser" type="VSIP3P0">son|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="ley" type="NCFS000">ley|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="dios" type="NP00000">dios|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="21">
+          <!--que se han de encerrar en dos,-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="se" type="P00CN00">se</w>
+          <w lemma="haber" type="VMIP3P0">han|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="encerrar" type="VMN0000">en|ce|rrar|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="2" type="Z">dos|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="22">
+          <!--si no en talegos cerriles.-->
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="no" type="RN">no</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="talego" type="NCMP000">ta|le|gos|</w>
+          <w lemma="cerril" type="AQ0CP00">ce|rri|les|</w>
+        </l>
+        <l met="1|-|-|-|5|-|7|-|" n="23">
+          <!--Vuela, pensamiento, y diles-->
+          <w lemma="volar" type="VMIP3S0">vue|la|</w>
+          <w lemma="pensamiento" type="NCMS000">pen|sa|mien|to</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="decir" type="VMM02S0">di|</w>
+          <w lemma="le" type="PP3CPD0">les|</w>
+        </l>
+        <l met="-|-|3|-|-|6|7|-|" n="24">
+          <!--a los ojos que más quiero,-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="ojo" type="NCMP000">o|jos|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="querer" type="VMIP1S0">quie|ro|</w>
+        </l>
+        <l met="1|-|3|-|" n="25">
+          <!--que hay dinero.-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="haber" type="VMIP3S0">hay|</w>
+          <w lemma="dinero" type="NCMS000">di|ne|ro|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="26">
+          <!--Si con agrado te oyere-->
+          <w lemma="si" type="CS">si|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="agrado" type="NCMS000">a|gra|do|</w>
+          <w lemma="te" type="PP2CS00">te</w>
+          <w lemma="oír" type="VMSF1S0">o|ye|re|</w>
+        </l>
+        <l met="1|-|3|-|-|-|7|-|" n="27">
+          <!--esa esponja de la villa,-->
+          <w lemma="ese" type="DD0FS0">e|sa</w>
+          <w lemma="esponja" type="NCFS000">es|pon|ja|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="villa" type="NCFS000">vi|lla|</w>
+        </l>
+        <l met="1|-|3|4|-|-|7|-|" n="28">
+          <!--que hay dinero has de decilla,-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="haber" type="VMIP3S0">hay|</w>
+          <w lemma="dinero" type="NCMS000">di|ne|ro</w>
+          <w lemma="haber" type="VMIP2S0">has|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="d" type="NCFS00V">de|ci|lla|</w>
+        </l>
+        <l met="-|-|-|-|-|-|7|-|" n="29">
+          <!--y que ¡ay! de quien le diere.-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="ay" type="I">ay|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="quien" type="PR0CS00">quien|</w>
+          <w lemma="le" type="PP3CSD0">le|</w>
+          <w lemma="dar" type="VMSF1S0">die|re|</w>
+        </l>
+        <l met="-|-|-|4|-|-|7|-|" n="30">
+          <!--Si ajusticiar te quisiere,-->
+          <w lemma="si" type="CS">si</w>
+          <w lemma="ajusticiar" type="VMN0000">a|jus|ti|ciar|</w>
+          <w lemma="te" type="P02CS00">te|</w>
+          <w lemma="querer" type="VMSF1S0">qui|sie|re|</w>
+        </l>
+        <l met="-|2|3|-|-|-|7|-|" n="31">
+          <!--está firme como Martos,-->
+          <w lemma="estar" type="VMIP3S0">es|tá|</w>
+          <w lemma="firme" type="AQ0CS00">fir|me|</w>
+          <w lemma="como" type="CS">co|mo|</w>
+          <w lemma="martos" type="NP00000">mar|tos|</w>
+        </l>
+        <l met="1|-|3|-|-|6|7|-|" n="32">
+          <!--no te dejes hacer cuartos-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="te" type="PP2CS00">te|</w>
+          <w lemma="dejar" type="VMSP2S0">de|jes|</w>
+          <w lemma="hacer" type="VMN0000">ha|cer|</w>
+          <w lemma="cuarto" type="NCMP000">cuar|tos|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="33">
+          <!--de sus dedos alguaciles.-->
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="su" type="DP3CPN">sus|</w>
+          <w lemma="dedo" type="NCMP000">de|dos|</w>
+          <w lemma="alguacil" type="NCMP000">al|gua|ci|les|</w>
+        </l>
+        <l met="1|-|-|-|5|-|7|-|" n="34">
+          <!--Vuela, pensamiento, y diles-->
+          <w lemma="volar" type="VMIP3S0">vue|la|</w>
+          <w lemma="pensamiento" type="NCMS000">pen|sa|mien|to</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="decir" type="VMM02S0">di|</w>
+          <w lemma="le" type="PP3CPD0">les|</w>
+        </l>
+        <l met="-|-|3|-|-|6|7|-|" n="35">
+          <!--a los ojos que más quiero,-->
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="ojo" type="NCMP000">o|jos|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="más" type="RG">más|</w>
+          <w lemma="querer" type="VMIP1S0">quie|ro|</w>
+        </l>
+        <l met="1|-|3|-|" n="36">
+          <!--que hay dinero.-->
+          <w lemma="que" type="CS">que</w>
+          <w lemma="haber" type="VMIP3S0">hay|</w>
+          <w lemma="dinero" type="NCMS000">di|ne|ro|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

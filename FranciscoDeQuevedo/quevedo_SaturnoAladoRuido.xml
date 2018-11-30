@@ -1,0 +1,114 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Saturno alado, rüido</title>
+          <author>Francisco de Quevedo</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/poesia-de-la-edad-de-oro-vol-ii/html/e022c8fa-a100-11e1-b1fb-00163ebf5e63_5.html#I_45_"/>
+          <editor>Juan Manuel Rozas</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title> Saturno alado, rüido</title>
+      </head>
+      <lg cert="high" type="Décima">
+        <l met="-|2|-|4|-|-|7|-|" n="1">
+          <!--Saturno alado, rüido-->
+          <w lemma="saturno" type="NP00000">sa|tur|no</w>
+          <w lemma="alado" type="AQ0MS00">a|la|do|</w>
+          <w lemma="rüido" type="VMP00SM">rü|i|do|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="2">
+          <!--con alas, átomo armado,-->
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="ala" type="NCFP000">a|las|</w>
+          <w lemma="átomo" type="NCMS000">á|to|mo</w>
+          <w lemma="armar" type="VMP00SM">ar|ma|do|</w>
+        </l>
+        <l met="1|2|-|-|5|-|7|-|" n="3">
+          <!--bruja ave, aguijón alado,-->
+          <w lemma="brujo" type="AQ0FS00">bru|ja</w>
+          <w lemma="ave" type="NCFS000">a|ve</w>
+          <w lemma="aguijón" type="NCMS000">a|gui|jón|</w>
+          <w lemma="alado" type="AQ0MS00">a|la|do|</w>
+        </l>
+        <l met="1|-|-|4|-|6|-|" n="4">
+          <!--cruel sangrador zumbido,-->
+          <w lemma="cruel" type="AQ0CS00">cruel|</w>
+          <w lemma="sangrador" type="NCMS000">san|gra|dor|</w>
+          <w lemma="zumbido" type="NCMS000">zum|bi|do|</w>
+        </l>
+        <l met="-|-|3|4|-|-|7|-|" n="5">
+          <!--menestril, pulga, cupido,-->
+          <w lemma="menestril" type="NCMS000">me|nes|tril|</w>
+          <w lemma="pulga" type="NCFS000">pul|ga|</w>
+          <w lemma="cupido" type="NCMS000">cu|pi|do|</w>
+        </l>
+        <l met="-|2|3|-|-|-|7|-|" n="6">
+          <!--clarín, chinche, trompetero;-->
+          <w lemma="clarín" type="NCMS000">cla|rín|</w>
+          <w lemma="chinche" type="NCFS000">chin|che|</w>
+          <w lemma="trompetero" type="NCMS000">trom|pe|te|ro|</w>
+        </l>
+        <l met="1|2|-|4|-|-|7|-|" n="7">
+          <!--no toques, mosca barbero,-->
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="toque" type="NCMP000">to|ques|</w>
+          <w lemma="mosca" type="NCFS000">mos|ca|</w>
+          <w lemma="barbero" type="AQ0MS00">bar|be|ro|</w>
+        </l>
+        <l met="-|-|3|-|-|-|7|-|" n="8">
+          <!--que, mosquito postillón,-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="mosquito" type="NCMS000">mos|qui|to|</w>
+          <w lemma="postillón" type="NCMS000">pos|ti|llón|</w>
+        </l>
+        <l met="-|2|-|-|5|-|7|-|" n="9">
+          <!--le vienes a dar rejón,-->
+          <w lemma="le" type="PP3CSD0">le|</w>
+          <w lemma="venir" type="VMIP2S0">vie|nes|</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="dar" type="VMN0000">dar|</w>
+          <w lemma="rejón" type="NCMS000">re|jón|</w>
+        </l>
+        <l met="-|2|-|4|-|-|7|-|" n="10">
+          <!--sin ser marido, a mi cuero.-->
+          <w lemma="sin" type="SP">sin|</w>
+          <w lemma="ser" type="VSN0000">ser|</w>
+          <w lemma="marido" type="NCMS000">ma|ri|do</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="mi" type="DP1CSS">mi|</w>
+          <w lemma="cuero" type="NCMS000">cue|ro|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

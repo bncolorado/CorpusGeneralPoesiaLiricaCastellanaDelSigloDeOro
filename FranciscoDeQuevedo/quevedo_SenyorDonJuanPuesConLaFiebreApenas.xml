@@ -1,0 +1,180 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Señor don Juan, pues con la fiebre apenas</title>
+          <author>Francisco de Quevedo</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/poesia-de-la-edad-de-oro-vol-ii/html/e022c8fa-a100-11e1-b1fb-00163ebf5e63_5.html#I_49_"/>
+          <editor>Juan Manuel Rozas</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title> Señor don Juan, pues con la fiebre apenas</title>
+      </head>
+      <lg cert="high" type="Soneto">
+        <l met="-|-|3|-|-|-|-|8|-|10|-|" n="1">
+          <!--Señor don Juan, pues con la fiebre apenas-->
+          <w lemma="señor" type="I">se|ñor|</w>
+          <w lemma="don_juan" type="NP00000">don_|juan|</w>
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="fiebre" type="NCFS000">fie|bre</w>
+          <w lemma="apenas" type="RG">a|pe|nas|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|-|-|10|-|" n="2">
+          <!--se calienta la sangre desmayada,-->
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="calentar" type="VMIP3S0">ca|lien|ta|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="sangre" type="NCFS000">san|gre|</w>
+          <w lemma="desmayar" type="VMP00SF">des|ma|ya|da|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|-|-|10|-|" n="3">
+          <!--y por la mucha edad, desabrigada,-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="por" type="SP">por|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="mucho" type="DI0FS0">mu|cha</w>
+          <w lemma="edad" type="NCFS000">e|dad|</w>
+          <w lemma="desabrigar" type="VMP00SF">de|sa|bri|ga|da|</w>
+        </l>
+        <l met="1|-|3|4|-|-|-|8|-|10|-|" n="4">
+          <!--tiembla, no pulsa, entre la arteria y venas;-->
+          <w lemma="temblar" type="VMIP3S0">tiem|bla|</w>
+          <w lemma="no" type="RN">no|</w>
+          <w lemma="pulsar" type="VMIP3S0">pul|sa</w>
+          <w lemma="entre" type="SP">en|tre|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="arteria" type="NCFS000">ar|te|ria</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="vena" type="NCFP000">ve|nas|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|8|-|10|-|" n="5">
+          <!--pues que de nieve están las cumbres llenas,-->
+          <w lemma="pues" type="CS">pues|</w>
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="nieve" type="NCFS000">nie|ve</w>
+          <w lemma="estar" type="VMIP3P0">es|tán|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="cumbre" type="NCFP000">cum|bres|</w>
+          <w lemma="lleno" type="AQ0FP00">lle|nas|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|-|-|10|-|" n="6">
+          <!--la boca, de los años saqueada,-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="boca" type="NCFS000">bo|ca|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="año" type="NCMP000">a|ños|</w>
+          <w lemma="saquear" type="VMP00SF">sa|que|a|da|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|-|-|10|-|" n="7">
+          <!--la vista, enferma, en noche sepultada,-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="vista" type="NCFS000">vis|ta</w>
+          <w lemma="enfermo" type="NCFS000">en|fer|ma</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="noche" type="NCFS000">no|che|</w>
+          <w lemma="sepultar" type="VMP00SF">se|pul|ta|da|</w>
+        </l>
+        <l met="-|-|-|4|-|-|-|8|-|10|-|" n="8">
+          <!--y las potencias, de ejercicio ajenas,-->
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="el" type="DA0FP0">las|</w>
+          <w lemma="potencia" type="NCFP000">po|ten|cias|</w>
+          <w lemma="de" type="SP">de</w>
+          <w lemma="ejercicio" type="NCMS000">e|jer|ci|cio</w>
+          <w lemma="ajeno" type="AQ0FP00">a|je|nas|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|-|-|10|-|" n="9">
+          <!--salid a recibir la sepultura,-->
+          <w lemma="salir" type="VMM02P0">sa|lid|</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="recibir" type="VMN0000">re|ci|bir|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="sepultura" type="NCFS000">se|pul|tu|ra|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|-|-|10|-|" n="10">
+          <!--acariciad la tumba y monumento:-->
+          <w lemma="acariciar" type="VMM02P0">a|ca|ri|ciad|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="tumba" type="NCFS000">tum|ba</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="monumento" type="NCMS000">mo|nu|men|to|</w>
+        </l>
+        <l met="-|-|3|4|5|6|-|-|-|10|-|" n="11">
+          <!--que morir vivo es última cordura.-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="morir" type="VMN0000">mo|rir|</w>
+          <w lemma="vivo" type="AQ0MS00">vi|vo</w>
+          <w lemma="ser" type="VSIP3S0">es|</w>
+          <w lemma="último" type="AO0FS00">úl|ti|ma|</w>
+          <w lemma="cordura" type="NCFS000">cor|du|ra|</w>
+        </l>
+        <l met="-|-|3|4|-|-|-|8|-|10|-|" n="12">
+          <!--La mayor parte de la muerte siento-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="mayor" type="AQ0CS00">ma|yor|</w>
+          <w lemma="parte" type="NCCS000">par|te|</w>
+          <w lemma="de" type="SP">de|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="muerte" type="NCFS000">muer|te|</w>
+          <w lemma="sentar" type="VMIP1S0">sien|to|</w>
+        </l>
+        <l met="-|-|3|-|-|6|-|-|-|10|-|" n="13">
+          <!--que se pasa en contentos y locura,-->
+          <w lemma="que" type="CS">que|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="pasar" type="VMIP3S0">pa|sa</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="contento" type="AQ0MP00">con|ten|tos|</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="locura" type="NCFS000">lo|cu|ra|</w>
+        </l>
+        <l met="-|-|-|4|-|6|-|-|-|10|-|" n="14">
+          <!--y a la menor se guarda el sentimiento.-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="a" type="SP">a|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="menor" type="AQ0CS00">me|nor|</w>
+          <w lemma="se" type="P00CN00">se|</w>
+          <w lemma="guardar" type="VMIP3S0">guar|da</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="sentimiento" type="NCMS000">sen|ti|mien|to|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,147 @@
+<?xml version="1.0" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
+        <principal>Borja Navarro Colorado</principal>
+        <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
+        <respStmt>
+          <name>M. A. Herrero</name>
+          <resp>Revisión y clasificación de textos</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Universidad de Alicante</publisher>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>Está la ave en el aire con sosiego</title>
+          <author>Francisco de Quevedo</author>
+          <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
+          <ref target="http://www.cervantesvirtual.com/obra-visor/antologia-poetica--39/html/ffa6b3fe-82b1-11df-acc7-002185ce6064_2.html#I_123_"/>
+          <editor>Roque Esteban Scarpa</editor>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+        <metSym value="[0-9]+">sílaba tónica</metSym>
+        <metSym value="-">sílaba átona</metSym>
+      </metDecl>
+      <metDecl>
+        <p>Todos los patrones métricos han sido extraídos automáticamente con el sistema de escansión del proyecto ADSO. El análisis categorial se ha realizado con FreeLing (http://nlp.lsi.upc.edu/freeling/)</p>
+      </metDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>
+        <title>Está la ave en el aire con sosiego,</title>
+      </head>
+      <lg cert="high" type="Madrigal">
+        <l met="-|2|3|-|-|6|-|-|-|10|-|" n="1">
+          <!--Está la ave en el aire con sosiego,-->
+          <w lemma="estar" type="VMIP3S0">es|tá|</w>
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="ave" type="NCFS000">a|ve</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="aire" type="NCMS000">ai|re|</w>
+          <w lemma="con" type="SP">con|</w>
+          <w lemma="sosiego" type="NCMS000">so|sie|go|</w>
+        </l>
+        <l met="-|2|-|4|-|-|-|8|-|10|-|" n="2">
+          <!--en la agua el pez, la salamandra en fuego,-->
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="agua" type="NCCS000">a|gua</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="pez" type="NCCS000">pez|</w>
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="salamandra" type="NCFS000">sa|la|man|dra</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="fuego" type="NCMS000">fue|go|</w>
+        </l>
+        <l met="-|2|-|-|-|6|7|-|-|10|-|" n="3">
+          <!--y el hombre, en cuyo ser todo se encierra,-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="hombre" type="NCMS000">hom|bre</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="cuyo" type="PR0MS00">cu|yo|</w>
+          <w lemma="ser" type="VSN0000">ser|</w>
+          <w lemma="todo" type="PI0MS00">to|do|</w>
+          <w lemma="se" type="P00CN00">se</w>
+          <w lemma="encerrar" type="VMIP3S0">en|cie|rra|</w>
+        </l>
+        <l met="-|2|3|-|-|6|-|" n="4">
+          <!--está en sola la tierra.-->
+          <w lemma="estar" type="VMIP3S0">es|tá</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="solo" type="AQ0FS00">so|la|</w>
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="tierra" type="NCFS000">tie|rra|</w>
+        </l>
+        <l met="1|2|-|-|-|6|-|-|-|10|-|" n="5">
+          <!--Yo sólo, que nací para tormentos,-->
+          <w lemma="yo" type="PP1CSN0">yo|</w>
+          <w lemma="sólo" type="RG">só|lo|</w>
+          <w lemma="que" type="PR0CN00">que|</w>
+          <w lemma="nacer" type="VMIS1S0">na|cí|</w>
+          <w lemma="para" type="SP">pa|ra|</w>
+          <w lemma="tormento" type="NCMP000">tor|men|tos|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|-|-|10|-|" n="6">
+          <!--estoy en todos estos elementos:-->
+          <w lemma="estar" type="VMIP1S0">es|toy|</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="todo" type="DI0MP0">to|dos|</w>
+          <w lemma="este" type="DD0MP0">es|tos|</w>
+          <w lemma="elemento" type="NCMP000">e|le|men|tos|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|-|-|10|-|" n="7">
+          <!--la boca tengo en aire suspirando,-->
+          <w lemma="el" type="DA0FS0">la|</w>
+          <w lemma="boca" type="NCFS000">bo|ca|</w>
+          <w lemma="tener" type="VMIP1S0">ten|go</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="aire" type="NCMS000">ai|re|</w>
+          <w lemma="suspirar" type="VMG0000">sus|pi|ran|do|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|-|-|10|-|" n="8">
+          <!--el cuerpo en tierra está peregrinando,-->
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="cuerpo" type="NCMS000">cuer|po</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="tierra" type="NCFS000">tie|rra</w>
+          <w lemma="estar" type="VAIP3S0">es|tá|</w>
+          <w lemma="peregrinar" type="VMG0000">pe|re|gri|nan|do|</w>
+        </l>
+        <l met="-|2|-|4|-|6|-|8|-|10|-|" n="9">
+          <!--los ojos tengo en llanto noche y día,-->
+          <w lemma="el" type="DA0MP0">los|</w>
+          <w lemma="ojo" type="NCMP000">o|jos|</w>
+          <w lemma="tener" type="VMIP1S0">ten|go</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="llanto" type="NCMS000">llan|to|</w>
+          <w lemma="noche" type="NCFS000">no|che</w>
+          <w lemma="y" type="CC">y|</w>
+          <w lemma="día" type="NCMS000">dí|a|</w>
+        </l>
+        <l met="-|2|-|-|-|6|-|8|-|10|-|" n="10">
+          <!--y en fuego el corazón y la alma mía.-->
+          <w lemma="y" type="CC">y</w>
+          <w lemma="en" type="SP">en|</w>
+          <w lemma="fuego" type="NCMS000">fue|go</w>
+          <w lemma="el" type="DA0MS0">el|</w>
+          <w lemma="corazón" type="NCMS000">co|ra|zón|</w>
+          <w lemma="y" type="CC">y</w>
+          <w lemma="el" type="DA0FS0">la</w>
+          <w lemma="alma" type="NCFS000">al|ma|</w>
+          <w lemma="mío" type="AP0FS1S">mí|a|</w>
+        </l>
+      </lg>
+    </body>
+  </text>
+</TEI>
