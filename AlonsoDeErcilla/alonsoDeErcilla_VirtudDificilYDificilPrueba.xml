@@ -6,10 +6,14 @@
         <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
         <principal>Borja Navarro Colorado</principal>
         <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
-        <respStmt>
+        <respStmt xml:id="maherrero">
           <name>M. A. Herrero</name>
           <resp>Revisión y clasificación de textos</resp>
         </respStmt>
+	<respStmt xml:id="bncolorado">
+	  <name>Borja Navarro Colorado</name>
+ 	  <resp>Supervisión</resp>
+	</respStmt>
       </titleStmt>
       <publicationStmt>
         <publisher>Universidad de Alicante</publisher>
@@ -25,7 +29,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" resp="bncolorado">
         <metSym value="[0-9]+">sílaba tónica</metSym>
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
@@ -39,7 +43,7 @@
       <head>
         <title>Virtud difícil y difícil prueba</title>
       </head>
-      <lg cert="high" type="Octava real">
+      <lg cert="high" type="Octava_real" resp="maherrero">
         <l met="-|2|-|4|-|-|-|8|-|10|-|" n="1">
           <!--Virtud difícil y difícil prueba-->
           <w lemma="virtud" type="NCFS000">vir|tud|</w>
