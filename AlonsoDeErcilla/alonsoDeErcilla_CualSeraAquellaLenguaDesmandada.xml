@@ -6,10 +6,14 @@
         <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
         <principal>Borja Navarro Colorado</principal>
         <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
-        <respStmt>
+        <respStmt xml:id="maherrero">
           <name>M. A. Herrero</name>
           <resp>Revisión y clasificación de textos</resp>
         </respStmt>
+	<respStmt xml:id="bncolorado">
+	  <name>Borja Navarro Colorado</name>
+ 	  <resp>Supervisión</resp>
+	</respStmt>
       </titleStmt>
       <publicationStmt>
         <publisher>Universidad de Alicante</publisher>
@@ -25,7 +29,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" resp="bncolorado">
         <metSym value="[0-9]+">sílaba tónica</metSym>
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
@@ -39,7 +43,7 @@
       <head>
         <title>¿Cuál será aquella lengua desmandada</title>
       </head>
-      <lg cert="high" type="Octava real">
+      <lg cert="high" type="Octava_real" resp="maherrero">
         <l met="1|-|3|4|-|6|-|-|-|10|-|" n="1">
           <!--¿Cuál será aquella lengua desmandada-->
           <w lemma="cuál" type="PT0CS00">cuál|</w>
@@ -2584,7 +2588,7 @@
         <l met="-|2|-|-|-|6|-|-|-|10|-|" n="270">
           <!--mas salen los efetos desiguales;-->
           <w lemma="mas" type="CC">mas|</w>
-          <w lemma="salir" type="V MIP3P0">sa|len|</w>
+          <w lemma="salir" type="VMIP3P0">sa|len|</w>
           <w lemma="el" type="DA0MP0">los|</w>
           <w lemma="efeto" type="NCMP000">e|fe|tos|</w>
           <w lemma="desigual" type="AQ0CP00">de|si|gua|les|</w>
