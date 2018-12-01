@@ -39,7 +39,7 @@
       <head>
         <title>Alaba a Dios contino ¡oh, alma mía!</title>
       </head>
-      <lg cert="high" type="Tercetos encadenados">
+      <lg cert="high" type="Tercetos_encadenados">
         <l met="-|2|-|4|-|6|-|8|-|10|-|" n="1">
           <!--Alaba a Dios contino ¡oh, alma mía!-->
           <w lemma="alabar" type="VMIP3S0">a|la|ba</w>
