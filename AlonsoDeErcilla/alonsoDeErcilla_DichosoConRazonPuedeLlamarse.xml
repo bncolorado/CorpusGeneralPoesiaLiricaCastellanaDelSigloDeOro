@@ -29,7 +29,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" xml:id="bncolorado">
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" resp="bncolorado">
         <metSym value="[0-9]+">sílaba tónica</metSym>
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
@@ -43,7 +43,7 @@
       <head>
         <title>Dichoso con razón puede llamarse</title>
       </head>
-      <lg cert="high" type="Octava real">
+      <lg cert="high" type="Octava_real" resp="maherrero">
         <l met="-|2|-|-|-|6|7|-|-|10|-|" n="1">
           <!--Dichoso con razón puede llamarse-->
           <w lemma="dichoso" type="NP00000">di|cho|so|</w>
