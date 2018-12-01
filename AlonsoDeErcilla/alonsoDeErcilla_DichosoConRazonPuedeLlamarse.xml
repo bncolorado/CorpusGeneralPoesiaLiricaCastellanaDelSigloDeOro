@@ -6,17 +6,21 @@
         <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
         <principal>Borja Navarro Colorado</principal>
         <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
-        <respStmt>
+        <respStmt xml:id="maherrero">
           <name>M. A. Herrero</name>
           <resp>Revisión y clasificación de textos</resp>
         </respStmt>
+	<respStmt xml:id="bncolorado">
+	  <name>Borja Navarro Colorado</name>
+ 	  <resp>Supervisión</resp>
+	</respStmt>
       </titleStmt>
       <publicationStmt>
         <publisher>Universidad de Alicante</publisher>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>Dichoso con razón puede llamarse  </title>
+          <title>Dichoso con razón puede llamarse</title>
           <author>Alonso de Ercilla</author>
           <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>
           <ref target="http://www.cervantesvirtual.com/obra-visor/la-araucana--5/html/ff253bc6-82b1-11df-acc7-002185ce6064_15.html#I_43_"/>
