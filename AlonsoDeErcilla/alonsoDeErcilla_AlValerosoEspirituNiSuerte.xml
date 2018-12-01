@@ -29,7 +29,7 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
-      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" resp="#bncolorado">
+      <metDecl pattern="^([0-9]+|\-)(\|([0-9]+|-))+\|$" type="met" resp="bncolorado">
         <metSym value="[0-9]+">sílaba tónica</metSym>
         <metSym value="-">sílaba átona</metSym>
       </metDecl>
@@ -43,7 +43,7 @@
       <head>
         <title>Al valeroso espíritu, ni suerte,</title>
       </head>
-      <lg type="Octava_real" resp="#maherrero" cert="high">
+      <lg type="Octava_real" resp="maherrero" cert="high">
         <l met="-|-|-|4|-|6|-|-|-|10|-|" n="1">
           <span type="raw">Al valeroso espíritu, ni suerte,</span>
           <w lemma="a" type="SP">a</w>
