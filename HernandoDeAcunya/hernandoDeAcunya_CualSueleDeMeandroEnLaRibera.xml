@@ -6,7 +6,7 @@
         <title>Corpus Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro</title>
         <principal>Borja Navarro Colorado</principal>
         <funder>Ayuda BBVA a equipos de investigación científica 2016. Proyecto ADSO: análisis distante del soneto castellano del Siglo de Oro.</funder>
-        <respStmt>
+        <respStmt xml:id="maherrero">
           <name>M. A. Herrero</name>
           <resp>Revisión y clasificación de textos</resp>
         </respStmt>
@@ -39,7 +39,7 @@
       <head>
         <title>Cual suele de Meandro en la ribera</title>
       </head>
-      <lg cert="high" type="Tercetos encadenados">
+      <lg cert="high" type="Tercetos_encadenados" resp="maherrero">
         <l met="1|2|-|-|-|6|-|-|-|10|-|" n="1">
           <!--Cual suele de Meandro en la ribera-->
           <w lemma="cual" type="PI0CS00">cual|</w>
