@@ -6,9 +6,9 @@ Este repositorio contiene un corpus piloto para la creación de un corpus genera
 
 Si utiliza este corpus para investigación, por favor, cítelo con la siguiente referencia:
 
-Navarro Colorado, B. (2019) "Por un análisis distante y profundo: un corpus piloto de la poesía lírica castellana del Siglo de Oro", *Revista De Poética Medieval*, (33), 51-76.
+>Navarro Colorado, B. (2019) "Por un análisis distante y profundo: un corpus piloto de la poesía lírica castellana del Siglo de Oro", *Revista de poética medieval*, (33), 51-76.
 
-<https://recyt.fecyt.es/index.php/revpm/article/view/69109>
+    <https://recyt.fecyt.es/index.php/revpm/article/view/69109>
 
 ## Tipos métrico-estróficos
 Los poemas han sido seleccionados como muestras de diferentes tipos métrico-estróficos característicos del periodo como canciones, coplas, églogas, endechas, madrigales, octavas y octavas reales, redondillas, romances, seguidillas, silva, tercetos o villancico, entre otros.
