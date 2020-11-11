@@ -4,8 +4,14 @@ Borja Navarro Colorado - Universidad de Alicante
 
 Este repositorio contiene un corpus piloto para la creación de un corpus general de referencia de la poesía lírica castellana del Siglo de Oro.
 
+Si utiliza este corpus para investigación, por favor, cítelo con la siguiente referencia:
+
+Navarro Colorado, B. (2019) "Por un análisis distante y profundo: un corpus piloto de la poesía lírica castellana del Siglo de Oro", *Revista De Poética Medieval*, (33), 51-76.
+
+<https://recyt.fecyt.es/index.php/revpm/article/view/69109>
+
 ## Tipos métrico-estróficos
-Los poemas han sido seleccionados como muestras de diferentes tipos métrico-estróficos característicos del periodo como canciones, coplas, églogase, endechas, madrigales, octavas y octavas reales, redondillas, romances, seguidillas, silva, tercetos o villancico, entre otros.
+Los poemas han sido seleccionados como muestras de diferentes tipos métrico-estróficos característicos del periodo como canciones, coplas, églogas, endechas, madrigales, octavas y octavas reales, redondillas, romances, seguidillas, silva, tercetos o villancico, entre otros.
 
 ## Autores
 El corpus recoge autores de todo el periodo, desde Garcilaso de la Vega hasta sor Juana Inés de la Cruz:
@@ -41,7 +47,7 @@ La mayoría de los textos proceden de la [Biblioteca Virtual Migues de Cervantes
 ## Anotación
 Todos los poemas han sido anotados con el [sistema de escansión ADSO](http://adso.gplsi.es). Se ha anotado automáticamente la métrica y separación silábica de cada verso, así como el lema y categoría gramatical de cada palabra.
 
-Parte de la anotación del corpus ha sido revisada y corregienda a mano. En el encabezado TEI se indica si la anotación es automática o si ha sido ya revisado.
+**Parte de la anotación del corpus ha sido revisada y corregida por especialistas*. En el encabezado TEI se indica si la anotación es automática o manual.
 
 ## License
 The metrical annotation of this corpus is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
