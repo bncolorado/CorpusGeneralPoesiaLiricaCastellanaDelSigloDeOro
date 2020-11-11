@@ -42,3 +42,8 @@ La mayoría de los textos proceden de la [Biblioteca Virtual Migues de Cervantes
 Todos los poemas han sido anotados con el [sistema de escansión ADSO](http://adso.gplsi.es). Se ha anotado automáticamente la métrica y separación silábica de cada verso, así como el lema y categoría gramatical de cada palabra.
 
 Parte de la anotación del corpus ha sido revisada y corregienda a mano. En el encabezado TEI se indica si la anotación es automática o si ha sido ya revisado.
+
+## License
+The metrical annotation of this corpus is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+
+About the texts, "this digital object is protected by copyright and/or related rights. This digital object is accessible without charge, but its use is subject to the licensing conditions set by the organization giving access to it. Further information available at http://www.cervantesvirtual.com/marco-legal/ ".
